@@ -1,0 +1,1691 @@
+{
+  "total_files": 240,
+  "file_types": {
+    "PDF": 234,
+    "DOCX": 3,
+    "XLS": 2,
+    "XLSX": 1
+  },
+  "files": [
+    {
+      "filename": "a-APPLICATION-FORM-FOR-STUDENT-ID-CARD.pdf",
+      "path": "data\\resources\\a-APPLICATION-FORM-FOR-STUDENT-ID-CARD.pdf",
+      "type": "PDF",
+      "size_bytes": 2015162,
+      "empty": false
+    },
+    {
+      "filename": "Aarti-Chaudhary_IT.pdf",
+      "path": "data\\resources\\Aarti-Chaudhary_IT.pdf",
+      "type": "PDF",
+      "size_bytes": 209851,
+      "empty": false
+    },
+    {
+      "filename": "ACET-Brochure.pdf",
+      "path": "data\\resources\\ACET-Brochure.pdf",
+      "type": "PDF",
+      "size_bytes": 4151178,
+      "empty": false
+    },
+    {
+      "filename": "Achintya-Kumar-Pandey_IT.pdf",
+      "path": "data\\resources\\Achintya-Kumar-Pandey_IT.pdf",
+      "type": "PDF",
+      "size_bytes": 38309,
+      "empty": false
+    },
+    {
+      "filename": "Aditya_IT.pdf",
+      "path": "data\\resources\\Aditya_IT.pdf",
+      "type": "PDF",
+      "size_bytes": 37302,
+      "empty": false
+    },
+    {
+      "filename": "AdjunctArif_ECE.pdf",
+      "path": "data\\resources\\AdjunctArif_ECE.pdf",
+      "type": "PDF",
+      "size_bytes": 68157,
+      "empty": false
+    },
+    {
+      "filename": "Adjunct_AmitTiwari_ECE.pdf",
+      "path": "data\\resources\\Adjunct_AmitTiwari_ECE.pdf",
+      "type": "PDF",
+      "size_bytes": 29589,
+      "empty": false
+    },
+    {
+      "filename": "ADMISSION-FORM.pdf",
+      "path": "data\\resources\\ADMISSION-FORM.pdf",
+      "type": "PDF",
+      "size_bytes": 1312542,
+      "empty": false
+    },
+    {
+      "filename": "AI-Bootcamp-summary.docx",
+      "path": "data\\resources\\AI-Bootcamp-summary.docx",
+      "type": "DOCX",
+      "size_bytes": 17263,
+      "empty": false
+    },
+    {
+      "filename": "AICTEApprovalYear-2026-27.pdf",
+      "path": "data\\resources\\AICTEApprovalYear-2026-27.pdf",
+      "type": "PDF",
+      "size_bytes": 225458,
+      "empty": false
+    },
+    {
+      "filename": "Ajay-Kumar-Garg-Engineering-College20260227-.pdf",
+      "path": "data\\resources\\Ajay-Kumar-Garg-Engineering-College20260227-.pdf",
+      "type": "PDF",
+      "size_bytes": 113186,
+      "empty": false
+    },
+    {
+      "filename": "Akansha-Shukla_IT.pdf",
+      "path": "data\\resources\\Akansha-Shukla_IT.pdf",
+      "type": "PDF",
+      "size_bytes": 84406,
+      "empty": false
+    },
+    {
+      "filename": "AKGEC-Mandatory-Disclosure-_2026-27.pdf",
+      "path": "data\\resources\\AKGEC-Mandatory-Disclosure-_2026-27.pdf",
+      "type": "PDF",
+      "size_bytes": 8028823,
+      "empty": false
+    },
+    {
+      "filename": "AKTU-Approval2026-27.pdf",
+      "path": "data\\resources\\AKTU-Approval2026-27.pdf",
+      "type": "PDF",
+      "size_bytes": 674011,
+      "empty": false
+    },
+    {
+      "filename": "Amit-Kumar_IT.pdf",
+      "path": "data\\resources\\Amit-Kumar_IT.pdf",
+      "type": "PDF",
+      "size_bytes": 36127,
+      "empty": false
+    },
+    {
+      "filename": "AnjuJoon_IT.pdf",
+      "path": "data\\resources\\AnjuJoon_IT.pdf",
+      "type": "PDF",
+      "size_bytes": 32813,
+      "empty": false
+    },
+    {
+      "filename": "Anju_Mishra_Profile.pdf",
+      "path": "data\\resources\\Anju_Mishra_Profile.pdf",
+      "type": "PDF",
+      "size_bytes": 129019,
+      "empty": false
+    },
+    {
+      "filename": "Ankita-Rani.pdf",
+      "path": "data\\resources\\Ankita-Rani.pdf",
+      "type": "PDF",
+      "size_bytes": 137461,
+      "empty": false
+    },
+    {
+      "filename": "Ankita-Sharma_ECE.pdf",
+      "path": "data\\resources\\Ankita-Sharma_ECE.pdf",
+      "type": "PDF",
+      "size_bytes": 105887,
+      "empty": false
+    },
+    {
+      "filename": "Ankita-Singh_IT.pdf",
+      "path": "data\\resources\\Ankita-Singh_IT.pdf",
+      "type": "PDF",
+      "size_bytes": 29466,
+      "empty": false
+    },
+    {
+      "filename": "Anuj-Kumar.pdf",
+      "path": "data\\resources\\Anuj-Kumar.pdf",
+      "type": "PDF",
+      "size_bytes": 148367,
+      "empty": false
+    },
+    {
+      "filename": "AnupamSaini_IT.pdf",
+      "path": "data\\resources\\AnupamSaini_IT.pdf",
+      "type": "PDF",
+      "size_bytes": 122105,
+      "empty": false
+    },
+    {
+      "filename": "Anuradha_Dhumale.pdf",
+      "path": "data\\resources\\Anuradha_Dhumale.pdf",
+      "type": "PDF",
+      "size_bytes": 131057,
+      "empty": false
+    },
+    {
+      "filename": "ANUSHKA-TYAGI_IT.pdf",
+      "path": "data\\resources\\ANUSHKA-TYAGI_IT.pdf",
+      "type": "PDF",
+      "size_bytes": 30064,
+      "empty": false
+    },
+    {
+      "filename": "AyushiProfile_IT.pdf",
+      "path": "data\\resources\\AyushiProfile_IT.pdf",
+      "type": "PDF",
+      "size_bytes": 149275,
+      "empty": false
+    },
+    {
+      "filename": "B-Tech-Ist-Year-2026-27_0001.pdf",
+      "path": "data\\resources\\B-Tech-Ist-Year-2026-27_0001.pdf",
+      "type": "PDF",
+      "size_bytes": 739823,
+      "empty": false
+    },
+    {
+      "filename": "B-Tech-Ist-Year-FW-2026-27_0001.pdf",
+      "path": "data\\resources\\B-Tech-Ist-Year-FW-2026-27_0001.pdf",
+      "type": "PDF",
+      "size_bytes": 751548,
+      "empty": false
+    },
+    {
+      "filename": "B-Tech-Lateral-Entry-2026-27_0001.pdf",
+      "path": "data\\resources\\B-Tech-Lateral-Entry-2026-27_0001.pdf",
+      "type": "PDF",
+      "size_bytes": 878177,
+      "empty": false
+    },
+    {
+      "filename": "b-UNDERTAKING-FEE-RELATED.pdf",
+      "path": "data\\resources\\b-UNDERTAKING-FEE-RELATED.pdf",
+      "type": "PDF",
+      "size_bytes": 1255347,
+      "empty": false
+    },
+    {
+      "filename": "B.Tech-3rd-Year-Non-Credit-Courses-Common.pdf",
+      "path": "data\\resources\\B.Tech-3rd-Year-Non-Credit-Courses-Common.pdf",
+      "type": "PDF",
+      "size_bytes": 200184,
+      "empty": false
+    },
+    {
+      "filename": "B.Tech-4th-Year-HSMC-Courses-Common.pdf",
+      "path": "data\\resources\\B.Tech-4th-Year-HSMC-Courses-Common.pdf",
+      "type": "PDF",
+      "size_bytes": 257487,
+      "empty": false
+    },
+    {
+      "filename": "B.Tech1YrFW.pdf",
+      "path": "data\\resources\\B.Tech1YrFW.pdf",
+      "type": "PDF",
+      "size_bytes": 2195897,
+      "empty": false
+    },
+    {
+      "filename": "B.TechIIYrLateral-new.pdf",
+      "path": "data\\resources\\B.TechIIYrLateral-new.pdf",
+      "type": "PDF",
+      "size_bytes": 409546,
+      "empty": false
+    },
+    {
+      "filename": "B.Tech_.-2nd-Year-Engg-Science-Courses-Common.pdf",
+      "path": "data\\resources\\B.Tech_.-2nd-Year-Engg-Science-Courses-Common.pdf",
+      "type": "PDF",
+      "size_bytes": 3529254,
+      "empty": false
+    },
+    {
+      "filename": "Balance-Sheet_AKGEC.xls",
+      "path": "data\\resources\\Balance-Sheet_AKGEC.xls",
+      "type": "XLS",
+      "size_bytes": 30208,
+      "empty": false
+    },
+    {
+      "filename": "BB-Requistion-form.pdf",
+      "path": "data\\resources\\BB-Requistion-form.pdf",
+      "type": "PDF",
+      "size_bytes": 43448,
+      "empty": false
+    },
+    {
+      "filename": "BDCOE-2020-21.pdf",
+      "path": "data\\resources\\BDCOE-2020-21.pdf",
+      "type": "PDF",
+      "size_bytes": 89437,
+      "empty": false
+    },
+    {
+      "filename": "BDCOE-2021-22.pdf",
+      "path": "data\\resources\\BDCOE-2021-22.pdf",
+      "type": "PDF",
+      "size_bytes": 209804,
+      "empty": false
+    },
+    {
+      "filename": "BDCOE-2022-23.pdf",
+      "path": "data\\resources\\BDCOE-2022-23.pdf",
+      "type": "PDF",
+      "size_bytes": 163558,
+      "empty": false
+    },
+    {
+      "filename": "BDCoE-Event-report-2023-24.pdf",
+      "path": "data\\resources\\BDCoE-Event-report-2023-24.pdf",
+      "type": "PDF",
+      "size_bytes": 458944,
+      "empty": false
+    },
+    {
+      "filename": "BDCoE-Event-report-2024-25.pdf",
+      "path": "data\\resources\\BDCoE-Event-report-2024-25.pdf",
+      "type": "PDF",
+      "size_bytes": 432937,
+      "empty": false
+    },
+    {
+      "filename": "BirendraKumar_IT.pdf",
+      "path": "data\\resources\\BirendraKumar_IT.pdf",
+      "type": "PDF",
+      "size_bytes": 130319,
+      "empty": false
+    },
+    {
+      "filename": "BlockchainBrochure10Aug20.pdf",
+      "path": "data\\resources\\BlockchainBrochure10Aug20.pdf",
+      "type": "PDF",
+      "size_bytes": 362437,
+      "empty": false
+    },
+    {
+      "filename": "Book-Requisition-Form.pdf",
+      "path": "data\\resources\\Book-Requisition-Form.pdf",
+      "type": "PDF",
+      "size_bytes": 22073,
+      "empty": false
+    },
+    {
+      "filename": "Brochure-ATAL.pdf",
+      "path": "data\\resources\\Brochure-ATAL.pdf",
+      "type": "PDF",
+      "size_bytes": 4764408,
+      "empty": false
+    },
+    {
+      "filename": "BTech1Yr.pdf",
+      "path": "data\\resources\\BTech1Yr.pdf",
+      "type": "PDF",
+      "size_bytes": 2188714,
+      "empty": false
+    },
+    {
+      "filename": "BUS-MEMBERSHIP-FORM.pdf",
+      "path": "data\\resources\\BUS-MEMBERSHIP-FORM.pdf",
+      "type": "PDF",
+      "size_bytes": 1186778,
+      "empty": false
+    },
+    {
+      "filename": "c-UNDERTAKING-ATTDS.pdf",
+      "path": "data\\resources\\c-UNDERTAKING-ATTDS.pdf",
+      "type": "PDF",
+      "size_bytes": 1905627,
+      "empty": false
+    },
+    {
+      "filename": "CCC-2020-21.pdf",
+      "path": "data\\resources\\CCC-2020-21.pdf",
+      "type": "PDF",
+      "size_bytes": 86765,
+      "empty": false
+    },
+    {
+      "filename": "CCC-2021-22.pdf",
+      "path": "data\\resources\\CCC-2021-22.pdf",
+      "type": "PDF",
+      "size_bytes": 131148,
+      "empty": false
+    },
+    {
+      "filename": "CCC-2022-23.pdf",
+      "path": "data\\resources\\CCC-2022-23.pdf",
+      "type": "PDF",
+      "size_bytes": 134283,
+      "empty": false
+    },
+    {
+      "filename": "CE-Newsletter.pdf",
+      "path": "data\\resources\\CE-Newsletter.pdf",
+      "type": "PDF",
+      "size_bytes": 27526501,
+      "empty": false
+    },
+    {
+      "filename": "CeG-Industrial-Visit-28th-Sep-2021-report.docx",
+      "path": "data\\resources\\CeG-Industrial-Visit-28th-Sep-2021-report.docx",
+      "type": "DOCX",
+      "size_bytes": 12904,
+      "empty": false
+    },
+    {
+      "filename": "CeG-Industrial-Visit-8oct-2021-report.docx",
+      "path": "data\\resources\\CeG-Industrial-Visit-8oct-2021-report.docx",
+      "type": "DOCX",
+      "size_bytes": 13203,
+      "empty": false
+    },
+    {
+      "filename": "Chelsi-Sen_IT.pdf",
+      "path": "data\\resources\\Chelsi-Sen_IT.pdf",
+      "type": "PDF",
+      "size_bytes": 142100,
+      "empty": false
+    },
+    {
+      "filename": "CSE_Aastha-Sharma.pdf",
+      "path": "data\\resources\\CSE_Aastha-Sharma.pdf",
+      "type": "PDF",
+      "size_bytes": 178638,
+      "empty": false
+    },
+    {
+      "filename": "CSE_Amit-Goel.pdf",
+      "path": "data\\resources\\CSE_Amit-Goel.pdf",
+      "type": "PDF",
+      "size_bytes": 393279,
+      "empty": false
+    },
+    {
+      "filename": "CSE_amitKumar_Profile.pdf",
+      "path": "data\\resources\\CSE_amitKumar_Profile.pdf",
+      "type": "PDF",
+      "size_bytes": 126246,
+      "empty": false
+    },
+    {
+      "filename": "CSE_Arpita-Agarwal.pdf",
+      "path": "data\\resources\\CSE_Arpita-Agarwal.pdf",
+      "type": "PDF",
+      "size_bytes": 252299,
+      "empty": false
+    },
+    {
+      "filename": "CSE_Ashish-Dixit.pdf",
+      "path": "data\\resources\\CSE_Ashish-Dixit.pdf",
+      "type": "PDF",
+      "size_bytes": 50724,
+      "empty": false
+    },
+    {
+      "filename": "CSE_Ashishkumar_Profile.pdf",
+      "path": "data\\resources\\CSE_Ashishkumar_Profile.pdf",
+      "type": "PDF",
+      "size_bytes": 116705,
+      "empty": false
+    },
+    {
+      "filename": "CSE_BeerbalSolanki_Profile.pdf",
+      "path": "data\\resources\\CSE_BeerbalSolanki_Profile.pdf",
+      "type": "PDF",
+      "size_bytes": 121888,
+      "empty": false
+    },
+    {
+      "filename": "CSE_Bhumica_Profile.pdf",
+      "path": "data\\resources\\CSE_Bhumica_Profile.pdf",
+      "type": "PDF",
+      "size_bytes": 119734,
+      "empty": false
+    },
+    {
+      "filename": "CSE_Bhupesh-Kumar-Gupta.pdf",
+      "path": "data\\resources\\CSE_Bhupesh-Kumar-Gupta.pdf",
+      "type": "PDF",
+      "size_bytes": 43873,
+      "empty": false
+    },
+    {
+      "filename": "CSE_Dr.-AkhileshVerma_Profile.pdf",
+      "path": "data\\resources\\CSE_Dr.-AkhileshVerma_Profile.pdf",
+      "type": "PDF",
+      "size_bytes": 130147,
+      "empty": false
+    },
+    {
+      "filename": "CSE_Dr.-Avdhesh-Gupta.pdf",
+      "path": "data\\resources\\CSE_Dr.-Avdhesh-Gupta.pdf",
+      "type": "PDF",
+      "size_bytes": 25606,
+      "empty": false
+    },
+    {
+      "filename": "CSE_Dr.-Ayushi-Prakash.pdf",
+      "path": "data\\resources\\CSE_Dr.-Ayushi-Prakash.pdf",
+      "type": "PDF",
+      "size_bytes": 59124,
+      "empty": false
+    },
+    {
+      "filename": "CSE_Dr.-Jaishree-Jain.pdf",
+      "path": "data\\resources\\CSE_Dr.-Jaishree-Jain.pdf",
+      "type": "PDF",
+      "size_bytes": 112858,
+      "empty": false
+    },
+    {
+      "filename": "CSE_Dr.-Neha-Singh.pdf",
+      "path": "data\\resources\\CSE_Dr.-Neha-Singh.pdf",
+      "type": "PDF",
+      "size_bytes": 288233,
+      "empty": false
+    },
+    {
+      "filename": "CSE_Dr.NishantKumarPathak_Profile.pdf",
+      "path": "data\\resources\\CSE_Dr.NishantKumarPathak_Profile.pdf",
+      "type": "PDF",
+      "size_bytes": 169360,
+      "empty": false
+    },
+    {
+      "filename": "CSE_Gaurav-Kumar.pdf",
+      "path": "data\\resources\\CSE_Gaurav-Kumar.pdf",
+      "type": "PDF",
+      "size_bytes": 305539,
+      "empty": false
+    },
+    {
+      "filename": "CSE_harnitSaini_Profile.pdf",
+      "path": "data\\resources\\CSE_harnitSaini_Profile.pdf",
+      "type": "PDF",
+      "size_bytes": 116126,
+      "empty": false
+    },
+    {
+      "filename": "CSE_ManishKumar_Profile.pdf",
+      "path": "data\\resources\\CSE_ManishKumar_Profile.pdf",
+      "type": "PDF",
+      "size_bytes": 119604,
+      "empty": false
+    },
+    {
+      "filename": "CSE_MANOJ-KUMAR-II.pdf",
+      "path": "data\\resources\\CSE_MANOJ-KUMAR-II.pdf",
+      "type": "PDF",
+      "size_bytes": 120517,
+      "empty": false
+    },
+    {
+      "filename": "CSE_MANOJ-KUMAR-SHARMA.pdf",
+      "path": "data\\resources\\CSE_MANOJ-KUMAR-SHARMA.pdf",
+      "type": "PDF",
+      "size_bytes": 373716,
+      "empty": false
+    },
+    {
+      "filename": "CSE_Mradul-Kumar-Jain.pdf",
+      "path": "data\\resources\\CSE_Mradul-Kumar-Jain.pdf",
+      "type": "PDF",
+      "size_bytes": 63314,
+      "empty": false
+    },
+    {
+      "filename": "CSE_Narendra-Kumar.pdf",
+      "path": "data\\resources\\CSE_Narendra-Kumar.pdf",
+      "type": "PDF",
+      "size_bytes": 235435,
+      "empty": false
+    },
+    {
+      "filename": "CSE_Ritika-Dhyani.pdf",
+      "path": "data\\resources\\CSE_Ritika-Dhyani.pdf",
+      "type": "PDF",
+      "size_bytes": 431837,
+      "empty": false
+    },
+    {
+      "filename": "CSE_Sandeep_profile.pdf",
+      "path": "data\\resources\\CSE_Sandeep_profile.pdf",
+      "type": "PDF",
+      "size_bytes": 415136,
+      "empty": false
+    },
+    {
+      "filename": "CSE_SHARMA-JI.pdf",
+      "path": "data\\resources\\CSE_SHARMA-JI.pdf",
+      "type": "PDF",
+      "size_bytes": 128123,
+      "empty": false
+    },
+    {
+      "filename": "CSE_Sharvan-Kumar.pdf",
+      "path": "data\\resources\\CSE_Sharvan-Kumar.pdf",
+      "type": "PDF",
+      "size_bytes": 42129,
+      "empty": false
+    },
+    {
+      "filename": "CSE_ShivpratapSingh_Profile.pdf",
+      "path": "data\\resources\\CSE_ShivpratapSingh_Profile.pdf",
+      "type": "PDF",
+      "size_bytes": 119627,
+      "empty": false
+    },
+    {
+      "filename": "CSE_Shraddha-Pandey.pdf",
+      "path": "data\\resources\\CSE_Shraddha-Pandey.pdf",
+      "type": "PDF",
+      "size_bytes": 70,
+      "empty": false
+    },
+    {
+      "filename": "CSE_Vibha-Srivastava.pdf",
+      "path": "data\\resources\\CSE_Vibha-Srivastava.pdf",
+      "type": "PDF",
+      "size_bytes": 36984,
+      "empty": false
+    },
+    {
+      "filename": "CSE_VishalJaiswal_Profile.pdf",
+      "path": "data\\resources\\CSE_VishalJaiswal_Profile.pdf",
+      "type": "PDF",
+      "size_bytes": 112275,
+      "empty": false
+    },
+    {
+      "filename": "CSE_Vivek-Agarwal.pdf",
+      "path": "data\\resources\\CSE_Vivek-Agarwal.pdf",
+      "type": "PDF",
+      "size_bytes": 49513,
+      "empty": false
+    },
+    {
+      "filename": "CSE_YOGENDRA-NARAYAN-PRAJAPATI.pdf",
+      "path": "data\\resources\\CSE_YOGENDRA-NARAYAN-PRAJAPATI.pdf",
+      "type": "PDF",
+      "size_bytes": 115647,
+      "empty": false
+    },
+    {
+      "filename": "CSI-Session-2020-21.pdf",
+      "path": "data\\resources\\CSI-Session-2020-21.pdf",
+      "type": "PDF",
+      "size_bytes": 81690,
+      "empty": false
+    },
+    {
+      "filename": "CSI-Session-2021-22.pdf",
+      "path": "data\\resources\\CSI-Session-2021-22.pdf",
+      "type": "PDF",
+      "size_bytes": 142886,
+      "empty": false
+    },
+    {
+      "filename": "CSI-Session-2023-24.pdf",
+      "path": "data\\resources\\CSI-Session-2023-24.pdf",
+      "type": "PDF",
+      "size_bytes": 692234,
+      "empty": false
+    },
+    {
+      "filename": "CSI-Session_2022-23.pdf",
+      "path": "data\\resources\\CSI-Session_2022-23.pdf",
+      "type": "PDF",
+      "size_bytes": 927402,
+      "empty": false
+    },
+    {
+      "filename": "d-TRANSPORT-FORM-IF-REQUIRED.pdf",
+      "path": "data\\resources\\d-TRANSPORT-FORM-IF-REQUIRED.pdf",
+      "type": "PDF",
+      "size_bytes": 1186778,
+      "empty": false
+    },
+    {
+      "filename": "DeeptiSinghECE.pdf",
+      "path": "data\\resources\\DeeptiSinghECE.pdf",
+      "type": "PDF",
+      "size_bytes": 87991,
+      "empty": false
+    },
+    {
+      "filename": "Dr-Amita-Asthana_ECE.pdf",
+      "path": "data\\resources\\Dr-Amita-Asthana_ECE.pdf",
+      "type": "PDF",
+      "size_bytes": 108670,
+      "empty": false
+    },
+    {
+      "filename": "Dr-Gaurav-Saxena_ECE.pdf",
+      "path": "data\\resources\\Dr-Gaurav-Saxena_ECE.pdf",
+      "type": "PDF",
+      "size_bytes": 112587,
+      "empty": false
+    },
+    {
+      "filename": "Dr-Himani_ECE.pdf",
+      "path": "data\\resources\\Dr-Himani_ECE.pdf",
+      "type": "PDF",
+      "size_bytes": 209467,
+      "empty": false
+    },
+    {
+      "filename": "Dr-Manoj-Kumar-Srivastava.pdf",
+      "path": "data\\resources\\Dr-Manoj-Kumar-Srivastava.pdf",
+      "type": "PDF",
+      "size_bytes": 136588,
+      "empty": false
+    },
+    {
+      "filename": "Dr.-Amit-Garg_ECE.pdf",
+      "path": "data\\resources\\Dr.-Amit-Garg_ECE.pdf",
+      "type": "PDF",
+      "size_bytes": 122473,
+      "empty": false
+    },
+    {
+      "filename": "Dr.-Anupama-Sharma_IT.pdf",
+      "path": "data\\resources\\Dr.-Anupama-Sharma_IT.pdf",
+      "type": "PDF",
+      "size_bytes": 188335,
+      "empty": false
+    },
+    {
+      "filename": "Dr.-Deepak-Yadav-ECE.pdf",
+      "path": "data\\resources\\Dr.-Deepak-Yadav-ECE.pdf",
+      "type": "PDF",
+      "size_bytes": 117510,
+      "empty": false
+    },
+    {
+      "filename": "Dr.-Divya-Sharma_ECE.pdf",
+      "path": "data\\resources\\Dr.-Divya-Sharma_ECE.pdf",
+      "type": "PDF",
+      "size_bytes": 145449,
+      "empty": false
+    },
+    {
+      "filename": "Dr.-Gopal-Babu_IT.pdf",
+      "path": "data\\resources\\Dr.-Gopal-Babu_IT.pdf",
+      "type": "PDF",
+      "size_bytes": 135958,
+      "empty": false
+    },
+    {
+      "filename": "Dr.-Neelesh-Kumar-Gupta_ECE.pdf",
+      "path": "data\\resources\\Dr.-Neelesh-Kumar-Gupta_ECE.pdf",
+      "type": "PDF",
+      "size_bytes": 113886,
+      "empty": false
+    },
+    {
+      "filename": "Dr.-NEETI-BANSAL_ECE.pdf",
+      "path": "data\\resources\\Dr.-NEETI-BANSAL_ECE.pdf",
+      "type": "PDF",
+      "size_bytes": 140344,
+      "empty": false
+    },
+    {
+      "filename": "Dr.-Pawan-.pdf",
+      "path": "data\\resources\\Dr.-Pawan-.pdf",
+      "type": "PDF",
+      "size_bytes": 40720,
+      "empty": false
+    },
+    {
+      "filename": "Dr.-Prashant-Mani-Tripathi_ECE.pdf",
+      "path": "data\\resources\\Dr.-Prashant-Mani-Tripathi_ECE.pdf",
+      "type": "PDF",
+      "size_bytes": 109410,
+      "empty": false
+    },
+    {
+      "filename": "Dr.-Rajesh-Prasad.pdf",
+      "path": "data\\resources\\Dr.-Rajesh-Prasad.pdf",
+      "type": "PDF",
+      "size_bytes": 161310,
+      "empty": false
+    },
+    {
+      "filename": "Dr.-Rakhi-Sharma_ECE.pdf",
+      "path": "data\\resources\\Dr.-Rakhi-Sharma_ECE.pdf",
+      "type": "PDF",
+      "size_bytes": 114070,
+      "empty": false
+    },
+    {
+      "filename": "Dr.-Ritish-Kumar_ECE.pdf",
+      "path": "data\\resources\\Dr.-Ritish-Kumar_ECE.pdf",
+      "type": "PDF",
+      "size_bytes": 112366,
+      "empty": false
+    },
+    {
+      "filename": "Dr.-Ruchi-Gupta_IT.pdf",
+      "path": "data\\resources\\Dr.-Ruchi-Gupta_IT.pdf",
+      "type": "PDF",
+      "size_bytes": 189711,
+      "empty": false
+    },
+    {
+      "filename": "Dr.-Santosh-Kumar-Upadhyay.pdf",
+      "path": "data\\resources\\Dr.-Santosh-Kumar-Upadhyay.pdf",
+      "type": "PDF",
+      "size_bytes": 49560,
+      "empty": false
+    },
+    {
+      "filename": "Dr.-Seema-Garg_ECE.pdf",
+      "path": "data\\resources\\Dr.-Seema-Garg_ECE.pdf",
+      "type": "PDF",
+      "size_bytes": 109101,
+      "empty": false
+    },
+    {
+      "filename": "Dr.-Shashank-Sahu.pdf",
+      "path": "data\\resources\\Dr.-Shashank-Sahu.pdf",
+      "type": "PDF",
+      "size_bytes": 43209,
+      "empty": false
+    },
+    {
+      "filename": "Dr.-Shivani-Agarwal_IT.pdf",
+      "path": "data\\resources\\Dr.-Shivani-Agarwal_IT.pdf",
+      "type": "PDF",
+      "size_bytes": 75576,
+      "empty": false
+    },
+    {
+      "filename": "Dr.-Sneha-Mishra.pdf",
+      "path": "data\\resources\\Dr.-Sneha-Mishra.pdf",
+      "type": "PDF",
+      "size_bytes": 116783,
+      "empty": false
+    },
+    {
+      "filename": "Dr.-Sonam.pdf",
+      "path": "data\\resources\\Dr.-Sonam.pdf",
+      "type": "PDF",
+      "size_bytes": 175013,
+      "empty": false
+    },
+    {
+      "filename": "Dr.-Sunil-Kumar_Profile.pdf",
+      "path": "data\\resources\\Dr.-Sunil-Kumar_Profile.pdf",
+      "type": "PDF",
+      "size_bytes": 47141,
+      "empty": false
+    },
+    {
+      "filename": "Dr.-Uma-Sharma_ECE.pdf",
+      "path": "data\\resources\\Dr.-Uma-Sharma_ECE.pdf",
+      "type": "PDF",
+      "size_bytes": 118929,
+      "empty": false
+    },
+    {
+      "filename": "DrMonikajain_profile.pdf",
+      "path": "data\\resources\\DrMonikajain_profile.pdf",
+      "type": "PDF",
+      "size_bytes": 236724,
+      "empty": false
+    },
+    {
+      "filename": "DrNitinSharma.pdf",
+      "path": "data\\resources\\DrNitinSharma.pdf",
+      "type": "PDF",
+      "size_bytes": 57683,
+      "empty": false
+    },
+    {
+      "filename": "Dr_Naresh-Kumar_ECE.pdf",
+      "path": "data\\resources\\Dr_Naresh-Kumar_ECE.pdf",
+      "type": "PDF",
+      "size_bytes": 126732,
+      "empty": false
+    },
+    {
+      "filename": "EOA-Affilation-Letter-Report-2023-24.pdf",
+      "path": "data\\resources\\EOA-Affilation-Letter-Report-2023-24.pdf",
+      "type": "PDF",
+      "size_bytes": 222518,
+      "empty": false
+    },
+    {
+      "filename": "EOA-Report-2021-22-B.Tech_.-M.Tech_..pdf",
+      "path": "data\\resources\\EOA-Report-2021-22-B.Tech_.-M.Tech_..pdf",
+      "type": "PDF",
+      "size_bytes": 222308,
+      "empty": false
+    },
+    {
+      "filename": "EOA-Report-2024-2025.pdf",
+      "path": "data\\resources\\EOA-Report-2024-2025.pdf",
+      "type": "PDF",
+      "size_bytes": 222660,
+      "empty": false
+    },
+    {
+      "filename": "EOA-Report_22-23-AKGEC-027.pdf",
+      "path": "data\\resources\\EOA-Report_22-23-AKGEC-027.pdf",
+      "type": "PDF",
+      "size_bytes": 224467,
+      "empty": false
+    },
+    {
+      "filename": "EOA_Report_2020-21B.Tech_.-M.Tech_..pdf",
+      "path": "data\\resources\\EOA_Report_2020-21B.Tech_.-M.Tech_..pdf",
+      "type": "PDF",
+      "size_bytes": 224012,
+      "empty": false
+    },
+    {
+      "filename": "Eshank-Jain.pdf",
+      "path": "data\\resources\\Eshank-Jain.pdf",
+      "type": "PDF",
+      "size_bytes": 125853,
+      "empty": false
+    },
+    {
+      "filename": "FDPonANN.pdf",
+      "path": "data\\resources\\FDPonANN.pdf",
+      "type": "PDF",
+      "size_bytes": 599290,
+      "empty": false
+    },
+    {
+      "filename": "fdp_android.pdf",
+      "path": "data\\resources\\fdp_android.pdf",
+      "type": "PDF",
+      "size_bytes": 591014,
+      "empty": false
+    },
+    {
+      "filename": "FDP_ML_CSE.pdf",
+      "path": "data\\resources\\FDP_ML_CSE.pdf",
+      "type": "PDF",
+      "size_bytes": 1169758,
+      "empty": false
+    },
+    {
+      "filename": "Fee-Fixation-Letter.pdf",
+      "path": "data\\resources\\Fee-Fixation-Letter.pdf",
+      "type": "PDF",
+      "size_bytes": 2759961,
+      "empty": false
+    },
+    {
+      "filename": "Garima_ECE.pdf",
+      "path": "data\\resources\\Garima_ECE.pdf",
+      "type": "PDF",
+      "size_bytes": 129272,
+      "empty": false
+    },
+    {
+      "filename": "Gunjan-Saxena.pdf",
+      "path": "data\\resources\\Gunjan-Saxena.pdf",
+      "type": "PDF",
+      "size_bytes": 53937,
+      "empty": false
+    },
+    {
+      "filename": "Himanshu-Nagpal_ECE.pdf",
+      "path": "data\\resources\\Himanshu-Nagpal_ECE.pdf",
+      "type": "PDF",
+      "size_bytes": 116440,
+      "empty": false
+    },
+    {
+      "filename": "Himanshu-Tripathi_ECE.pdf",
+      "path": "data\\resources\\Himanshu-Tripathi_ECE.pdf",
+      "type": "PDF",
+      "size_bytes": 30739,
+      "empty": false
+    },
+    {
+      "filename": "HODCSE_Profile.pdf",
+      "path": "data\\resources\\HODCSE_Profile.pdf",
+      "type": "PDF",
+      "size_bytes": 211196,
+      "empty": false
+    },
+    {
+      "filename": "HOD_IT_Profile.pdf",
+      "path": "data\\resources\\HOD_IT_Profile.pdf",
+      "type": "PDF",
+      "size_bytes": 49860,
+      "empty": false
+    },
+    {
+      "filename": "HOSTEL-FEE-2026-27_0001-1.pdf",
+      "path": "data\\resources\\HOSTEL-FEE-2026-27_0001-1.pdf",
+      "type": "PDF",
+      "size_bytes": 611105,
+      "empty": false
+    },
+    {
+      "filename": "HostelFee1Yr.pdf",
+      "path": "data\\resources\\HostelFee1Yr.pdf",
+      "type": "PDF",
+      "size_bytes": 424522,
+      "empty": false
+    },
+    {
+      "filename": "HostelRulesandRegulations.pdf",
+      "path": "data\\resources\\HostelRulesandRegulations.pdf",
+      "type": "PDF",
+      "size_bytes": 610436,
+      "empty": false
+    },
+    {
+      "filename": "Income_Expenditure_AKGEC.xls",
+      "path": "data\\resources\\Income_Expenditure_AKGEC.xls",
+      "type": "XLS",
+      "size_bytes": 29696,
+      "empty": false
+    },
+    {
+      "filename": "Inderjeet-Kaur.pdf",
+      "path": "data\\resources\\Inderjeet-Kaur.pdf",
+      "type": "PDF",
+      "size_bytes": 37266,
+      "empty": false
+    },
+    {
+      "filename": "ITBT18.pdf",
+      "path": "data\\resources\\ITBT18.pdf",
+      "type": "PDF",
+      "size_bytes": 970939,
+      "empty": false
+    },
+    {
+      "filename": "ITBT19.pdf",
+      "path": "data\\resources\\ITBT19.pdf",
+      "type": "PDF",
+      "size_bytes": 415932,
+      "empty": false
+    },
+    {
+      "filename": "ITMagazine.pdf",
+      "path": "data\\resources\\ITMagazine.pdf",
+      "type": "PDF",
+      "size_bytes": 2663182,
+      "empty": false
+    },
+    {
+      "filename": "IT_FDP_BrochureDec20.pdf",
+      "path": "data\\resources\\IT_FDP_BrochureDec20.pdf",
+      "type": "PDF",
+      "size_bytes": 419703,
+      "empty": false
+    },
+    {
+      "filename": "Jitender_ECE.pdf",
+      "path": "data\\resources\\Jitender_ECE.pdf",
+      "type": "PDF",
+      "size_bytes": 146641,
+      "empty": false
+    },
+    {
+      "filename": "KajalProfile_IT.pdf",
+      "path": "data\\resources\\KajalProfile_IT.pdf",
+      "type": "PDF",
+      "size_bytes": 149054,
+      "empty": false
+    },
+    {
+      "filename": "Kamna-Singh.pdf",
+      "path": "data\\resources\\Kamna-Singh.pdf",
+      "type": "PDF",
+      "size_bytes": 119846,
+      "empty": false
+    },
+    {
+      "filename": "KANIKA-PROFILE.pdf",
+      "path": "data\\resources\\KANIKA-PROFILE.pdf",
+      "type": "PDF",
+      "size_bytes": 156514,
+      "empty": false
+    },
+    {
+      "filename": "Karunesh_ECE.pdf",
+      "path": "data\\resources\\Karunesh_ECE.pdf",
+      "type": "PDF",
+      "size_bytes": 140559,
+      "empty": false
+    },
+    {
+      "filename": "Khushbu-malviya.pdf",
+      "path": "data\\resources\\Khushbu-malviya.pdf",
+      "type": "PDF",
+      "size_bytes": 120900,
+      "empty": false
+    },
+    {
+      "filename": "kirti-singh-profile.pdf",
+      "path": "data\\resources\\kirti-singh-profile.pdf",
+      "type": "PDF",
+      "size_bytes": 1055899,
+      "empty": false
+    },
+    {
+      "filename": "Kriti-Mishra.pdf",
+      "path": "data\\resources\\Kriti-Mishra.pdf",
+      "type": "PDF",
+      "size_bytes": 41705,
+      "empty": false
+    },
+    {
+      "filename": "LIST-OF-DOC-UPTAC-new.xlsx",
+      "path": "data\\resources\\LIST-OF-DOC-UPTAC-new.xlsx",
+      "type": "XLSX",
+      "size_bytes": 14787,
+      "empty": false
+    },
+    {
+      "filename": "Madhup-Agrawal_IT.pdf",
+      "path": "data\\resources\\Madhup-Agrawal_IT.pdf",
+      "type": "PDF",
+      "size_bytes": 59846,
+      "empty": false
+    },
+    {
+      "filename": "Magazine-CSE.pdf",
+      "path": "data\\resources\\Magazine-CSE.pdf",
+      "type": "PDF",
+      "size_bytes": 24779594,
+      "empty": false
+    },
+    {
+      "filename": "Magazine-ECE.pdf",
+      "path": "data\\resources\\Magazine-ECE.pdf",
+      "type": "PDF",
+      "size_bytes": 7712415,
+      "empty": false
+    },
+    {
+      "filename": "Magazine-EN.pdf",
+      "path": "data\\resources\\Magazine-EN.pdf",
+      "type": "PDF",
+      "size_bytes": 6100884,
+      "empty": false
+    },
+    {
+      "filename": "Magazine-MCA.pdf",
+      "path": "data\\resources\\Magazine-MCA.pdf",
+      "type": "PDF",
+      "size_bytes": 4482441,
+      "empty": false
+    },
+    {
+      "filename": "Magazine-ME.pdf",
+      "path": "data\\resources\\Magazine-ME.pdf",
+      "type": "PDF",
+      "size_bytes": 7483682,
+      "empty": false
+    },
+    {
+      "filename": "Mahesh-Sharma.pdf",
+      "path": "data\\resources\\Mahesh-Sharma.pdf",
+      "type": "PDF",
+      "size_bytes": 122999,
+      "empty": false
+    },
+    {
+      "filename": "Mahima-Saxena.pdf",
+      "path": "data\\resources\\Mahima-Saxena.pdf",
+      "type": "PDF",
+      "size_bytes": 52561,
+      "empty": false
+    },
+    {
+      "filename": "MCA-Ist-Year-2026-27_0001.pdf",
+      "path": "data\\resources\\MCA-Ist-Year-2026-27_0001.pdf",
+      "type": "PDF",
+      "size_bytes": 741428,
+      "empty": false
+    },
+    {
+      "filename": "MCA-Ist-Year-FW-2026-27_0001-1.pdf",
+      "path": "data\\resources\\MCA-Ist-Year-FW-2026-27_0001-1.pdf",
+      "type": "PDF",
+      "size_bytes": 769994,
+      "empty": false
+    },
+    {
+      "filename": "MCA1Yr.pdf",
+      "path": "data\\resources\\MCA1Yr.pdf",
+      "type": "PDF",
+      "size_bytes": 2185929,
+      "empty": false
+    },
+    {
+      "filename": "MCA1YrFW.pdf",
+      "path": "data\\resources\\MCA1YrFW.pdf",
+      "type": "PDF",
+      "size_bytes": 2188445,
+      "empty": false
+    },
+    {
+      "filename": "Mili-Shrivastava_IT.pdf",
+      "path": "data\\resources\\Mili-Shrivastava_IT.pdf",
+      "type": "PDF",
+      "size_bytes": 146433,
+      "empty": false
+    },
+    {
+      "filename": "MIS-FORM.pdf",
+      "path": "data\\resources\\MIS-FORM.pdf",
+      "type": "PDF",
+      "size_bytes": 576410,
+      "empty": false
+    },
+    {
+      "filename": "Mr-Dushyant-Singh-Chauhan_ECE.pdf",
+      "path": "data\\resources\\Mr-Dushyant-Singh-Chauhan_ECE.pdf",
+      "type": "PDF",
+      "size_bytes": 128719,
+      "empty": false
+    },
+    {
+      "filename": "Mr.-Mayank-Trivedi.pdf",
+      "path": "data\\resources\\Mr.-Mayank-Trivedi.pdf",
+      "type": "PDF",
+      "size_bytes": 111883,
+      "empty": false
+    },
+    {
+      "filename": "Mr.-Pradeep.pdf",
+      "path": "data\\resources\\Mr.-Pradeep.pdf",
+      "type": "PDF",
+      "size_bytes": 153727,
+      "empty": false
+    },
+    {
+      "filename": "MRIGNAINY-KANSAL.pdf",
+      "path": "data\\resources\\MRIGNAINY-KANSAL.pdf",
+      "type": "PDF",
+      "size_bytes": 36274,
+      "empty": false
+    },
+    {
+      "filename": "Ms.-Pooja-Mishra_ECE.pdf",
+      "path": "data\\resources\\Ms.-Pooja-Mishra_ECE.pdf",
+      "type": "PDF",
+      "size_bytes": 133020,
+      "empty": false
+    },
+    {
+      "filename": "Ms.-Priyanka-Sharma_ECE.pdf",
+      "path": "data\\resources\\Ms.-Priyanka-Sharma_ECE.pdf",
+      "type": "PDF",
+      "size_bytes": 104473,
+      "empty": false
+    },
+    {
+      "filename": "Nandita-Goyal_IT.pdf",
+      "path": "data\\resources\\Nandita-Goyal_IT.pdf",
+      "type": "PDF",
+      "size_bytes": 35318,
+      "empty": false
+    },
+    {
+      "filename": "Naveen-Saini_ECE.pdf",
+      "path": "data\\resources\\Naveen-Saini_ECE.pdf",
+      "type": "PDF",
+      "size_bytes": 128485,
+      "empty": false
+    },
+    {
+      "filename": "NBA-Letter-2022-25.pdf",
+      "path": "data\\resources\\NBA-Letter-2022-25.pdf",
+      "type": "PDF",
+      "size_bytes": 763404,
+      "empty": false
+    },
+    {
+      "filename": "Neeraj-Sharma_ECE.pdf",
+      "path": "data\\resources\\Neeraj-Sharma_ECE.pdf",
+      "type": "PDF",
+      "size_bytes": 116390,
+      "empty": false
+    },
+    {
+      "filename": "neetu-profile.pdf",
+      "path": "data\\resources\\neetu-profile.pdf",
+      "type": "PDF",
+      "size_bytes": 126598,
+      "empty": false
+    },
+    {
+      "filename": "Neha-Garg_ECE.pdf",
+      "path": "data\\resources\\Neha-Garg_ECE.pdf",
+      "type": "PDF",
+      "size_bytes": 112090,
+      "empty": false
+    },
+    {
+      "filename": "Nikhil-Kumar_IT.pdf",
+      "path": "data\\resources\\Nikhil-Kumar_IT.pdf",
+      "type": "PDF",
+      "size_bytes": 44643,
+      "empty": false
+    },
+    {
+      "filename": "NIRF2026.pdf",
+      "path": "data\\resources\\NIRF2026.pdf",
+      "type": "PDF",
+      "size_bytes": 97202,
+      "empty": false
+    },
+    {
+      "filename": "NITTTR-Chandigarh-FDP.pdf",
+      "path": "data\\resources\\NITTTR-Chandigarh-FDP.pdf",
+      "type": "PDF",
+      "size_bytes": 19414702,
+      "empty": false
+    },
+    {
+      "filename": "Open-CV-Brochure.pdf",
+      "path": "data\\resources\\Open-CV-Brochure.pdf",
+      "type": "PDF",
+      "size_bytes": 164521,
+      "empty": false
+    },
+    {
+      "filename": "PanchamSinghIT.pdf",
+      "path": "data\\resources\\PanchamSinghIT.pdf",
+      "type": "PDF",
+      "size_bytes": 33158,
+      "empty": false
+    },
+    {
+      "filename": "Pankaj-Goel_ECE.pdf",
+      "path": "data\\resources\\Pankaj-Goel_ECE.pdf",
+      "type": "PDF",
+      "size_bytes": 136284,
+      "empty": false
+    },
+    {
+      "filename": "Pankaj-Singh_IT.pdf",
+      "path": "data\\resources\\Pankaj-Singh_IT.pdf",
+      "type": "PDF",
+      "size_bytes": 173566,
+      "empty": false
+    },
+    {
+      "filename": "Prachi_ECE.pdf",
+      "path": "data\\resources\\Prachi_ECE.pdf",
+      "type": "PDF",
+      "size_bytes": 131283,
+      "empty": false
+    },
+    {
+      "filename": "Pradeep-Kumar-Tripathi_IT.pdf",
+      "path": "data\\resources\\Pradeep-Kumar-Tripathi_IT.pdf",
+      "type": "PDF",
+      "size_bytes": 31301,
+      "empty": false
+    },
+    {
+      "filename": "Priti-Chaudhary_IT.pdf",
+      "path": "data\\resources\\Priti-Chaudhary_IT.pdf",
+      "type": "PDF",
+      "size_bytes": 150220,
+      "empty": false
+    },
+    {
+      "filename": "Prof.-Ashiv-Shah_IT.pdf",
+      "path": "data\\resources\\Prof.-Ashiv-Shah_IT.pdf",
+      "type": "PDF",
+      "size_bytes": 173656,
+      "empty": false
+    },
+    {
+      "filename": "PRONAB-KUMAR-ADHIKARI.pdf",
+      "path": "data\\resources\\PRONAB-KUMAR-ADHIKARI.pdf",
+      "type": "PDF",
+      "size_bytes": 57873,
+      "empty": false
+    },
+    {
+      "filename": "Pushkal-Shukla.pdf",
+      "path": "data\\resources\\Pushkal-Shukla.pdf",
+      "type": "PDF",
+      "size_bytes": 124083,
+      "empty": false
+    },
+    {
+      "filename": "RupakKumar_IT.pdf",
+      "path": "data\\resources\\RupakKumar_IT.pdf",
+      "type": "PDF",
+      "size_bytes": 37929,
+      "empty": false
+    },
+    {
+      "filename": "Rupa_Profile.pdf",
+      "path": "data\\resources\\Rupa_Profile.pdf",
+      "type": "PDF",
+      "size_bytes": 169484,
+      "empty": false
+    },
+    {
+      "filename": "Sachin-Jain.pdf",
+      "path": "data\\resources\\Sachin-Jain.pdf",
+      "type": "PDF",
+      "size_bytes": 129135,
+      "empty": false
+    },
+    {
+      "filename": "Santosh-Mishra_IT.pdf",
+      "path": "data\\resources\\Santosh-Mishra_IT.pdf",
+      "type": "PDF",
+      "size_bytes": 34680,
+      "empty": false
+    },
+    {
+      "filename": "Saroj-KushwahProfile.pdf",
+      "path": "data\\resources\\Saroj-KushwahProfile.pdf",
+      "type": "PDF",
+      "size_bytes": 129812,
+      "empty": false
+    },
+    {
+      "filename": "Sarvachan-Verma_IT.pdf",
+      "path": "data\\resources\\Sarvachan-Verma_IT.pdf",
+      "type": "PDF",
+      "size_bytes": 88102,
+      "empty": false
+    },
+    {
+      "filename": "Shailendra_ECE.pdf",
+      "path": "data\\resources\\Shailendra_ECE.pdf",
+      "type": "PDF",
+      "size_bytes": 122177,
+      "empty": false
+    },
+    {
+      "filename": "Sheradha-jauhari_IT.pdf",
+      "path": "data\\resources\\Sheradha-jauhari_IT.pdf",
+      "type": "PDF",
+      "size_bytes": 142401,
+      "empty": false
+    },
+    {
+      "filename": "Shikha-agarwal_IT.pdf",
+      "path": "data\\resources\\Shikha-agarwal_IT.pdf",
+      "type": "PDF",
+      "size_bytes": 136431,
+      "empty": false
+    },
+    {
+      "filename": "Shilpi-Gupta_IT.pdf",
+      "path": "data\\resources\\Shilpi-Gupta_IT.pdf",
+      "type": "PDF",
+      "size_bytes": 46496,
+      "empty": false
+    },
+    {
+      "filename": "ShraddhaMishra_IT.pdf",
+      "path": "data\\resources\\ShraddhaMishra_IT.pdf",
+      "type": "PDF",
+      "size_bytes": 30292,
+      "empty": false
+    },
+    {
+      "filename": "Shraddha_IT.pdf",
+      "path": "data\\resources\\Shraddha_IT.pdf",
+      "type": "PDF",
+      "size_bytes": 51037,
+      "empty": false
+    },
+    {
+      "filename": "STTPBrochure_DS.pdf",
+      "path": "data\\resources\\STTPBrochure_DS.pdf",
+      "type": "PDF",
+      "size_bytes": 1259423,
+      "empty": false
+    },
+    {
+      "filename": "SUDHAKAR-DWIVEDI_IT.pdf",
+      "path": "data\\resources\\SUDHAKAR-DWIVEDI_IT.pdf",
+      "type": "PDF",
+      "size_bytes": 48342,
+      "empty": false
+    },
+    {
+      "filename": "Sumit-Sharma_IT.pdf",
+      "path": "data\\resources\\Sumit-Sharma_IT.pdf",
+      "type": "PDF",
+      "size_bytes": 22365,
+      "empty": false
+    },
+    {
+      "filename": "Surendra-Kumar-Profile.pdf",
+      "path": "data\\resources\\Surendra-Kumar-Profile.pdf",
+      "type": "PDF",
+      "size_bytes": 151502,
+      "empty": false
+    },
+    {
+      "filename": "SuvarnaMujumdar_ECE.pdf",
+      "path": "data\\resources\\SuvarnaMujumdar_ECE.pdf",
+      "type": "PDF",
+      "size_bytes": 41816,
+      "empty": false
+    },
+    {
+      "filename": "SWATI-TOMAR.pdf",
+      "path": "data\\resources\\SWATI-TOMAR.pdf",
+      "type": "PDF",
+      "size_bytes": 132592,
+      "empty": false
+    },
+    {
+      "filename": "Tahira-Mazumder_IT.pdf",
+      "path": "data\\resources\\Tahira-Mazumder_IT.pdf",
+      "type": "PDF",
+      "size_bytes": 195328,
+      "empty": false
+    },
+    {
+      "filename": "Tanu-Gupta_IT.pdf",
+      "path": "data\\resources\\Tanu-Gupta_IT.pdf",
+      "type": "PDF",
+      "size_bytes": 155127,
+      "empty": false
+    },
+    {
+      "filename": "Tukur-Gupta_ECE.pdf",
+      "path": "data\\resources\\Tukur-Gupta_ECE.pdf",
+      "type": "PDF",
+      "size_bytes": 115110,
+      "empty": false
+    },
+    {
+      "filename": "Unlocking-the-Fundamentals-of-Research-Excellence-Brochure.pdf",
+      "path": "data\\resources\\Unlocking-the-Fundamentals-of-Research-Excellence-Brochure.pdf",
+      "type": "PDF",
+      "size_bytes": 630583,
+      "empty": false
+    },
+    {
+      "filename": "User-Manual-AKGEC_14.01.2026.pdf",
+      "path": "data\\resources\\User-Manual-AKGEC_14.01.2026.pdf",
+      "type": "PDF",
+      "size_bytes": 2637097,
+      "empty": false
+    },
+    {
+      "filename": "Vaishali_Deshwal.pdf",
+      "path": "data\\resources\\Vaishali_Deshwal.pdf",
+      "type": "PDF",
+      "size_bytes": 153165,
+      "empty": false
+    },
+    {
+      "filename": "Vishal-Choudhary.pdf",
+      "path": "data\\resources\\Vishal-Choudhary.pdf",
+      "type": "PDF",
+      "size_bytes": 130167,
+      "empty": false
+    },
+    {
+      "filename": "Year-1998-99.pdf",
+      "path": "data\\resources\\Year-1998-99.pdf",
+      "type": "PDF",
+      "size_bytes": 591468,
+      "empty": false
+    },
+    {
+      "filename": "Year-1999-2000.pdf",
+      "path": "data\\resources\\Year-1999-2000.pdf",
+      "type": "PDF",
+      "size_bytes": 605182,
+      "empty": false
+    },
+    {
+      "filename": "Year-2000-01.pdf",
+      "path": "data\\resources\\Year-2000-01.pdf",
+      "type": "PDF",
+      "size_bytes": 872034,
+      "empty": false
+    },
+    {
+      "filename": "Year-2001-03.pdf",
+      "path": "data\\resources\\Year-2001-03.pdf",
+      "type": "PDF",
+      "size_bytes": 589789,
+      "empty": false
+    },
+    {
+      "filename": "Year-2002-03.pdf",
+      "path": "data\\resources\\Year-2002-03.pdf",
+      "type": "PDF",
+      "size_bytes": 622634,
+      "empty": false
+    },
+    {
+      "filename": "Year-2003-06.pdf",
+      "path": "data\\resources\\Year-2003-06.pdf",
+      "type": "PDF",
+      "size_bytes": 825211,
+      "empty": false
+    },
+    {
+      "filename": "Year-2005-06.pdf",
+      "path": "data\\resources\\Year-2005-06.pdf",
+      "type": "PDF",
+      "size_bytes": 828500,
+      "empty": false
+    },
+    {
+      "filename": "Year-2006-07.pdf",
+      "path": "data\\resources\\Year-2006-07.pdf",
+      "type": "PDF",
+      "size_bytes": 972328,
+      "empty": false
+    },
+    {
+      "filename": "Year-2007-08.pdf",
+      "path": "data\\resources\\Year-2007-08.pdf",
+      "type": "PDF",
+      "size_bytes": 240150,
+      "empty": false
+    },
+    {
+      "filename": "Year-2008-09.pdf",
+      "path": "data\\resources\\Year-2008-09.pdf",
+      "type": "PDF",
+      "size_bytes": 173322,
+      "empty": false
+    },
+    {
+      "filename": "Year-2009-10.pdf",
+      "path": "data\\resources\\Year-2009-10.pdf",
+      "type": "PDF",
+      "size_bytes": 225602,
+      "empty": false
+    },
+    {
+      "filename": "Year-2010-11.pdf",
+      "path": "data\\resources\\Year-2010-11.pdf",
+      "type": "PDF",
+      "size_bytes": 566403,
+      "empty": false
+    },
+    {
+      "filename": "Year-2011-12.pdf",
+      "path": "data\\resources\\Year-2011-12.pdf",
+      "type": "PDF",
+      "size_bytes": 1132213,
+      "empty": false
+    },
+    {
+      "filename": "Year-2012-13.pdf",
+      "path": "data\\resources\\Year-2012-13.pdf",
+      "type": "PDF",
+      "size_bytes": 1377405,
+      "empty": false
+    },
+    {
+      "filename": "Year-2013-14.pdf",
+      "path": "data\\resources\\Year-2013-14.pdf",
+      "type": "PDF",
+      "size_bytes": 1146321,
+      "empty": false
+    },
+    {
+      "filename": "Year-2014-15.pdf",
+      "path": "data\\resources\\Year-2014-15.pdf",
+      "type": "PDF",
+      "size_bytes": 1313111,
+      "empty": false
+    },
+    {
+      "filename": "Year-2015-16.pdf",
+      "path": "data\\resources\\Year-2015-16.pdf",
+      "type": "PDF",
+      "size_bytes": 1404954,
+      "empty": false
+    },
+    {
+      "filename": "Year-2017-18.pdf",
+      "path": "data\\resources\\Year-2017-18.pdf",
+      "type": "PDF",
+      "size_bytes": 45641,
+      "empty": false
+    },
+    {
+      "filename": "Year-2018-19.pdf",
+      "path": "data\\resources\\Year-2018-19.pdf",
+      "type": "PDF",
+      "size_bytes": 237465,
+      "empty": false
+    },
+    {
+      "filename": "Year-2019-20.pdf",
+      "path": "data\\resources\\Year-2019-20.pdf",
+      "type": "PDF",
+      "size_bytes": 233373,
+      "empty": false
+    },
+    {
+      "filename": "Year-2025-26.pdf",
+      "path": "data\\resources\\Year-2025-26.pdf",
+      "type": "PDF",
+      "size_bytes": 222569,
+      "empty": false
+    }
+  ]
+}
