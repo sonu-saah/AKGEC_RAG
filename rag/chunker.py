@@ -1,8 +1,8 @@
 from pathlib import Path
 import json
 
-# Prepared RAG documents ko input ke roop mein use karta hai.
-INPUT_FILE = Path("data/rag_documents.json")
+# Filtered relevant documents ko input ke roop mein use karta hai.
+INPUT_FILE = Path("data/relevant_documents.json")
 
 # Chunked documents ko yahan save karta hai.
 OUTPUT_FILE = Path("data/rag_chunks.json")

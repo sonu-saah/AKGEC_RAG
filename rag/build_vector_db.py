@@ -3,16 +3,17 @@ import json
 import chromadb
 from sentence_transformers import SentenceTransformer
 
-# Chunked RAG data ko input ke roop mein use karta hai.
+# Read the filtered chunks created by the chunking step.
 INPUT_FILE = Path("data/rag_chunks.json")
 
-# ChromaDB ka local storage folder define karta hai.
+# Store the ChromaDB database in this directory.
 DB_DIR = "data/chroma_db"
 
-# Local embedding model load karta hai.
+# Use a lightweight local embedding model.
 MODEL_NAME = "all-MiniLM-L6-v2"
 
-# Chunks ko embeddings ke saath ChromaDB mein store karta hai.
+
+# Build the vector database from the filtered chunks.
 def main():
     with open(INPUT_FILE, "r", encoding="utf-8") as file:
         chunks = json.load(file)
@@ -22,9 +23,10 @@ def main():
 
     model = SentenceTransformer(MODEL_NAME)
 
-    # Local persistent ChromaDB database create/open karta hai.
+    # Create a persistent local ChromaDB client.
     client = chromadb.PersistentClient(path=DB_DIR)
 
+    # Create the collection for AKGEC documents.
     collection = client.get_or_create_collection(
         name="akgec_documents"
     )
@@ -38,7 +40,7 @@ def main():
         show_progress_bar=True
     ).tolist()
 
-    # Chunks ko vectors aur source metadata ke saath database mein store karta hai.
+    # Store embeddings with source information for retrieval and citations.
     collection.add(
         ids=[chunk["chunk_id"] for chunk in chunks],
         documents=texts,
@@ -59,6 +61,6 @@ def main():
     print("Database:", DB_DIR)
 
 
-# Program ko directly run karta hai.
+# Run the vector database creation process.
 if __name__ == "__main__":
     main()
