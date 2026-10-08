@@ -116,9 +116,38 @@ def clean_page_text(soup):
     main_content = soup.find("main")
 
     if main_content:
-        text = main_content.get_text(separator=" ", strip=True)
+        # HTML tables ko readable row-wise text mein convert karta hai.
+        for table in main_content.find_all("table"):
+            rows = []
+
+            for row in table.find_all("tr"):
+                cells = [
+                    cell.get_text(" ", strip=True)
+                    for cell in row.find_all(["th", "td"])
+                ]
+
+                if cells:
+                    rows.append(" | ".join(cells))
+
+            # Table ko remove karne se pehle uska structured text preserve karta hai.
+            table_text = "\n".join(rows)
+
+            if table_text:
+                table.replace_with(
+                    soup.new_string("\n" + table_text + "\n")
+                )
+            else:
+                table.decompose()
+
+        text = main_content.get_text(
+            separator=" ",
+            strip=True
+        )
     else:
-        text = soup.get_text(separator=" ", strip=True)
+        text = soup.get_text(
+            separator=" ",
+            strip=True
+        )
 
     # Multiple spaces ko single space mein convert karta hai.
     text = re.sub(r"\s+", " ", text)
