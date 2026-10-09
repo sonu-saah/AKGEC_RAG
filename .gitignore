@@ -16,3 +16,10 @@ chroma_db/
 data/resources/
 data/pdfs/
 data/pdf_data/
+
+
+venv/
+.venv/
+__pycache__/
+.env
+data/chroma_db/

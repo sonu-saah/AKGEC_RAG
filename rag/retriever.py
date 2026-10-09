@@ -1,359 +1,373 @@
+
 import json
+import re
+from pathlib import Path
+
 import chromadb
 from rank_bm25 import BM25Okapi
 from sentence_transformers import SentenceTransformer
 
 
-# Normalize common Hinglish phrases without changing English words.
+BASE_DIR = Path(__file__).resolve().parent.parent
+CHUNKS_FILE = BASE_DIR / "data" / "rag_chunks.json"
+CHROMA_DIR = BASE_DIR / "data" / "chroma_db"
+
+COLLECTION_NAME = "akgec_documents"
+EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
+
+_model = None
+_collection = None
+_chunks = None
+_bm25 = None
+_chunk_texts = None
+
+
 def normalize_query(query):
+    query = query.lower().strip()
+
     replacements = {
-        "kitni hai": "what is",
-        "kitna hai": "what is",
-        "kitne hai": "how many",
-        "kya hai": "what is",
-        "btech": "b.tech",
-        "fees": "academic fee",
-        "fee": "academic fee",
+        "b.tech": "btech",
+        "b-tech": "btech",
+        "b tech": "btech",
+        "how much": "fee",
+        "fees": "fee",
+        "kitni hai": "fee",
+        "kitna hai": "fee",
+        "kitne hai": "fee",
     }
 
-    normalized_query = query.lower()
+    for old, new in replacements.items():
+        query = query.replace(old, new)
 
-    # Replace complete Hindi/Hinglish phrases first.
-    for hindi_phrase, english_phrase in replacements.items():
-        normalized_query = normalized_query.replace(
-            hindi_phrase,
-            english_phrase
+    return re.sub(r"\s+", " ", query).strip()
+
+
+def tokenize(text):
+    return re.findall(r"[a-zA-Z0-9]+", str(text).lower())
+
+
+def get_text(item):
+    return str(
+        item.get("text")
+        or item.get("content")
+        or item.get("page_content")
+        or ""
+    )
+
+
+def get_source(item):
+    return (
+        item.get("source")
+        or item.get("source_url")
+        or item.get("url")
+        or item.get("filename")
+        or ""
+    )
+
+
+def get_metadata(item):
+    metadata = item.get("metadata", {})
+    if not isinstance(metadata, dict):
+        metadata = {}
+
+    return {
+        "source": str(
+            metadata.get("source")
+            or item.get("source")
+            or item.get("source_url")
+            or item.get("url")
+            or item.get("filename")
+            or ""
+        ),
+        "page": metadata.get("page", item.get("page")),
+        "type": str(
+            metadata.get("type")
+            or item.get("type")
+            or "webpage"
+        ),
+    }
+
+
+def load_resources():
+    global _model, _collection, _chunks, _bm25, _chunk_texts
+
+    if _collection is not None:
+        return
+
+    if not CHUNKS_FILE.exists():
+        raise FileNotFoundError(
+            f"Chunks file not found: {CHUNKS_FILE}"
         )
 
-    # Replace standalone Hinglish words only.
-    words = normalized_query.split()
+    with open(CHUNKS_FILE, "r", encoding="utf-8") as file:
+        _chunks = json.load(file)
 
-    word_replacements = {
-        "ka": "of",
-        "ki": "of",
-        "ke": "of",
-        "mein": "in",
-        "me": "in",
+    if isinstance(_chunks, dict):
+        _chunks = _chunks.get("chunks", [])
+
+    if not _chunks:
+        raise ValueError("rag_chunks.json contains no chunks.")
+
+    _chunk_texts = [get_text(chunk) for chunk in _chunks]
+
+    if not any(text.strip() for text in _chunk_texts):
+        raise ValueError("No readable text found in the chunks.")
+
+    _model = SentenceTransformer(EMBEDDING_MODEL)
+
+    client = chromadb.PersistentClient(path=str(CHROMA_DIR))
+
+    _collection = client.get_collection(
+        name=COLLECTION_NAME
+    )
+
+    _bm25 = BM25Okapi([
+        tokenize(text) or ["empty"]
+        for text in _chunk_texts
+    ])
+
+
+def make_result(text, metadata, score):
+    return {
+        "text": text,
+        "source": metadata.get("source", ""),
+        "page": metadata.get("page"),
+        "type": metadata.get("type", "webpage"),
+        "score": float(score),
     }
 
-    normalized_words = [
-        word_replacements.get(word, word)
-        for word in words
-    ]
 
-    return " ".join(normalized_words) 
+def apply_keyword_boost(query, result):
+    text = result["text"].lower()
+    query = normalize_query(query)
 
+    score = result.get("score", 0.0)
 
-DB_DIR = "data/chroma_db"
-MODEL_NAME = "all-MiniLM-L6-v2"
-CHUNKS_FILE = "data/rag_chunks.json"
+    if "placement" in query:
+        if "steps to follow" in text and "our placement" not in text:
+            return -1000.0
 
+        placement_terms = [
+            "our placement",
+            "placement cell",
+            "placement statistics",
+            "placement & higher studies",
+            "placement and higher studies",
+            "students placed",
+            "highest package",
+            "average package",
+            "companies visited",
+            "placement record",
+        ]
 
-# Add extra score for terms that strongly match the question intent.
-def apply_keyword_boost(query, chunk_text, score):
-    query = query.lower()
-    text = chunk_text.lower()
+        if "our placement" in text:
+            score += 10.0
 
-    # Seat-related questions should prefer sanctioned intake information.
-    if any(
-        word in query
-        for word in ["seat", "seats", "intake", "capacity"]
-    ):
-        if "sanctioned intake" in text:
-            score += 10
+        if "placement cell" in text:
+            score += 5.0
 
-        if "courses offered" in text:
-            score += 5
+        if any(term in text for term in placement_terms):
+            score += 3.0
 
-    # Fee-related questions should prefer fee information.
-    if "fee" in query or "academic fee" in query:
-        if "fee" in text:
-            score += 5
+        if (
+            "career planning & placement (one time)" in text
+            and "our placement" not in text
+        ):
+            score -= 5.0
 
-    # Placement-related questions should prefer placement information.
-    if "placement" in query and "placement" in text:
-        score += 5
+    if any(term in query for term in ["fee", "fees"]):
+        if "fee" in text or "tuition" in text:
+            score += 2.0
+
+    if any(term in query for term in ["seat", "intake"]):
+        if "sanctioned intake" in text or "courses offered" in text:
+            score += 3.0
 
     return score
 
 
-# Search using both vector and BM25 keyword search.
 def search(query, top_k=5):
-    # Keep the original question for reranking and display.
-    original_query = query
+    load_resources()
 
-    # Normalize Hinglish query for better retrieval.
+    original_query = query
     normalized_query = normalize_query(query)
 
-    with open(CHUNKS_FILE, "r", encoding="utf-8") as file:
-        chunks = json.load(file)
-
-    # Load embedding model and ChromaDB.
-    model = SentenceTransformer(MODEL_NAME)
-    client = chromadb.PersistentClient(path=DB_DIR)
-    collection = client.get_collection("akgec_documents")
-
-    # Convert normalized question into a vector.
-    query_embedding = model.encode(
+    query_embedding = _model.encode(
         normalized_query
     ).tolist()
 
-    # Retrieve semantically similar chunks.
-    vector_results = collection.query(
+    vector_data = _collection.query(
         query_embeddings=[query_embedding],
-        n_results=top_k
+        n_results=min(20, _collection.count()),
+        include=["documents", "metadatas", "distances"],
     )
 
-    # Prepare chunks for BM25.
-    tokenized_chunks = [
-        chunk.get("text", "").lower().split()
-        for chunk in chunks
-    ]
+    vector_results = []
 
-    # Create BM25 keyword search index.
-    bm25 = BM25Okapi(tokenized_chunks)
+    documents = vector_data.get("documents", [[]])[0]
+    metadatas = vector_data.get("metadatas", [[]])[0]
+    distances = vector_data.get("distances", [[]])[0]
 
-    # Search BM25 using normalized query.
-    query_tokens = normalized_query.split()
-    bm25_scores = bm25.get_scores(query_tokens)
+    for text, metadata, distance in zip(
+        documents, metadatas, distances
+    ):
+        metadata = metadata or {}
+        result = make_result(
+            text,
+            metadata,
+            1.0 / (1.0 + max(float(distance), 0.0)),
+        )
+        result["score"] = apply_keyword_boost(query, result)
+        vector_results.append(result)
 
+    keyword_scores = _bm25.get_scores(
+        tokenize(normalized_query)
+    )
+
+    best_score = max(keyword_scores) if len(keyword_scores) else 0.0
     keyword_results = []
 
-    # Apply question-specific keyword boosting.
-    for score, chunk in zip(bm25_scores, chunks):
-        text = chunk.get("text", "")
+    ranked_indices = sorted(
+        range(len(keyword_scores)),
+        key=lambda index: keyword_scores[index],
+        reverse=True,
+    )[:20]
 
-        final_score = apply_keyword_boost(
-            normalized_query,
-            text,
-            float(score)
+    for index in ranked_indices:
+        chunk = _chunks[index]
+        text = _chunk_texts[index]
+
+        if not text.strip():
+            continue
+
+        metadata = get_metadata(chunk)
+
+        raw_score = float(keyword_scores[index])
+        normalized_score = (
+            raw_score / best_score if best_score > 0 else 0.0
         )
 
-        if final_score > 0:
-            keyword_results.append(
-                (final_score, chunk)
-            )
-
-    # Sort BM25 results.
-    keyword_results.sort(
-        key=lambda item: item[0],
-        reverse=True
-    )
+        result = make_result(
+            text,
+            metadata,
+            normalized_score,
+        )
+        result["score"] = apply_keyword_boost(query, result)
+        keyword_results.append(result)
 
     return (
         vector_results,
-        keyword_results[:top_k],
+        keyword_results,
         original_query,
-        normalized_query
+        normalized_query,
     )
 
 
-# Combine vector and BM25 results while preserving citation metadata.
-def combine_results(
-    vector_results,
-    keyword_results,
-    top_k=8
-):
-    combined = []
+def combine_results(vector_results, keyword_results, top_k=8):
+    combined = {}
 
-    # Add vector search results.
-    documents = vector_results["documents"][0]
-    metadatas = vector_results["metadatas"][0]
-    distances = vector_results["distances"][0]
-
-    for document, metadata, distance in zip(
-        documents,
-        metadatas,
-        distances
-    ):
-        vector_score = 1 / (1 + distance)
-
-        combined.append({
-            "text": document,
-            "source": metadata.get("source", ""),
-            "page": metadata.get("page"),
-            "type": metadata.get("type", ""),
-            "score": vector_score
-        })
-
-    # Add BM25 results with source/page metadata.
-    for score, chunk in keyword_results:
-        keyword_score = score / (score + 10)
-
-        combined.append({
-            "text": chunk.get("text", ""),
-            "source": chunk.get("source", ""),
-            "page": chunk.get("page"),
-            "type": chunk.get("type", ""),
-            "score": keyword_score
-        })
-
-    # Remove only exact duplicate chunks.
-    unique_results = {}
-
-    for result in combined:
+    for result in vector_results + keyword_results:
         key = (
-            result["source"],
-            result["page"],
-            result["text"]
+            result.get("source", ""),
+            result.get("page"),
+            result.get("text", ""),
         )
 
-        if key not in unique_results:
-            unique_results[key] = result
-        else:
-            # Keep the stronger score.
-            unique_results[key]["score"] = max(
-                unique_results[key]["score"],
-                result["score"]
-            )
+        if key not in combined:
+            combined[key] = result.copy()
+        elif result.get("score", 0.0) > combined[key].get("score", 0.0):
+            combined[key]["score"] = result["score"]
 
-    final_results = list(
-        unique_results.values()
-    )
-
-    # Sort by retrieval score.
-    final_results.sort(
-        key=lambda item: item["score"],
-        reverse=True
-    )
-
-    return final_results[:top_k]
+    return list(combined.values())
 
 
-# Rerank hybrid results using normalized query intent and document relevance.
 def rerank(query, results):
     normalized_query = normalize_query(query)
 
     for result in results:
-        text = result["text"].lower()
-        source = result["source"].lower()
+        text = result.get("text", "").lower()
+        score = result.get("score", 0.0)
 
-        # Start with hybrid retrieval score.
-        score = result["score"]
-
-        # Boost seat and intake information.
-        if any(
-            word in normalized_query
-            for word in [
-                "seat",
-                "seats",
-                "intake",
-                "capacity"
-            ]
-        ):
-            if "sanctioned intake" in text:
-                score += 0.5
-
-            if "courses offered" in text:
-                score += 0.3
-
-        # Boost exact course-name matches.
-        if "computer science and engineering" in normalized_query:
-            if "computer science and engineering" in text:
-                score += 0.5
-
-        # Boost current B.Tech fee information.
+        # Strongly demote admission registration instructions.
         if (
-            "fee" in normalized_query
-            or "academic fee" in normalized_query
+            "placement" in normalized_query
+            and "steps to follow" in text
+            and "our placement" not in text
         ):
-            if "2026-27" in text:
-                score += 0.5
+            result["rerank_score"] = -1000.0
+            continue
 
-            if "academic fee" in text:
-                score += 0.5
+        if "placement" in normalized_query:
+            if "our placement" in text:
+                score += 10.0
 
-            if "b.tech" in text:
-                score += 0.7
+            if "placement cell" in text:
+                score += 5.0
 
-        # Strongly boost current B.Tech fee PDFs.
-        if any(
-            name in source
-            for name in [
-                "btech1yr",
-                "b-tech-ist-year"
+            terms = [
+                "placement statistics",
+                "placement & higher studies",
+                "placement and higher studies",
+                "students placed",
+                "highest package",
+                "average package",
+                "companies visited",
+                "placement record",
             ]
-        ):
-            score += 2.0
 
-        # Strongly boost exact B.Tech first-year fee.
-        if "142156" in text or "142,156" in text:
-            score += 2.0
+            if any(term in text for term in terms):
+                score += 3.0
 
         result["rerank_score"] = score
 
-    # Sort according to reranking score.
     results.sort(
-        key=lambda item: item["rerank_score"],
-        reverse=True
+        key=lambda item: item.get("rerank_score", -1000.0),
+        reverse=True,
     )
 
-    return results
+    return results[:8]
 
 
-# Test retrieval pipeline directly.
 if __name__ == "__main__":
-    query = input(
-        "Enter your question: "
-    ).strip()
+    try:
+        query = input("Enter your question: ").strip()
 
-    (
-        vector_results,
-        keyword_results,
-        original_query,
-        normalized_query
-    ) = search(query)
+        if not query:
+            print("Please enter a question.")
+            raise SystemExit(0)
 
-    results = combine_results(
-        vector_results,
-        keyword_results
-    )
+        (
+            vector_results,
+            keyword_results,
+            original_query,
+            normalized_query,
+        ) = search(query)
 
-    results = rerank(
-        query,
-        results
-    )
-
-    print("\nORIGINAL QUERY")
-    print(original_query)
-
-    print("\nNORMALIZED QUERY")
-    print(normalized_query)
-
-    print("\nRERANKED HYBRID RETRIEVAL RESULTS")
-
-    for index, result in enumerate(
-        results,
-        start=1
-    ):
-        print(
-            f"\n--- Result {index} ---"
+        results = combine_results(
+            vector_results,
+            keyword_results,
         )
 
-        print(
-            "Rerank Score:",
-            round(
-                result["rerank_score"],
-                4
+        results = rerank(query, results)
+
+        print("\nORIGINAL QUERY")
+        print(original_query)
+
+        print("\nNORMALIZED QUERY")
+        print(normalized_query)
+
+        print("\nRERANKED HYBRID RETRIEVAL RESULTS")
+
+        for index, result in enumerate(results, start=1):
+            print(f"\n--- Result {index} ---")
+            print(
+                "Rerank Score:",
+                round(result.get("rerank_score", 0.0), 4),
             )
-        )
+            print("Source:", result.get("source", ""))
+            print("Page:", result.get("page"))
+            print("Type:", result.get("type", "webpage"))
+            print("Text:", result.get("text", "")[:1200])
 
-        print(
-            "Source:",
-            result["source"]
-        )
-
-        print(
-            "Page:",
-            result["page"]
-        )
-
-        print(
-            "Type:",
-            result["type"]
-        )
-
-        print(
-            "Text:",
-            result["text"][:700]
-        )
+    except Exception as error:
+        print(f"\nRetriever error: {error}")
