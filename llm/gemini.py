@@ -1,8 +1,9 @@
+
 import os
 from dotenv import load_dotenv
 from google import genai
 
-# Load the Gemini API key from the .env file.
+# Load API key from .env
 load_dotenv()
 
 API_KEY = os.getenv("GEMINI_API_KEY")
@@ -10,40 +11,57 @@ API_KEY = os.getenv("GEMINI_API_KEY")
 if not API_KEY:
     raise ValueError("GEMINI_API_KEY not found in .env")
 
-
-# Create the Gemini client.
+# Create Gemini client
 client = genai.Client(api_key=API_KEY)
 
 MODEL_NAME = "gemini-3.5-flash-lite"
 
 
-# Generate an answer using only the retrieved AKGEC context.
 def generate_answer(question, context):
     prompt = f"""
-You are an AKGEC information assistant.
+You are a helpful AI assistant for AKGEC
+(Ajay Kumar Garg Engineering College).
 
-Answer the user's question using ONLY the provided AKGEC context.
+Answer the user's question according to these rules:
 
-Rules:
-- Do not use outside knowledge.
-- Do not invent or guess information.
-- If the answer is not available in the context, say:
-  "I could not find this information in the AKGEC data."
-- Give a short and clear answer.
-- Do not mention or generate any source URL.
-- Do not add a "Sources" or "Source URL" section.
-- The application will handle citations separately.
+1. For AKGEC-specific questions:
+   - First use the provided AKGEC context.
+   - Never invent official college information.
+   - If the context does not contain a specific official fact,
+     clearly say that the fact could not be verified from
+     the available AKGEC data.
+
+2. For general questions:
+   - Use your general knowledge to answer.
+   - Explain concepts clearly with useful examples when needed.
+   - Do not refuse just because the answer is missing from
+     the AKGEC context.
+
+3. For mixed questions:
+   - Use the AKGEC context for college-specific facts.
+   - Use general knowledge for explanations.
+   - Clearly distinguish verified college information from
+     general explanations.
+
+4. Never invent fees, placement statistics, admission dates,
+   seat counts, or other official college details.
+
+5. Give a clear, relevant answer in simple English.
+   Use a short answer by default, but explain more when needed.
+
+6. Do not generate a separate Sources section or source URLs.
+   The application handles citations separately.
 
 USER QUESTION:
 {question}
 
-AKGEC CONTEXT:
-{context}
+RETRIEVED AKGEC CONTEXT:
+{context if context and context.strip() else "No relevant AKGEC information was retrieved."}
 
 ANSWER:
 """
 
-    # Send the question and retrieved context to Gemini.
+    # Generate answer using Gemini
     interaction = client.interactions.create(
         model=MODEL_NAME,
         input=prompt
@@ -52,18 +70,27 @@ ANSWER:
     return interaction.output_text
 
 
-# Test Gemini with a small example.
+# Test Gemini
 if __name__ == "__main__":
-    question = "How many seats are available in Computer Science and Engineering?"
+    test_questions = [
+        "What is the difference between B.Tech and M.Tech?",
+        "What is the sanctioned intake for B.Tech CSE at AKGEC?",
+        "What is Python programming?"
+    ]
 
-    context = """
-    Courses Offered
-    Courses Sanctioned Intake
-    B.Tech Computer Science and Engineering 450
+    sample_context = """
+    Courses Offered:
+    B.Tech Computer Science and Engineering
+    Sanctioned Intake: 450
     Source: https://www.akgec.ac.in/admissions/courses-offered/
     """
 
-    answer = generate_answer(question, context)
+    for question in test_questions:
+        print("\n" + "=" * 60)
+        print("QUESTION:", question)
 
-    print("\nGEMINI ANSWER")
-    print(answer)
+        try:
+            answer = generate_answer(question, sample_context)
+            print("ANSWER:", answer)
+        except Exception as error:
+            print("ERROR:", error)

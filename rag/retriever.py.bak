@@ -280,40 +280,31 @@ def combine_results(vector_results, keyword_results, top_k=8):
 
     return list(combined.values())
 
+
 def rerank(query, results):
     normalized_query = normalize_query(query)
-    query_lower = query.lower()
 
     for result in results:
         text = result.get("text", "").lower()
-        score = float(result.get("score", 0.0))
+        score = result.get("score", 0.0)
 
-        # Match CSE with its full form.
-        if "cse" in query_lower or "computer science" in query_lower:
-            if "computer science and engineering" in text:
-                score += 8.0
+        # Strongly demote admission registration instructions.
+        if (
+            "placement" in normalized_query
+            and "steps to follow" in text
+            and "our placement" not in text
+        ):
+            result["rerank_score"] = -1000.0
+            continue
 
-            if "b.tech" in text or "btech" in text:
-                score += 2.0
-
-            if "sanctioned intake" in text or "intake" in text:
-                score += 5.0
-
-        # Prioritize relevant placement information.
         if "placement" in normalized_query:
-            if (
-                "steps to follow" in text
-                and "our placement" not in text
-            ):
-                score -= 100.0
-
             if "our placement" in text:
                 score += 10.0
 
             if "placement cell" in text:
                 score += 5.0
 
-            if any(term in text for term in [
+            terms = [
                 "placement statistics",
                 "placement & higher studies",
                 "placement and higher studies",
@@ -322,7 +313,9 @@ def rerank(query, results):
                 "average package",
                 "companies visited",
                 "placement record",
-            ]):
+            ]
+
+            if any(term in text for term in terms):
                 score += 3.0
 
         result["rerank_score"] = score
