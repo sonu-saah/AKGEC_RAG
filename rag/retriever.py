@@ -1,3 +1,6 @@
+
+"""Hybrid retrieval using ChromaDB, BM25 and rule-based reranking."""
+
 import heapq
 import json
 import re
@@ -8,6 +11,7 @@ from rank_bm25 import BM25Okapi
 from sentence_transformers import SentenceTransformer
 
 
+# Project paths and retrieval configuration
 BASE_DIR = Path(__file__).resolve().parent.parent
 CHUNKS_FILE = BASE_DIR / "data" / "rag_chunks.json"
 CHROMA_DIR = BASE_DIR / "data" / "chroma_db"
@@ -15,6 +19,8 @@ CHROMA_DIR = BASE_DIR / "data" / "chroma_db"
 COLLECTION_NAME = "akgec_documents"
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 
+
+# Cache resources to avoid repeated model and database initialization
 _model = None
 _collection = None
 _chunks = None
@@ -23,7 +29,8 @@ _chunk_texts = None
 
 
 def normalize_query(query):
-    query = query.lower().strip()
+    """Standardize user questions for consistent retrieval."""
+    query = str(query).lower().strip()
 
     replacements = {
         "b.tech": "btech",
@@ -43,10 +50,12 @@ def normalize_query(query):
 
 
 def tokenize(text):
+    """Convert text into lowercase alphanumeric tokens for BM25."""
     return re.findall(r"[a-zA-Z0-9]+", str(text).lower())
 
 
 def get_text(item):
+    """Extract text from supported document fields."""
     return str(
         item.get("text")
         or item.get("content")
@@ -56,6 +65,7 @@ def get_text(item):
 
 
 def get_source(item):
+    """Extract the source URL or filename."""
     return (
         item.get("source")
         or item.get("source_url")
@@ -66,7 +76,9 @@ def get_source(item):
 
 
 def get_metadata(item):
+    """Return consistent source, page and document-type metadata."""
     metadata = item.get("metadata", {})
+
     if not isinstance(metadata, dict):
         metadata = {}
 
@@ -89,6 +101,7 @@ def get_metadata(item):
 
 
 def load_resources():
+    """Load document chunks, embedding model, ChromaDB and BM25 index once."""
     global _model, _collection, _chunks, _bm25, _chunk_texts
 
     if _collection is not None:
@@ -113,21 +126,21 @@ def load_resources():
     if not any(text.strip() for text in _chunk_texts):
         raise ValueError("No readable text found in the chunks.")
 
+    # SentenceTransformer converts text into semantic embeddings
     _model = SentenceTransformer(EMBEDDING_MODEL)
 
+    # Persistent ChromaDB stores document embeddings on disk
     client = chromadb.PersistentClient(path=str(CHROMA_DIR))
+    _collection = client.get_collection(name=COLLECTION_NAME)
 
-    _collection = client.get_collection(
-        name=COLLECTION_NAME
+    # BM25 creates an in-memory keyword search index
+    _bm25 = BM25Okapi(
+        [tokenize(text) or ["empty"] for text in _chunk_texts]
     )
-
-    _bm25 = BM25Okapi([
-        tokenize(text) or ["empty"]
-        for text in _chunk_texts
-    ])
 
 
 def make_result(text, metadata, score):
+    """Create a consistent structure for retrieved documents."""
     return {
         "text": text,
         "source": metadata.get("source", ""),
@@ -138,9 +151,9 @@ def make_result(text, metadata, score):
 
 
 def apply_keyword_boost(query, result):
+    """Adjust scores using AKGEC-specific placement, fee and intake terms."""
     text = result["text"].lower()
     query = normalize_query(query)
-
     score = result.get("score", 0.0)
 
     if "placement" in query:
@@ -175,7 +188,7 @@ def apply_keyword_boost(query, result):
         ):
             score -= 5.0
 
-    if any(term in query for term in ["fee", "fees"]):
+    if "fee" in query:
         if "fee" in text or "tuition" in text:
             score += 2.0
 
@@ -187,14 +200,14 @@ def apply_keyword_boost(query, result):
 
 
 def search(query, top_k=5):
+    """Perform semantic vector search and BM25 keyword retrieval."""
     load_resources()
 
     original_query = query
     normalized_query = normalize_query(query)
 
-    query_embedding = _model.encode(
-        normalized_query
-    ).tolist()
+    # Vector search: retrieve semantically similar document chunks
+    query_embedding = _model.encode(normalized_query).tolist()
 
     vector_data = _collection.query(
         query_embeddings=[query_embedding],
@@ -203,35 +216,34 @@ def search(query, top_k=5):
     )
 
     vector_results = []
-
     documents = vector_data.get("documents", [[]])[0]
     metadatas = vector_data.get("metadatas", [[]])[0]
     distances = vector_data.get("distances", [[]])[0]
 
-    for text, metadata, distance in zip(
-        documents, metadatas, distances
-    ):
+    for text, metadata, distance in zip(documents, metadatas, distances):
         metadata = metadata or {}
+
         result = make_result(
             text,
             metadata,
             1.0 / (1.0 + max(float(distance), 0.0)),
         )
+
         result["score"] = apply_keyword_boost(query, result)
         vector_results.append(result)
 
-    keyword_scores = _bm25.get_scores(
-        tokenize(normalized_query)
-    )
-
+    # BM25 search: rank chunks using exact keyword relevance
+    keyword_scores = _bm25.get_scores(tokenize(normalized_query))
     best_score = max(keyword_scores) if len(keyword_scores) else 0.0
+
     keyword_results = []
 
-    ranked_indices = sorted(
+    # Select top 20 candidates efficiently using a heap
+    ranked_indices = heapq.nlargest(
+        20,
         range(len(keyword_scores)),
         key=lambda index: keyword_scores[index],
-        reverse=True,
-    )[:20]
+    )
 
     for index in ranked_indices:
         chunk = _chunks[index]
@@ -241,29 +253,19 @@ def search(query, top_k=5):
             continue
 
         metadata = get_metadata(chunk)
-
         raw_score = float(keyword_scores[index])
-        normalized_score = (
-            raw_score / best_score if best_score > 0 else 0.0
-        )
+        normalized_score = raw_score / best_score if best_score > 0 else 0.0
 
-        result = make_result(
-            text,
-            metadata,
-            normalized_score,
-        )
+        result = make_result(text, metadata, normalized_score)
         result["score"] = apply_keyword_boost(query, result)
+
         keyword_results.append(result)
 
-    return (
-        vector_results,
-        keyword_results,
-        original_query,
-        normalized_query,
-    )
+    return vector_results, keyword_results, original_query, normalized_query
 
 
 def combine_results(vector_results, keyword_results, top_k=8):
+    """Merge vector and BM25 results while removing duplicate chunks."""
     combined = {}
 
     for result in vector_results + keyword_results:
@@ -275,12 +277,16 @@ def combine_results(vector_results, keyword_results, top_k=8):
 
         if key not in combined:
             combined[key] = result.copy()
+
         elif result.get("score", 0.0) > combined[key].get("score", 0.0):
             combined[key]["score"] = result["score"]
 
+    # Final result limiting is handled by rerank()
     return list(combined.values())
 
+
 def rerank(query, results):
+    """Apply rule-based relevance scoring and return the top eight chunks."""
     normalized_query = normalize_query(query)
     query_lower = query.lower()
 
@@ -288,7 +294,7 @@ def rerank(query, results):
         text = result.get("text", "").lower()
         score = float(result.get("score", 0.0))
 
-        # Match CSE with its full form.
+        # Prioritize CSE course and intake information
         if "cse" in query_lower or "computer science" in query_lower:
             if "computer science and engineering" in text:
                 score += 8.0
@@ -299,12 +305,9 @@ def rerank(query, results):
             if "sanctioned intake" in text or "intake" in text:
                 score += 5.0
 
-        # Prioritize relevant placement information.
+        # Prioritize actual placement information
         if "placement" in normalized_query:
-            if (
-                "steps to follow" in text
-                and "our placement" not in text
-            ):
+            if "steps to follow" in text and "our placement" not in text:
                 score -= 100.0
 
             if "our placement" in text:
@@ -313,16 +316,19 @@ def rerank(query, results):
             if "placement cell" in text:
                 score += 5.0
 
-            if any(term in text for term in [
-                "placement statistics",
-                "placement & higher studies",
-                "placement and higher studies",
-                "students placed",
-                "highest package",
-                "average package",
-                "companies visited",
-                "placement record",
-            ]):
+            if any(
+                term in text
+                for term in [
+                    "placement statistics",
+                    "placement & higher studies",
+                    "placement and higher studies",
+                    "students placed",
+                    "highest package",
+                    "average package",
+                    "companies visited",
+                    "placement record",
+                ]
+            ):
                 score += 3.0
 
         result["rerank_score"] = score
@@ -343,18 +349,8 @@ if __name__ == "__main__":
             print("Please enter a question.")
             raise SystemExit(0)
 
-        (
-            vector_results,
-            keyword_results,
-            original_query,
-            normalized_query,
-        ) = search(query)
-
-        results = combine_results(
-            vector_results,
-            keyword_results,
-        )
-
+        vector_results, keyword_results, original_query, normalized_query = search(query)
+        results = combine_results(vector_results, keyword_results)
         results = rerank(query, results)
 
         print("\nORIGINAL QUERY")
@@ -367,10 +363,7 @@ if __name__ == "__main__":
 
         for index, result in enumerate(results, start=1):
             print(f"\n--- Result {index} ---")
-            print(
-                "Rerank Score:",
-                round(result.get("rerank_score", 0.0), 4),
-            )
+            print("Rerank Score:", round(result.get("rerank_score", 0.0), 4))
             print("Source:", result.get("source", ""))
             print("Page:", result.get("page"))
             print("Type:", result.get("type", "webpage"))

@@ -1,332 +1,376 @@
 
-import time
-import os
+"""Hybrid retrieval using ChromaDB, BM25 and rule-based reranking."""
 
-os.environ["STREAMLIT_SERVER_FILE_WATCHER_TYPE"] = "none"
+import heapq
+import json
+import re
+from pathlib import Path
 
-import sqlite3
-import uuid
-from datetime import datetime
-
-import streamlit as st
-
-# ---------------- SETTINGS ----------------
-st.set_page_config(
-    page_title="AKGEC Chatbot",
-    page_icon="🎓",
-    layout="wide"
-)
-
-DB_PATH = os.path.join(
-    os.path.dirname(__file__),
-    "chat_history.db"
-)
+import chromadb
+from rank_bm25 import BM25Okapi
+from sentence_transformers import SentenceTransformer
 
 
-# ---------------- DATABASE ----------------
-def get_connection():
-    return sqlite3.connect(DB_PATH)
+# Project paths and retrieval configuration
+BASE_DIR = Path(__file__).resolve().parent.parent
+CHUNKS_FILE = BASE_DIR / "data" / "rag_chunks.json"
+CHROMA_DIR = BASE_DIR / "data" / "chroma_db"
+
+COLLECTION_NAME = "akgec_documents"
+EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 
 
-def init_db():
-    with get_connection() as conn:
-        conn.execute("""
-            CREATE TABLE IF NOT EXISTS chats (
-                id TEXT PRIMARY KEY,
-                title TEXT NOT NULL,
-                created_at TEXT NOT NULL
-            )
-        """)
-
-        conn.execute("""
-            CREATE TABLE IF NOT EXISTS messages (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
-                chat_id TEXT NOT NULL,
-                role TEXT NOT NULL,
-                content TEXT NOT NULL,
-                created_at TEXT NOT NULL,
-                FOREIGN KEY (chat_id) REFERENCES chats(id)
-            )
-        """)
+# Cache loaded resources to avoid repeated initialization
+_model = None
+_collection = None
+_chunks = None
+_bm25 = None
+_chunk_texts = None
 
 
-def create_chat():
-    chat_id = str(uuid.uuid4())
-    now = datetime.now().isoformat(timespec="seconds")
+def normalize_query(query):
+    """Standardize query wording for consistent retrieval."""
+    query = str(query).lower().strip()
 
-    with get_connection() as conn:
-        conn.execute(
-            """
-            INSERT INTO chats (id, title, created_at)
-            VALUES (?, ?, ?)
-            """,
-            (chat_id, "New chat", now)
-        )
+    replacements = {
+        "b.tech": "btech",
+        "b-tech": "btech",
+        "b tech": "btech",
+        "how much": "fee",
+        "fees": "fee",
+        "kitni hai": "fee",
+        "kitna hai": "fee",
+        "kitne hai": "fee",
+    }
 
-    return chat_id
+    for old, new in replacements.items():
+        query = query.replace(old, new)
 
-
-def get_chats():
-    with get_connection() as conn:
-        return conn.execute(
-            """
-            SELECT id, title
-            FROM chats
-            ORDER BY created_at DESC
-            """
-        ).fetchall()
+    return re.sub(r"\s+", " ", query).strip()
 
 
-def get_messages(chat_id):
-    with get_connection() as conn:
-        rows = conn.execute(
-            """
-            SELECT role, content
-            FROM messages
-            WHERE chat_id = ?
-            ORDER BY id
-            """,
-            (chat_id,)
-        ).fetchall()
-
-    return [
-        {"role": role, "content": content}
-        for role, content in rows
-    ]
+def tokenize(text):
+    """Split text into lowercase alphanumeric tokens for BM25."""
+    return re.findall(r"[a-zA-Z0-9]+", str(text).lower())
 
 
-def save_message(chat_id, role, content):
-    now = datetime.now().isoformat(timespec="seconds")
-
-    with get_connection() as conn:
-        conn.execute(
-            """
-            INSERT INTO messages
-            (chat_id, role, content, created_at)
-            VALUES (?, ?, ?, ?)
-            """,
-            (chat_id, role, content, now)
-        )
-
-        if role == "user":
-            row = conn.execute(
-                "SELECT title FROM chats WHERE id = ?",
-                (chat_id,)
-            ).fetchone()
-
-            if row and row[0] == "New chat":
-                title = content.strip().replace("\n", " ")[:45]
-
-                conn.execute(
-                    """
-                    UPDATE chats
-                    SET title = ?
-                    WHERE id = ?
-                    """,
-                    (title or "New chat", chat_id)
-                )
-
-
-init_db()
-
-
-# ---------------- SESSION ----------------
-if "chat_id" not in st.session_state:
-    chats = get_chats()
-
-    st.session_state.chat_id = (
-        chats[0][0] if chats else create_chat()
+def get_text(item):
+    """Extract chunk text from supported document fields."""
+    return str(
+        item.get("text")
+        or item.get("content")
+        or item.get("page_content")
+        or ""
     )
 
 
-# ---------------- SIDEBAR ----------------
-with st.sidebar:
-    st.title("🎓 AKGEC Chat")
+def get_source(item):
+    """Extract a source URL or filename from a document."""
+    return (
+        item.get("source")
+        or item.get("source_url")
+        or item.get("url")
+        or item.get("filename")
+        or ""
+    )
 
-    if st.button(
-        "＋ New chat",
-        use_container_width=True
-    ):
-        st.session_state.chat_id = create_chat()
-        st.rerun()
 
-    st.divider()
-    st.subheader("Chat history")
+def get_metadata(item):
+    """Normalize document source, page and type metadata."""
+    metadata = item.get("metadata", {})
 
-    chats = get_chats()
+    if not isinstance(metadata, dict):
+        metadata = {}
 
-    for chat_id, title in chats:
-        if st.button(
-            title[:45],
-            key=f"chat_{chat_id}",
-            use_container_width=True
+    return {
+        "source": str(
+            metadata.get("source")
+            or item.get("source")
+            or item.get("source_url")
+            or item.get("url")
+            or item.get("filename")
+            or ""
+        ),
+        "page": metadata.get("page", item.get("page")),
+        "type": str(
+            metadata.get("type")
+            or item.get("type")
+            or "webpage"
+        ),
+    }
+
+
+def load_resources():
+    """Load chunks, embedding model, ChromaDB and BM25 index once."""
+    global _model, _collection, _chunks, _bm25, _chunk_texts
+
+    if _collection is not None:
+        return
+
+    if not CHUNKS_FILE.exists():
+        raise FileNotFoundError(
+            f"Chunks file not found: {CHUNKS_FILE}"
+        )
+
+    with open(CHUNKS_FILE, "r", encoding="utf-8") as file:
+        _chunks = json.load(file)
+
+    if isinstance(_chunks, dict):
+        _chunks = _chunks.get("chunks", [])
+
+    if not _chunks:
+        raise ValueError("rag_chunks.json contains no chunks.")
+
+    _chunk_texts = [get_text(chunk) for chunk in _chunks]
+
+    if not any(text.strip() for text in _chunk_texts):
+        raise ValueError("No readable text found in the chunks.")
+
+    # SentenceTransformer generates semantic embeddings
+    _model = SentenceTransformer(EMBEDDING_MODEL)
+
+    # ChromaDB provides persistent vector storage and similarity search
+    client = chromadb.PersistentClient(path=str(CHROMA_DIR))
+    _collection = client.get_collection(name=COLLECTION_NAME)
+
+    # BM25 builds an in-memory keyword search index
+    _bm25 = BM25Okapi(
+        [tokenize(text) or ["empty"] for text in _chunk_texts]
+    )
+
+
+def make_result(text, metadata, score):
+    """Create a consistent retrieval result structure."""
+    return {
+        "text": text,
+        "source": metadata.get("source", ""),
+        "page": metadata.get("page"),
+        "type": metadata.get("type", "webpage"),
+        "score": float(score),
+    }
+
+
+def apply_keyword_boost(query, result):
+    """Adjust relevance scores using AKGEC-specific keywords."""
+    text = result["text"].lower()
+    query = normalize_query(query)
+    score = result.get("score", 0.0)
+
+    # Placement-specific relevance boosting
+    if "placement" in query:
+        if "steps to follow" in text and "our placement" not in text:
+            return -1000.0
+
+        placement_terms = [
+            "our placement",
+            "placement cell",
+            "placement statistics",
+            "placement & higher studies",
+            "placement and higher studies",
+            "students placed",
+            "highest package",
+            "average package",
+            "companies visited",
+            "placement record",
+        ]
+
+        if "our placement" in text:
+            score += 10.0
+
+        if "placement cell" in text:
+            score += 5.0
+
+        if any(term in text for term in placement_terms):
+            score += 3.0
+
+        if (
+            "career planning & placement (one time)" in text
+            and "our placement" not in text
         ):
-            st.session_state.chat_id = chat_id
-            st.rerun()
+            score -= 5.0
 
-    st.divider()
-    st.caption("Conversations are saved locally.")
+    # Fee-related relevance boosting
+    if "fee" in query:
+        if "fee" in text or "tuition" in text:
+            score += 2.0
 
+    # Intake-related relevance boosting
+    if any(term in query for term in ["seat", "intake"]):
+        if "sanctioned intake" in text or "courses offered" in text:
+            score += 3.0
 
-# ---------------- MAIN CHAT ----------------
-st.title("🎓 AKGEC Chatbot")
-
-st.caption(
-    "Ask about courses, admissions, "
-    "campus facilities and more."
-)
-
-chat_id = st.session_state.chat_id
-messages = get_messages(chat_id)
-
-for message in messages:
-    with st.chat_message(message["role"]):
-        st.markdown(message["content"])
+    return score
 
 
-# ---------------- ASK QUESTION ----------------
-question = st.chat_input(
-    "Message AKGEC Chatbot..."
-)
+def search(query, top_k=5):
+    """Retrieve candidates using vector similarity and BM25 keyword search."""
+    load_resources()
 
-if question:
+    original_query = query
+    normalized_query = normalize_query(query)
 
-    save_message(chat_id, "user", question)
+    # Semantic search using SentenceTransformer and ChromaDB
+    query_embedding = _model.encode(normalized_query).tolist()
 
-    with st.chat_message("user"):
-        st.markdown(question)
+    vector_data = _collection.query(
+        query_embeddings=[query_embedding],
+        n_results=min(20, _collection.count()),
+        include=["documents", "metadatas", "distances"],
+    )
 
-    with st.chat_message("assistant"):
+    vector_results = []
+    documents = vector_data.get("documents", [[]])[0]
+    metadatas = vector_data.get("metadatas", [[]])[0]
+    distances = vector_data.get("distances", [[]])[0]
 
-        with st.spinner(
-            "Searching AKGEC data and generating answer..."
-        ):
+    for text, metadata, distance in zip(documents, metadatas, distances):
+        metadata = metadata or {}
 
-            try:
-                from rag.retriever import (
-                    search,
-                    combine_results,
-                    rerank
-                )
+        result = make_result(
+            text,
+            metadata,
+            1.0 / (1.0 + max(float(distance), 0.0)),
+        )
 
-                from llm.gemini import generate_answer
+        result["score"] = apply_keyword_boost(query, result)
+        vector_results.append(result)
 
-                # ---------------- RETRIEVAL TIMER ----------------
-                retrieval_start = time.perf_counter()
+    # BM25 keyword search across indexed document chunks
+    keyword_scores = _bm25.get_scores(tokenize(normalized_query))
+    best_score = max(keyword_scores) if len(keyword_scores) else 0.0
 
-                vector_results, keyword_results, _, _ = search(
-                    question
-                )
+    keyword_results = []
 
-                results = combine_results(
-                    vector_results,
-                    keyword_results,
-                    top_k=5
-                )
+    # Select the top 20 BM25 candidates efficiently
+    ranked_indices = heapq.nlargest(
+        20,
+        range(len(keyword_scores)),
+        key=lambda index: keyword_scores[index],
+    )
 
-                results = rerank(
-                    question,
-                    results
-                )
+    for index in ranked_indices:
+        chunk = _chunks[index]
+        text = _chunk_texts[index]
 
-                retrieval_time = (
-                    time.perf_counter() - retrieval_start
-                )
+        if not text.strip():
+            continue
 
-                # ---------------- BUILD CONTEXT ----------------
-                context_parts = []
-                urls = []
+        metadata = get_metadata(chunk)
+        raw_score = float(keyword_scores[index])
+        normalized_score = raw_score / best_score if best_score > 0 else 0.0
 
-                for result in results:
+        result = make_result(text, metadata, normalized_score)
+        result["score"] = apply_keyword_boost(query, result)
 
-                    if not isinstance(result, dict):
-                        continue
+        keyword_results.append(result)
 
-                    metadata = result.get("metadata") or {}
+    return vector_results, keyword_results, original_query, normalized_query
 
-                    source = (
-                        result.get("url")
-                        or result.get("source")
-                        or metadata.get("url")
-                        or ""
-                    )
 
-                    text_content = (
-                        result.get("text")
-                        or result.get("content")
-                        or result.get("page_content")
-                        or ""
-                    )
+def combine_results(vector_results, keyword_results, top_k=8):
+    """Merge semantic and keyword results while removing duplicate chunks."""
+    combined = {}
 
-                    if text_content:
-                        context_parts.append(
-                            f"Source: {source or 'AKGEC'}\n"
-                            f"{text_content}"
-                        )
+    for result in vector_results + keyword_results:
+        key = (
+            result.get("source", ""),
+            result.get("page"),
+            result.get("text", ""),
+        )
 
-                    if (
-                        isinstance(source, str)
-                        and source.startswith("http")
-                        and source not in urls
-                    ):
-                        urls.append(source)
+        if key not in combined:
+            combined[key] = result.copy()
 
-                context = "\n\n".join(context_parts)
+        elif result.get("score", 0.0) > combined[key].get("score", 0.0):
+            combined[key]["score"] = result["score"]
 
-                # ---------------- GEMINI TIMER ----------------
-                gemini_start = time.perf_counter()
+    # Final result limiting is handled by rerank()
+    return list(combined.values())
 
-                answer = generate_answer(
-                    question,
-                    context
-                )
 
-                gemini_time = (
-                    time.perf_counter() - gemini_start
-                )
+def rerank(query, results):
+    """Apply rule-based relevance scoring and return the top eight chunks."""
+    normalized_query = normalize_query(query)
+    query_lower = query.lower()
 
-                if not answer:
-                    answer = (
-                        "Sorry, I could not generate an answer."
-                    )
+    for result in results:
+        text = result.get("text", "").lower()
+        score = float(result.get("score", 0.0))
 
-                if not isinstance(answer, str):
-                    answer = str(answer)
+        # Prioritize CSE course and intake information
+        if "cse" in query_lower or "computer science" in query_lower:
+            if "computer science and engineering" in text:
+                score += 8.0
 
-                # ---------------- DISPLAY ANSWER ----------------
-                st.markdown(answer)
+            if "b.tech" in text or "btech" in text:
+                score += 2.0
 
-                st.caption(
-                    f"Retrieval: {retrieval_time:.2f}s | "
-                    f"Gemini: {gemini_time:.2f}s | "
-                    f"Total: {retrieval_time + gemini_time:.2f}s"
-                )
+            if "sanctioned intake" in text or "intake" in text:
+                score += 5.0
 
-                # ---------------- SOURCES ----------------
-                if urls:
-                    with st.expander("Sources"):
-                        for url in urls[:5]:
-                            st.markdown(
-                                f"- [{url}]({url})"
-                            )
+        # Prioritize actual placement information
+        if "placement" in normalized_query:
+            if "steps to follow" in text and "our placement" not in text:
+                score -= 100.0
 
-                # ---------------- SAVE ANSWER ----------------
-                save_message(
-                    chat_id,
-                    "assistant",
-                    answer
-                )
+            if "our placement" in text:
+                score += 10.0
 
-            except Exception as error:
-                st.error(
-                    "Something went wrong while "
-                    "generating the answer."
-                )
+            if "placement cell" in text:
+                score += 5.0
 
-                st.exception(error)
+            if any(
+                term in text
+                for term in [
+                    "placement statistics",
+                    "placement & higher studies",
+                    "placement and higher studies",
+                    "students placed",
+                    "highest package",
+                    "average package",
+                    "companies visited",
+                    "placement record",
+                ]
+            ):
+                score += 3.0
 
-                save_message(
-                    chat_id,
-                    "assistant",
-                    f"Error: {error}"
-                )
+        result["rerank_score"] = score
+
+    results.sort(
+        key=lambda item: item.get("rerank_score", -1000.0),
+        reverse=True,
+    )
+
+    return results[:8]
+
+
+if __name__ == "__main__":
+    try:
+        query = input("Enter your question: ").strip()
+
+        if not query:
+            print("Please enter a question.")
+            raise SystemExit(0)
+
+        vector_results, keyword_results, original_query, normalized_query = search(query)
+        results = combine_results(vector_results, keyword_results)
+        results = rerank(query, results)
+
+        print("\nORIGINAL QUERY")
+        print(original_query)
+
+        print("\nNORMALIZED QUERY")
+        print(normalized_query)
+
+        print("\nRERANKED HYBRID RETRIEVAL RESULTS")
+
+        for index, result in enumerate(results, start=1):
+            print(f"\n--- Result {index} ---")
+            print("Rerank Score:", round(result.get("rerank_score", 0.0), 4))
+            print("Source:", result.get("source", ""))
+            print("Page:", result.get("page"))
+            print("Type:", result.get("type", "webpage"))
+            print("Text:", result.get("text", "")[:1200])
+
+    except Exception as error:
+        print(f"\nRetriever error: {error}")

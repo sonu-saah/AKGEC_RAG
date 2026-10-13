@@ -1,9 +1,12 @@
+
+"""Main entry point for the AKGEC RAG chatbot."""
+
 from rag.retriever import search, combine_results, rerank
 from llm.gemini import generate_answer
 from verifier.answer_verifier import verify_answer
 
 
-# Map important PDF files to their official AKGEC webpage.
+# Map PDF filenames to their official AKGEC webpage URLs
 PDF_SOURCE_URLS = {
     "B-Tech-Ist-Year-2026-27_0001.pdf":
         "https://www.akgec.ac.in/fee-structure-for-new-students2026-27",
@@ -19,8 +22,8 @@ PDF_SOURCE_URLS = {
 }
 
 
-# Build the context that will be sent to Gemini.
 def build_context(results):
+    """Prepare retrieved document content for Gemini answer generation."""
     context_parts = []
 
     for index, result in enumerate(results, start=1):
@@ -28,10 +31,7 @@ def build_context(results):
         page = result.get("page")
         source_type = result.get("type", "")
 
-        official_url = PDF_SOURCE_URLS.get(
-            source,
-            source
-        )
+        official_url = PDF_SOURCE_URLS.get(source, source)
 
         context_parts.append(
             f"""
@@ -49,30 +49,25 @@ CONTENT:
     return "\n".join(context_parts)
 
 
-# Build the strongest available citation without duplicates.
 def build_citations(results):
+    """Select official source citations and avoid duplicate URLs."""
     citations = []
     seen_urls = set()
 
-    # Prefer a relevant PDF source.
+    # Prefer a PDF source linked to an official AKGEC webpage
     for result in results:
         source = result.get("source", "")
         page = result.get("page")
         source_type = result.get("type", "")
 
-        # Skip OCR JSON files.
         if source.endswith("_ocr.json"):
             continue
 
         if source_type != "pdf":
             continue
 
-        official_url = PDF_SOURCE_URLS.get(
-            source,
-            source
-        )
+        official_url = PDF_SOURCE_URLS.get(source, source)
 
-        # Do not use local PDF filename as an official URL.
         if not official_url.startswith("http"):
             continue
 
@@ -85,12 +80,12 @@ def build_citations(results):
             "source": source,
             "page": page,
             "type": source_type,
-            "url": official_url
+            "url": official_url,
         })
 
         break
 
-    # If no mapped PDF is available, use the official AKGEC webpage.
+    # Use an official AKGEC webpage if no valid PDF citation exists
     if not citations:
         for result in results:
             source = result.get("source", "")
@@ -111,7 +106,7 @@ def build_citations(results):
                 "source": source,
                 "page": None,
                 "type": source_type,
-                "url": source
+                "url": source,
             })
 
             break
@@ -119,108 +114,74 @@ def build_citations(results):
     return citations
 
 
-# Print source file, page and official URL.
 def print_citations(citations):
+    """Display source filenames, PDF page numbers and official URLs."""
     print("\nSOURCES / CITATIONS")
 
     if not citations:
         print("No official citation found.")
-
         return
 
-    for index, citation in enumerate(
-        citations,
-        start=1
-    ):
+    for index, citation in enumerate(citations, start=1):
         print(f"\n[{index}]")
-
-        print(
-            "Source:",
-            citation["source"]
-        )
+        print("Source:", citation["source"])
 
         if citation["page"] is not None:
-            print(
-                "Page:",
-                citation["page"]
-            )
+            print("Page:", citation["page"])
 
-        print(
-            "Type:",
-            citation["type"]
-        )
-
-        print(
-            "Official URL:",
-            citation["url"]
-        )
+        print("Type:", citation["type"])
+        print("Official URL:", citation["url"])
 
 
-# Run the complete AKGEC RAG pipeline.
 def main():
-    question = input(
-        "Ask your AKGEC question: "
-    ).strip()
+    """Execute the complete AKGEC RAG question-answering pipeline."""
 
-    # Step 1: Retrieve relevant documents.
+    # Accept a question from the terminal
+    question = input("Ask your AKGEC question: ").strip()
+
+    # Hybrid retrieval: Search using vector similarity and BM25
     (
         vector_results,
         keyword_results,
         original_query,
-        normalized_query
+        normalized_query,
     ) = search(question)
 
-    # Step 2: Combine vector and keyword results.
-    results = combine_results(
-        vector_results,
-        keyword_results
-    )
+    # Result fusion: Merge vector and keyword search results
+    results = combine_results(vector_results, keyword_results)
 
-    # Step 3: Rerank the retrieved results.
-    results = rerank(
-        question,
-        results
-    )
+    # Reranking: Prioritize the most relevant document chunks
+    results = rerank(question, results)
 
-    # Step 4: Build context for Gemini.
+    # Context building: Prepare retrieved evidence for Gemini
     context = build_context(results)
 
-    # Step 5: Generate the answer.
-    answer = generate_answer(
-        question,
-        context
-    )
+    # LLM inference: Generate an answer using Gemini API
+    answer = generate_answer(question, context)
 
-    # 🔴 NIC Q&A IMPORTANT
-    # Verify the generated answer against retrieved evidence.
-    verification = verify_answer(
-        answer,
-        context
-    )
+    # Answer verification: Check the answer against retrieved context
+    verification = verify_answer(answer, context)
 
-    # Step 6: Build citations.
-    citations = build_citations(
-        results
-    )
+    # Source attribution: Collect official citation references
+    citations = build_citations(results)
 
+    # Display the original and normalized queries
     print("\nORIGINAL QUESTION")
     print(original_query)
 
     print("\nNORMALIZED QUERY")
     print(normalized_query)
 
+    # Display the generated answer
     print("\nFINAL ANSWER")
     print(answer)
 
-    # Step 7: Display structured citations.
-    print_citations(
-        citations
-    )
+    # Display citations and verification result
+    print_citations(citations)
 
     print("\nVERIFICATION")
     print(verification)
 
-    # Warn when the answer is not fully supported.
     if not verification["verified"]:
         print(
             "\nWARNING: Answer could not be fully verified "
@@ -228,6 +189,6 @@ def main():
         )
 
 
-# Start the AKGEC RAG application.
+# Run main() only when this file is executed directly
 if __name__ == "__main__":
     main()

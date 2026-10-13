@@ -1,0 +1,1719 @@
+
+
+=========RETRIVR.PY=======
+
+
+
+
+"""
+Hybrid Retrieval: Combines semantic vector search and BM25 keyword search
+to retrieve relevant AKGEC documents for the RAG chatbot.
+"""
+
+# heapq: Efficiently selects the highest-scoring results without fully sorting all scores.
+import heapq
+
+# json: Reads and processes structured JSON document data.
+import json
+
+# re: Provides regular expressions for text cleaning and tokenization.
+import re
+
+# pathlib.Path: Handles project file and folder paths across operating systems.
+from pathlib import Path
+
+# ChromaDB: Vector database used to store and search document embeddings.
+import chromadb
+
+# BM25Okapi: Keyword-ranking algorithm based on term frequency and document length.
+from rank_bm25 import BM25Okapi
+
+# SentenceTransformer: Converts text into numerical vectors called embeddings.
+from sentence_transformers import SentenceTransformer
+
+
+# __file__: Represents the current Python file location.
+# resolve(): Converts a file path into its absolute path.
+# parent: Accesses the parent directory of a file or folder.
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+# CHUNKS_FILE: Stores the smaller text chunks used for retrieval.
+CHUNKS_FILE = BASE_DIR / "data" / "rag_chunks.json"
+
+# CHROMA_DIR: Directory containing the persistent ChromaDB vector database.
+CHROMA_DIR = BASE_DIR / "data" / "chroma_db"
+
+# Collection: A named group of documents and embeddings inside ChromaDB.
+COLLECTION_NAME = "akgec_documents"
+
+# all-MiniLM-L6-v2: Pretrained sentence embedding model for semantic similarity.
+EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
+
+
+# Caching: Reuses loaded resources instead of initializing them for every question.
+_model = None
+_collection = None
+_chunks = None
+_bm25 = None
+_chunk_texts = None
+
+
+# normalize_query(): Standardizes question wording to improve retrieval consistency.
+def normalize_query(query):
+
+    # str(): Converts the input into a string.
+    # lower(): Converts text to lowercase.
+    # strip(): Removes leading and trailing whitespace.
+    query = str(query).lower().strip()
+
+    # Dictionary: Maps different query expressions to standardized terms.
+    replacements = {
+        "b.tech": "btech",
+        "b-tech": "btech",
+        "b tech": "btech",
+        "how much": "fee",
+        "fees": "fee",
+        "kitni hai": "fee",
+        "kitna hai": "fee",
+        "kitne hai": "fee",
+    }
+
+    # items(): Returns key-value pairs from a dictionary.
+    for old, new in replacements.items():
+
+        # replace(): Substitutes matching text with standardized wording.
+        query = query.replace(old, new)
+
+    # re.sub(): Replaces repeated whitespace with a single space.
+    return re.sub(r"\s+", " ", query).strip()
+
+
+# tokenize(): Splits text into lowercase alphanumeric tokens for BM25 indexing.
+def tokenize(text):
+
+    # re.findall(): Extracts all substrings matching a regular expression.
+    return re.findall(
+        r"[a-zA-Z0-9]+",
+        str(text).lower()
+    )
+
+
+# get_text(): Extracts chunk content from different supported dictionary fields.
+def get_text(item):
+
+    # dict.get(): Safely retrieves a dictionary value without raising KeyError.
+    return str(
+        item.get("text")
+        or item.get("content")
+        or item.get("page_content")
+        or ""
+    )
+
+
+# get_source(): Extracts a source URL or filename from document metadata.
+def get_source(item):
+
+    # Fallback lookup: Uses the first available source-related field.
+    return (
+        item.get("source")
+        or item.get("source_url")
+        or item.get("url")
+        or item.get("filename")
+        or ""
+    )
+
+
+# get_metadata(): Standardizes source, page and document-type metadata.
+def get_metadata(item):
+
+    # Metadata: Additional information describing a document or chunk.
+    metadata = item.get("metadata", {})
+
+    # isinstance(): Checks whether a variable belongs to a specific data type.
+    if not isinstance(metadata, dict):
+        metadata = {}
+
+    # Dictionary: Returns metadata in a consistent structure.
+    return {
+        "source": str(
+            metadata.get("source")
+            or item.get("source")
+            or item.get("source_url")
+            or item.get("url")
+            or item.get("filename")
+            or ""
+        ),
+        "page": metadata.get(
+            "page",
+            item.get("page")
+        ),
+        "type": str(
+            metadata.get("type")
+            or item.get("type")
+            or "webpage"
+        ),
+    }
+
+
+# load_resources(): Initializes chunks, embeddings, ChromaDB and BM25 only once.
+def load_resources():
+
+    # global: Allows a function to update variables defined at module level.
+    global _model, _collection, _chunks, _bm25, _chunk_texts
+
+    # Lazy loading: Skips initialization when resources are already loaded.
+    if _collection is not None:
+        return
+
+    # exists(): Checks whether a file or directory is present.
+    if not CHUNKS_FILE.exists():
+
+        # FileNotFoundError: Reports that a required data file is missing.
+        raise FileNotFoundError(
+            f"Chunks file not found: {CHUNKS_FILE}"
+        )
+
+    # open(): Opens a file; with ensures the file is closed automatically.
+    with open(
+        CHUNKS_FILE,
+        "r",
+        encoding="utf-8"
+    ) as file:
+
+        # json.load(): Converts JSON file content into Python objects.
+        _chunks = json.load(file)
+
+    # Handle JSON data stored as a dictionary containing a chunks list.
+    if isinstance(_chunks, dict):
+        _chunks = _chunks.get("chunks", [])
+
+    # ValueError: Reports invalid or empty chunk data.
+    if not _chunks:
+        raise ValueError(
+            "rag_chunks.json contains no chunks."
+        )
+
+    # List comprehension: Extracts text from every document chunk.
+    _chunk_texts = [
+        get_text(chunk)
+        for chunk in _chunks
+    ]
+
+    # any(): Returns True when at least one item satisfies a condition.
+    if not any(text.strip() for text in _chunk_texts):
+        raise ValueError(
+            "No readable text found in the chunks."
+        )
+
+    # SentenceTransformer(): Loads the pretrained embedding model.
+    _model = SentenceTransformer(
+        EMBEDDING_MODEL
+    )
+
+    # PersistentClient(): Opens ChromaDB with storage saved on disk.
+    client = chromadb.PersistentClient(
+        path=str(CHROMA_DIR)
+    )
+
+    # get_collection(): Opens an existing named ChromaDB collection.
+    _collection = client.get_collection(
+        name=COLLECTION_NAME
+    )
+
+    # BM25 indexing: Tokenizes all chunks for keyword-based document ranking.
+    _bm25 = BM25Okapi(
+        [
+            tokenize(text) or ["empty"]
+            for text in _chunk_texts
+        ]
+    )
+
+
+# make_result(): Creates a consistent dictionary for retrieved documents.
+def make_result(text, metadata, score):
+
+    # float(): Converts the retrieval score into a floating-point number.
+    return {
+        "text": text,
+        "source": metadata.get("source", ""),
+        "page": metadata.get("page"),
+        "type": metadata.get("type", "webpage"),
+        "score": float(score),
+    }
+
+
+# apply_keyword_boost(): Adjusts relevance scores using AKGEC-specific keywords.
+def apply_keyword_boost(query, result):
+
+    # lower(): Enables case-insensitive text matching.
+    text = result["text"].lower()
+
+    # Query normalization: Standardizes the question before keyword matching.
+    query = normalize_query(query)
+
+    # Base score: Starts with the existing document relevance score.
+    score = result.get("score", 0.0)
+
+    # Placement-specific filtering: Penalizes irrelevant navigation instructions.
+    if "placement" in query:
+
+        if (
+            "steps to follow" in text
+            and "our placement" not in text
+        ):
+            return -1000.0
+
+        # Domain-specific terms: Identify actual placement-related information.
+        placement_terms = [
+            "our placement",
+            "placement cell",
+            "placement statistics",
+            "placement & higher studies",
+            "placement and higher studies",
+            "students placed",
+            "highest package",
+            "average package",
+            "companies visited",
+            "placement record",
+        ]
+
+        # Score boosting: Rewards documents containing highly relevant terms.
+        if "our placement" in text:
+            score += 10.0
+
+        if "placement cell" in text:
+            score += 5.0
+
+        # any(): Checks whether at least one placement term is present.
+        if any(
+            term in text
+            for term in placement_terms
+        ):
+            score += 3.0
+
+        # Score penalty: Reduces the ranking of unrelated fee information.
+        if (
+            "career planning & placement (one time)" in text
+            and "our placement" not in text
+        ):
+            score -= 5.0
+
+    # Fee-specific boosting: Prefers documents containing fee-related terms.
+    if "fee" in query:
+        if "fee" in text or "tuition" in text:
+            score += 2.0
+
+    # Intake-specific boosting: Prefers course and sanctioned-intake documents.
+    if any(
+        term in query
+        for term in ["seat", "intake"]
+    ):
+        if (
+            "sanctioned intake" in text
+            or "courses offered" in text
+        ):
+            score += 3.0
+
+    # Return the adjusted relevance score.
+    return score
+
+
+# search(): Performs hybrid retrieval using ChromaDB and BM25.
+def search(query, top_k=5):
+
+    # Load cached retrieval resources before searching.
+    load_resources()
+
+    # Original query: Preserves the exact user question.
+    original_query = query
+
+    # Normalized query: Standardizes text before retrieval.
+    normalized_query = normalize_query(query)
+
+    # encode(): Converts the question into a numerical embedding vector.
+    # tolist(): Converts the embedding into a regular Python list.
+    query_embedding = _model.encode(
+        normalized_query
+    ).tolist()
+
+    # Vector similarity search: Finds semantically related document chunks.
+    vector_data = _collection.query(
+        query_embeddings=[query_embedding],
+        n_results=min(
+            20,
+            _collection.count()
+        ),
+        include=[
+            "documents",
+            "metadatas",
+            "distances"
+        ],
+    )
+
+    # List: Stores documents retrieved through vector similarity.
+    vector_results = []
+
+    # Extract documents, metadata and distances from the ChromaDB response.
+    documents = vector_data.get(
+        "documents",
+        [[]]
+    )[0]
+
+    metadatas = vector_data.get(
+        "metadatas",
+        [[]]
+    )[0]
+
+    distances = vector_data.get(
+        "distances",
+        [[]]
+    )[0]
+
+    # zip(): Iterates through multiple sequences together.
+    for text, metadata, distance in zip(
+        documents,
+        metadatas,
+        distances
+    ):
+
+        # Handle missing document metadata.
+        metadata = metadata or {}
+
+        # Distance-to-score conversion: Converts smaller distances into higher scores.
+        result = make_result(
+            text,
+            metadata,
+            1.0 / (
+                1.0 + max(
+                    float(distance),
+                    0.0
+                )
+            ),
+        )
+
+        # Domain-specific boosting: Adjusts the vector retrieval score.
+        result["score"] = apply_keyword_boost(
+            query,
+            result
+        )
+
+        # append(): Adds the document to vector search results.
+        vector_results.append(result)
+
+    # BM25 scoring: Calculates keyword relevance for every indexed chunk.
+    keyword_scores = _bm25.get_scores(
+        tokenize(normalized_query)
+    )
+
+    # max(): Finds the highest BM25 score for score normalization.
+    best_score = (
+        max(keyword_scores)
+        if len(keyword_scores)
+        else 0.0
+    )
+
+    # List: Stores the highest-ranked keyword retrieval results.
+    keyword_results = []
+
+    # heapq.nlargest(): Efficiently selects the 20 highest-scoring BM25 chunks.
+    ranked_indices = heapq.nlargest(
+        20,
+        range(len(keyword_scores)),
+        key=lambda index: keyword_scores[index],
+    )
+
+    # Iterate through the selected BM25 document indices.
+    for index in ranked_indices:
+
+        # Retrieve the original chunk and its extracted text.
+        chunk = _chunks[index]
+        text = _chunk_texts[index]
+
+        # Skip chunks without readable content.
+        if not text.strip():
+            continue
+
+        # Extract standardized metadata from the chunk.
+        metadata = get_metadata(chunk)
+
+        # float(): Converts the BM25 score into a floating-point value.
+        raw_score = float(
+            keyword_scores[index]
+        )
+
+        # Score normalization: Scales BM25 scores relative to the best score.
+        normalized_score = (
+            raw_score / best_score
+            if best_score > 0
+            else 0.0
+        )
+
+        # Create a consistent result dictionary.
+        result = make_result(
+            text,
+            metadata,
+            normalized_score
+        )
+
+        # Apply AKGEC-specific keyword boosting.
+        result["score"] = apply_keyword_boost(
+            query,
+            result
+        )
+
+        # Add the result to the keyword retrieval list.
+        keyword_results.append(result)
+
+    # Tuple: Returns both retrieval result lists and query versions.
+    return (
+        vector_results,
+        keyword_results,
+        original_query,
+        normalized_query
+    )
+
+
+# combine_results(): Merges vector and BM25 results and removes duplicate chunks.
+def combine_results(
+    vector_results,
+    keyword_results,
+    top_k=8
+):
+
+    # Dictionary: Stores unique chunks using source, page and text as keys.
+    combined = {}
+
+    # List concatenation: Processes vector and keyword results together.
+    for result in vector_results + keyword_results:
+
+        # Tuple: Creates a unique identity for each retrieved chunk.
+        key = (
+            result.get("source", ""),
+            result.get("page"),
+            result.get("text", ""),
+        )
+
+        # Deduplication: Adds a document only if it has not appeared before.
+        if key not in combined:
+
+            # copy(): Creates a shallow copy of the result dictionary.
+            combined[key] = result.copy()
+
+        # Score comparison: Keeps the higher score for duplicate chunks.
+        elif (
+            result.get("score", 0.0)
+            > combined[key].get("score", 0.0)
+        ):
+            combined[key]["score"] = result["score"]
+
+    # values(): Returns all unique document results.
+    # Note: top_k is retained for compatibility but is not applied here.
+    return list(combined.values())
+
+
+# rerank(): Reorders retrieved chunks using domain-specific relevance rules.
+def rerank(query, results):
+
+    # Normalize the question for consistent keyword checks.
+    normalized_query = normalize_query(query)
+
+    # Lowercase conversion: Enables case-insensitive matching.
+    query_lower = query.lower()
+
+    # Process every retrieved document to calculate a reranking score.
+    for result in results:
+
+        # Extract lowercase document text for keyword matching.
+        text = result.get(
+            "text",
+            ""
+        ).lower()
+
+        # Start reranking with the existing retrieval score.
+        score = float(
+            result.get("score", 0.0)
+        )
+
+        # CSE-specific boosting: Prioritizes Computer Science course information.
+        if (
+            "cse" in query_lower
+            or "computer science" in query_lower
+        ):
+
+            if "computer science and engineering" in text:
+                score += 8.0
+
+            if "b.tech" in text or "btech" in text:
+                score += 2.0
+
+            if "sanctioned intake" in text or "intake" in text:
+                score += 5.0
+
+        # Placement-specific reranking: Prioritizes relevant placement documents.
+        if "placement" in normalized_query:
+
+            # Penalize irrelevant placement navigation instructions.
+            if (
+                "steps to follow" in text
+                and "our placement" not in text
+            ):
+                score -= 100.0
+
+            # Reward official placement information.
+            if "our placement" in text:
+                score += 10.0
+
+            if "placement cell" in text:
+                score += 5.0
+
+            # Reward documents containing placement statistics or records.
+            if any(
+                term in text
+                for term in [
+                    "placement statistics",
+                    "placement & higher studies",
+                    "placement and higher studies",
+                    "students placed",
+                    "highest package",
+                    "average package",
+                    "companies visited",
+                    "placement record",
+                ]
+            ):
+                score += 3.0
+
+        # Store the final relevance score after reranking.
+        result["rerank_score"] = score
+
+    # sort(): Orders documents from highest to lowest reranking score.
+    results.sort(
+        key=lambda item: item.get(
+            "rerank_score",
+            -1000.0
+        ),
+        reverse=True,
+    )
+
+    # List slicing: Returns only the top eight ranked document chunks.
+    return results[:8]
+
+
+# __name__ == "__main__": Executes the test code only when run directly.
+if __name__ == "__main__":
+
+    # try-except: Handles retrieval errors during terminal testing.
+    try:
+
+        # input(): Accepts a question from the terminal.
+        # strip(): Removes unnecessary whitespace.
+        query = input(
+            "Enter your question: "
+        ).strip()
+
+        # Input validation: Prevents searching with an empty question.
+        if not query:
+            print("Please enter a question.")
+
+            # SystemExit: Stops the program with the specified exit status.
+            raise SystemExit(0)
+
+        # Execute semantic and keyword retrieval.
+        (
+            vector_results,
+            keyword_results,
+            original_query,
+            normalized_query
+        ) = search(query)
+
+        # Merge results and remove duplicate chunks.
+        results = combine_results(
+            vector_results,
+            keyword_results
+        )
+
+        # Apply final domain-specific reranking.
+        results = rerank(
+            query,
+            results
+        )
+
+        # Display the original question.
+        print("\nORIGINAL QUERY")
+        print(original_query)
+
+        # Display the normalized question.
+        print("\nNORMALIZED QUERY")
+        print(normalized_query)
+
+        # Display the final ranked retrieval results.
+        print("\nRERANKED HYBRID RETRIEVAL RESULTS")
+
+        # enumerate(): Numbers results starting from 1.
+        for index, result in enumerate(
+            results,
+            start=1
+        ):
+
+            # Print the result number and relevance score.
+            print(f"\n--- Result {index} ---")
+
+            # round(): Limits the displayed score to four decimal places.
+            print(
+                "Rerank Score:",
+                round(
+                    result.get("rerank_score", 0.0),
+                    4
+                )
+            )
+
+            # Display source information and retrieved text.
+            print(
+                "Source:",
+                result.get("source", "")
+            )
+
+            print(
+                "Page:",
+                result.get("page")
+            )
+
+            print(
+                "Type:",
+                result.get("type", "webpage")
+            )
+
+            # String slicing: Displays only the first 1200 text characters.
+            print(
+                "Text:",
+                result.get("text", "")[:1200]
+            )
+
+    # Exception: Catches unexpected errors during retriever testing.
+    except Exception as error:
+
+        # f-string: Displays the error message with variable interpolation.
+        print(
+            f"\nRetriever error: {error}"
+        )
+
+
+
+
+
+
+
+
+
+
+
+========APP.PY=======
+
+
+"""
+Hybrid Retrieval: Combines semantic vector search and BM25 keyword search
+to retrieve relevant AKGEC documents for the RAG chatbot.
+"""
+
+# heapq: Efficiently selects the highest-scoring results without fully sorting all scores.
+import heapq
+
+# json: Reads and processes structured JSON document data.
+import json
+
+# re: Provides regular expressions for text cleaning and tokenization.
+import re
+
+# pathlib.Path: Handles project file and folder paths across operating systems.
+from pathlib import Path
+
+# ChromaDB: Vector database used to store and search document embeddings.
+import chromadb
+
+# BM25Okapi: Keyword-ranking algorithm based on term frequency and document length.
+from rank_bm25 import BM25Okapi
+
+# SentenceTransformer: Converts text into numerical vectors called embeddings.
+from sentence_transformers import SentenceTransformer
+
+
+# __file__: Represents the current Python file location.
+# resolve(): Converts a file path into its absolute path.
+# parent: Accesses the parent directory of a file or folder.
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+# CHUNKS_FILE: Stores the smaller text chunks used for retrieval.
+CHUNKS_FILE = BASE_DIR / "data" / "rag_chunks.json"
+
+# CHROMA_DIR: Directory containing the persistent ChromaDB vector database.
+CHROMA_DIR = BASE_DIR / "data" / "chroma_db"
+
+# Collection: A named group of documents and embeddings inside ChromaDB.
+COLLECTION_NAME = "akgec_documents"
+
+# all-MiniLM-L6-v2: Pretrained sentence embedding model for semantic similarity.
+EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
+
+
+# Caching: Reuses loaded resources instead of initializing them for every question.
+_model = None
+_collection = None
+_chunks = None
+_bm25 = None
+_chunk_texts = None
+
+
+# normalize_query(): Standardizes question wording to improve retrieval consistency.
+def normalize_query(query):
+
+    # str(): Converts the input into a string.
+    # lower(): Converts text to lowercase.
+    # strip(): Removes leading and trailing whitespace.
+    query = str(query).lower().strip()
+
+    # Dictionary: Maps different query expressions to standardized terms.
+    replacements = {
+        "b.tech": "btech",
+        "b-tech": "btech",
+        "b tech": "btech",
+        "how much": "fee",
+        "fees": "fee",
+        "kitni hai": "fee",
+        "kitna hai": "fee",
+        "kitne hai": "fee",
+    }
+
+    # items(): Returns key-value pairs from a dictionary.
+    for old, new in replacements.items():
+
+        # replace(): Substitutes matching text with standardized wording.
+        query = query.replace(old, new)
+
+    # re.sub(): Replaces repeated whitespace with a single space.
+    return re.sub(r"\s+", " ", query).strip()
+
+
+# tokenize(): Splits text into lowercase alphanumeric tokens for BM25 indexing.
+def tokenize(text):
+
+    # re.findall(): Extracts all substrings matching a regular expression.
+    return re.findall(
+        r"[a-zA-Z0-9]+",
+        str(text).lower()
+    )
+
+
+# get_text(): Extracts chunk content from different supported dictionary fields.
+def get_text(item):
+
+    # dict.get(): Safely retrieves a dictionary value without raising KeyError.
+    return str(
+        item.get("text")
+        or item.get("content")
+        or item.get("page_content")
+        or ""
+    )
+
+
+# get_source(): Extracts a source URL or filename from document metadata.
+def get_source(item):
+
+    # Fallback lookup: Uses the first available source-related field.
+    return (
+        item.get("source")
+        or item.get("source_url")
+        or item.get("url")
+        or item.get("filename")
+        or ""
+    )
+
+
+# get_metadata(): Standardizes source, page and document-type metadata.
+def get_metadata(item):
+
+    # Metadata: Additional information describing a document or chunk.
+    metadata = item.get("metadata", {})
+
+    # isinstance(): Checks whether a variable belongs to a specific data type.
+    if not isinstance(metadata, dict):
+        metadata = {}
+
+    # Dictionary: Returns metadata in a consistent structure.
+    return {
+        "source": str(
+            metadata.get("source")
+            or item.get("source")
+            or item.get("source_url")
+            or item.get("url")
+            or item.get("filename")
+            or ""
+        ),
+        "page": metadata.get(
+            "page",
+            item.get("page")
+        ),
+        "type": str(
+            metadata.get("type")
+            or item.get("type")
+            or "webpage"
+        ),
+    }
+
+
+# load_resources(): Initializes chunks, embeddings, ChromaDB and BM25 only once.
+def load_resources():
+
+    # global: Allows a function to update variables defined at module level.
+    global _model, _collection, _chunks, _bm25, _chunk_texts
+
+    # Lazy loading: Skips initialization when resources are already loaded.
+    if _collection is not None:
+        return
+
+    # exists(): Checks whether a file or directory is present.
+    if not CHUNKS_FILE.exists():
+
+        # FileNotFoundError: Reports that a required data file is missing.
+        raise FileNotFoundError(
+            f"Chunks file not found: {CHUNKS_FILE}"
+        )
+
+    # open(): Opens a file; with ensures the file is closed automatically.
+    with open(
+        CHUNKS_FILE,
+        "r",
+        encoding="utf-8"
+    ) as file:
+
+        # json.load(): Converts JSON file content into Python objects.
+        _chunks = json.load(file)
+
+    # Handle JSON data stored as a dictionary containing a chunks list.
+    if isinstance(_chunks, dict):
+        _chunks = _chunks.get("chunks", [])
+
+    # ValueError: Reports invalid or empty chunk data.
+    if not _chunks:
+        raise ValueError(
+            "rag_chunks.json contains no chunks."
+        )
+
+    # List comprehension: Extracts text from every document chunk.
+    _chunk_texts = [
+        get_text(chunk)
+        for chunk in _chunks
+    ]
+
+    # any(): Returns True when at least one item satisfies a condition.
+    if not any(text.strip() for text in _chunk_texts):
+        raise ValueError(
+            "No readable text found in the chunks."
+        )
+
+    # SentenceTransformer(): Loads the pretrained embedding model.
+    _model = SentenceTransformer(
+        EMBEDDING_MODEL
+    )
+
+    # PersistentClient(): Opens ChromaDB with storage saved on disk.
+    client = chromadb.PersistentClient(
+        path=str(CHROMA_DIR)
+    )
+
+    # get_collection(): Opens an existing named ChromaDB collection.
+    _collection = client.get_collection(
+        name=COLLECTION_NAME
+    )
+
+    # BM25 indexing: Tokenizes all chunks for keyword-based document ranking.
+    _bm25 = BM25Okapi(
+        [
+            tokenize(text) or ["empty"]
+            for text in _chunk_texts
+        ]
+    )
+
+
+# make_result(): Creates a consistent dictionary for retrieved documents.
+def make_result(text, metadata, score):
+
+    # float(): Converts the retrieval score into a floating-point number.
+    return {
+        "text": text,
+        "source": metadata.get("source", ""),
+        "page": metadata.get("page"),
+        "type": metadata.get("type", "webpage"),
+        "score": float(score),
+    }
+
+
+# apply_keyword_boost(): Adjusts relevance scores using AKGEC-specific keywords.
+def apply_keyword_boost(query, result):
+
+    # lower(): Enables case-insensitive text matching.
+    text = result["text"].lower()
+
+    # Query normalization: Standardizes the question before keyword matching.
+    query = normalize_query(query)
+
+    # Base score: Starts with the existing document relevance score.
+    score = result.get("score", 0.0)
+
+    # Placement-specific filtering: Penalizes irrelevant navigation instructions.
+    if "placement" in query:
+
+        if (
+            "steps to follow" in text
+            and "our placement" not in text
+        ):
+            return -1000.0
+
+        # Domain-specific terms: Identify actual placement-related information.
+        placement_terms = [
+            "our placement",
+            "placement cell",
+            "placement statistics",
+            "placement & higher studies",
+            "placement and higher studies",
+            "students placed",
+            "highest package",
+            "average package",
+            "companies visited",
+            "placement record",
+        ]
+
+        # Score boosting: Rewards documents containing highly relevant terms.
+        if "our placement" in text:
+            score += 10.0
+
+        if "placement cell" in text:
+            score += 5.0
+
+        # any(): Checks whether at least one placement term is present.
+        if any(
+            term in text
+            for term in placement_terms
+        ):
+            score += 3.0
+
+        # Score penalty: Reduces the ranking of unrelated fee information.
+        if (
+            "career planning & placement (one time)" in text
+            and "our placement" not in text
+        ):
+            score -= 5.0
+
+    # Fee-specific boosting: Prefers documents containing fee-related terms.
+    if "fee" in query:
+        if "fee" in text or "tuition" in text:
+            score += 2.0
+
+    # Intake-specific boosting: Prefers course and sanctioned-intake documents.
+    if any(
+        term in query
+        for term in ["seat", "intake"]
+    ):
+        if (
+            "sanctioned intake" in text
+            or "courses offered" in text
+        ):
+            score += 3.0
+
+    # Return the adjusted relevance score.
+    return score
+
+
+# search(): Performs hybrid retrieval using ChromaDB and BM25.
+def search(query, top_k=5):
+
+    # Load cached retrieval resources before searching.
+    load_resources()
+
+    # Original query: Preserves the exact user question.
+    original_query = query
+
+    # Normalized query: Standardizes text before retrieval.
+    normalized_query = normalize_query(query)
+
+    # encode(): Converts the question into a numerical embedding vector.
+    # tolist(): Converts the embedding into a regular Python list.
+    query_embedding = _model.encode(
+        normalized_query
+    ).tolist()
+
+    # Vector similarity search: Finds semantically related document chunks.
+    vector_data = _collection.query(
+        query_embeddings=[query_embedding],
+        n_results=min(
+            20,
+            _collection.count()
+        ),
+        include=[
+            "documents",
+            "metadatas",
+            "distances"
+        ],
+    )
+
+    # List: Stores documents retrieved through vector similarity.
+    vector_results = []
+
+    # Extract documents, metadata and distances from the ChromaDB response.
+    documents = vector_data.get(
+        "documents",
+        [[]]
+    )[0]
+
+    metadatas = vector_data.get(
+        "metadatas",
+        [[]]
+    )[0]
+
+    distances = vector_data.get(
+        "distances",
+        [[]]
+    )[0]
+
+    # zip(): Iterates through multiple sequences together.
+    for text, metadata, distance in zip(
+        documents,
+        metadatas,
+        distances
+    ):
+
+        # Handle missing document metadata.
+        metadata = metadata or {}
+
+        # Distance-to-score conversion: Converts smaller distances into higher scores.
+        result = make_result(
+            text,
+            metadata,
+            1.0 / (
+                1.0 + max(
+                    float(distance),
+                    0.0
+                )
+            ),
+        )
+
+        # Domain-specific boosting: Adjusts the vector retrieval score.
+        result["score"] = apply_keyword_boost(
+            query,
+            result
+        )
+
+        # append(): Adds the document to vector search results.
+        vector_results.append(result)
+
+    # BM25 scoring: Calculates keyword relevance for every indexed chunk.
+    keyword_scores = _bm25.get_scores(
+        tokenize(normalized_query)
+    )
+
+    # max(): Finds the highest BM25 score for score normalization.
+    best_score = (
+        max(keyword_scores)
+        if len(keyword_scores)
+        else 0.0
+    )
+
+    # List: Stores the highest-ranked keyword retrieval results.
+    keyword_results = []
+
+    # heapq.nlargest(): Efficiently selects the 20 highest-scoring BM25 chunks.
+    ranked_indices = heapq.nlargest(
+        20,
+        range(len(keyword_scores)),
+        key=lambda index: keyword_scores[index],
+    )
+
+    # Iterate through the selected BM25 document indices.
+    for index in ranked_indices:
+
+        # Retrieve the original chunk and its extracted text.
+        chunk = _chunks[index]
+        text = _chunk_texts[index]
+
+        # Skip chunks without readable content.
+        if not text.strip():
+            continue
+
+        # Extract standardized metadata from the chunk.
+        metadata = get_metadata(chunk)
+
+        # float(): Converts the BM25 score into a floating-point value.
+        raw_score = float(
+            keyword_scores[index]
+        )
+
+        # Score normalization: Scales BM25 scores relative to the best score.
+        normalized_score = (
+            raw_score / best_score
+            if best_score > 0
+            else 0.0
+        )
+
+        # Create a consistent result dictionary.
+        result = make_result(
+            text,
+            metadata,
+            normalized_score
+        )
+
+        # Apply AKGEC-specific keyword boosting.
+        result["score"] = apply_keyword_boost(
+            query,
+            result
+        )
+
+        # Add the result to the keyword retrieval list.
+        keyword_results.append(result)
+
+    # Tuple: Returns both retrieval result lists and query versions.
+    return (
+        vector_results,
+        keyword_results,
+        original_query,
+        normalized_query
+    )
+
+
+# combine_results(): Merges vector and BM25 results and removes duplicate chunks.
+def combine_results(
+    vector_results,
+    keyword_results,
+    top_k=8
+):
+
+    # Dictionary: Stores unique chunks using source, page and text as keys.
+    combined = {}
+
+    # List concatenation: Processes vector and keyword results together.
+    for result in vector_results + keyword_results:
+
+        # Tuple: Creates a unique identity for each retrieved chunk.
+        key = (
+            result.get("source", ""),
+            result.get("page"),
+            result.get("text", ""),
+        )
+
+        # Deduplication: Adds a document only if it has not appeared before.
+        if key not in combined:
+
+            # copy(): Creates a shallow copy of the result dictionary.
+            combined[key] = result.copy()
+
+        # Score comparison: Keeps the higher score for duplicate chunks.
+        elif (
+            result.get("score", 0.0)
+            > combined[key].get("score", 0.0)
+        ):
+            combined[key]["score"] = result["score"]
+
+    # values(): Returns all unique document results.
+    # Note: top_k is retained for compatibility but is not applied here.
+    return list(combined.values())
+
+
+# rerank(): Reorders retrieved chunks using domain-specific relevance rules.
+def rerank(query, results):
+
+    # Normalize the question for consistent keyword checks.
+    normalized_query = normalize_query(query)
+
+    # Lowercase conversion: Enables case-insensitive matching.
+    query_lower = query.lower()
+
+    # Process every retrieved document to calculate a reranking score.
+    for result in results:
+
+        # Extract lowercase document text for keyword matching.
+        text = result.get(
+            "text",
+            ""
+        ).lower()
+
+        # Start reranking with the existing retrieval score.
+        score = float(
+            result.get("score", 0.0)
+        )
+
+        # CSE-specific boosting: Prioritizes Computer Science course information.
+        if (
+            "cse" in query_lower
+            or "computer science" in query_lower
+        ):
+
+            if "computer science and engineering" in text:
+                score += 8.0
+
+            if "b.tech" in text or "btech" in text:
+                score += 2.0
+
+            if "sanctioned intake" in text or "intake" in text:
+                score += 5.0
+
+        # Placement-specific reranking: Prioritizes relevant placement documents.
+        if "placement" in normalized_query:
+
+            # Penalize irrelevant placement navigation instructions.
+            if (
+                "steps to follow" in text
+                and "our placement" not in text
+            ):
+                score -= 100.0
+
+            # Reward official placement information.
+            if "our placement" in text:
+                score += 10.0
+
+            if "placement cell" in text:
+                score += 5.0
+
+            # Reward documents containing placement statistics or records.
+            if any(
+                term in text
+                for term in [
+                    "placement statistics",
+                    "placement & higher studies",
+                    "placement and higher studies",
+                    "students placed",
+                    "highest package",
+                    "average package",
+                    "companies visited",
+                    "placement record",
+                ]
+            ):
+                score += 3.0
+
+        # Store the final relevance score after reranking.
+        result["rerank_score"] = score
+
+    # sort(): Orders documents from highest to lowest reranking score.
+    results.sort(
+        key=lambda item: item.get(
+            "rerank_score",
+            -1000.0
+        ),
+        reverse=True,
+    )
+
+    # List slicing: Returns only the top eight ranked document chunks.
+    return results[:8]
+
+
+# __name__ == "__main__": Executes the test code only when run directly.
+if __name__ == "__main__":
+
+    # try-except: Handles retrieval errors during terminal testing.
+    try:
+
+        # input(): Accepts a question from the terminal.
+        # strip(): Removes unnecessary whitespace.
+        query = input(
+            "Enter your question: "
+        ).strip()
+
+        # Input validation: Prevents searching with an empty question.
+        if not query:
+            print("Please enter a question.")
+
+            # SystemExit: Stops the program with the specified exit status.
+            raise SystemExit(0)
+
+        # Execute semantic and keyword retrieval.
+        (
+            vector_results,
+            keyword_results,
+            original_query,
+            normalized_query
+        ) = search(query)
+
+        # Merge results and remove duplicate chunks.
+        results = combine_results(
+            vector_results,
+            keyword_results
+        )
+
+        # Apply final domain-specific reranking.
+        results = rerank(
+            query,
+            results
+        )
+
+        # Display the original question.
+        print("\nORIGINAL QUERY")
+        print(original_query)
+
+        # Display the normalized question.
+        print("\nNORMALIZED QUERY")
+        print(normalized_query)
+
+        # Display the final ranked retrieval results.
+        print("\nRERANKED HYBRID RETRIEVAL RESULTS")
+
+        # enumerate(): Numbers results starting from 1.
+        for index, result in enumerate(
+            results,
+            start=1
+        ):
+
+            # Print the result number and relevance score.
+            print(f"\n--- Result {index} ---")
+
+            # round(): Limits the displayed score to four decimal places.
+            print(
+                "Rerank Score:",
+                round(
+                    result.get("rerank_score", 0.0),
+                    4
+                )
+            )
+
+            # Display source information and retrieved text.
+            print(
+                "Source:",
+                result.get("source", "")
+            )
+
+            print(
+                "Page:",
+                result.get("page")
+            )
+
+            print(
+                "Type:",
+                result.get("type", "webpage")
+            )
+
+            # String slicing: Displays only the first 1200 text characters.
+            print(
+                "Text:",
+                result.get("text", "")[:1200]
+            )
+
+    # Exception: Catches unexpected errors during retriever testing.
+    except Exception as error:
+
+        # f-string: Displays the error message with variable interpolation.
+        print(
+            f"\nRetriever error: {error}"
+        )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=======MAIN.PY=======
+
+
+
+
+# search(): Retrieves relevant AKGEC documents using vector and keyword search.
+# combine_results(): Merges results from both retrieval methods.
+# rerank(): Reorders documents according to their relevance to the question.
+from rag.retriever import search, combine_results, rerank
+
+# generate_answer(): Uses Gemini API to generate an answer from retrieved context.
+from llm.gemini import generate_answer
+
+# verify_answer(): Checks the generated answer against retrieved evidence.
+from verifier.answer_verifier import verify_answer
+
+
+# Dictionary: Stores key-value pairs to map PDF filenames to official website URLs.
+PDF_SOURCE_URLS = {
+    "B-Tech-Ist-Year-2026-27_0001.pdf":
+        "https://www.akgec.ac.in/fee-structure-for-new-students2026-27",
+
+    "BTech1Yr.pdf":
+        "https://www.akgec.ac.in/fee-structure-for-new-students2026-27",
+
+    "B-Tech-Ist-Year-FW-2026-27_0001.pdf":
+        "https://www.akgec.ac.in/fee-structure-for-new-students2026-27",
+
+    "HOSTEL-FEE-2026-27_0001-1.pdf":
+        "https://www.akgec.ac.in/hostel/",
+}
+
+
+# build_context(): Converts retrieved documents into structured context for Gemini.
+def build_context(results):
+
+    # List: Stores individual document context sections.
+    context_parts = []
+
+    # enumerate(): Provides both index numbers and retrieved documents.
+    for index, result in enumerate(results, start=1):
+
+        # dict.get(): Safely retrieves a value without raising KeyError.
+        source = result.get("source", "")
+
+        # Page number: Identifies the PDF page containing retrieved information.
+        page = result.get("page")
+
+        # Source type: Identifies whether the document is a PDF or webpage.
+        source_type = result.get("type", "")
+
+        # Dictionary lookup: Maps local PDF filenames to official AKGEC URLs.
+        official_url = PDF_SOURCE_URLS.get(
+            source,
+            source
+        )
+
+        # append(): Adds a formatted document section to the context list.
+        context_parts.append(
+            f"""
+SOURCE {index}
+SOURCE FILE: {source}
+PAGE: {page}
+TYPE: {source_type}
+OFFICIAL URL: {official_url}
+
+CONTENT:
+{result["text"]}
+"""
+        )
+
+    # join(): Combines all retrieved sections into one context string.
+    return "\n".join(context_parts)
+
+
+# build_citations(): Creates official source references for the generated answer.
+def build_citations(results):
+
+    # List: Stores structured citations for display.
+    citations = []
+
+    # Set: Stores unique URLs to prevent duplicate citations.
+    seen_urls = set()
+
+    # Citation priority: Prefer a retrieved PDF with a mapped official URL.
+    for result in results:
+
+        # Extract the document's source filename or URL.
+        source = result.get("source", "")
+
+        # Extract the source page number if available.
+        page = result.get("page")
+
+        # Identify the type of retrieved document.
+        source_type = result.get("type", "")
+
+        # endswith(): Checks whether a filename has a specific suffix.
+        if source.endswith("_ocr.json"):
+            continue
+
+        # Filter: Skip documents that are not PDF sources.
+        if source_type != "pdf":
+            continue
+
+        # Map PDF filename to its official AKGEC webpage.
+        official_url = PDF_SOURCE_URLS.get(
+            source,
+            source
+        )
+
+        # startswith(): Checks whether the URL begins with HTTP.
+        if not official_url.startswith("http"):
+            continue
+
+        # Duplicate detection: Skip URLs already included in citations.
+        if official_url in seen_urls:
+            continue
+
+        # set.add(): Stores the URL to prevent future duplicates.
+        seen_urls.add(official_url)
+
+        # Dictionary: Stores citation metadata in structured form.
+        citations.append({
+            "source": source,
+            "page": page,
+            "type": source_type,
+            "url": official_url
+        })
+
+        # break: Stops after selecting the first valid PDF citation.
+        break
+
+    # Fallback: Use an official AKGEC webpage when no PDF citation is found.
+    if not citations:
+
+        # Iterate through retrieved documents to find an official webpage.
+        for result in results:
+
+            source = result.get("source", "")
+            source_type = result.get("type", "")
+
+            # Filter: Accept only documents identified as webpages.
+            if source_type != "webpage":
+                continue
+
+            # Domain validation: Restricts citations to the AKGEC domain string.
+            if "akgec.ac.in" not in source:
+                continue
+
+            # Skip previously selected source URLs.
+            if source in seen_urls:
+                continue
+
+            # Store the unique webpage URL.
+            seen_urls.add(source)
+
+            # Create a structured webpage citation.
+            citations.append({
+                "source": source,
+                "page": None,
+                "type": source_type,
+                "url": source
+            })
+
+            # Stop after selecting the first valid webpage citation.
+            break
+
+    # return: Sends the selected citations back to the calling function.
+    return citations
+
+
+# print_citations(): Displays source metadata and official reference URLs.
+def print_citations(citations):
+
+    # print(): Displays text in the terminal.
+    print("\nSOURCES / CITATIONS")
+
+    # Empty-list check: Handles cases where no official citation is available.
+    if not citations:
+        print("No official citation found.")
+        return
+
+    # enumerate(): Numbers citations starting from 1.
+    for index, citation in enumerate(
+        citations,
+        start=1
+    ):
+
+        # f-string: Inserts variable values into formatted text.
+        print(f"\n[{index}]")
+
+        # Display the original source filename or webpage URL.
+        print(
+            "Source:",
+            citation["source"]
+        )
+
+        # None check: Displays page number only when available.
+        if citation["page"] is not None:
+            print(
+                "Page:",
+                citation["page"]
+            )
+
+        # Display the document's source type.
+        print(
+            "Type:",
+            citation["type"]
+        )
+
+        # Display the mapped official AKGEC source URL.
+        print(
+            "Official URL:",
+            citation["url"]
+        )
+
+
+# main(): Controls the complete AKGEC RAG question-answering pipeline.
+def main():
+
+    # input(): Accepts a question from the user through the terminal.
+    # strip(): Removes unnecessary whitespace from the question.
+    question = input(
+        "Ask your AKGEC question: "
+    ).strip()
+
+    # Hybrid retrieval: Searches documents using vector and keyword methods.
+    (
+        vector_results,
+        keyword_results,
+        original_query,
+        normalized_query
+    ) = search(question)
+
+    # Result fusion: Combines semantic and keyword retrieval results.
+    results = combine_results(
+        vector_results,
+        keyword_results
+    )
+
+    # Reranking: Reorders retrieved documents by relevance to the query.
+    results = rerank(
+        question,
+        results
+    )
+
+    # Context building: Formats retrieved evidence for Gemini generation.
+    context = build_context(results)
+
+    # LLM inference: Generates a natural-language answer using Gemini.
+    answer = generate_answer(
+        question,
+        context
+    )
+
+    # Answer verification: Checks generated content against retrieved context.
+    verification = verify_answer(
+        answer,
+        context
+    )
+
+    # Source attribution: Selects official references from retrieved documents.
+    citations = build_citations(
+        results
+    )
+
+    # Original query: Displays the exact question entered by the user.
+    print("\nORIGINAL QUESTION")
+    print(original_query)
+
+    # Query normalization: Displays the processed version of the question.
+    print("\nNORMALIZED QUERY")
+    print(normalized_query)
+
+    # Final answer: Displays Gemini's generated response.
+    print("\nFINAL ANSWER")
+    print(answer)
+
+    # Citation display: Prints source files, page numbers and official URLs.
+    print_citations(
+        citations
+    )
+
+    # Verification result: Displays the output of the answer verifier.
+    print("\nVERIFICATION")
+    print(verification)
+
+    # Verification warning: Flags answers not fully verified by the checker.
+    if not verification["verified"]:
+        print(
+            "\nWARNING: Answer could not be fully verified "
+            "from the retrieved AKGEC data."
+        )
+
+
+# __name__ == "__main__": Runs main() only when this file is executed directly.
+if __name__ == "__main__":
+
+    # Start the complete RAG pipeline.
+    main()
