@@ -1,0 +1,49 @@
+{
+  "processed": 7,
+  "failed": 0,
+  "completed": [
+    {
+      "title": "NIRF DATA FOR RANKING 2026 - INNOVATION",
+      "output": "data\\fresh\\pdf_data\\185082b1da_Ajay-Kumar-Garg-Engineering-College20260227-.json",
+      "pages": 15,
+      "review_pages": 0
+    },
+    {
+      "title": "Year 2025-26",
+      "output": "data\\fresh\\pdf_data\\947cabdfd0_Year-2025-26.json",
+      "pages": 5,
+      "review_pages": 0
+    },
+    {
+      "title": "AKGEC User Manual",
+      "output": "data\\fresh\\pdf_data\\83e89c34dc_User-Manual-AKGEC_14.01.2026.json",
+      "pages": 23,
+      "review_pages": 2
+    },
+    {
+      "title": "Programs for Advanced and Slow Learners",
+      "output": "data\\fresh\\pdf_data\\5e2b1b6cb7_2.2.1_2023-24.json",
+      "pages": 80,
+      "review_pages": 2
+    },
+    {
+      "title": "Experiential Learning",
+      "output": "data\\fresh\\pdf_data\\63030d1e91_2.3.1_2023-24.json",
+      "pages": 25,
+      "review_pages": 0
+    },
+    {
+      "title": "Mechanism of internal assessment",
+      "output": "data\\fresh\\pdf_data\\e62e98936a_2.5.1_2023-24.json",
+      "pages": 47,
+      "review_pages": 0
+    },
+    {
+      "title": "Mechanism to deal with internal examination related grievances",
+      "output": "data\\fresh\\pdf_data\\e2c19f049e_2.5.2_2023-24.json",
+      "pages": 14,
+      "review_pages": 0
+    }
+  ],
+  "failures": []
+}

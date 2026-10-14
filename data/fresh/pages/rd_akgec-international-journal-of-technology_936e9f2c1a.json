@@ -1,0 +1,1294 @@
+{
+  "title": "AKGEC International Journal of Technology - AJAY KUMAR GARG ENGINEERING COLLEGE",
+  "url": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology/",
+  "section": "COLLEGE PUBLICATIONS",
+  "blocks": [
+    {
+      "type": "heading",
+      "tag": "h1",
+      "text": "AKGEC International Journal of Technology"
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "About"
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "Patron-in-Chief"
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "Editorial Board"
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "Aim and Scope"
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "Call for Manuscripts"
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "Payment & Subscription"
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "Archives"
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "Contact"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "The AKGEC International Journal of Technology, a bi-annual journal, was first published in 2010."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "AKGEC Journal of Technology publishes papers from diverse fields of engineering, technology and science application and has a rather diverse oriented Editorial Board in an attempt to strengthen the collaboration of scientists and researchers of different backgrounds, which can prove valuable in their specific areas and in promoting research in general."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "AKGEC International Journal of Technology is a peer-reviewed, wide scope international journal comprising various diverse aspects of science application, technology and engineering. The main aim is to provide a platform to scientists, researchers and engineers from both academia and industry, that wish to publish recent developments and applications in their field."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "A standard research article published in AKGEC Journal of Technology consists of six pages. Further, colour figures and pictures are accepted providing that they are of good quality."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "AKGEC Journal of Technology will also consider for publication review articles, tutorials perspectives and correspondence concerning views and information about papers published in previous issues."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "AKGEC Journal of Technology is oriented towards publishing articles that communicate advances, interesting implementations and parts of on-going research in fields of interest."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "AKGEC Journal of Technology is an open access, which means that all articles are available on the internet to all users immediately upon publication"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Instruction to Authors / Author Guidelines: Authors can format their paper as per the IEEE template available at Template Submission Details: Email your manuscript to this email-id: [email protected]"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Publication Ethics: Originality of the manuscript submitted is the author’s responsibility and authors must avoid duplicate submission (simultaneous submission to multiple journals), plagiarism, and self-plagiarism. Manuscripts that are proven to be duplicate submissions will be rejected immediately and future work by the authors will not be considered by the journal."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "All manuscript submissions will be screened using iThenticate/Turnitin, a plagiarism screening tool that verifies the originality of content submitted and highlights overlap with previously published text. During the submission process authors will be asked to answer a question to confirm the manuscript does not contact excessive overlap with previously published work. Authors are encouraged to use iThenticate (www.ithenticate.com) or a similar tool to screen their own work before submission."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Large Language Models (LLMs), such as ChatGPT, do not currently satisfy the journal’s authorship criteria. Notably, an attribution of authorship carries with it accountability for the work, which cannot be effectively applied to LLMs. Use of an LLM should be properly documented in the Methods section and if a Methods section is not available, in a suitable alternate part of the manuscript."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Review Policy: This journal follows a single anonymized review process. Your submission will initially be assessed by our editors to determine suitability for publication in this journal. If your submission is deemed suitable, it will typically be sent to a minimum of one reviewer for an independent expert assessment of the scientific quality. The decision as to whether your article is accepted or rejected will be taken by our editors."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Read more about peer review: Our editors are not involved in making decisions about papers which:"
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "they have written themselves. have been written by family members or colleagues."
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "relate to products or services in which they have an interest."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Any such submissions will be subject to the journal's usual procedures and peer review will be handled independently of the editor involved and their research group. Read more about editor duties."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Authors may submit a formal appeal request to the editorial decision, provided it meets all the requirements and follows the procedure outlined in Journal Appeal Policy. Only one appeal per submission will be considered and the appeal decision will be final."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Plagiarism Policy: The journal is strictly against any unethical act of copying or plagiarism in any form. Plagiarism is said to have occurred when large portions of a manuscript have been copied from existing previously published resources."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Manuscripts found to be plagiarized during the stages of review are out-rightly rejected and not considered for publication in the journal."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Reuse of words must be kept to a minimum, credited, or quoted in the text, and all sources must be cited when they are used. The journal uses the Similarity Check service provided by Turnitin to provide editors with a user-friendly tool to help detect plagiarism. It does this by comparing manuscripts with both a web repository and the CrossRef database. A text similarity below 20% is acceptable by the journal."
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "JOURNAL PARTICULARS"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "Title | AKGEC International Journal of Technology\nStarting Year | 2010\nFrequency | 2\nISSN | 0975-9514(Print)\nPublisher | Ajay Kumar Garg Engineering College, Ghaziabad, Uttar Pradesh, India\nChief Editor | Dr. Rajesh Prasad\nCopyright | Ajay Kumar Garg Engineering College, Ghaziabad, Uttar Pradesh, India\nPublication URL | https://www.akgec.ac.in/rd/akgec-international-journal-of-technology/\nLanguage | English\nPublication Format | Online\nPhone No. | +919667896459\nEmail ID | [email protected]\nMobile No. | +919667896459\nAddress | 27th KM Milestone, Delhi – Meerut Expy, Ghaziabad, Uttar Pradesh, Pin Code: 201015"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "Dr. Hemant Ahuja"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "Dr. Hemant Ahuja is the Director of Ajay Kumar Garg Engineering College (AKGEC), Ghaziabad. He holds a B.Tech. in Electrical Engineering, an M.Tech. in Energy and Environmental Management from IIT Delhi, where he was a Gold Medalist, and a Ph.D. from IIT Delhi. With extensive experience in academia, research, innovation, and engineering education leadership, he has been actively contributing to academic excellence, institutional development, and the promotion of research and innovation."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "It gives me immense pleasure to extend my greetings to the readers, authors, reviewers, academicians, researchers, industry professionals, and students associated with the AKGEC International Journal of Technology (AKGIJT) ."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "In an era characterised by rapid technological advancement and complex global challenges, research, innovation, and knowledge creation have become essential drivers of progress. The effective generation, dissemination, and application of knowledge are vital for addressing emerging societal needs and advancing sustainable development. As institutions of higher learning, we have a responsibility to foster a culture of inquiry, creativity, innovation, and academic excellence, enabling our students and researchers to make meaningful contributions to science, technology, and society."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "The AKGEC International Journal of Technology (AKGIJT) seeks to provide a credible scholarly platform for the dissemination of high-quality research in engineering, technology, applied sciences, and interdisciplinary areas. The journal aims to encourage intellectual exchange, stimulate meaningful academic discussions, facilitate research collaboration, and provide a forum for sharing innovative ideas and solutions to contemporary challenges."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "At AKGEC, we strongly believe that the impact of research extends well beyond the academic domain. Research and innovation should contribute meaningfully to industry, society, and the wider knowledge ecosystem . Through AKGIJT, we aspire to encourage researchers—both emerging and established—to share their findings, innovations, and insights, thereby contributing to the advancement of knowledge and the development of transformative technologies."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "I commend the Editorial Board, reviewers, authors, and all other contributors for their valuable efforts in maintaining the quality and integrity of the journal. Their dedication and commitment are instrumental in strengthening the credibility of AKGIJT as a platform for the exchange of scientific and technological knowledge."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "I am confident that AKGIJT will continue to grow as a platform for research excellence, intellectual growth, innovation, and interdisciplinary collaboration. I invite academicians, researchers, and professionals from India and across the world to contribute their knowledge, expertise, and insights to the journal and join us in advancing the frontiers of research and innovation."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Dr. Hemant Ahuja Director & Patron-in-Chief AKGEC International Journal of Technology Ajay Kumar Garg Engineering College, Ghaziabad"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Editorial Board Members: Computer Science & Engineering/ information Technology:"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Dr. Rajesh Prasad Department of Computer Science and Engineering, Ajay Kumar Garg Engineering College, Ghaziabad, UP, India-201009 Email: [email protected] Profile Link: https://www.akgec.ac.in/wp-content/uploads/2023/04/Dr.-Rajesh-Prasad.pdf"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Prof. (Dr.) Abhay Bansal Professor and Dean Bennett University Email: [email protected] Profile Link: https://www.bennett.edu.in/faculties/prof-dr-abhay-bansal/"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Dr. Raju Pal Gautam Buddha University, Greater Noida Email: [email protected] Profile Link: https://faculty.gbu.ac.in/profile.php?id=rvlp2iTWiT5mZBgsaatHPxrEFrtg-6l4_s1knBj7WC0"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Prof. Rama Shankar Yadav Professor Department of Computer Science & Engineering Motilal Nehru National Institute of Technology Allahabad, Prayagraj, India-211004 E-mail: [email protected] Telephone: 0532-2271355(O) 0532-2271667(R) 9451373879(M) Profile Link: https://mnnit.ac.in/profile/rsy"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Dr. Ranvijay Associate Professor Department of Computer Science & Engineering Motilal Nehru National Institute of Technology Allahabad, Prayagraj, India-211004 E-mail: [email protected] Telephone: 05322271368(O) 9695167607(M) Profile Link: https://www.mnnit.ac.in/profile/ranvijay Dr. Ranvijay"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Dr. Sarsij Tripathi Associate Professor Department of Computer Science & Engineering Motilal Nehru National Institute of Technology Allahabad, Prayagraj, India-211004 E-mail: [email protected] Profile Link: https://mnnit.ac.in/profile/sarsij SARSIJ TRIPATHI"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Prof. (Dr.) Divakar Yadav Professor Department/School: School of Computer and Information Science (SOCIS), IGNOU, NEW Delhi-110068 Email ID: [email protected] , [email protected] , [email protected] Office Address: Room No.121, Block-C, SOCIS, Academic Complex, IGNOU, Maidan Garhi, New Delhi – 110068 Profile Link: https://www.ignou.ac.in/viewFile/SOCIS/profile/DivakarYadav.pdf"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Dr. Vinish Kumar Professor and HEad Raj Kumar Goel Institute of Technology, Email: [email protected] Profile link: https://scholar.google.com/citations?user=yhd5xq8AAAAJ&hl=en&oi=ao"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Electronics and Communication Engineering/ Electrical Engineering:"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Dr. Omveer Singh Associate Professor Gautam Buddha University, Greater Noida Email: [email protected] Profile Link: https://faculty.gbu.ac.in/profile.php?id=qAuF1hl0WK4VSPJ13u-gwiMmWM0lltC0vu0nxUDRZ8c"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Prof. (Dr.) Priyanka Jain Professor Delhi Technical University, Delhi Email: [email protected] Profile Link: https://dtu.ac.in/modules/facilities/people/faculty/view.php?uname=priyankajain"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Prof. (Dr.) Neeta Pandey Professor Delhi Technical University ,Delhi Email: [email protected] Profile Link: https://www.dtu.ac.in/Web/Departments/Electronics/faculty/neetapandey.php"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Applied Science and Humanities"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Prof. (Dr.) Mangey Ram Professor (Research) & Dean (Research Collaborations) Graphic Era Deemed to be University, Dehradun, 248002, India Email: [email protected] Profile Link: https://geu.ac.in/about-us/distinguished-faculty/prof-dr-mangey-ram/"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Mechanical Engineering:"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Name: Dr. Dan Sathiaraj Department: Mechanical Engineering Designation: Associate Professor University: IIT Indore Email ID: [email protected] Area of Interest: High Entropy Alloys, Bulk nanostructured materials, Thermo-mechanical processing, microstructure and texture Google Scholar: https://scholar.google.com/citations?user=BspF8ZwAAAAJ&hl=en"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Name: Dr. Harish Kumar Department: Mechanical & Aerospace Engineering Designation: Associate Professor University: National Institute of Technology, Delhi Email ID: [email protected] Area of Interest: Additive manufacturing, Sensors and transducers, Measurement uncertainty, Advanced machining Google Scholar: https://scholar.google.com/citations?user=VgdCfhIAAAAJ&hl=en"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Name: Dr. Tameshwer Nath Department: Department of Mechatronics Engineering, Designation: Assistant Professor University: Indian Institute of Information Technology Bhagalpur Sabour, Bhagalpur-813210 Email ID: [email protected] Area of Interest: Smart Material, Control of structures, MEMS, Mechatronics Google Scholar: https://scholar.google.com/citations?user=ChZpZpgAAAAJ&hl=en"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Name: Dr. Mohit Tayagi Department: Production and Industrial Engineering Designation: Associate Professor University: Punjab Engineering College, (Deemed to be University), Chandigarh Email ID: [email protected] Area of Interest: Industrial Engineering, Supply Chain Performance System, Decision Science, System Optimization CSR Google Scholar: https://scholar.google.com/citations?user=zx2K5fsAAAAJ&hl=en"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Prof.(Dr.) Sanjeev Kumar"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Designation: Professor Email Id: [email protected] Department: Mechanical Engineering, University: J.C. Bose University of Science and Technology, YMCA Specialization: Industrial Engineering, Stochastic Modelling, Metal Metrix Composites, Quality Management https://scholar.google.com/citations?user=KqsehoEAAAAJ&hl=en"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Dr. Vasdev Malhotra Designation: Professor Email Id: [email protected] Department: Mechanical Engineering, University: YMCA University of Science and Technology,Faridabad Area of Interest: Advanced Manufacturing https://scholar.google.com/citations?user=dGRzkoIAAAAJ&hl=en"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Dr. Ashiwani Kumar Designation: Assistant professor College: Feroze Gandhi Institute of Technology , Raebareli Email Id: [email protected] Area of Interest: composite material, Tribology, Bond theory, Manufacturing https://scholar.google.com/citations?user=mXI3-YgAAAAJ&hl=en"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Name: Dr. Anubhav Rawat Department: Department of Applied Mechanics Designation: Assistant Professor University: Motilal Nehru National Institute of Technology Allahabad, Prayagraj, India-211004 Email ID: [email protected] Area of Interest: Multiphase Flows, CFD, Fluid Mechanics, Complex Fluids, Machine Learning Energy and its Optimization Google Scholar ID:- https://scholar.google.com/citations?user=svrbtdcAAAAJ&hl=en"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Name: Dr. Pritanshu Ranjan Department: Mechanical Engineering Department, Designation: Assistant Professor University: BITS Pilani, Goa Campus Email ID: [email protected] Area of Interest: CFD, PANS, Heat Transfer, Turbulence Google Scholar ID: https://scholar.google.co.in/citations?user=OZcmms4AAAAJ&hl=en"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Name: Dr. Anuj Kumar Shukla Department: Mechanical Engineering Department, Designation: Assistant Professor University: NIT Raipur Email ID: [email protected] Area of Interest: CFD, Heat Transfer, Turbulence, Mechanical Engineering, Fluid Mechanics Google Scholar ID: https://scholar.google.com/citations?user=KW_gR8QAAAAJ&hl=en"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "The aim of AKGEC International Journal of Technology is to disseminate original, scientific, theoretical or applied research in the field of Engineering, Technology and Applied Science. Papers reporting original research and innovative applications from all parts of the world are welcome. Papers for publication in the journal are selected through rigorous peer review, to ensure originality, timeliness, relevance, and readability. While the journal emphasizes the publication of previously unpublished articles, selected extended conference papers with exceptional merit are also considered. The journal also seeks clearly written survey and review articles from experts in the field, to promote insightful understanding of the state-of-the-art and technology trends."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "AKGEC Journal Of Technology publishes original papers that cover, but are not limited to, the following areas: • Electrical Engineering, • Power Engineering, • Mechanical Engineering, • Automation and Control, • Measurement and Metrology, • Signal Processing, • Telecommunications, • Civil Engineering, • Chemical Engineering, • Materials Science, • Computer Engineering, • Information Technology and Informatics, • Data Engineering and Software Engineering"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Invitation for Manuscripts concerning engineering subjects for publication in the AKG International Journal of Technology"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "The “AKG International Journal of Technology” i.e. AKGIJT is a peer-reviewed journal published by Ajay Kumar Garg Engineering College (AKGEC). The AKGEC is among the top rung technical institutions situated in the Nationals Capital Region of India in Ghaziabad. The AKGEC is committed to provide world class education and research in the cutting-edge areas and has developed industry scale innovation centres in the frontline technologies. The Institute’s modern infrastructure attracts the industry to supplement training and research. The AKGIJT lives up to the vision of AKGEC and publishes peer review articles in the broad areas of Engineering & Technology involving all major disciplines for the last 13 years. The Journal has so far successfully published 14 biannual volumes and archived all the issues online with free accessibility in pdf format."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "The AKGIJT invites scientific articles, original research, state of the art reviews and case studies from the industry, research and academic professionals for consideration of publication in this open access (without APC) journal. The submitted articles will be peer-reviewed and further consideration will follow the review report/recommendations. Submissions will be peer-reviewed by a panel of experts."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Contributions in the broader contemporary research involving broad engineering disciplines and multi-disciplinary areas are welcomed."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Brief submission guidelines are given below, but the prospective authors are encouraged to visit the Journal's website .The journal regards high value to the publication ethics and plagiarism. Detailed information for the authors including manuscript preparations, publication ethics and journal overview can be viewed on the Journal’s website."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Submission guidelines:"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Authors can format their paper as per the IEEE template available at Template Submit manuscript: Email your manuscript to this email-id: [email protected]"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Before you submit your manuscript, please make sure it is properly formatted for the journal. What follows is a basic checklist; additional requirements can be found in the sections that follow."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "1. Your manuscript should be submitted in either Word or LaTeX format. If the manuscript is submitted as a LaTeX file, upload a PDF version of the manuscript as supplemental material."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "2. The affiliation information for all authors must be listed on the title page; the corresponding author must be identified, and that author’s email address must be provided."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "3. An abstract of 150–250 words and 4 to 6 keywords must be included."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "4. All lines should be double spaced."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "5. Page numbers are required and should be inserted in the manuscript. Including line numbers is preferred but optional."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "6. Abbreviations must be defined on first use in the abstract and then redefined again in the body of the manuscript using this style: molecular beam epitaxy (MBE)."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "7. Variables must be italicized in the equations and in the text."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "8. Equations must be numbered in order to the right of the equation with the number in parentheses: (1), (2), etc."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "9. SI units of time are required: Use (h) for hours, (min) for minutes, and (s) for seconds."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "10. Torr units should be converted to kPa."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "11. References must be in the style of the journal with all author names cited (et al. is not permitted), journal article titles included, and journal titles correctly abbreviated."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "12. All tables and figures must be numbered and cited in numerical ascending order in the text. Roman numerals (i.e., I, II) are used for table numbers, and Arabic numbers (i.e., 1, 2) are used for figure numbers."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "13. Figures must be uploaded as separate high-resolution files and embedded in the manuscript file where they are discussed. Tables should be included within the manuscript file. Uploading tables as separate source files (.doc, LaTeX, or .xls format) is optional."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "14. If any figures and/or tables are being reprinted or modified from another source, it must be noted in the caption(s) and proof of permission must be uploaded."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "15. Multi-part figures should be labeled as (a), (b), (c), etc., and a brief description of each figure part must be provided in the figure caption."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "16. Micrographs must have scale markers that will be readable in a printed journal. Place scale markers and units on micrographs in a white box within the image using a thicker line for the scale and a larger font size used for the units for better readability."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "17. Color figures must be understandable if printed in black and white. (If you have used color figures, they will be printed in in black and white in the print issue and appear in color online, so be sure they will convey the needed information without the use of color. Various types of lines [dash, dotted, long dash, etc.] and/or symbols can be used to delineate differences in addition to colors.)"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "18. If an appendix is part of the article, place it at the end of the manuscript text before the reference list."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Title Page The title page should include: * A concise and informative title, with correct capitalization of chemical symbols * The name(s) of the author(s) * The affiliation(s) and address(es) of the author(s) * The e-mail address of the corresponding author"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Abstract Provide an abstract of 150 to 250 words. The abstract should be one paragraph and should not contain any undefined abbreviations or any reference citations."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Keywords Provide 4 to 6 keywords that can be used for indexing purposes. These keywords should be added after the Abstract."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "MANUSCRIPT FORMATTING * Manuscripts should be submitted in Microsoft Word or LaTeX format. * Use double column, double line spacing * Use a normal, plain font (e.g., 10-point Times Roman) for text. * Use italics for variables and equations (e.g., ZT, p-type, n-type). * It is required that the manuscript displays page numbers. The journal recommends that authors use the automatic page numbering function to number the pages; automatic line numbering is preferred but optional. * Use the table function, not spreadsheets, to make tables. Upload your tables as separate document files. * Scientific notation should be set as 1 x 10 with a superscript -7 as opposed to the computer programming style of 1E-7."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Headings Use no more than three levels of displayed headings."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Abbreviations Abbreviations should be defined at first mention, in the abstract and again in the body of the manuscript using this style—molecular beam epitaxy (MBE)—and used consistently thereafter. Even commonly known abbreviations should be defined."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Acknowledgments Acknowledgments of people, grants, funds, etc. should be placed in a separate section before the reference list. The names of funding organizations should be written in full."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Citations Reference citations in the text should be identified by numbers in square brackets and should appear in ascending numerical order. Some examples: * Negotiation research spans many disciplines [3].This result was later contradicted by Becker and Seligman [5]. * This effect has been studied widely [1-3, 7]. Tables * Tables should be included within the manuscript file. Uploading tables as separate source files (.doc, LaTeX, or .xls format) is optional. * All tables should be numbered using Roman numerals. * Tables should always be cited in the text in consecutive numerical order. * For each table, supply a caption (title) explaining the components of the table. * Identify any previously published material by giving the original source in the form of a reference at the end of the table caption. * Footnotes to tables should be indicated by superscript lower-case letters (or asterisks for significance values and other statistical data) and included beneath the table body."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Figure Submission * Supply all figures as separate high-resolution files and also embed the figures in the manuscript file where they are discussed. The captions should be in the manuscript file and should not be part of the image. * For vector graphics, the preferred format is EPS; for halftones, TIFF format is recommended. Vector graphics containing fonts must have the fonts embedded in the files. * Name your figure files with “Fig\" and the figure number, e.g., Fig1.eps."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Micrographs All micrographs must have scale markers. Scale markers and units on micrographs should be placed in a white box within the image using a thicker line for the scale and a larger font size used for the units for better readability."
+    },
+    {
+      "type": "heading",
+      "tag": "h4",
+      "text": "Online Submission"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Step 1"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Choose your Subscription"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Step 2"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Online Payment : Through RTGS/NEFT"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "Name of the Beneficiary | Ajay Kumar Garg Engineering College\nName of the Bank | Kotak Mahindra Bank Ltd\nBranch Address | 30 & 31 Navyug Market, P.B.No. 75 Ghaziabad-201001 (U.P.) -INDIA\nBranch Code | 5295\nBank Account No. | 508010250461\nType of Bank Account | Saving Bank Account\nRTGS/NEFT/IFSC Code | KKBK0005295\nContact No. | 0120-2790969"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Offline Payment : Through Bank Draft/Cheque"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "All Cheques / Demand Drafts (DD) should be made in favour of “Ajay Kumar Garg Engineering College.\" , payable at Ghaziabad."
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Step 3"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Click “Fill details online\" link."
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Step 4"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Fill the required details in the form and submit."
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Journal January - June 2026"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "AKGEC International Journal of Technology\nJanuary – June 2026 Vol. 17, No.1\nS No. | Content\n1 | Integrating Cybersecurity Education and Psychological Guidance: A Tech-Driven Approach to Preventing Online Crimes Among Youth Atumoshi Adamu Yusuf, Akanbi Bello Muhammed, Ishola Olabisi Bolarinwa, Aisha Olamide Akanbi\n2 | High-Isolation and High Diversity Performance Two Element Mushroom-Shaped Electromagnetic Band Gap Based Slotted MIMO Antenna for C-Band (4–8 GHz) Wireless Applications Gaurav Saxena and Suman Gothwal\n3 | Semantic Data Quality Assessment Model for the Management of Big Data Onyeabor Grace Amina, Ikwuazom Callistus Tochukwu, Rajesh Prasad, Egere Ndudi Augustine, Enesi Femi Aminu and Ezeaku Francisca Ngozi\n4 | Adoption of Drone Technology for Agricultural Monitoring Neeraj Gupta\n5 | Harnessing Quantum Effects for Next-Generation Nanoscale Devices and Materials: Challenges and Opportunities Atumoshi Adamu Yusuf, Akanbi Bello Muhammed, Ishola Olabisi Bolarinwa, Olorunsola Abel B., Akanbi Aisha Olamide\n6 | Design and Fabrication of PET Bottles and Can Processing System Hari Shanker, Suman Gothwal, Devendra Singh and Anubha Gupta\n7 | Ontology-Driven Digital Health Infrastructure for Low-Resource Settings Joshua Olorunlogbon Kolajo, Hashim Bisallah, Benjamin Okike and F B Abdullahi\n8 | Building A Machine Learning Powered System To Predict Vehicle Prices Using Data-Driven Ensemble Methods Opuh Chukwuebuka Calistus, Umoru Yahaya Ibrahim, Olumide Owolabi and Okpanachi Ugbede Gift\n9 | Predictive Modelling of Air Traffic Delays Using Transformer-Based Deep Learning: Implications for Operational Efficiency in Nigeria’s Aviation Systems Christopher Ubaka Ebelogu, Hashim Ibrahim Bisallah, Israel Musa, Barnabas Udo Okoro and Rahama Ohunene Obadaki\n10 | Quantum Computing and Nigeria’s Cybersecurity Future: A Strategic Preparedness Model with Integrated AI Defence and Economic Enablement Ngozi Ukamaka Okonkwo, Emmanuel Chinanu Uwazie, Ikwuazom Callistus Tochukwu, Onyinye Daniel Onyekpeze, Grace Amina Onyeabor and Ezeaku Francisca Ngozi"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Journal July - December 2025"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "AKGEC International Journal of Technology\nJuly – December 2025 Vol. 16, No.2\nS No. | Content\n1 | Combating the Dark Web: A Strategic Approach with AI, Block-chain and Legal Innovation Advocate Lady Prity Khastgir\n2 | Demand Forecasting in Retail Using a Time Series Model for Optimization Dr. Sandhya Avasthi and Dr. Shweta Roy\n3 | Unconventional Method of Multiplication Dr. Tejmal Rathore\n4 | AI-Driven Intelligent Agricultural Support System Dr. Shweta Roy, Dr. Kadambri Agarwal, D.K. Misra and Dr. Sandhya Avasthi\n5 | Power beneath Wheels: Smart Piezoelectric Pavements Empowering Future Transportation Networks Palak Verma and Dr. Sanjay Sharma\n6 | Corporate Social Responsibility: Bolstering Agriculture Dr. Sabyasachi Nayak\n7 | Engineering Change Request – Morning Walker Dr. Sanjay Sharma, Dr. Maria zdimalova, Dr. Anand Tyagi and Dr. B.B. Verna\n8 | Matlab/Simulink Model of Battery Management System for Electric Vehicles Sheevendra Singh, Priyanshu Pandey, Dr. Anil K Rai and Dr. Lokesh Varshney\n9 | Comprehensive Analysis of EV and Fuel Cell Technologies for E-Mobility Applications Arun Kumar Maurya, Hera Khan and Parveen Kumar\n10 | Drones with Brains: Unlocking Potential via Artificial Intelligence Dr. Ranjit Singh"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Journal January - June 2025"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "AKGEC International Journal of Technology\nJanuary – June 2025 Vol. 16, No.1\nS No. | Content\n1 | How to Bridge the Digital Divide and Provide Connectivity to Rural and Remote Areas Using NGsO satellites Bharat Bhatia\n2 | Gain Constant Adjustment Facility in Active Circuits Dr. T. S. Rathore\n3 | Real-Time Support-System for Decision-Making in Robotic-Surgery Using IoT Sensors and Predictive-Analytics Dr. Rajesh Dey and Dr. Rupali Atul Mahajan\n4 | Intellicrash Vehicle Safety System Dr. Neelesh Kumar Gupta and Lakhya Dubey\n5 | Security Challenges in Sustainable Innovations of Smart Cities Dr. Rashmi Sharma, Dr. Himani Garg and Chitvan Agarwal\n6 | Recent Advances in Smart City Using IoT and 5G Mobile Network Dr Prem Chand Jain\n7 | Advanced Metering Infrastructure Honey Charnalia\n8 | Hyper digitalization in Education Dr. Ranjit Singh\n9 | A Literature Review on the Applications of Machine Learning in Irrigation Engineering Nikita Jaiswal\n10 | Analysis of Grid-Connected Solar PV System in Composite Environment Arun Kumar Maurya\n11 | Solutions to a Challenging Problem on Integers Dr. T. S. Rathore"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Journal July - December 2024"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "AKGEC International Journal of Technology\nJuly – December 2024 Vol. 15, No.2\nS No. | Content\n1 | Return of Propellers: Advancing Towards Sustainable Aviation Daamanjyot Barara\n2 | Harnessing ChatGPT for Learning and Growth: A Guide for Engineering Students Honey Charnalia\n3 | Advancing Healthcare with Retrieval Augmented Generation (RAG) and Large Context Models (LCM): A Comparative Study Dr. Rashmi Sharma and Dr. Himani Garg\n4 | Revolutionizing Academic Credential Verification and Job Matching with Blockchain and AI: A Case Study Apoorva Bajaj and Shivani Mehrotra\n5 | A Review of Current Mode Circuits Dr. T. S. Rathore\n6 | Recent Advances in Smart Grid Communication and Networking Dr Prem Chand Jain\n7 | Biohacking, AI and Longevity in Transformative Wellness Strategies Advocate Prity Khastgir\n8 | Liquid Metal Corrosion Fluid Catalytic Cracking Units Virendra Babu\n9 | Comprehensive Analysis of Load Frequency Control in Multi-Area of Power System Networks Arun Kumar Maurya and Hera Khan\n10 | Carbon Footprints of Crypto-currency Dr. Ranjit Singh\n | QUIZ: Fun with Engineering Facts Dr. Ranjit Singh"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Journal January - June 2024"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "AKGEC International Journal of Technology\nJanuary – June 2024 Vol. 15, No.1\nS No. | Content\n1 | Weaponization of Social Media: Beyond Clicks and Shares Colonel (Dr.) Inderjeet Singh\n2 | Ethical AI in Industry: A Roadmap for Responsible Innovation Honey Charnalia\n3 | Unveiling the Power of Wi-Fi in the 6-GHz Band: A Quantum Leap in Wireless Connectivity Bharat Bhatia\n4 | Overview of 6G Network & Technology T. R. Dua\n5 | Knowledge Sharing is Key to Assured Success Dr. Sarbjit Singh\n6 | Empowering the Future Workforce: A Comprehensive Analysis of Edubuk’s Certified Emerging Technologies Analyst Program Shivani Mehrotra and Apoorva Bajaj\n7 | Next Generation IoT Networks Based on Wireless Sensor Networks Dr. Prem Chand Jain\n8 | SmartDSC: Innovative Architecture for Digital Supply Chain Dr Rashmi Sharma and Dr Ashish Malik\n9 | Addressing Urban Flooding in Delhi NCR Nikita Jaiswal\n10 | Stability and Performance Analysis of Load Frequency Control of Two Area Power System Arun Kumar Maurya and Kanak Gahlaut\n11 | Frontiers of Artificial Intelligence in Healthcare Dr. Ranjit Singh\n12 | QUIZ: Fun with Engineering Facts Dr. Ranjit Singh"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Journal July - December 2023"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "AKGEC International Journal of Technology\nJuly – December 2023 Vol. 14, No.2\nS No. | Content\n1 | 6GEdge Technology: Block-chain Powered Infrastructure Advocate Prity Khastgir\n2 | Unveiling the Digital Twin: Revolutionizing Future Network Planning Honey Charnalia\n3 | Blast Loading Versus Seismic Loading in Mining Areas: A Comparative Analysis Monika Tewari and Anup Tiwari\n4 | Comprehensive Review of 3D Interactive Holographic Display Akriti Gupta\n5 | Business/IT Continuity Management Pradeep K Juneja\n6 | Comprehensive Analysis of Regenerative Braking System in E-Mobility Applications Arun Kumar Maurya, Kanak Gahlaut and Mansi Singh\n7 | An Empirical Investigation of Sustainable Products Among Indians Aashish Dhiman\n8 | Water Table Depth Prediction Using Machine Learning Shelley Gupta, Sanjay Singh Bisht, Prakhar Jain and Adarsh Mishra\n9 | Recent Trends in Next Generation Cellular Mobile Network – 5G and beyond (6G) Dr. P. C. Jain\n10 | Advances in Emotion Detection and Recognition Manjit Singh\n11 | 6G Vision Framework Dr. Ranjit Singh"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Journal January - June 2023"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "AKGEC International Journal of Technology\nJanuary – June 2023 Vol. 14, No.1\nS No. | Content\n1 | Mobile Edge Computing (MEC) Honey Charnalia\n2 | Electromagnetic Spectrum for Information Superiority of Nation’s Security Brig Sanjay Rawal\n3 | Configurable Memory Method for Gain Variation Compensation for RF Systems over Temperature and Frequency Amit Tiwari\n4 | AI and Blockchain with Reference to IPRs Advocate Prity Khastgir\n5 | IoT-Based Smart Posture Correcting Chair Design Shreyansh Singh, Utkarsh Sharma, Shreshth Sharma, Dr. Sangeeta Mangesh\n6 | Automatic Plants Watering and Treasuring System Bhagya Shree, Ankita Patel and Dr Gunjan Varshney\n7 | Pandemic Management via Technology Dr Gagandeep Kaur\n8 | Next Generation Wireless Local Area Network for 5G and IoT Dr P.C. Jain\n9 | Analysis of Disease Prediction for Common Behavioural Symptoms Angel Jain, Aditya S Chandel and Ajay Kumar\n10 | Online Auction System Aditya Kumar Singh, Prashant Kaushik, Ajay Kumar, Aditya Kumar Singh, Arun Kumar Rai\n11 | Machine Learning Based Polygraph Test Using Skin Sensations Pooja Sharma, Aniruddha, Adit Vats, Sunny Patel and Tushar Singh\n12 | Potential of Green Energy: Current Status in Indian Subcontinent Nikita Jaiswal, Ashish Vishwakarma and Kshama Shukla\n13 | Structure of PID Controller and Its Performance in Multi-Area Power System Network Arun Maurya & Hera Khan"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Journal July - December 2022"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "AKGEC International Journal of Technology\nJuly – December 2022 Vol. 13, No.2\nS No. | Content\n1 | Block-chain and Future Communication based Decentralised Train Control System Dr. Satya N. Gupta\n2 | Digital Transformation – the Frontier of Evolution Tilak Raj Dua\n3 | Parents’ Perceptions towards Learning of Their Children during Covid 19 Dr. Neha Vashistha\n4 | Dual Channel Transmitter for Medium Range Secondary Surveillance Radar Amit Tiwari\n5 | Work-Life Balance in the Shadow of the Pandemic- with Due Consideration to IT Companies Aashish Dhiman\n6 | Disposable Dispenser-Cum-Extruder Units for 3D Printers to Use with Wet Mix Materials Dr. K Kamal\n7 | Impact of Covid 19 on Physical and Mental Health with Special Reference to Healthcare Personnel Sneha Dhiman\n8 | Phygital is the New Normal Dr. Ranjit Singh\n9 | Chain-Necklace Diagrams with the Sum of Two Consecutive Numbers a Perfect Cube Dr. Tejmal Rathore\n10 | ISRO’s NAVIC: Navigation Support to Civil and Military Segments Dr. Ranjit Singh"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Journal January - June 2022"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "AKGEC International Journal of Technology\nJanuary – June 2022 Vol. 13, No.1\nS No. | Content\n1 | Digital Transformation of Railway Signalling through Emerging Communication Technologies Dr. Satya N. Gupta, FIETE\n2 | Gig, a New-Age Economy Manjit Singh, FIETE\n3 | Bi-phase Modulator for L-band Applications Amit Tiwari, FIETE\n4 | Artificial Intelligence: Master Key for Career in Emerging Technologies Dr. Sarbjit Singh\n5 | 5G Technology: the Game Changer S.D. Saxena, FIETE\n6 | Save Paper – An Eco-Friendly Research A.P.R. Srinivas\n7 | Rotating Radiation Beam Slotted Antenna with Two Orthogonal Frequencies for 5G Applications Dr. Manoj Kumar Garg\n8 | A Simulation of Night Vision Technology Aided with AI Amit Tiwari¹ and Jalaj Gupta²\n9 | Performance Study of Grid Connected Solar-PV System Arun Kumar Maurya1 and Hera Khan2\n10 | Perils of Screen Addiction Dr. Ranjit Singh, FIETE\n11 | Some Properties of Integer Numbers Dr. Tejmal S. Rathore1 , MIEEE, FIETE, Mradul Rathore2 , Student Member IEEE, Jayantilal Rathore3 and Pramila Khabia4"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Journal July - December 2021"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "AKGEC International Journal of Technology\nJuly – December 2021 Vol. 12, No.2\nS No. | Content\n1 | Innovation: A National Priority for India Vipin Tyagi\n2 | Implications of Industry 4.0 for Improving Industrial Performance Dr. Neha Vashistha\n3 | PM-WANI (Prime Minister’s Wi-Fi Access Network Interface) – Technology and Business Case for VLE (Village Level Entrepreneur) Dr. Satya N. Gupta\n4 | Performance Improvement using MIMO-OFDM in Visible Light Communication Systems Satya Prakash and Amit Tiwari\n5 | A Comprehensive Review: Shunt Active Power Filter for Nonlinear IoT Applications Dr. Pankaj Kumar Goswami and Dr. Garima Goswami\n6 | Fostering Higher Thinking among Students via Human-values in the Class Dr. P.S. Grover\n7 | Renewable Energy and Coal-Based Electricity: Impasse, Challenges and Imperatives for India Rakesh Kumar\n8 | Faculty Members’ Level of Job Satisfaction in Private and Government Institutions Aashish Dhiman\n9 | Corporate Social Responsibility Driven Tele-Education for the Poor A.P.R. Srinivas\n10 | Green Hydrogen Emerging as Auto-Fuel Dr. Ranjit Singh"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Journal January - June 2021"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "AKGEC International Journal of Technology\nJanuary – June 2021 Vol. 12, No.1\nS No. | Content\n1 | Shared Digital Infrastructure for 5G-IoT Ready Smart Cities Tilak Raj Dua\n2 | Importance of Private 5G Spectrum for Industrial Development of India Bharat_Bhatia\n3 | Voltage and Current Mode Filter Realizations using Active Devices Dr. T. S. Rathore\n4 | A Simulation of Night Vision Technology Aided with AI Amit Tiwari\n5 | Case for Wi-Max Technology Dr. Neelesh Kumar Gupta\n6 | Trade Secret as Intellectual Property Strategic Tool in Industry 4.0 Prity Khastgir\n7 | Design and Fabrication of a Prototype Electric Vehicle Arun Kumar Maurya\n8 | Gauging Job Satisfaction in the Indian Oil and Gas Sector Dr Sheetal Khanka and Akhil Damodaran\n9 | Implementation of Crime Patterns Prediction Using Data Mining Sudha Rani and Shweta Roy\n10 | Advent of the Data Centre Era Dr. Ranjit Singh"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Journal July - December 2020"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "AKGEC International Journal of Technology\nJuly – December 2020 Vol. 11, No.2 ISSN 0975-9514\nS No. | Content\n1 | Collaborating for Self Reliance – Co-Creating IoT Connectivity Solutions Using NB.Fi Satya N. Gupta\n2 | Industry 4.0: High-tech Strategy for Future Manufacturing Industries Manjit Singh\n3 | Amplitude Equalizers – Types and Design Dr T. S. Rathore\n4 | Harmonising Outcome-Based Education Accreditation Framework and International Educational Standard ISO 21001:2018 Dr. P.S. Grover\n5 | EBG Configured Wideband Sensing Antenna for Smart RF Applications Dr. Pankaj Kumar Goswami and Garima Goswami\n6 | Modeling and Analysis of Helical Springs Using CATIA-V5R19 and ANSYS 16.0 Dr. Reddy Sreenivasulu, N. Yaswanth Krishna, M. Sukumar, O.N. Gouse Basha,N. ArunKumar, K. Heamanth and M. Vamsi Krishna\n7 | Advanced Structural Sandwiched Panels in Layered Corrugate Core Dr. K Kamal\n8 | Block-chain Technology and its Application against COVID-19 Dr Brijesh Kumar Gupta\n9 | Menace of Space Junk around Earth Dr. Ranjit Singh\n10 | 8:1 High Power Combiner for S-Band Radar Amit Tiwari, Suraj Kumar, Anuj Tiwari, Vikas Jain, Anil Kumar"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Journal January - June 2020"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "AKGEC International Journal of Technology\nJanuary – June 2020 Vol. 11, No.1 ISSN 0975-9514\nS No. | Content\n1 | Mobile Edge Computing In 5G Era Manjit Singh\n2 | Innovations- Sustainability of Telecom Tilak Raj Dua\n3 | Managing New Internet (IPv6) in Country – Case for a 22 National Root Server for v6 Satya N. Gupta and Keshav Sharma\n4 | General Data Protection Regulation and Its 28 Impact on Indian Enterprises Dr. Brijesh Kumar Gupta\n5 | Soil Nailing for Highway Construction Archita Goyal and A. K. Shrivastava\n6 | Power Balance ICP Model Dr. Bhupal Singh, Dr. K.B. Sahay and Dr. Sneh Anand\n7 | Plastics Addiction: Humanity’s Existential Crisis Pratibha Singh and Om Pal Singh\n8 | Transmitter for Beam Forming Applications Amit Tiwari\n9 | Deep Learning Algorithms to Improve Financial Decisions Shweta Roy\n10 | Symbiosis of Electronics and Mechanical Engineering Dr. Ranjit Singh"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Journal July - December 2019"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "AKGEC International Journal of Technology\nJuly – December 2019 Vol. 10, No.2 ISSN 0975-9514\nS No. | Content\n1 | Substitution in Titanium Dioxide Hydroelectric Cell Induces Higher Green Energy Abha Shukla, Rojaleena Das, Rekha Agrawal, Garima Kotnala, Shipra Jain, Rekha Gupta and Dr. Jyoti Shah\n2 | Public Protection and Disaster Relief Radio-communications Bharat Bhatia\n3 | Enhanced Luminescence of MoS -QDs for Enzyme Free and Sensitive Detection of H O 2 2 Himanshu Mishra, Vijay K Singh, Stuti Srivastava, Anurag Mishra and Anchal Srivastava\n4 | A Low Cost Homemade Air purifier Anuj Tiwari and Amit Tiwari\n5 | Applicability of Industrial Internet of Things (IIoT) in Lean Manufacturing: A Brief Study Reddy Sreenivasulu and Srinivasa Rao Chalamalasetti\n6 | Digital Super Divide: Humanity at Cross-road K. K. Minocha\n7 | Investigation of High-Strength Concrete Using Fly Ash and Silica Fume Dr. Rakesh Srivastava, Yogendra Kumar, Rupesh Kumar, Saurabh Kumar, Sonam Gupta, Vijay Kumar and Vividh Mahajan\n8 | Study of Thermal Decomposition of Polystyrene Using Viscometric Analysis and Assessment of Its Reaction Rate Models Dr. Aniruddh Singh, Arun Maurya and Rohit Patel\n9 | Carbon Footprint Reduction and Sustainable Reuse of Recycled Plastic A.P.R. Srinivas\n10 | Paradigm Shift in Manufacturing via Information Technology Dr. Ranjit Singh"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Journal January - June 2019"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "AKGEC International Journal of Technology\nJanuary – June 2019 Vol. 10, No.1 ISSN 0975-9514\nS No. | Content\n1 | Increasing Pace of Innovation: The Innovation Cube Model Dr. Sandeep Muju\n2 | Circuit Theorems – Scope and Limitations (Part III: Miller’s theorem) Dr. T. S. Rathore\n3 | ICT Technologies and KPIs for Smart Safe and Sustainable Cities T.R. Dua\n4 | Gyan Vahini – Creation of an Open Access National Digital Infrastructure Grid through Functional Separation Using Smart Contracts and Blockchain Satya N. Gupta\n5 | Wi-Fi Offloading – A Promising Solution to Solve Network Congestion Keshav Sharma\n6 | Solar Installations and Reduction in LPG Consumption A.P.R. Srinivas\n7 | Comparative Performance Analysis of Various Micro-strip Power Dividers Siddhartha Dubey1 and Amit Tiwari\n8 | Reverse Image Data Hiding Using Transform Techniques Dr. Neelesh Gupta\n9 | Digital Detoxification: Humanity on the Precipice Dr. Ranjit Singh\n10 | Design and Development of C-Band Down Converter for Data-link Application Amit Tiwari\n11 | Composite Laptop Lid Design – A Conceptual Cost Reduction Technique A.P.R. Srinivas"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Journal July- December 2018"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "AKGEC International Journal of Technology\nJuly – December 2018 Vol. 9, No.2 ISSN 0975-9514\nS No. | Content\n1 | Spectrum Policy for Satellite and 5G Systems Focus on 28 GHz Band Dr. Laura Roberti\n2 | Broadband Internet and Access Technology for Rural Connectivity Kishore Kumar Thakur\n3 | The Evolving Ecosystem in the World of Digital Data K.K Minocha\n4 | Glass Fibre Reinforced Polymer Jacketing over Concrete Column Dr. K. Kamal\n5 | Manufacturing and Assembling Buildings as 3D Monolithic Shearwall Modules S. J. Vijay\n6 | High Speed and Delay Efficient Convolution by using Kogge Stone Device Dr. Neelesh Gupta & Shubhi Shrivastava\n7 | Lithium Ion Batteries_ Answer to Communications-Energy Crunch Dr. Ranjit Singh\n8 | Innovations Utilizing Haptic Technology in Industry 4.0 Era Prity Khastgir\n9 | Design and Development of C-Band Up-Converter with Built-in-Check Amit Tiwari\n10 | LC Model of Corner Arc Slotted Antenna for C, X and Ku Band Applications Manoj Kumar Garg\n11 | 5G Technology of Mobile Communications A Review Neha Gehlot & Ritu Sindhu"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Journal January - June 2018"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "AKGEC International Journal of Technology\nJanuary – June 2018 Vol. 9, No.1 ISSN 0975-9514\nS No. | Content\n1 | Circuit Theorems – Scope and Limitations Dr. T. S. Rathore\n2 | Face Recognition Techniques – A Review Bhaskar Gupta\n3 | Green Technologies in ICT Sector for Development: A Path to Environmental Sustainability Om Pal Singh and Pratibha Singh\n4 | Influence of Zinc Oxide and Silicon Carbide Micro fillers on Impact Strength and Hardness in E-Glass/Polyester Composites: Fabrication and Testing Reddy Sreenivasulu\n5 | Internet of Medical Things: Advent of Digital Doctor Manjit Singh\n6 | Collaboration: A Key to Innovation Amit Tiwari\n7 | Survey: Internet of Things Ruchi Parashar\n8 | Automatic Facial Feature Point Extraction by Using Harris Algorithm Pushpa Kesarwani, Akhilesh Kumar Choudhary and Arun Kumar Misra\n9 | Image Processing in Face Detection through Morphological Shared-weight Neural Networks Dr. Chandani Sharma and Dr. Ranjit Singh\n10 | Taguchi Based Experimental Studies on Surface Roughness and Burr Formation during End Milling of Inconel 718 Reddy Sreenivasulu, Shaik Hidayath Hussain, Raga Veera Vineeth, Raavi Rama Krishna, Vijay Dasari and Pappala Suresh"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Journal July-Dec 2017"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "AKGEC 8.2 Journal (July-December 2017)"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC_Intel_Journal_8_no_1_1"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC_Intel_Journal_8_no_1_3"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC_Intel_Journal_8_no_1_5"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC_Intel_Journal_8_no_1_7"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC_Intel_Journal_8_no_1_9"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC_Intel_Journal_8_no_1_11"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC_Intel_Journal_8_no_1_2"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC_Intel_Journal_8_no_1_4"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC_Intel_Journal_8_no_1_6"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC_Intel_Journal_8_no_1_8"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC_Intel_Journal_8_no_1_10"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Journal Jan-June 2017"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "AKGEC 8.1 Journal (Jan-June 2017)"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC_Intel_Journal_8_no_1_1"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC_Intel_Journal_8_no_1_3"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC_Intel_Journal_8_no_1_5"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC_Intel_Journal_8_no_1_7"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC_Intel_Journal_8_no_1_9"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC_Intel_Journal_8_no_1_11"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC_Intel_Journal_8_no_1_2"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC_Intel_Journal_8_no_1_4"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC_Intel_Journal_8_no_1_6"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC_Intel_Journal_8_no_1_8"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC_Intel_Journal_8_no_1_10"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Journal July-Dec 2016"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "AKGEC 7.2 Journal (Jul-Dec 2016)"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC_Vol_7_No_2_1"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC_Vol_7_No_2_4"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC_Vol_7_No_2_7"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC_Vol_7_No_2_10"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC_Vol_7_No_2_2"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC_Vol_7_No_2_5"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC_Vol_7_No_2_8"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC_Vol_7_No_2_11"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC_Vol_7_No_2_3"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC_Vol_7_No_2_6"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC_Vol_7_No_2_9"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Journal Jan-Jun 2016"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "AKGEC 7.1 Journal (Jan-June 2016)"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC_Vol_7_No_1_1"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC_Vol_7_No_1_4"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC_Vol_7_No_1_7"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC_Vol_7_No_1_10"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC_Vol_7_No_1_2"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC_Vol_7_No_1_5"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC_Vol_7_No_1_8"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC_Vol_7_No_1_3"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC_Vol_7_No_1_6"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC_Vol_7_No_1_9"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Journal July-Dec 2015"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "AKGEC 6.2 Journal (Jul-Dec 2015)"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKG_Int_Journal_Tech_Vol_6_no_2_1"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKG_Int_Journal_Tech_Vol_6_no_2_3"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKG_Int_Journal_Tech_Vol_6_no_2_5"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKG_Int_Journal_Tech_Vol_6_no_2_7"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKG_Int_Journal_Tech_Vol_6_no_2_9"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKG_Int_Journal_Tech_Vol_6_no_2_11"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKG_Int_Journal_Tech_Vol_6_no_2_13"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKG_Int_Journal_Tech_Vol_6_no_2_2"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKG_Int_Journal_Tech_Vol_6_no_2_4"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKG_Int_Journal_Tech_Vol_6_no_2_6"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKG_Int_Journal_Tech_Vol_6_no_2_8"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKG_Int_Journal_Tech_Vol_6_no_2_10"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKG_Int_Journal_Tech_Vol_6_no_2_12"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKG_Int_Journal_Tech_Vol_6_no_2_14"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Journal Jan-Jun 2015"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "AKGEC 6.1 Journal (Jan-June 2015)"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKG_Int_Journal_Tech_Vol_6_no_1_1"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKG_Int_Journal_Tech_Vol_6_no_1_3"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKG_Int_Journal_Tech_Vol_6_no_1_5"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKG_Int_Journal_Tech_Vol_6_no_1_7"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKG_Int_Journal_Tech_Vol_6_no_1_9"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKG_Int_Journal_Tech_Vol_6_no_1_11"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKG_Int_Journal_Tech_Vol_6_no_1_13"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKG_Int_Journal_Tech_Vol_6_no_1_2"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKG_Int_Journal_Tech_Vol_6_no_1_4"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKG_Int_Journal_Tech_Vol_6_no_1_6"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKG_Int_Journal_Tech_Vol_6_no_1_8"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKG_Int_Journal_Tech_Vol_6_no_1_10"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKG_Int_Journal_Tech_Vol_6_no_1_12"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Journal July-Dec 2014"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "AKGEC Journal of Technology\nJuly-December 2014 Vol. 5, No.2 ISSN 0975-9514\nS No. | Content\n1 | Optimization of Machining Parameters and Material Selection during Drilling of Alluminium Alloys – Review. Reddy Sreenivasulu and Dr. Goteti Chaitanya\n2 | Strategies for Improvement of Service Quality for Commuters in Public Transit Service-A Case Study of Bhopal. Ajay Pratap Singh, Dr. Varun Singh, Dr. A. K. Sharma and Dr. Anupama Sharma\n3 | Energy Optimization Routing Technique for Wireless Mesh Networks. Pushpender Sarao and Dr. Sohan Garg\n4 | A Rubik’s Cube Solving Robot Using Basic Lego Mindstorms NXT kit. Khushboo Tomar\n5 | Comparative Studies of DC/DC Converters for Solar Panel MPPT. Chandani Sharma and Dr. Anamika Jain\n6 | Design and Simulation of Self-Supported DVR Using SRFT. Pradeep Kumar Bhardwaj and Dr. M. P Dave\n7 | A Study and Simulation of VoIP in MPLS Network. Dr. Anu Chaudhary\n8 | Improved Face Recognition Performance Using Eigen Face Algorithm. Bhaskar Gupta\n9 | A Reconfigurable gm-C Ladder Base-Band Filter for WLAN IEEE 802.11a/b/g with Temperature Compensation. Manish Zadoo, Amit Choudhary and Meenakshi Sharma\n10 | An Empirical Investigation of Service Quality Gap at CNG Outlets Using SERVQUAL Measure. T. Nandakumar and Akhil Damodaran"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Journal Jan-June 2014"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "AKGEC Journal of Technology\nJan-June 2014 Vol. 5, No.1 ISSN 0975-9514\nS No. | Content\n1 | Microwave Photonics. Dr. S.C. Gupta\n2 | Analyzing Face Recognition Using PCA. Bhaskar Gupta\n3 | Routing in Wireless Mesh Networks Using Mobile Agents. Pushpender Sarao and Dr. Sohan Garg\n4 | Vibration Isolation and Control in Civil Engineering. Dr. Bharat Bhushan Prasad\n5 | Study of Slip Plane Dislocation in Propagation of Fracture. J S Behal, Ish kakkar, Anoop Pandey and Mayank Gupta\n6 | Evidence of Fama-French Three Factor Model in Indian Stock Market in Respect of Indian Oil and Gas Firms. T. Nandakumar and Akhil Damodaran\n7 | A Study of FPGA-Based Detection Method for Induction Motors under Different Loads. Swati Rajput and Dr. K.K. Tripathi\n8 | Synchronized Phasor Measurements. Saurabh Khattar and Dr. M. P. Dave\n9 | Real Time Obstacle Detection for an Automotive Vehicle. Shivani Godha and Pradeep Jain\n10 | Performance Comparison of Various Face Detection Techniques. Bhaskar Gupta\n11 | A Study of Speed Control of PMDC Motor Using Auto-tuning of PID Controller Through Labview. Priyanka Rajput and Dr. K.K. Tripathi\n12 | New Trends in Design and Development of Low-Cost Nanobiosensors. Manish Zadoo and Meenakshi Sharma"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Journal July-Dec 2013"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "AKGEC Journal of Technology\nJuly-December 2013 Vol. 4, No.2 ISSN 0975-9514\nS No. | Content\n1 | New Trends in High Speed Networking. Dr. S.C. Gupta\n2 | Online Monitoring Inside a Building Based on Energy Efficient Wireless Sensor Network. Himanshu Sharma and Vibhav Kumar Sachan\n3 | A Review on Multi Objective Optimization of Drilling Parameters Using Taguchi Methods. K. Lipin and P. Govindan\n4 | A Novel Design of Compact 2.5GHz Fractal Antennas. Nehya Chaudhary, Sonika Sindhiya and Dr. K.K Tirpaathi\n5 | Infrastructure for IP Networks. Manjit Singh\n6 | Study of Indian Power Sector for Planned Power Capacity. Rajiv Kumar Singh, Suresh K.Choudhary, Dr. IPS Paul and Raj Kumar\n7 | FPGA Realization of Double Data Rate Synchronous Dynamic Random Access Memory Controller. Dipa Nitin Kokane\n8 | Relationship between Mathematics and Physics: A Fresh Perspective. Dr. Aniruddh Singh\n9 | Low Cost Automatic Door Closure. J. S. Kushawaha\n10 | Quality Monitoring and Control: A Key to Success. Prachi Sharma and Dr. Rajiv Kumar Gupta\n11 | Financial Inclusion: Issues and Challenges. Akhil Damodaran\n12 | Design and Analysis of Multiband Microstrip Antenna Array. Sonika Sindhiya, Nehya Chaudhary and K.K Tripathi"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Journal Jan-Jun 2013"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "AKGEC Journal of Technology\nJan-June 2013 Vol. 4, No.1 ISSN 0975-9514\nS No. | Content\n1 | Navigation through Fog Using Aircraft Cockpit Display. Saifullah Khalid\n2 | The Economics of Indian Aviation Sector. Dr. K.V. Damodharan\n3 | LTE-FDD and LTE-TDD for Cellular Communications. Wg. Cdr. (Retd) Arif Khan\n4 | Linear Chirp Signal and Exponential Sweep Signal Suppression Using Volterra Filters. Sheena Agarwal and Dr. R.C. Jain\n5 | An Unmanned Aerial Vehicle for Navigation and Surveillance Purposes. Manish Zadoo, Dr. Chetan Khemraj and Sushma Barahate\n6 | Chemical Sensor Array Design Using Algebraic Properties of the Response Matrix. Dr. Aniruddh Singh\n7 | Comparison of Friction Stir Welding, Friction Surfacing and other Welding Processes. Dr. M. Lakshmana Rao, P. Suresh Babu, Y. Seenaiah and T. Rammohan\n8 | Advanced Heuristic Algorithm for Sandhi Processing in Sanskrit. Ravi Pal\n9 | Dimensions of Efficient Use of Electrical Power in CPRI. Dr. I.P.S. Paul\n10 | Corrosion in Fuel Tank and Its Prevention by Volatile Corrosion – a Review. Shailendra Kumar Dwivedi\n11 | A Sustainable Approach to the Customer Development Journey. Prachi Sharma"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Journal July-Dec 2012"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "AKGEC Journal of Technology\nJuly-December 2012 Vol. 3, No.2 ISSN 0975-9514\nS No. | Content\n1 | Study of Triple Band for Wireless, Mobile and Satellite Communication Applications. Neelam Singh\n2 | Estimating the Effect of Cutting Parameters on Tool Wear and Work-piece Surface Temperature in Turning of AISI D2 Steel. Sudhansu Ranjanjan Das, Amaresh Kumar and Debabrata Dhupal\n3 | Study of Tool geometry in Friction Stir Welding Applications. Dr. M. Lakshmana Rao, P. Suresh Babu, T. Rammohan and Y. Seenaaiah\n4 | Effect of Welding Conditions on Hardness of Commercially Pure Titanium. S. Krishnanunni, Josephkunju Paul C and V Narayanan Unni\n5 | Combined Effect of Injection / Suction and Magnetic Field on Oscillatory Flow in a Planer Channel. B.P. Garg\n6 | Nash Equilibrium, Fermat Principle and Governing Dynamics. Dr. Aniruddh Singh\n7 | Newer Ways of Maintenance In Plants. Dr. I.P.S. Paul\n8 | Fusion of CT and MRI Scanned Medical Images Using Image Processing. Suresh Padala\n9 | Design of OFDM Transceiver for Wireless Communication. Dipa Nitin Kokane and Nitin H kokane\n10 | A General Second Order Analog Filter to Eliminate Limit Cycles For Constant Input Signals. Deepak Garg and Vijay Kumar Tayal\n11 | Comparative Study of Various Transforms Based Methods for ECG Data. Bhaskar Gupta\n12 | An Efficient Software Testing by Diminishing Number of Test Executions. Dr. Pradeep Udupa"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Journal Jan-June 2012"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "AKGEC Journal of Technology\nJanuary-June 2012 Vol. 3, No.1 ISSN 0975-9514\nS No. | Content\n1 | Sustainable Bio-diesel Development Strategies in Fossil-Driven Economy of Nigeria O.D. Samuel\n2 | Hybrid BAFEC/CHARQ Method for Wireless Video Streaming Faezeh Sadat Mozneb\n3 | Architectural designs and Constructability Issues Eng. Ali Akbar Kamar and Dr. S. S. Pimplikar\n4 | A Study of Advances in Maintenance Management System in Industrial Plants Dr. I.P.S. Paul and M. Kohle\n5 | Analysis of Direct Torque Control of PMSM Drive Using Different Inverter Topologies Atul Sood, Anil Kumar Rai, Ritesh Sharma and K. K. Prajapat\n6 | Cache database: Introduction to a New Generation Database Amrita Bhatnagar\n7 | Green Engineering Is the Best Fit When Approaches Nature’s Engineering Benchmark Manvendra Tiwari, Sanjay K. Behera and R. S. Rohella\n8 | Durability studies on Steel Fibre Reinforced Metakaolin Blended Concrete Dr. P. Srinivasa Rao, Dr Sravana, Dr Z. Abdul Rahim and Dr. T. Seshadri Sekhar\n9 | Quality in Engineering Education in Punjab Col. Dr. D.S. Grewal\n10 | A Survey on Image to Text Detection Methodology Sandeep Sharma and Jai Prakash\n11 | The Overview of New Trends in Hybrid Artificial -Intelligence and Control Techniques Rajesh Namdev M.S. Bhadoria Aishwarya Yadav\n12 | A Study on Structural Stress Analysis of an Engine Cylinder Head Dr. M. Lakshman Rao"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Journal July-Dec 2011"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "AKGEC Journal of Technology\nJuly-December 2011 Vol. 2, No.2 ISSN 0975-9514\nS No. | Content\n1 | Performance Analysis of a Four Switch Three Phase Inverter Fed Synchronous Reluctance Motor Drive Kalyan Kumar Halder, Md. Abdur Rafiq and B. C. Ghosh\n2 | An Innovative Approach to Collaborative Performance Measurement in Supply Chain ASSEY MBANG Janvier-James\n3 | Synthesis and Characterization of Bismuth Ferrite Nanoparticles Anoopshi Johari\n4 | A Comparative Study of Genetic Algorithm and the Particle Swarm Optimization Sapna Katiyar\n5 | Concepts, Challenges and Opportunities of Cloud Computing for Business Analyst Charu Agarwal\n6 | Comparison of Approaches Used for Data Reconciliation: A Survey Yuvika Singhal, Anupama Sharma and Dr. Ranjit Singh\n7 | Phone with Android OS as Wireless TD Storage Device through TD/IP Connection Ravi Pal and Shiva Prakash\n8 | R&D perspectives for India Power-2020 Dr. I.P.S. Paul\n9 | A Novel Shunt Active Filter Algorithms for a Three Phase System with Unbalanced and Distorted Source Voltage Wave Forms Feeding to Adjustable Speed Drive K. Sravanthi, CH. Sujatha and Dr. K. Chandra Shekar\n10 | Effect of Thermal Cycles on Compressive Strength of Different Grades of Concrete K. Chandramouli, P. Srinivasa Rao, T. Seshadri Sekhar , N. Pannirselvam and P. Sravana\n11 | Analysis of Sludge Formed in R.M.C Plant Arjita Biswas and P.R Adavi\n12 | CALL for Manuscripts\n13 | FEEDBACK FORM"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Journal Jan-Jun 2011"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "AKGEC Journal of Technology\nJanuary-June 2011 Vol. 2, No.1 ISSN 0975-9514\nS No. | Content\n1 | FPGA Based Monitoring System for Heart Rate and Arterial Oxygen Saturation Vandana V. Kale, Atika Jain and A.D.Rahulkar\n2 | Analysis of Adaptive Volterra Filters with LMS and RLS Algorithms Amrita Rai and Dr. Amit Kumar Kohli\n3 | Elastance Co-efficient of the Intradural Vascular System in Human beings: A Modelling Study Dr. Bhupal Singh, Prof. K.B Sahay and Prof. Sneh Anand\n4 | Theoretical Categorization of Interoperability in E-Government Rajesh Chauhan and Dr. Amar Jeet Singh\n5 | Implementation of Image Processing Algorithm on FPGA Abdul Manan\n6 | Attributes in JIT Purchasing Sultan Singh and Dixit Garg\n7 | Power Market Design in India J.P. Navani and Sonal Sapra\n8 | Hydrogen Production by Splitting Water in an Electrolyzer: A Computer Simulation Based Study Dr. Aniruddh Singh\n9 | Modified Neural Networks for Face Recognition Bhaskar Gupta\n10 | Power of Mobility Manjit Singh\n11 | Benchmarking for Quality Technical Institutions Col. Dr. D. S. Grewal\n12 | Glass Fibre Reinforced Concrete Use in Construction S.A. Eng. Pshtiwan N. Shakor and Prof. S. S. Pimplikar\n13 | Energy Optimization of Steam Turbines by Audit M. Siddhartha Bhatt, Dr. I.P.S.Paul, I.P. Sharma and S.K. Choudhry"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Journal Jan-Jun 2010"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "AKGEC Journal of Technology\nJanuary-June 2010 Vol. 1, No.1 ISSN 0975-9514\nS No. | Content\n1 | Outsource Testing Parul Gupta and Tripti Sharma\n2 | Grid Computing Kavita Agarwal\n3 | Screening out Factors of Bloom Manufacturing Using Plackets Burman Design R.P. Sinha\n4 | Analysis of Rectangular Resonant Patch Antenna Loaded with Metamaterial and a Slot Loaded Rectangular Microstrip Patch Antenna Neelam Singh and Bhanu Pratap Singh\n5 | A Practical Approach for Retinal Authentication Rahul Vivek Purohit\n6 | Evolution of Middleware Technology and Its Widespread Applications Shweta Roy\n7 | Significance of Dimensionless Size of Support Domain in Element Free Galerkin Method J.S. Khushawaha\n8 | Rotation Invariant Iris Texture Verification Amol Rahulkar\n9 | Charging & Discharging of Capacitor and Maxwell's Equations Dr. Aniruddh Singh\n10 | Latest Advances in the Field of Aviation Saifullah Khalid\n11 | Non Destructive Testing Dr. T. Seshadri Sekhar, Dr. P. Sravana and Dr Srinavasa Rao\n12 | Entrepreneurship and Innovation in Engineering Education to Meet Recent Changes in the World Rajesh Kumar and S.A. Imam"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Journal July-Dec 2010"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "AKGEC Journal of Technology\nJuly-December 2010 Vol. 1, No.2 ISSN 0975-9514\nS No. | Content\n1 | Advance Applications of Artificial Intelligence and Neural Networks: A Review Jyoti Singh and Pritee Gupta\n2 | A Survey of Short-range Wireless Communication Technologiesfor Embedded Systems Divyang D. Vyas and Dr. H. N. Pandya\n3 | Performance Evaluation of Wimax Network Using Qualnet Simulator Mitul R. Khandhedia, Prof. K.H. Wandra, Prof. D.N. Khandhar and Nirav R. Khandhedia\n4 | Facial Detection Using Multi-sensor Metaphors Based On Localized Core Eigen-spaces C. Karthikeyan and Dr. B. Ramadoss\n5 | Constructing Compact Binary Decision Trees using Genetic Algorithm Santosh Tiwari and Jaiveer Singh\n6 | Secure Data Dissemination over Web 2.0 Niyati Aggrawal\n7 | On the Performance of Network Coding and Channel Coding for Wireless Networks Alpana Sahu\n8 | Steganography in Multimedia Messaging Service of Mobile Phones Using CDMA Spread Spectrum Ritesh Pratap Singh and Neha Singh\n9 | Wireless Power Transmission for Solar Power Satellite T.S. Hasarmani\n10 | To Neural Networks and Beyond Dr Anil Kumar Ahlawat\n11 | Frequency Synchronization in OFDM a Bayesian Analysis Inderjeet Kaur\n12 | Some Studies on the Permeability Behaviour of Self Compacting Concrete Dr. Seshadri Sekhar. T, Dr. P. Sravana and Dr. Srinivasa Rao\n13 | An Efficient Algorithm for All Pair Optimized Shortest Paths Dr. P K Singh and Rajendra Kumar\n14 | Dual Frame Motion Compensation Approach for Lossless Video Coding Shailendra Bisariya\n15 | A New Method of Measuring Resistance Dr. Aniruddh Singh"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Editor-in-chief"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Dr. Rajesh Prasad Professor Ajay Kumar Garg Engineering College, Ghaziabad, UP, India-201015 Email: [email protected] Mobile No: +919667896459"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Publisher"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Ajay Kumar Garg Engineering College, 27th KM Milestone, Delhi – Meerut Expy, Ghaziabad-201015, Uttar Pradesh Email: [email protected] Mobile No: +917290034978"
+    }
+  ],
+  "text": "AKGEC INTERNATIONAL JOURNAL OF TECHNOLOGY\n\n\n- About\n\n- Patron-in-Chief\n\n- Editorial Board\n\n- Aim and Scope\n\n- Call for Manuscripts\n\n- Payment & Subscription\n\n- Archives\n\n- Contact\n\nThe AKGEC International Journal of Technology, a bi-annual journal, was first published in 2010.\n\nAKGEC Journal of Technology publishes papers from diverse fields of engineering, technology and science application and has a rather diverse oriented Editorial Board in an attempt to strengthen the collaboration of scientists and researchers of different backgrounds, which can prove valuable in their specific areas and in promoting research in general.\n\nAKGEC International Journal of Technology is a peer-reviewed, wide scope international journal comprising various diverse aspects of science application, technology and engineering. The main aim is to provide a platform to scientists, researchers and engineers from both academia and industry, that wish to publish recent developments and applications in their field.\n\nA standard research article published in AKGEC Journal of Technology consists of six pages. Further, colour figures and pictures are accepted providing that they are of good quality.\n\nAKGEC Journal of Technology will also consider for publication review articles, tutorials perspectives and correspondence concerning views and information about papers published in previous issues.\n\nAKGEC Journal of Technology is oriented towards publishing articles that communicate advances, interesting implementations and parts of on-going research in fields of interest.\n\nAKGEC Journal of Technology is an open access, which means that all articles are available on the internet to all users immediately upon publication\n\nInstruction to Authors / Author Guidelines: Authors can format their paper as per the IEEE template available at Template Submission Details: Email your manuscript to this email-id: [email protected]\n\nPublication Ethics: Originality of the manuscript submitted is the author’s responsibility and authors must avoid duplicate submission (simultaneous submission to multiple journals), plagiarism, and self-plagiarism. Manuscripts that are proven to be duplicate submissions will be rejected immediately and future work by the authors will not be considered by the journal.\n\nAll manuscript submissions will be screened using iThenticate/Turnitin, a plagiarism screening tool that verifies the originality of content submitted and highlights overlap with previously published text. During the submission process authors will be asked to answer a question to confirm the manuscript does not contact excessive overlap with previously published work. Authors are encouraged to use iThenticate (www.ithenticate.com) or a similar tool to screen their own work before submission.\n\nLarge Language Models (LLMs), such as ChatGPT, do not currently satisfy the journal’s authorship criteria. Notably, an attribution of authorship carries with it accountability for the work, which cannot be effectively applied to LLMs. Use of an LLM should be properly documented in the Methods section and if a Methods section is not available, in a suitable alternate part of the manuscript.\n\nReview Policy: This journal follows a single anonymized review process. Your submission will initially be assessed by our editors to determine suitability for publication in this journal. If your submission is deemed suitable, it will typically be sent to a minimum of one reviewer for an independent expert assessment of the scientific quality. The decision as to whether your article is accepted or rejected will be taken by our editors.\n\nRead more about peer review: Our editors are not involved in making decisions about papers which:\n\n- they have written themselves. have been written by family members or colleagues.\n\n- relate to products or services in which they have an interest.\n\nAny such submissions will be subject to the journal's usual procedures and peer review will be handled independently of the editor involved and their research group. Read more about editor duties.\n\nAuthors may submit a formal appeal request to the editorial decision, provided it meets all the requirements and follows the procedure outlined in Journal Appeal Policy. Only one appeal per submission will be considered and the appeal decision will be final.\n\nPlagiarism Policy: The journal is strictly against any unethical act of copying or plagiarism in any form. Plagiarism is said to have occurred when large portions of a manuscript have been copied from existing previously published resources.\n\nManuscripts found to be plagiarized during the stages of review are out-rightly rejected and not considered for publication in the journal.\n\nReuse of words must be kept to a minimum, credited, or quoted in the text, and all sources must be cited when they are used. The journal uses the Similarity Check service provided by Turnitin to provide editors with a user-friendly tool to help detect plagiarism. It does this by comparing manuscripts with both a web repository and the CrossRef database. A text similarity below 20% is acceptable by the journal.\n\n\nJOURNAL PARTICULARS\n\n\nTitle | AKGEC International Journal of Technology\nStarting Year | 2010\nFrequency | 2\nISSN | 0975-9514(Print)\nPublisher | Ajay Kumar Garg Engineering College, Ghaziabad, Uttar Pradesh, India\nChief Editor | Dr. Rajesh Prasad\nCopyright | Ajay Kumar Garg Engineering College, Ghaziabad, Uttar Pradesh, India\nPublication URL | https://www.akgec.ac.in/rd/akgec-international-journal-of-technology/\nLanguage | English\nPublication Format | Online\nPhone No. | +919667896459\nEmail ID | [email protected]\nMobile No. | +919667896459\nAddress | 27th KM Milestone, Delhi – Meerut Expy, Ghaziabad, Uttar Pradesh, Pin Code: 201015\n\nDr. Hemant Ahuja\n\nDr. Hemant Ahuja is the Director of Ajay Kumar Garg Engineering College (AKGEC), Ghaziabad. He holds a B.Tech. in Electrical Engineering, an M.Tech. in Energy and Environmental Management from IIT Delhi, where he was a Gold Medalist, and a Ph.D. from IIT Delhi. With extensive experience in academia, research, innovation, and engineering education leadership, he has been actively contributing to academic excellence, institutional development, and the promotion of research and innovation.\n\nIt gives me immense pleasure to extend my greetings to the readers, authors, reviewers, academicians, researchers, industry professionals, and students associated with the AKGEC International Journal of Technology (AKGIJT) .\n\nIn an era characterised by rapid technological advancement and complex global challenges, research, innovation, and knowledge creation have become essential drivers of progress. The effective generation, dissemination, and application of knowledge are vital for addressing emerging societal needs and advancing sustainable development. As institutions of higher learning, we have a responsibility to foster a culture of inquiry, creativity, innovation, and academic excellence, enabling our students and researchers to make meaningful contributions to science, technology, and society.\n\nThe AKGEC International Journal of Technology (AKGIJT) seeks to provide a credible scholarly platform for the dissemination of high-quality research in engineering, technology, applied sciences, and interdisciplinary areas. The journal aims to encourage intellectual exchange, stimulate meaningful academic discussions, facilitate research collaboration, and provide a forum for sharing innovative ideas and solutions to contemporary challenges.\n\nAt AKGEC, we strongly believe that the impact of research extends well beyond the academic domain. Research and innovation should contribute meaningfully to industry, society, and the wider knowledge ecosystem . Through AKGIJT, we aspire to encourage researchers—both emerging and established—to share their findings, innovations, and insights, thereby contributing to the advancement of knowledge and the development of transformative technologies.\n\nI commend the Editorial Board, reviewers, authors, and all other contributors for their valuable efforts in maintaining the quality and integrity of the journal. Their dedication and commitment are instrumental in strengthening the credibility of AKGIJT as a platform for the exchange of scientific and technological knowledge.\n\nI am confident that AKGIJT will continue to grow as a platform for research excellence, intellectual growth, innovation, and interdisciplinary collaboration. I invite academicians, researchers, and professionals from India and across the world to contribute their knowledge, expertise, and insights to the journal and join us in advancing the frontiers of research and innovation.\n\nDr. Hemant Ahuja Director & Patron-in-Chief AKGEC International Journal of Technology Ajay Kumar Garg Engineering College, Ghaziabad\n\nEditorial Board Members: Computer Science & Engineering/ information Technology:\n\nDr. Rajesh Prasad Department of Computer Science and Engineering, Ajay Kumar Garg Engineering College, Ghaziabad, UP, India-201009 Email: [email protected] Profile Link: https://www.akgec.ac.in/wp-content/uploads/2023/04/Dr.-Rajesh-Prasad.pdf\n\nProf. (Dr.) Abhay Bansal Professor and Dean Bennett University Email: [email protected] Profile Link: https://www.bennett.edu.in/faculties/prof-dr-abhay-bansal/\n\nDr. Raju Pal Gautam Buddha University, Greater Noida Email: [email protected] Profile Link: https://faculty.gbu.ac.in/profile.php?id=rvlp2iTWiT5mZBgsaatHPxrEFrtg-6l4_s1knBj7WC0\n\nProf. Rama Shankar Yadav Professor Department of Computer Science & Engineering Motilal Nehru National Institute of Technology Allahabad, Prayagraj, India-211004 E-mail: [email protected] Telephone: 0532-2271355(O) 0532-2271667(R) 9451373879(M) Profile Link: https://mnnit.ac.in/profile/rsy\n\nDr. Ranvijay Associate Professor Department of Computer Science & Engineering Motilal Nehru National Institute of Technology Allahabad, Prayagraj, India-211004 E-mail: [email protected] Telephone: 05322271368(O) 9695167607(M) Profile Link: https://www.mnnit.ac.in/profile/ranvijay Dr. Ranvijay\n\nDr. Sarsij Tripathi Associate Professor Department of Computer Science & Engineering Motilal Nehru National Institute of Technology Allahabad, Prayagraj, India-211004 E-mail: [email protected] Profile Link: https://mnnit.ac.in/profile/sarsij SARSIJ TRIPATHI\n\nProf. (Dr.) Divakar Yadav Professor Department/School: School of Computer and Information Science (SOCIS), IGNOU, NEW Delhi-110068 Email ID: [email protected] , [email protected] , [email protected] Office Address: Room No.121, Block-C, SOCIS, Academic Complex, IGNOU, Maidan Garhi, New Delhi – 110068 Profile Link: https://www.ignou.ac.in/viewFile/SOCIS/profile/DivakarYadav.pdf\n\nDr. Vinish Kumar Professor and HEad Raj Kumar Goel Institute of Technology, Email: [email protected] Profile link: https://scholar.google.com/citations?user=yhd5xq8AAAAJ&hl=en&oi=ao\n\nElectronics and Communication Engineering/ Electrical Engineering:\n\nDr. Omveer Singh Associate Professor Gautam Buddha University, Greater Noida Email: [email protected] Profile Link: https://faculty.gbu.ac.in/profile.php?id=qAuF1hl0WK4VSPJ13u-gwiMmWM0lltC0vu0nxUDRZ8c\n\nProf. (Dr.) Priyanka Jain Professor Delhi Technical University, Delhi Email: [email protected] Profile Link: https://dtu.ac.in/modules/facilities/people/faculty/view.php?uname=priyankajain\n\nProf. (Dr.) Neeta Pandey Professor Delhi Technical University ,Delhi Email: [email protected] Profile Link: https://www.dtu.ac.in/Web/Departments/Electronics/faculty/neetapandey.php\n\nApplied Science and Humanities\n\nProf. (Dr.) Mangey Ram Professor (Research) & Dean (Research Collaborations) Graphic Era Deemed to be University, Dehradun, 248002, India Email: [email protected] Profile Link: https://geu.ac.in/about-us/distinguished-faculty/prof-dr-mangey-ram/\n\nMechanical Engineering:\n\nName: Dr. Dan Sathiaraj Department: Mechanical Engineering Designation: Associate Professor University: IIT Indore Email ID: [email protected] Area of Interest: High Entropy Alloys, Bulk nanostructured materials, Thermo-mechanical processing, microstructure and texture Google Scholar: https://scholar.google.com/citations?user=BspF8ZwAAAAJ&hl=en\n\nName: Dr. Harish Kumar Department: Mechanical & Aerospace Engineering Designation: Associate Professor University: National Institute of Technology, Delhi Email ID: [email protected] Area of Interest: Additive manufacturing, Sensors and transducers, Measurement uncertainty, Advanced machining Google Scholar: https://scholar.google.com/citations?user=VgdCfhIAAAAJ&hl=en\n\nName: Dr. Tameshwer Nath Department: Department of Mechatronics Engineering, Designation: Assistant Professor University: Indian Institute of Information Technology Bhagalpur Sabour, Bhagalpur-813210 Email ID: [email protected] Area of Interest: Smart Material, Control of structures, MEMS, Mechatronics Google Scholar: https://scholar.google.com/citations?user=ChZpZpgAAAAJ&hl=en\n\nName: Dr. Mohit Tayagi Department: Production and Industrial Engineering Designation: Associate Professor University: Punjab Engineering College, (Deemed to be University), Chandigarh Email ID: [email protected] Area of Interest: Industrial Engineering, Supply Chain Performance System, Decision Science, System Optimization CSR Google Scholar: https://scholar.google.com/citations?user=zx2K5fsAAAAJ&hl=en\n\nProf.(Dr.) Sanjeev Kumar\n\nDesignation: Professor Email Id: [email protected] Department: Mechanical Engineering, University: J.C. Bose University of Science and Technology, YMCA Specialization: Industrial Engineering, Stochastic Modelling, Metal Metrix Composites, Quality Management https://scholar.google.com/citations?user=KqsehoEAAAAJ&hl=en\n\nDr. Vasdev Malhotra Designation: Professor Email Id: [email protected] Department: Mechanical Engineering, University: YMCA University of Science and Technology,Faridabad Area of Interest: Advanced Manufacturing https://scholar.google.com/citations?user=dGRzkoIAAAAJ&hl=en\n\nDr. Ashiwani Kumar Designation: Assistant professor College: Feroze Gandhi Institute of Technology , Raebareli Email Id: [email protected] Area of Interest: composite material, Tribology, Bond theory, Manufacturing https://scholar.google.com/citations?user=mXI3-YgAAAAJ&hl=en\n\nName: Dr. Anubhav Rawat Department: Department of Applied Mechanics Designation: Assistant Professor University: Motilal Nehru National Institute of Technology Allahabad, Prayagraj, India-211004 Email ID: [email protected] Area of Interest: Multiphase Flows, CFD, Fluid Mechanics, Complex Fluids, Machine Learning Energy and its Optimization Google Scholar ID:- https://scholar.google.com/citations?user=svrbtdcAAAAJ&hl=en\n\nName: Dr. Pritanshu Ranjan Department: Mechanical Engineering Department, Designation: Assistant Professor University: BITS Pilani, Goa Campus Email ID: [email protected] Area of Interest: CFD, PANS, Heat Transfer, Turbulence Google Scholar ID: https://scholar.google.co.in/citations?user=OZcmms4AAAAJ&hl=en\n\nName: Dr. Anuj Kumar Shukla Department: Mechanical Engineering Department, Designation: Assistant Professor University: NIT Raipur Email ID: [email protected] Area of Interest: CFD, Heat Transfer, Turbulence, Mechanical Engineering, Fluid Mechanics Google Scholar ID: https://scholar.google.com/citations?user=KW_gR8QAAAAJ&hl=en\n\nThe aim of AKGEC International Journal of Technology is to disseminate original, scientific, theoretical or applied research in the field of Engineering, Technology and Applied Science. Papers reporting original research and innovative applications from all parts of the world are welcome. Papers for publication in the journal are selected through rigorous peer review, to ensure originality, timeliness, relevance, and readability. While the journal emphasizes the publication of previously unpublished articles, selected extended conference papers with exceptional merit are also considered. The journal also seeks clearly written survey and review articles from experts in the field, to promote insightful understanding of the state-of-the-art and technology trends.\n\nAKGEC Journal Of Technology publishes original papers that cover, but are not limited to, the following areas: • Electrical Engineering, • Power Engineering, • Mechanical Engineering, • Automation and Control, • Measurement and Metrology, • Signal Processing, • Telecommunications, • Civil Engineering, • Chemical Engineering, • Materials Science, • Computer Engineering, • Information Technology and Informatics, • Data Engineering and Software Engineering\n\nInvitation for Manuscripts concerning engineering subjects for publication in the AKG International Journal of Technology\n\nThe “AKG International Journal of Technology” i.e. AKGIJT is a peer-reviewed journal published by Ajay Kumar Garg Engineering College (AKGEC). The AKGEC is among the top rung technical institutions situated in the Nationals Capital Region of India in Ghaziabad. The AKGEC is committed to provide world class education and research in the cutting-edge areas and has developed industry scale innovation centres in the frontline technologies. The Institute’s modern infrastructure attracts the industry to supplement training and research. The AKGIJT lives up to the vision of AKGEC and publishes peer review articles in the broad areas of Engineering & Technology involving all major disciplines for the last 13 years. The Journal has so far successfully published 14 biannual volumes and archived all the issues online with free accessibility in pdf format.\n\nThe AKGIJT invites scientific articles, original research, state of the art reviews and case studies from the industry, research and academic professionals for consideration of publication in this open access (without APC) journal. The submitted articles will be peer-reviewed and further consideration will follow the review report/recommendations. Submissions will be peer-reviewed by a panel of experts.\n\nContributions in the broader contemporary research involving broad engineering disciplines and multi-disciplinary areas are welcomed.\n\nBrief submission guidelines are given below, but the prospective authors are encouraged to visit the Journal's website .The journal regards high value to the publication ethics and plagiarism. Detailed information for the authors including manuscript preparations, publication ethics and journal overview can be viewed on the Journal’s website.\n\nSubmission guidelines:\n\nAuthors can format their paper as per the IEEE template available at Template Submit manuscript: Email your manuscript to this email-id: [email protected]\n\nBefore you submit your manuscript, please make sure it is properly formatted for the journal. What follows is a basic checklist; additional requirements can be found in the sections that follow.\n\n1. Your manuscript should be submitted in either Word or LaTeX format. If the manuscript is submitted as a LaTeX file, upload a PDF version of the manuscript as supplemental material.\n\n2. The affiliation information for all authors must be listed on the title page; the corresponding author must be identified, and that author’s email address must be provided.\n\n3. An abstract of 150–250 words and 4 to 6 keywords must be included.\n\n4. All lines should be double spaced.\n\n5. Page numbers are required and should be inserted in the manuscript. Including line numbers is preferred but optional.\n\n6. Abbreviations must be defined on first use in the abstract and then redefined again in the body of the manuscript using this style: molecular beam epitaxy (MBE).\n\n7. Variables must be italicized in the equations and in the text.\n\n8. Equations must be numbered in order to the right of the equation with the number in parentheses: (1), (2), etc.\n\n9. SI units of time are required: Use (h) for hours, (min) for minutes, and (s) for seconds.\n\n10. Torr units should be converted to kPa.\n\n11. References must be in the style of the journal with all author names cited (et al. is not permitted), journal article titles included, and journal titles correctly abbreviated.\n\n12. All tables and figures must be numbered and cited in numerical ascending order in the text. Roman numerals (i.e., I, II) are used for table numbers, and Arabic numbers (i.e., 1, 2) are used for figure numbers.\n\n13. Figures must be uploaded as separate high-resolution files and embedded in the manuscript file where they are discussed. Tables should be included within the manuscript file. Uploading tables as separate source files (.doc, LaTeX, or .xls format) is optional.\n\n14. If any figures and/or tables are being reprinted or modified from another source, it must be noted in the caption(s) and proof of permission must be uploaded.\n\n15. Multi-part figures should be labeled as (a), (b), (c), etc., and a brief description of each figure part must be provided in the figure caption.\n\n16. Micrographs must have scale markers that will be readable in a printed journal. Place scale markers and units on micrographs in a white box within the image using a thicker line for the scale and a larger font size used for the units for better readability.\n\n17. Color figures must be understandable if printed in black and white. (If you have used color figures, they will be printed in in black and white in the print issue and appear in color online, so be sure they will convey the needed information without the use of color. Various types of lines [dash, dotted, long dash, etc.] and/or symbols can be used to delineate differences in addition to colors.)\n\n18. If an appendix is part of the article, place it at the end of the manuscript text before the reference list.\n\nTitle Page The title page should include: * A concise and informative title, with correct capitalization of chemical symbols * The name(s) of the author(s) * The affiliation(s) and address(es) of the author(s) * The e-mail address of the corresponding author\n\nAbstract Provide an abstract of 150 to 250 words. The abstract should be one paragraph and should not contain any undefined abbreviations or any reference citations.\n\nKeywords Provide 4 to 6 keywords that can be used for indexing purposes. These keywords should be added after the Abstract.\n\nMANUSCRIPT FORMATTING * Manuscripts should be submitted in Microsoft Word or LaTeX format. * Use double column, double line spacing * Use a normal, plain font (e.g., 10-point Times Roman) for text. * Use italics for variables and equations (e.g., ZT, p-type, n-type). * It is required that the manuscript displays page numbers. The journal recommends that authors use the automatic page numbering function to number the pages; automatic line numbering is preferred but optional. * Use the table function, not spreadsheets, to make tables. Upload your tables as separate document files. * Scientific notation should be set as 1 x 10 with a superscript -7 as opposed to the computer programming style of 1E-7.\n\nHeadings Use no more than three levels of displayed headings.\n\nAbbreviations Abbreviations should be defined at first mention, in the abstract and again in the body of the manuscript using this style—molecular beam epitaxy (MBE)—and used consistently thereafter. Even commonly known abbreviations should be defined.\n\nAcknowledgments Acknowledgments of people, grants, funds, etc. should be placed in a separate section before the reference list. The names of funding organizations should be written in full.\n\nCitations Reference citations in the text should be identified by numbers in square brackets and should appear in ascending numerical order. Some examples: * Negotiation research spans many disciplines [3].This result was later contradicted by Becker and Seligman [5]. * This effect has been studied widely [1-3, 7]. Tables * Tables should be included within the manuscript file. Uploading tables as separate source files (.doc, LaTeX, or .xls format) is optional. * All tables should be numbered using Roman numerals. * Tables should always be cited in the text in consecutive numerical order. * For each table, supply a caption (title) explaining the components of the table. * Identify any previously published material by giving the original source in the form of a reference at the end of the table caption. * Footnotes to tables should be indicated by superscript lower-case letters (or asterisks for significance values and other statistical data) and included beneath the table body.\n\nFigure Submission * Supply all figures as separate high-resolution files and also embed the figures in the manuscript file where they are discussed. The captions should be in the manuscript file and should not be part of the image. * For vector graphics, the preferred format is EPS; for halftones, TIFF format is recommended. Vector graphics containing fonts must have the fonts embedded in the files. * Name your figure files with “Fig\" and the figure number, e.g., Fig1.eps.\n\nMicrographs All micrographs must have scale markers. Scale markers and units on micrographs should be placed in a white box within the image using a thicker line for the scale and a larger font size used for the units for better readability.\n\n\nONLINE SUBMISSION\n\n\n\nSTEP 1\n\n\nChoose your Subscription\n\n\nSTEP 2\n\n\nOnline Payment : Through RTGS/NEFT\n\nName of the Beneficiary | Ajay Kumar Garg Engineering College\nName of the Bank | Kotak Mahindra Bank Ltd\nBranch Address | 30 & 31 Navyug Market, P.B.No. 75 Ghaziabad-201001 (U.P.) -INDIA\nBranch Code | 5295\nBank Account No. | 508010250461\nType of Bank Account | Saving Bank Account\nRTGS/NEFT/IFSC Code | KKBK0005295\nContact No. | 0120-2790969\n\nOffline Payment : Through Bank Draft/Cheque\n\nAll Cheques / Demand Drafts (DD) should be made in favour of “Ajay Kumar Garg Engineering College.\" , payable at Ghaziabad.\n\n\nSTEP 3\n\n\nClick “Fill details online\" link.\n\n\nSTEP 4\n\n\nFill the required details in the form and submit.\n\n\nJOURNAL JANUARY - JUNE 2026\n\n\nAKGEC International Journal of Technology\nJanuary – June 2026 Vol. 17, No.1\nS No. | Content\n1 | Integrating Cybersecurity Education and Psychological Guidance: A Tech-Driven Approach to Preventing Online Crimes Among Youth Atumoshi Adamu Yusuf, Akanbi Bello Muhammed, Ishola Olabisi Bolarinwa, Aisha Olamide Akanbi\n2 | High-Isolation and High Diversity Performance Two Element Mushroom-Shaped Electromagnetic Band Gap Based Slotted MIMO Antenna for C-Band (4–8 GHz) Wireless Applications Gaurav Saxena and Suman Gothwal\n3 | Semantic Data Quality Assessment Model for the Management of Big Data Onyeabor Grace Amina, Ikwuazom Callistus Tochukwu, Rajesh Prasad, Egere Ndudi Augustine, Enesi Femi Aminu and Ezeaku Francisca Ngozi\n4 | Adoption of Drone Technology for Agricultural Monitoring Neeraj Gupta\n5 | Harnessing Quantum Effects for Next-Generation Nanoscale Devices and Materials: Challenges and Opportunities Atumoshi Adamu Yusuf, Akanbi Bello Muhammed, Ishola Olabisi Bolarinwa, Olorunsola Abel B., Akanbi Aisha Olamide\n6 | Design and Fabrication of PET Bottles and Can Processing System Hari Shanker, Suman Gothwal, Devendra Singh and Anubha Gupta\n7 | Ontology-Driven Digital Health Infrastructure for Low-Resource Settings Joshua Olorunlogbon Kolajo, Hashim Bisallah, Benjamin Okike and F B Abdullahi\n8 | Building A Machine Learning Powered System To Predict Vehicle Prices Using Data-Driven Ensemble Methods Opuh Chukwuebuka Calistus, Umoru Yahaya Ibrahim, Olumide Owolabi and Okpanachi Ugbede Gift\n9 | Predictive Modelling of Air Traffic Delays Using Transformer-Based Deep Learning: Implications for Operational Efficiency in Nigeria’s Aviation Systems Christopher Ubaka Ebelogu, Hashim Ibrahim Bisallah, Israel Musa, Barnabas Udo Okoro and Rahama Ohunene Obadaki\n10 | Quantum Computing and Nigeria’s Cybersecurity Future: A Strategic Preparedness Model with Integrated AI Defence and Economic Enablement Ngozi Ukamaka Okonkwo, Emmanuel Chinanu Uwazie, Ikwuazom Callistus Tochukwu, Onyinye Daniel Onyekpeze, Grace Amina Onyeabor and Ezeaku Francisca Ngozi\n\n\nJOURNAL JULY - DECEMBER 2025\n\n\nAKGEC International Journal of Technology\nJuly – December 2025 Vol. 16, No.2\nS No. | Content\n1 | Combating the Dark Web: A Strategic Approach with AI, Block-chain and Legal Innovation Advocate Lady Prity Khastgir\n2 | Demand Forecasting in Retail Using a Time Series Model for Optimization Dr. Sandhya Avasthi and Dr. Shweta Roy\n3 | Unconventional Method of Multiplication Dr. Tejmal Rathore\n4 | AI-Driven Intelligent Agricultural Support System Dr. Shweta Roy, Dr. Kadambri Agarwal, D.K. Misra and Dr. Sandhya Avasthi\n5 | Power beneath Wheels: Smart Piezoelectric Pavements Empowering Future Transportation Networks Palak Verma and Dr. Sanjay Sharma\n6 | Corporate Social Responsibility: Bolstering Agriculture Dr. Sabyasachi Nayak\n7 | Engineering Change Request – Morning Walker Dr. Sanjay Sharma, Dr. Maria zdimalova, Dr. Anand Tyagi and Dr. B.B. Verna\n8 | Matlab/Simulink Model of Battery Management System for Electric Vehicles Sheevendra Singh, Priyanshu Pandey, Dr. Anil K Rai and Dr. Lokesh Varshney\n9 | Comprehensive Analysis of EV and Fuel Cell Technologies for E-Mobility Applications Arun Kumar Maurya, Hera Khan and Parveen Kumar\n10 | Drones with Brains: Unlocking Potential via Artificial Intelligence Dr. Ranjit Singh\n\n\nJOURNAL JANUARY - JUNE 2025\n\n\nAKGEC International Journal of Technology\nJanuary – June 2025 Vol. 16, No.1\nS No. | Content\n1 | How to Bridge the Digital Divide and Provide Connectivity to Rural and Remote Areas Using NGsO satellites Bharat Bhatia\n2 | Gain Constant Adjustment Facility in Active Circuits Dr. T. S. Rathore\n3 | Real-Time Support-System for Decision-Making in Robotic-Surgery Using IoT Sensors and Predictive-Analytics Dr. Rajesh Dey and Dr. Rupali Atul Mahajan\n4 | Intellicrash Vehicle Safety System Dr. Neelesh Kumar Gupta and Lakhya Dubey\n5 | Security Challenges in Sustainable Innovations of Smart Cities Dr. Rashmi Sharma, Dr. Himani Garg and Chitvan Agarwal\n6 | Recent Advances in Smart City Using IoT and 5G Mobile Network Dr Prem Chand Jain\n7 | Advanced Metering Infrastructure Honey Charnalia\n8 | Hyper digitalization in Education Dr. Ranjit Singh\n9 | A Literature Review on the Applications of Machine Learning in Irrigation Engineering Nikita Jaiswal\n10 | Analysis of Grid-Connected Solar PV System in Composite Environment Arun Kumar Maurya\n11 | Solutions to a Challenging Problem on Integers Dr. T. S. Rathore\n\n\nJOURNAL JULY - DECEMBER 2024\n\n\nAKGEC International Journal of Technology\nJuly – December 2024 Vol. 15, No.2\nS No. | Content\n1 | Return of Propellers: Advancing Towards Sustainable Aviation Daamanjyot Barara\n2 | Harnessing ChatGPT for Learning and Growth: A Guide for Engineering Students Honey Charnalia\n3 | Advancing Healthcare with Retrieval Augmented Generation (RAG) and Large Context Models (LCM): A Comparative Study Dr. Rashmi Sharma and Dr. Himani Garg\n4 | Revolutionizing Academic Credential Verification and Job Matching with Blockchain and AI: A Case Study Apoorva Bajaj and Shivani Mehrotra\n5 | A Review of Current Mode Circuits Dr. T. S. Rathore\n6 | Recent Advances in Smart Grid Communication and Networking Dr Prem Chand Jain\n7 | Biohacking, AI and Longevity in Transformative Wellness Strategies Advocate Prity Khastgir\n8 | Liquid Metal Corrosion Fluid Catalytic Cracking Units Virendra Babu\n9 | Comprehensive Analysis of Load Frequency Control in Multi-Area of Power System Networks Arun Kumar Maurya and Hera Khan\n10 | Carbon Footprints of Crypto-currency Dr. Ranjit Singh\n | QUIZ: Fun with Engineering Facts Dr. Ranjit Singh\n\n\nJOURNAL JANUARY - JUNE 2024\n\n\nAKGEC International Journal of Technology\nJanuary – June 2024 Vol. 15, No.1\nS No. | Content\n1 | Weaponization of Social Media: Beyond Clicks and Shares Colonel (Dr.) Inderjeet Singh\n2 | Ethical AI in Industry: A Roadmap for Responsible Innovation Honey Charnalia\n3 | Unveiling the Power of Wi-Fi in the 6-GHz Band: A Quantum Leap in Wireless Connectivity Bharat Bhatia\n4 | Overview of 6G Network & Technology T. R. Dua\n5 | Knowledge Sharing is Key to Assured Success Dr. Sarbjit Singh\n6 | Empowering the Future Workforce: A Comprehensive Analysis of Edubuk’s Certified Emerging Technologies Analyst Program Shivani Mehrotra and Apoorva Bajaj\n7 | Next Generation IoT Networks Based on Wireless Sensor Networks Dr. Prem Chand Jain\n8 | SmartDSC: Innovative Architecture for Digital Supply Chain Dr Rashmi Sharma and Dr Ashish Malik\n9 | Addressing Urban Flooding in Delhi NCR Nikita Jaiswal\n10 | Stability and Performance Analysis of Load Frequency Control of Two Area Power System Arun Kumar Maurya and Kanak Gahlaut\n11 | Frontiers of Artificial Intelligence in Healthcare Dr. Ranjit Singh\n12 | QUIZ: Fun with Engineering Facts Dr. Ranjit Singh\n\n\nJOURNAL JULY - DECEMBER 2023\n\n\nAKGEC International Journal of Technology\nJuly – December 2023 Vol. 14, No.2\nS No. | Content\n1 | 6GEdge Technology: Block-chain Powered Infrastructure Advocate Prity Khastgir\n2 | Unveiling the Digital Twin: Revolutionizing Future Network Planning Honey Charnalia\n3 | Blast Loading Versus Seismic Loading in Mining Areas: A Comparative Analysis Monika Tewari and Anup Tiwari\n4 | Comprehensive Review of 3D Interactive Holographic Display Akriti Gupta\n5 | Business/IT Continuity Management Pradeep K Juneja\n6 | Comprehensive Analysis of Regenerative Braking System in E-Mobility Applications Arun Kumar Maurya, Kanak Gahlaut and Mansi Singh\n7 | An Empirical Investigation of Sustainable Products Among Indians Aashish Dhiman\n8 | Water Table Depth Prediction Using Machine Learning Shelley Gupta, Sanjay Singh Bisht, Prakhar Jain and Adarsh Mishra\n9 | Recent Trends in Next Generation Cellular Mobile Network – 5G and beyond (6G) Dr. P. C. Jain\n10 | Advances in Emotion Detection and Recognition Manjit Singh\n11 | 6G Vision Framework Dr. Ranjit Singh\n\n\nJOURNAL JANUARY - JUNE 2023\n\n\nAKGEC International Journal of Technology\nJanuary – June 2023 Vol. 14, No.1\nS No. | Content\n1 | Mobile Edge Computing (MEC) Honey Charnalia\n2 | Electromagnetic Spectrum for Information Superiority of Nation’s Security Brig Sanjay Rawal\n3 | Configurable Memory Method for Gain Variation Compensation for RF Systems over Temperature and Frequency Amit Tiwari\n4 | AI and Blockchain with Reference to IPRs Advocate Prity Khastgir\n5 | IoT-Based Smart Posture Correcting Chair Design Shreyansh Singh, Utkarsh Sharma, Shreshth Sharma, Dr. Sangeeta Mangesh\n6 | Automatic Plants Watering and Treasuring System Bhagya Shree, Ankita Patel and Dr Gunjan Varshney\n7 | Pandemic Management via Technology Dr Gagandeep Kaur\n8 | Next Generation Wireless Local Area Network for 5G and IoT Dr P.C. Jain\n9 | Analysis of Disease Prediction for Common Behavioural Symptoms Angel Jain, Aditya S Chandel and Ajay Kumar\n10 | Online Auction System Aditya Kumar Singh, Prashant Kaushik, Ajay Kumar, Aditya Kumar Singh, Arun Kumar Rai\n11 | Machine Learning Based Polygraph Test Using Skin Sensations Pooja Sharma, Aniruddha, Adit Vats, Sunny Patel and Tushar Singh\n12 | Potential of Green Energy: Current Status in Indian Subcontinent Nikita Jaiswal, Ashish Vishwakarma and Kshama Shukla\n13 | Structure of PID Controller and Its Performance in Multi-Area Power System Network Arun Maurya & Hera Khan\n\n\nJOURNAL JULY - DECEMBER 2022\n\n\nAKGEC International Journal of Technology\nJuly – December 2022 Vol. 13, No.2\nS No. | Content\n1 | Block-chain and Future Communication based Decentralised Train Control System Dr. Satya N. Gupta\n2 | Digital Transformation – the Frontier of Evolution Tilak Raj Dua\n3 | Parents’ Perceptions towards Learning of Their Children during Covid 19 Dr. Neha Vashistha\n4 | Dual Channel Transmitter for Medium Range Secondary Surveillance Radar Amit Tiwari\n5 | Work-Life Balance in the Shadow of the Pandemic- with Due Consideration to IT Companies Aashish Dhiman\n6 | Disposable Dispenser-Cum-Extruder Units for 3D Printers to Use with Wet Mix Materials Dr. K Kamal\n7 | Impact of Covid 19 on Physical and Mental Health with Special Reference to Healthcare Personnel Sneha Dhiman\n8 | Phygital is the New Normal Dr. Ranjit Singh\n9 | Chain-Necklace Diagrams with the Sum of Two Consecutive Numbers a Perfect Cube Dr. Tejmal Rathore\n10 | ISRO’s NAVIC: Navigation Support to Civil and Military Segments Dr. Ranjit Singh\n\n\nJOURNAL JANUARY - JUNE 2022\n\n\nAKGEC International Journal of Technology\nJanuary – June 2022 Vol. 13, No.1\nS No. | Content\n1 | Digital Transformation of Railway Signalling through Emerging Communication Technologies Dr. Satya N. Gupta, FIETE\n2 | Gig, a New-Age Economy Manjit Singh, FIETE\n3 | Bi-phase Modulator for L-band Applications Amit Tiwari, FIETE\n4 | Artificial Intelligence: Master Key for Career in Emerging Technologies Dr. Sarbjit Singh\n5 | 5G Technology: the Game Changer S.D. Saxena, FIETE\n6 | Save Paper – An Eco-Friendly Research A.P.R. Srinivas\n7 | Rotating Radiation Beam Slotted Antenna with Two Orthogonal Frequencies for 5G Applications Dr. Manoj Kumar Garg\n8 | A Simulation of Night Vision Technology Aided with AI Amit Tiwari¹ and Jalaj Gupta²\n9 | Performance Study of Grid Connected Solar-PV System Arun Kumar Maurya1 and Hera Khan2\n10 | Perils of Screen Addiction Dr. Ranjit Singh, FIETE\n11 | Some Properties of Integer Numbers Dr. Tejmal S. Rathore1 , MIEEE, FIETE, Mradul Rathore2 , Student Member IEEE, Jayantilal Rathore3 and Pramila Khabia4\n\n\nJOURNAL JULY - DECEMBER 2021\n\n\nAKGEC International Journal of Technology\nJuly – December 2021 Vol. 12, No.2\nS No. | Content\n1 | Innovation: A National Priority for India Vipin Tyagi\n2 | Implications of Industry 4.0 for Improving Industrial Performance Dr. Neha Vashistha\n3 | PM-WANI (Prime Minister’s Wi-Fi Access Network Interface) – Technology and Business Case for VLE (Village Level Entrepreneur) Dr. Satya N. Gupta\n4 | Performance Improvement using MIMO-OFDM in Visible Light Communication Systems Satya Prakash and Amit Tiwari\n5 | A Comprehensive Review: Shunt Active Power Filter for Nonlinear IoT Applications Dr. Pankaj Kumar Goswami and Dr. Garima Goswami\n6 | Fostering Higher Thinking among Students via Human-values in the Class Dr. P.S. Grover\n7 | Renewable Energy and Coal-Based Electricity: Impasse, Challenges and Imperatives for India Rakesh Kumar\n8 | Faculty Members’ Level of Job Satisfaction in Private and Government Institutions Aashish Dhiman\n9 | Corporate Social Responsibility Driven Tele-Education for the Poor A.P.R. Srinivas\n10 | Green Hydrogen Emerging as Auto-Fuel Dr. Ranjit Singh\n\n\nJOURNAL JANUARY - JUNE 2021\n\n\nAKGEC International Journal of Technology\nJanuary – June 2021 Vol. 12, No.1\nS No. | Content\n1 | Shared Digital Infrastructure for 5G-IoT Ready Smart Cities Tilak Raj Dua\n2 | Importance of Private 5G Spectrum for Industrial Development of India Bharat_Bhatia\n3 | Voltage and Current Mode Filter Realizations using Active Devices Dr. T. S. Rathore\n4 | A Simulation of Night Vision Technology Aided with AI Amit Tiwari\n5 | Case for Wi-Max Technology Dr. Neelesh Kumar Gupta\n6 | Trade Secret as Intellectual Property Strategic Tool in Industry 4.0 Prity Khastgir\n7 | Design and Fabrication of a Prototype Electric Vehicle Arun Kumar Maurya\n8 | Gauging Job Satisfaction in the Indian Oil and Gas Sector Dr Sheetal Khanka and Akhil Damodaran\n9 | Implementation of Crime Patterns Prediction Using Data Mining Sudha Rani and Shweta Roy\n10 | Advent of the Data Centre Era Dr. Ranjit Singh\n\n\nJOURNAL JULY - DECEMBER 2020\n\n\nAKGEC International Journal of Technology\nJuly – December 2020 Vol. 11, No.2 ISSN 0975-9514\nS No. | Content\n1 | Collaborating for Self Reliance – Co-Creating IoT Connectivity Solutions Using NB.Fi Satya N. Gupta\n2 | Industry 4.0: High-tech Strategy for Future Manufacturing Industries Manjit Singh\n3 | Amplitude Equalizers – Types and Design Dr T. S. Rathore\n4 | Harmonising Outcome-Based Education Accreditation Framework and International Educational Standard ISO 21001:2018 Dr. P.S. Grover\n5 | EBG Configured Wideband Sensing Antenna for Smart RF Applications Dr. Pankaj Kumar Goswami and Garima Goswami\n6 | Modeling and Analysis of Helical Springs Using CATIA-V5R19 and ANSYS 16.0 Dr. Reddy Sreenivasulu, N. Yaswanth Krishna, M. Sukumar, O.N. Gouse Basha,N. ArunKumar, K. Heamanth and M. Vamsi Krishna\n7 | Advanced Structural Sandwiched Panels in Layered Corrugate Core Dr. K Kamal\n8 | Block-chain Technology and its Application against COVID-19 Dr Brijesh Kumar Gupta\n9 | Menace of Space Junk around Earth Dr. Ranjit Singh\n10 | 8:1 High Power Combiner for S-Band Radar Amit Tiwari, Suraj Kumar, Anuj Tiwari, Vikas Jain, Anil Kumar\n\n\nJOURNAL JANUARY - JUNE 2020\n\n\nAKGEC International Journal of Technology\nJanuary – June 2020 Vol. 11, No.1 ISSN 0975-9514\nS No. | Content\n1 | Mobile Edge Computing In 5G Era Manjit Singh\n2 | Innovations- Sustainability of Telecom Tilak Raj Dua\n3 | Managing New Internet (IPv6) in Country – Case for a 22 National Root Server for v6 Satya N. Gupta and Keshav Sharma\n4 | General Data Protection Regulation and Its 28 Impact on Indian Enterprises Dr. Brijesh Kumar Gupta\n5 | Soil Nailing for Highway Construction Archita Goyal and A. K. Shrivastava\n6 | Power Balance ICP Model Dr. Bhupal Singh, Dr. K.B. Sahay and Dr. Sneh Anand\n7 | Plastics Addiction: Humanity’s Existential Crisis Pratibha Singh and Om Pal Singh\n8 | Transmitter for Beam Forming Applications Amit Tiwari\n9 | Deep Learning Algorithms to Improve Financial Decisions Shweta Roy\n10 | Symbiosis of Electronics and Mechanical Engineering Dr. Ranjit Singh\n\n\nJOURNAL JULY - DECEMBER 2019\n\n\nAKGEC International Journal of Technology\nJuly – December 2019 Vol. 10, No.2 ISSN 0975-9514\nS No. | Content\n1 | Substitution in Titanium Dioxide Hydroelectric Cell Induces Higher Green Energy Abha Shukla, Rojaleena Das, Rekha Agrawal, Garima Kotnala, Shipra Jain, Rekha Gupta and Dr. Jyoti Shah\n2 | Public Protection and Disaster Relief Radio-communications Bharat Bhatia\n3 | Enhanced Luminescence of MoS -QDs for Enzyme Free and Sensitive Detection of H O 2 2 Himanshu Mishra, Vijay K Singh, Stuti Srivastava, Anurag Mishra and Anchal Srivastava\n4 | A Low Cost Homemade Air purifier Anuj Tiwari and Amit Tiwari\n5 | Applicability of Industrial Internet of Things (IIoT) in Lean Manufacturing: A Brief Study Reddy Sreenivasulu and Srinivasa Rao Chalamalasetti\n6 | Digital Super Divide: Humanity at Cross-road K. K. Minocha\n7 | Investigation of High-Strength Concrete Using Fly Ash and Silica Fume Dr. Rakesh Srivastava, Yogendra Kumar, Rupesh Kumar, Saurabh Kumar, Sonam Gupta, Vijay Kumar and Vividh Mahajan\n8 | Study of Thermal Decomposition of Polystyrene Using Viscometric Analysis and Assessment of Its Reaction Rate Models Dr. Aniruddh Singh, Arun Maurya and Rohit Patel\n9 | Carbon Footprint Reduction and Sustainable Reuse of Recycled Plastic A.P.R. Srinivas\n10 | Paradigm Shift in Manufacturing via Information Technology Dr. Ranjit Singh\n\n\nJOURNAL JANUARY - JUNE 2019\n\n\nAKGEC International Journal of Technology\nJanuary – June 2019 Vol. 10, No.1 ISSN 0975-9514\nS No. | Content\n1 | Increasing Pace of Innovation: The Innovation Cube Model Dr. Sandeep Muju\n2 | Circuit Theorems – Scope and Limitations (Part III: Miller’s theorem) Dr. T. S. Rathore\n3 | ICT Technologies and KPIs for Smart Safe and Sustainable Cities T.R. Dua\n4 | Gyan Vahini – Creation of an Open Access National Digital Infrastructure Grid through Functional Separation Using Smart Contracts and Blockchain Satya N. Gupta\n5 | Wi-Fi Offloading – A Promising Solution to Solve Network Congestion Keshav Sharma\n6 | Solar Installations and Reduction in LPG Consumption A.P.R. Srinivas\n7 | Comparative Performance Analysis of Various Micro-strip Power Dividers Siddhartha Dubey1 and Amit Tiwari\n8 | Reverse Image Data Hiding Using Transform Techniques Dr. Neelesh Gupta\n9 | Digital Detoxification: Humanity on the Precipice Dr. Ranjit Singh\n10 | Design and Development of C-Band Down Converter for Data-link Application Amit Tiwari\n11 | Composite Laptop Lid Design – A Conceptual Cost Reduction Technique A.P.R. Srinivas\n\n\nJOURNAL JULY- DECEMBER 2018\n\n\nAKGEC International Journal of Technology\nJuly – December 2018 Vol. 9, No.2 ISSN 0975-9514\nS No. | Content\n1 | Spectrum Policy for Satellite and 5G Systems Focus on 28 GHz Band Dr. Laura Roberti\n2 | Broadband Internet and Access Technology for Rural Connectivity Kishore Kumar Thakur\n3 | The Evolving Ecosystem in the World of Digital Data K.K Minocha\n4 | Glass Fibre Reinforced Polymer Jacketing over Concrete Column Dr. K. Kamal\n5 | Manufacturing and Assembling Buildings as 3D Monolithic Shearwall Modules S. J. Vijay\n6 | High Speed and Delay Efficient Convolution by using Kogge Stone Device Dr. Neelesh Gupta & Shubhi Shrivastava\n7 | Lithium Ion Batteries_ Answer to Communications-Energy Crunch Dr. Ranjit Singh\n8 | Innovations Utilizing Haptic Technology in Industry 4.0 Era Prity Khastgir\n9 | Design and Development of C-Band Up-Converter with Built-in-Check Amit Tiwari\n10 | LC Model of Corner Arc Slotted Antenna for C, X and Ku Band Applications Manoj Kumar Garg\n11 | 5G Technology of Mobile Communications A Review Neha Gehlot & Ritu Sindhu\n\n\nJOURNAL JANUARY - JUNE 2018\n\n\nAKGEC International Journal of Technology\nJanuary – June 2018 Vol. 9, No.1 ISSN 0975-9514\nS No. | Content\n1 | Circuit Theorems – Scope and Limitations Dr. T. S. Rathore\n2 | Face Recognition Techniques – A Review Bhaskar Gupta\n3 | Green Technologies in ICT Sector for Development: A Path to Environmental Sustainability Om Pal Singh and Pratibha Singh\n4 | Influence of Zinc Oxide and Silicon Carbide Micro fillers on Impact Strength and Hardness in E-Glass/Polyester Composites: Fabrication and Testing Reddy Sreenivasulu\n5 | Internet of Medical Things: Advent of Digital Doctor Manjit Singh\n6 | Collaboration: A Key to Innovation Amit Tiwari\n7 | Survey: Internet of Things Ruchi Parashar\n8 | Automatic Facial Feature Point Extraction by Using Harris Algorithm Pushpa Kesarwani, Akhilesh Kumar Choudhary and Arun Kumar Misra\n9 | Image Processing in Face Detection through Morphological Shared-weight Neural Networks Dr. Chandani Sharma and Dr. Ranjit Singh\n10 | Taguchi Based Experimental Studies on Surface Roughness and Burr Formation during End Milling of Inconel 718 Reddy Sreenivasulu, Shaik Hidayath Hussain, Raga Veera Vineeth, Raavi Rama Krishna, Vijay Dasari and Pappala Suresh\n\n\nJOURNAL JULY-DEC 2017\n\n\nAKGEC 8.2 Journal (July-December 2017)\n\nAKGEC_Intel_Journal_8_no_1_1\n\nAKGEC_Intel_Journal_8_no_1_3\n\nAKGEC_Intel_Journal_8_no_1_5\n\nAKGEC_Intel_Journal_8_no_1_7\n\nAKGEC_Intel_Journal_8_no_1_9\n\nAKGEC_Intel_Journal_8_no_1_11\n\nAKGEC_Intel_Journal_8_no_1_2\n\nAKGEC_Intel_Journal_8_no_1_4\n\nAKGEC_Intel_Journal_8_no_1_6\n\nAKGEC_Intel_Journal_8_no_1_8\n\nAKGEC_Intel_Journal_8_no_1_10\n\n\nJOURNAL JAN-JUNE 2017\n\n\nAKGEC 8.1 Journal (Jan-June 2017)\n\nAKGEC_Intel_Journal_8_no_1_1\n\nAKGEC_Intel_Journal_8_no_1_3\n\nAKGEC_Intel_Journal_8_no_1_5\n\nAKGEC_Intel_Journal_8_no_1_7\n\nAKGEC_Intel_Journal_8_no_1_9\n\nAKGEC_Intel_Journal_8_no_1_11\n\nAKGEC_Intel_Journal_8_no_1_2\n\nAKGEC_Intel_Journal_8_no_1_4\n\nAKGEC_Intel_Journal_8_no_1_6\n\nAKGEC_Intel_Journal_8_no_1_8\n\nAKGEC_Intel_Journal_8_no_1_10\n\n\nJOURNAL JULY-DEC 2016\n\n\nAKGEC 7.2 Journal (Jul-Dec 2016)\n\nAKGEC_Vol_7_No_2_1\n\nAKGEC_Vol_7_No_2_4\n\nAKGEC_Vol_7_No_2_7\n\nAKGEC_Vol_7_No_2_10\n\nAKGEC_Vol_7_No_2_2\n\nAKGEC_Vol_7_No_2_5\n\nAKGEC_Vol_7_No_2_8\n\nAKGEC_Vol_7_No_2_11\n\nAKGEC_Vol_7_No_2_3\n\nAKGEC_Vol_7_No_2_6\n\nAKGEC_Vol_7_No_2_9\n\n\nJOURNAL JAN-JUN 2016\n\n\nAKGEC 7.1 Journal (Jan-June 2016)\n\nAKGEC_Vol_7_No_1_1\n\nAKGEC_Vol_7_No_1_4\n\nAKGEC_Vol_7_No_1_7\n\nAKGEC_Vol_7_No_1_10\n\nAKGEC_Vol_7_No_1_2\n\nAKGEC_Vol_7_No_1_5\n\nAKGEC_Vol_7_No_1_8\n\nAKGEC_Vol_7_No_1_3\n\nAKGEC_Vol_7_No_1_6\n\nAKGEC_Vol_7_No_1_9\n\n\nJOURNAL JULY-DEC 2015\n\n\nAKGEC 6.2 Journal (Jul-Dec 2015)\n\nAKG_Int_Journal_Tech_Vol_6_no_2_1\n\nAKG_Int_Journal_Tech_Vol_6_no_2_3\n\nAKG_Int_Journal_Tech_Vol_6_no_2_5\n\nAKG_Int_Journal_Tech_Vol_6_no_2_7\n\nAKG_Int_Journal_Tech_Vol_6_no_2_9\n\nAKG_Int_Journal_Tech_Vol_6_no_2_11\n\nAKG_Int_Journal_Tech_Vol_6_no_2_13\n\nAKG_Int_Journal_Tech_Vol_6_no_2_2\n\nAKG_Int_Journal_Tech_Vol_6_no_2_4\n\nAKG_Int_Journal_Tech_Vol_6_no_2_6\n\nAKG_Int_Journal_Tech_Vol_6_no_2_8\n\nAKG_Int_Journal_Tech_Vol_6_no_2_10\n\nAKG_Int_Journal_Tech_Vol_6_no_2_12\n\nAKG_Int_Journal_Tech_Vol_6_no_2_14\n\n\nJOURNAL JAN-JUN 2015\n\n\nAKGEC 6.1 Journal (Jan-June 2015)\n\nAKG_Int_Journal_Tech_Vol_6_no_1_1\n\nAKG_Int_Journal_Tech_Vol_6_no_1_3\n\nAKG_Int_Journal_Tech_Vol_6_no_1_5\n\nAKG_Int_Journal_Tech_Vol_6_no_1_7\n\nAKG_Int_Journal_Tech_Vol_6_no_1_9\n\nAKG_Int_Journal_Tech_Vol_6_no_1_11\n\nAKG_Int_Journal_Tech_Vol_6_no_1_13\n\nAKG_Int_Journal_Tech_Vol_6_no_1_2\n\nAKG_Int_Journal_Tech_Vol_6_no_1_4\n\nAKG_Int_Journal_Tech_Vol_6_no_1_6\n\nAKG_Int_Journal_Tech_Vol_6_no_1_8\n\nAKG_Int_Journal_Tech_Vol_6_no_1_10\n\nAKG_Int_Journal_Tech_Vol_6_no_1_12\n\n\nJOURNAL JULY-DEC 2014\n\n\nAKGEC Journal of Technology\nJuly-December 2014 Vol. 5, No.2 ISSN 0975-9514\nS No. | Content\n1 | Optimization of Machining Parameters and Material Selection during Drilling of Alluminium Alloys – Review. Reddy Sreenivasulu and Dr. Goteti Chaitanya\n2 | Strategies for Improvement of Service Quality for Commuters in Public Transit Service-A Case Study of Bhopal. Ajay Pratap Singh, Dr. Varun Singh, Dr. A. K. Sharma and Dr. Anupama Sharma\n3 | Energy Optimization Routing Technique for Wireless Mesh Networks. Pushpender Sarao and Dr. Sohan Garg\n4 | A Rubik’s Cube Solving Robot Using Basic Lego Mindstorms NXT kit. Khushboo Tomar\n5 | Comparative Studies of DC/DC Converters for Solar Panel MPPT. Chandani Sharma and Dr. Anamika Jain\n6 | Design and Simulation of Self-Supported DVR Using SRFT. Pradeep Kumar Bhardwaj and Dr. M. P Dave\n7 | A Study and Simulation of VoIP in MPLS Network. Dr. Anu Chaudhary\n8 | Improved Face Recognition Performance Using Eigen Face Algorithm. Bhaskar Gupta\n9 | A Reconfigurable gm-C Ladder Base-Band Filter for WLAN IEEE 802.11a/b/g with Temperature Compensation. Manish Zadoo, Amit Choudhary and Meenakshi Sharma\n10 | An Empirical Investigation of Service Quality Gap at CNG Outlets Using SERVQUAL Measure. T. Nandakumar and Akhil Damodaran\n\n\nJOURNAL JAN-JUNE 2014\n\n\nAKGEC Journal of Technology\nJan-June 2014 Vol. 5, No.1 ISSN 0975-9514\nS No. | Content\n1 | Microwave Photonics. Dr. S.C. Gupta\n2 | Analyzing Face Recognition Using PCA. Bhaskar Gupta\n3 | Routing in Wireless Mesh Networks Using Mobile Agents. Pushpender Sarao and Dr. Sohan Garg\n4 | Vibration Isolation and Control in Civil Engineering. Dr. Bharat Bhushan Prasad\n5 | Study of Slip Plane Dislocation in Propagation of Fracture. J S Behal, Ish kakkar, Anoop Pandey and Mayank Gupta\n6 | Evidence of Fama-French Three Factor Model in Indian Stock Market in Respect of Indian Oil and Gas Firms. T. Nandakumar and Akhil Damodaran\n7 | A Study of FPGA-Based Detection Method for Induction Motors under Different Loads. Swati Rajput and Dr. K.K. Tripathi\n8 | Synchronized Phasor Measurements. Saurabh Khattar and Dr. M. P. Dave\n9 | Real Time Obstacle Detection for an Automotive Vehicle. Shivani Godha and Pradeep Jain\n10 | Performance Comparison of Various Face Detection Techniques. Bhaskar Gupta\n11 | A Study of Speed Control of PMDC Motor Using Auto-tuning of PID Controller Through Labview. Priyanka Rajput and Dr. K.K. Tripathi\n12 | New Trends in Design and Development of Low-Cost Nanobiosensors. Manish Zadoo and Meenakshi Sharma\n\n\nJOURNAL JULY-DEC 2013\n\n\nAKGEC Journal of Technology\nJuly-December 2013 Vol. 4, No.2 ISSN 0975-9514\nS No. | Content\n1 | New Trends in High Speed Networking. Dr. S.C. Gupta\n2 | Online Monitoring Inside a Building Based on Energy Efficient Wireless Sensor Network. Himanshu Sharma and Vibhav Kumar Sachan\n3 | A Review on Multi Objective Optimization of Drilling Parameters Using Taguchi Methods. K. Lipin and P. Govindan\n4 | A Novel Design of Compact 2.5GHz Fractal Antennas. Nehya Chaudhary, Sonika Sindhiya and Dr. K.K Tirpaathi\n5 | Infrastructure for IP Networks. Manjit Singh\n6 | Study of Indian Power Sector for Planned Power Capacity. Rajiv Kumar Singh, Suresh K.Choudhary, Dr. IPS Paul and Raj Kumar\n7 | FPGA Realization of Double Data Rate Synchronous Dynamic Random Access Memory Controller. Dipa Nitin Kokane\n8 | Relationship between Mathematics and Physics: A Fresh Perspective. Dr. Aniruddh Singh\n9 | Low Cost Automatic Door Closure. J. S. Kushawaha\n10 | Quality Monitoring and Control: A Key to Success. Prachi Sharma and Dr. Rajiv Kumar Gupta\n11 | Financial Inclusion: Issues and Challenges. Akhil Damodaran\n12 | Design and Analysis of Multiband Microstrip Antenna Array. Sonika Sindhiya, Nehya Chaudhary and K.K Tripathi\n\n\nJOURNAL JAN-JUN 2013\n\n\nAKGEC Journal of Technology\nJan-June 2013 Vol. 4, No.1 ISSN 0975-9514\nS No. | Content\n1 | Navigation through Fog Using Aircraft Cockpit Display. Saifullah Khalid\n2 | The Economics of Indian Aviation Sector. Dr. K.V. Damodharan\n3 | LTE-FDD and LTE-TDD for Cellular Communications. Wg. Cdr. (Retd) Arif Khan\n4 | Linear Chirp Signal and Exponential Sweep Signal Suppression Using Volterra Filters. Sheena Agarwal and Dr. R.C. Jain\n5 | An Unmanned Aerial Vehicle for Navigation and Surveillance Purposes. Manish Zadoo, Dr. Chetan Khemraj and Sushma Barahate\n6 | Chemical Sensor Array Design Using Algebraic Properties of the Response Matrix. Dr. Aniruddh Singh\n7 | Comparison of Friction Stir Welding, Friction Surfacing and other Welding Processes. Dr. M. Lakshmana Rao, P. Suresh Babu, Y. Seenaiah and T. Rammohan\n8 | Advanced Heuristic Algorithm for Sandhi Processing in Sanskrit. Ravi Pal\n9 | Dimensions of Efficient Use of Electrical Power in CPRI. Dr. I.P.S. Paul\n10 | Corrosion in Fuel Tank and Its Prevention by Volatile Corrosion – a Review. Shailendra Kumar Dwivedi\n11 | A Sustainable Approach to the Customer Development Journey. Prachi Sharma\n\n\nJOURNAL JULY-DEC 2012\n\n\nAKGEC Journal of Technology\nJuly-December 2012 Vol. 3, No.2 ISSN 0975-9514\nS No. | Content\n1 | Study of Triple Band for Wireless, Mobile and Satellite Communication Applications. Neelam Singh\n2 | Estimating the Effect of Cutting Parameters on Tool Wear and Work-piece Surface Temperature in Turning of AISI D2 Steel. Sudhansu Ranjanjan Das, Amaresh Kumar and Debabrata Dhupal\n3 | Study of Tool geometry in Friction Stir Welding Applications. Dr. M. Lakshmana Rao, P. Suresh Babu, T. Rammohan and Y. Seenaaiah\n4 | Effect of Welding Conditions on Hardness of Commercially Pure Titanium. S. Krishnanunni, Josephkunju Paul C and V Narayanan Unni\n5 | Combined Effect of Injection / Suction and Magnetic Field on Oscillatory Flow in a Planer Channel. B.P. Garg\n6 | Nash Equilibrium, Fermat Principle and Governing Dynamics. Dr. Aniruddh Singh\n7 | Newer Ways of Maintenance In Plants. Dr. I.P.S. Paul\n8 | Fusion of CT and MRI Scanned Medical Images Using Image Processing. Suresh Padala\n9 | Design of OFDM Transceiver for Wireless Communication. Dipa Nitin Kokane and Nitin H kokane\n10 | A General Second Order Analog Filter to Eliminate Limit Cycles For Constant Input Signals. Deepak Garg and Vijay Kumar Tayal\n11 | Comparative Study of Various Transforms Based Methods for ECG Data. Bhaskar Gupta\n12 | An Efficient Software Testing by Diminishing Number of Test Executions. Dr. Pradeep Udupa\n\n\nJOURNAL JAN-JUNE 2012\n\n\nAKGEC Journal of Technology\nJanuary-June 2012 Vol. 3, No.1 ISSN 0975-9514\nS No. | Content\n1 | Sustainable Bio-diesel Development Strategies in Fossil-Driven Economy of Nigeria O.D. Samuel\n2 | Hybrid BAFEC/CHARQ Method for Wireless Video Streaming Faezeh Sadat Mozneb\n3 | Architectural designs and Constructability Issues Eng. Ali Akbar Kamar and Dr. S. S. Pimplikar\n4 | A Study of Advances in Maintenance Management System in Industrial Plants Dr. I.P.S. Paul and M. Kohle\n5 | Analysis of Direct Torque Control of PMSM Drive Using Different Inverter Topologies Atul Sood, Anil Kumar Rai, Ritesh Sharma and K. K. Prajapat\n6 | Cache database: Introduction to a New Generation Database Amrita Bhatnagar\n7 | Green Engineering Is the Best Fit When Approaches Nature’s Engineering Benchmark Manvendra Tiwari, Sanjay K. Behera and R. S. Rohella\n8 | Durability studies on Steel Fibre Reinforced Metakaolin Blended Concrete Dr. P. Srinivasa Rao, Dr Sravana, Dr Z. Abdul Rahim and Dr. T. Seshadri Sekhar\n9 | Quality in Engineering Education in Punjab Col. Dr. D.S. Grewal\n10 | A Survey on Image to Text Detection Methodology Sandeep Sharma and Jai Prakash\n11 | The Overview of New Trends in Hybrid Artificial -Intelligence and Control Techniques Rajesh Namdev M.S. Bhadoria Aishwarya Yadav\n12 | A Study on Structural Stress Analysis of an Engine Cylinder Head Dr. M. Lakshman Rao\n\n\nJOURNAL JULY-DEC 2011\n\n\nAKGEC Journal of Technology\nJuly-December 2011 Vol. 2, No.2 ISSN 0975-9514\nS No. | Content\n1 | Performance Analysis of a Four Switch Three Phase Inverter Fed Synchronous Reluctance Motor Drive Kalyan Kumar Halder, Md. Abdur Rafiq and B. C. Ghosh\n2 | An Innovative Approach to Collaborative Performance Measurement in Supply Chain ASSEY MBANG Janvier-James\n3 | Synthesis and Characterization of Bismuth Ferrite Nanoparticles Anoopshi Johari\n4 | A Comparative Study of Genetic Algorithm and the Particle Swarm Optimization Sapna Katiyar\n5 | Concepts, Challenges and Opportunities of Cloud Computing for Business Analyst Charu Agarwal\n6 | Comparison of Approaches Used for Data Reconciliation: A Survey Yuvika Singhal, Anupama Sharma and Dr. Ranjit Singh\n7 | Phone with Android OS as Wireless TD Storage Device through TD/IP Connection Ravi Pal and Shiva Prakash\n8 | R&D perspectives for India Power-2020 Dr. I.P.S. Paul\n9 | A Novel Shunt Active Filter Algorithms for a Three Phase System with Unbalanced and Distorted Source Voltage Wave Forms Feeding to Adjustable Speed Drive K. Sravanthi, CH. Sujatha and Dr. K. Chandra Shekar\n10 | Effect of Thermal Cycles on Compressive Strength of Different Grades of Concrete K. Chandramouli, P. Srinivasa Rao, T. Seshadri Sekhar , N. Pannirselvam and P. Sravana\n11 | Analysis of Sludge Formed in R.M.C Plant Arjita Biswas and P.R Adavi\n12 | CALL for Manuscripts\n13 | FEEDBACK FORM\n\n\nJOURNAL JAN-JUN 2011\n\n\nAKGEC Journal of Technology\nJanuary-June 2011 Vol. 2, No.1 ISSN 0975-9514\nS No. | Content\n1 | FPGA Based Monitoring System for Heart Rate and Arterial Oxygen Saturation Vandana V. Kale, Atika Jain and A.D.Rahulkar\n2 | Analysis of Adaptive Volterra Filters with LMS and RLS Algorithms Amrita Rai and Dr. Amit Kumar Kohli\n3 | Elastance Co-efficient of the Intradural Vascular System in Human beings: A Modelling Study Dr. Bhupal Singh, Prof. K.B Sahay and Prof. Sneh Anand\n4 | Theoretical Categorization of Interoperability in E-Government Rajesh Chauhan and Dr. Amar Jeet Singh\n5 | Implementation of Image Processing Algorithm on FPGA Abdul Manan\n6 | Attributes in JIT Purchasing Sultan Singh and Dixit Garg\n7 | Power Market Design in India J.P. Navani and Sonal Sapra\n8 | Hydrogen Production by Splitting Water in an Electrolyzer: A Computer Simulation Based Study Dr. Aniruddh Singh\n9 | Modified Neural Networks for Face Recognition Bhaskar Gupta\n10 | Power of Mobility Manjit Singh\n11 | Benchmarking for Quality Technical Institutions Col. Dr. D. S. Grewal\n12 | Glass Fibre Reinforced Concrete Use in Construction S.A. Eng. Pshtiwan N. Shakor and Prof. S. S. Pimplikar\n13 | Energy Optimization of Steam Turbines by Audit M. Siddhartha Bhatt, Dr. I.P.S.Paul, I.P. Sharma and S.K. Choudhry\n\n\nJOURNAL JAN-JUN 2010\n\n\nAKGEC Journal of Technology\nJanuary-June 2010 Vol. 1, No.1 ISSN 0975-9514\nS No. | Content\n1 | Outsource Testing Parul Gupta and Tripti Sharma\n2 | Grid Computing Kavita Agarwal\n3 | Screening out Factors of Bloom Manufacturing Using Plackets Burman Design R.P. Sinha\n4 | Analysis of Rectangular Resonant Patch Antenna Loaded with Metamaterial and a Slot Loaded Rectangular Microstrip Patch Antenna Neelam Singh and Bhanu Pratap Singh\n5 | A Practical Approach for Retinal Authentication Rahul Vivek Purohit\n6 | Evolution of Middleware Technology and Its Widespread Applications Shweta Roy\n7 | Significance of Dimensionless Size of Support Domain in Element Free Galerkin Method J.S. Khushawaha\n8 | Rotation Invariant Iris Texture Verification Amol Rahulkar\n9 | Charging & Discharging of Capacitor and Maxwell's Equations Dr. Aniruddh Singh\n10 | Latest Advances in the Field of Aviation Saifullah Khalid\n11 | Non Destructive Testing Dr. T. Seshadri Sekhar, Dr. P. Sravana and Dr Srinavasa Rao\n12 | Entrepreneurship and Innovation in Engineering Education to Meet Recent Changes in the World Rajesh Kumar and S.A. Imam\n\n\nJOURNAL JULY-DEC 2010\n\n\nAKGEC Journal of Technology\nJuly-December 2010 Vol. 1, No.2 ISSN 0975-9514\nS No. | Content\n1 | Advance Applications of Artificial Intelligence and Neural Networks: A Review Jyoti Singh and Pritee Gupta\n2 | A Survey of Short-range Wireless Communication Technologiesfor Embedded Systems Divyang D. Vyas and Dr. H. N. Pandya\n3 | Performance Evaluation of Wimax Network Using Qualnet Simulator Mitul R. Khandhedia, Prof. K.H. Wandra, Prof. D.N. Khandhar and Nirav R. Khandhedia\n4 | Facial Detection Using Multi-sensor Metaphors Based On Localized Core Eigen-spaces C. Karthikeyan and Dr. B. Ramadoss\n5 | Constructing Compact Binary Decision Trees using Genetic Algorithm Santosh Tiwari and Jaiveer Singh\n6 | Secure Data Dissemination over Web 2.0 Niyati Aggrawal\n7 | On the Performance of Network Coding and Channel Coding for Wireless Networks Alpana Sahu\n8 | Steganography in Multimedia Messaging Service of Mobile Phones Using CDMA Spread Spectrum Ritesh Pratap Singh and Neha Singh\n9 | Wireless Power Transmission for Solar Power Satellite T.S. Hasarmani\n10 | To Neural Networks and Beyond Dr Anil Kumar Ahlawat\n11 | Frequency Synchronization in OFDM a Bayesian Analysis Inderjeet Kaur\n12 | Some Studies on the Permeability Behaviour of Self Compacting Concrete Dr. Seshadri Sekhar. T, Dr. P. Sravana and Dr. Srinivasa Rao\n13 | An Efficient Algorithm for All Pair Optimized Shortest Paths Dr. P K Singh and Rajendra Kumar\n14 | Dual Frame Motion Compensation Approach for Lossless Video Coding Shailendra Bisariya\n15 | A New Method of Measuring Resistance Dr. Aniruddh Singh\n\n\nEDITOR-IN-CHIEF\n\n\nDr. Rajesh Prasad Professor Ajay Kumar Garg Engineering College, Ghaziabad, UP, India-201015 Email: [email protected] Mobile No: +919667896459\n\n\nPUBLISHER\n\n\nAjay Kumar Garg Engineering College, 27th KM Milestone, Delhi – Meerut Expy, Ghaziabad-201015, Uttar Pradesh Email: [email protected] Mobile No: +917290034978",
+  "character_count": 62205
+}

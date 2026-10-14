@@ -1,232 +1,297 @@
-import requests
-from bs4 import BeautifulSoup
-from urllib.parse import urljoin, urlparse, urldefrag
-from pathlib import Path
+# Discover PDF and image resources from AKGEC navigation pages
+
 import json
 import time
+from pathlib import Path
+from urllib.parse import urljoin, urlparse, urldefrag
+from urllib.robotparser import RobotFileParser
+
+import requests
+from bs4 import BeautifulSoup
 
 
-# ---------------------------------------------------------
-# Website configuration
-# ---------------------------------------------------------
-# Ye AKGEC ke important official domains hain.
-# Hum external/random websites ko crawl nahi karenge.
+# Configuration
+NAVIGATION_FILE = Path("data/fresh/navigation_urls.json")
+OUTPUT_FILE = Path("data/fresh/resource_urls.json")
+
+BASE_URL = "https://www.akgec.ac.in"
+USER_AGENT = "AKGEC-RAG-Research-Bot/1.0"
+
+HEADERS = {"User-Agent": USER_AGENT}
+
+REQUEST_DELAY = 1.5
+
 ALLOWED_DOMAINS = {
     "www.akgec.ac.in",
-    "akgec.ac.in",
-    "admissions.akgec.ac.in"
+    "akgec.ac.in"
 }
 
-
-# ---------------------------------------------------------
-# Starting pages
-# ---------------------------------------------------------
-# In pages se resource URLs discover karna start hoga.
-START_URLS = [
-    "https://www.akgec.ac.in/"
-]
-
-
-# ---------------------------------------------------------
-# Resource file extensions
-# ---------------------------------------------------------
-# Ye downloadable document formats hain
-# jo future RAG pipeline mein useful ho sakte hain.
 RESOURCE_EXTENSIONS = {
     ".pdf",
-    ".doc",
-    ".docx",
-    ".xls",
-    ".xlsx"
+    ".jpg",
+    ".jpeg",
+    ".png",
+    ".webp"
 }
 
 
-# ---------------------------------------------------------
-# Output location
-# ---------------------------------------------------------
-# Discovered resources ko JSON mein save karenge.
-OUTPUT_PATH = Path("data/resource_urls.json")
-OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-
-
-# ---------------------------------------------------------
-# HTTP headers
-# ---------------------------------------------------------
-# User-Agent website ko batata hai ki request kis client
-# se aa rahi hai.
-HEADERS = {
-    "User-Agent": "AKGEC-RAG-Research-Bot/1.0"
-}
-
-
-# ---------------------------------------------------------
-# URL normalization
-# ---------------------------------------------------------
-# Same URL ke duplicate versions ko remove karne mein help
-# karta hai.
+# Normalize URLs without fragments
 def normalize_url(url):
     url, _ = urldefrag(url)
 
     parsed = urlparse(url)
 
-    scheme = parsed.scheme.lower()
-    domain = parsed.netloc.lower()
-
-    path = parsed.path
-
-    return f"{scheme}://{domain}{path}"
+    return parsed._replace(fragment="").geturl()
 
 
-# ---------------------------------------------------------
-# Check whether URL belongs to allowed AKGEC domains
-# ---------------------------------------------------------
+# Check allowed official domain
 def is_allowed_domain(url):
-    domain = urlparse(url).netloc.lower()
+    parsed = urlparse(url)
 
-    return domain in ALLOWED_DOMAINS
-
-
-# ---------------------------------------------------------
-# Check whether URL is a document/resource
-# ---------------------------------------------------------
-def get_extension(url):
-    path = urlparse(url).path.lower()
-
-    return Path(path).suffix
+    return (
+        parsed.scheme == "https"
+        and parsed.netloc.lower() in ALLOWED_DOMAINS
+    )
 
 
-def is_resource(url):
-    extension = get_extension(url)
-
-    return extension in RESOURCE_EXTENSIONS
-
-
-# ---------------------------------------------------------
-# Find resources from one webpage
-# ---------------------------------------------------------
-def extract_resources(page_url):
-    print(f"Scanning: {page_url}")
+# Load robots.txt
+def load_robots():
+    robots = RobotFileParser()
+    robots.set_url(f"{BASE_URL}/robots.txt")
 
     try:
         response = requests.get(
-            page_url,
+            robots.url,
             headers=HEADERS,
             timeout=20
         )
-
         response.raise_for_status()
 
+        robots.parse(response.text.splitlines())
+        return robots
+
     except requests.RequestException as error:
-        print(f"Error: {error}")
-        return []
+        print("Robots verification failed:", error)
+        return None
 
 
-    # HTML ko parse karne ke liye BeautifulSoup use kar rahe hain.
+# Read all discovered navigation pages
+def load_pages():
+    with open(
+        NAVIGATION_FILE,
+        "r",
+        encoding="utf-8"
+    ) as file:
+        data = json.load(file)
+
+    pages = []
+    seen = set()
+
+    for item in data.get("pages", []):
+        url = normalize_url(item.get("url", ""))
+
+        if not is_allowed_domain(url):
+            continue
+
+        if url in seen:
+            continue
+
+        seen.add(url)
+
+        pages.append({
+            "url": url,
+            "section": item.get("section", "UNCLASSIFIED"),
+            "title": item.get("title", "")
+        })
+
+    return pages
+
+
+# Discover resource links from webpage
+def extract_resources(page):
+    page_url = page["url"]
+
+    response = requests.get(
+        page_url,
+        headers=HEADERS,
+        timeout=25
+    )
+
+    response.raise_for_status()
+
+    if not is_allowed_domain(response.url):
+        raise ValueError("Redirected outside allowed domain")
+
     soup = BeautifulSoup(response.text, "html.parser")
+
+    # Remove website navigation and footer
+    for tag in soup(["header", "nav", "footer", "script", "style"]):
+        tag.decompose()
+
+    content = soup.select_one("main") or soup.body
+
+    if content is None:
+        return []
 
     resources = []
 
-
-    # ---------------------------------------------------------
-    # Search all links
-    # ---------------------------------------------------------
-    # <a href="..."> ke andar downloadable resources mil sakte hain.
-    for tag in soup.find_all("a", href=True):
-
-        resource_url = urljoin(
-            page_url,
-            tag["href"]
+    # PDF and image links
+    for tag in content.select("a[href]"):
+        url = normalize_url(
+            urljoin(response.url, tag["href"])
         )
 
-        resource_url = normalize_url(resource_url)
+        extension = Path(urlparse(url).path.lower()).suffix
 
-
-        # Sirf allowed AKGEC domains.
-        if not is_allowed_domain(resource_url):
+        if not is_allowed_domain(url):
             continue
 
-
-        # Sirf required document formats.
-        if not is_resource(resource_url):
+        if extension not in RESOURCE_EXTENSIONS:
             continue
 
+        title = tag.get_text(" ", strip=True)
+
+        if not title:
+            title = Path(urlparse(url).path).stem
 
         resources.append({
-            "url": resource_url,
+            "title": title,
+            "url": url,
             "source_page": page_url,
-            "file_type": get_extension(resource_url)
+            "section": page["section"],
+            "page_title": page["title"],
+            "file_type": extension
         })
 
+    # Embedded images
+    for tag in content.select("img[src]"):
+        url = normalize_url(
+            urljoin(response.url, tag["src"])
+        )
+
+        extension = Path(urlparse(url).path.lower()).suffix
+
+        if not is_allowed_domain(url):
+            continue
+
+        if extension not in RESOURCE_EXTENSIONS:
+            continue
+
+        title = tag.get("alt", "").strip()
+
+        if not title:
+            title = Path(urlparse(url).path).stem
+
+        resources.append({
+            "title": title,
+            "url": url,
+            "source_page": page_url,
+            "section": page["section"],
+            "page_title": page["title"],
+            "file_type": extension
+        })
 
     return resources
 
 
-# ---------------------------------------------------------
-# Main discovery process
-# ---------------------------------------------------------
-all_resources = {}
-pages_scanned = 0
+# Main resource discovery
+def main():
+    if not NAVIGATION_FILE.exists():
+        print("Navigation file missing:", NAVIGATION_FILE)
+        return
 
+    robots = load_robots()
 
-for start_url in START_URLS:
+    if robots is None:
+        print("Discovery stopped: robots.txt not verified.")
+        return
 
-    resources = extract_resources(start_url)
+    pages = load_pages()
 
-    pages_scanned += 1
+    print("Navigation pages:", len(pages))
 
+    all_resources = {}
+    failed_pages = []
+    skipped_pages = []
 
-    for resource in resources:
+    for index, page in enumerate(pages, start=1):
+        url = page["url"]
 
-        url = resource["url"]
+        print(f"[{index}/{len(pages)}] {url}")
 
-        # Dictionary URL ko key bana raha hai.
-        # Isse duplicate resource automatically remove ho jayega.
-        all_resources[url] = resource
+        if not robots.can_fetch(USER_AGENT, url):
+            skipped_pages.append({
+                "url": url,
+                "reason": "Blocked by robots.txt"
+            })
+            continue
 
-    time.sleep(0.5)
+        try:
+            resources = extract_resources(page)
 
+            for resource in resources:
+                resource_url = resource["url"]
 
-# ---------------------------------------------------------
-# Convert dictionary to list
-# ---------------------------------------------------------
-resource_list = list(all_resources.values())
+                if resource_url not in all_resources:
+                    all_resources[resource_url] = resource
 
+            print("Resources found:", len(resources))
 
-# ---------------------------------------------------------
-# Save discovered resources
-# ---------------------------------------------------------
-with open(
-    OUTPUT_PATH,
-    "w",
-    encoding="utf-8"
-) as file:
+        except (requests.RequestException, ValueError) as error:
+            failed_pages.append({
+                "url": url,
+                "error": str(error)
+            })
+            print("Failed:", error)
 
-    json.dump(
-        {
-            "pages_scanned": pages_scanned,
-            "total_resources": len(resource_list),
-            "resources": resource_list
-        },
-        file,
-        ensure_ascii=False,
-        indent=4
+        finally:
+            time.sleep(REQUEST_DELAY)
+
+    resource_list = list(all_resources.values())
+
+    report = {
+        "pages_scanned": len(pages),
+        "total_resources": len(resource_list),
+        "resources": resource_list,
+        "failed_pages": failed_pages,
+        "skipped_pages": skipped_pages
+    }
+
+    OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+
+    with open(
+        OUTPUT_FILE,
+        "w",
+        encoding="utf-8"
+    ) as file:
+        json.dump(
+            report,
+            file,
+            ensure_ascii=False,
+            indent=2
+        )
+
+    pdf_count = sum(
+        r["file_type"] == ".pdf"
+        for r in resource_list
     )
 
-
-# ---------------------------------------------------------
-# Final report
-# ---------------------------------------------------------
-print("\n" + "=" * 60)
-print("RESOURCE DISCOVERY COMPLETED")
-print("=" * 60)
-
-print("Pages scanned:", pages_scanned)
-print("Unique resources:", len(resource_list))
-print("Output:", OUTPUT_PATH)
-
-for resource in resource_list[:20]:
-    print(
-        resource["file_type"],
-        "->",
-        resource["url"]
+    image_count = sum(
+        r["file_type"] != ".pdf"
+        for r in resource_list
     )
+
+    print("\n" + "=" * 55)
+    print("RESOURCE DISCOVERY COMPLETED")
+    print("=" * 55)
+
+    print("Pages scanned:", len(pages))
+    print("Unique PDFs:", pdf_count)
+    print("Unique images:", image_count)
+    print("Failed pages:", len(failed_pages))
+    print("Skipped pages:", len(skipped_pages))
+    print("Saved:", OUTPUT_FILE)
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,29 @@
+{
+  "title": "Fee Refund Norms - AJAY KUMAR GARG ENGINEERING COLLEGE",
+  "url": "https://www.akgec.ac.in/fee-refund-norms/",
+  "section": "ADMISSIONS",
+  "blocks": [
+    {
+      "type": "heading",
+      "tag": "h1",
+      "text": "Fee Refund Norms"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "In case of cancellation of admission, fee will be refunded as per the AICTE notification and G.O. passed by the U.P. Government."
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "S.No | REQUEST FOR REFUND | REFUND\na. | Request received before start of session | Entire fee after deduction of Rs.1000/-\nb. | Request received after start of session and seat not being filled by the College till the last date of admissions | Caution money only"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "In case of withdrawal from hostel, only security and mess charges (for unutilized months) are refundable on a pro rata basis."
+    }
+  ],
+  "text": "FEE REFUND NORMS\n\n\nIn case of cancellation of admission, fee will be refunded as per the AICTE notification and G.O. passed by the U.P. Government.\n\nS.No | REQUEST FOR REFUND | REFUND\na. | Request received before start of session | Entire fee after deduction of Rs.1000/-\nb. | Request received after start of session and seat not being filled by the College till the last date of admissions | Caution money only\n\nIn case of withdrawal from hostel, only security and mess charges (for unutilized months) are refundable on a pro rata basis.",
+  "character_count": 538
+}

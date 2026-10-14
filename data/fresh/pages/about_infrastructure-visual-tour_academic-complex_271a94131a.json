@@ -1,0 +1,54 @@
+{
+  "title": "Academic Complex - AJAY KUMAR GARG ENGINEERING COLLEGE",
+  "url": "https://www.akgec.ac.in/about/infrastructure-visual-tour/academic-complex/",
+  "section": "ABOUT",
+  "blocks": [
+    {
+      "type": "heading",
+      "tag": "h1",
+      "text": "Academic Complex"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "ADMINISTRATIVE BLOCK"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "LECTURE ROOMS & TUTORIALS"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "MECHANICAL BLOCK"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "EN / EC BLOCK"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Computer Center"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "LECTURE THEATRE COMPLEX"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "SEMINAR HALLS"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "CS / IT BLOCK"
+    }
+  ],
+  "text": "ACADEMIC COMPLEX\n\n\nADMINISTRATIVE BLOCK\n\nLECTURE ROOMS & TUTORIALS\n\nMECHANICAL BLOCK\n\nEN / EC BLOCK\n\nComputer Center\n\nLECTURE THEATRE COMPLEX\n\nSEMINAR HALLS\n\nCS / IT BLOCK",
+  "character_count": 171
+}

@@ -1,0 +1,282 @@
+[
+  {
+    "title": "Visited Company Summary 2026",
+    "source_json": "data\\fresh\\pdf_data\\02cd6b4ea5_VisitedCompanySummary2026.json",
+    "total_pages": 4,
+    "ocr_pages": 0,
+    "flagged_pages": 0,
+    "status": "ready_candidate",
+    "reason": "native_text_candidate",
+    "page_shortlist_required": false
+  },
+  {
+    "title": "List-of-Holidays-2026",
+    "source_json": "data\\fresh\\pdf_data\\0957c01a02_List-of-Holidays-2026.json",
+    "total_pages": 2,
+    "ocr_pages": 0,
+    "flagged_pages": 0,
+    "status": "ready_candidate",
+    "reason": "native_text_candidate",
+    "page_shortlist_required": false
+  },
+  {
+    "title": "NIRF DATA FOR RANKING 2026 - INNOVATION",
+    "source_json": "data\\fresh\\pdf_data\\185082b1da_Ajay-Kumar-Garg-Engineering-College20260227-.json",
+    "total_pages": 15,
+    "ocr_pages": 0,
+    "flagged_pages": 0,
+    "status": "verify_before_indexing",
+    "reason": "ocr_or_high_accuracy_content",
+    "page_shortlist_required": true
+  },
+  {
+    "title": "B.Tech1YrFW",
+    "source_json": "data\\fresh\\pdf_data\\190872af1b_B.Tech1YrFW.json",
+    "total_pages": 1,
+    "ocr_pages": 1,
+    "flagged_pages": 0,
+    "status": "verify_before_indexing",
+    "reason": "ocr_or_high_accuracy_content",
+    "page_shortlist_required": false
+  },
+  {
+    "title": "MCA1YrFW",
+    "source_json": "data\\fresh\\pdf_data\\1fc45b79f9_MCA1YrFW.json",
+    "total_pages": 1,
+    "ocr_pages": 1,
+    "flagged_pages": 0,
+    "status": "verify_before_indexing",
+    "reason": "ocr_or_high_accuracy_content",
+    "page_shortlist_required": false
+  },
+  {
+    "title": "Academic-Calendar-2026-27-1st-Year",
+    "source_json": "data\\fresh\\pdf_data\\2619a59a4f_Academic-Calendar-2026-27-1st-Year.json",
+    "total_pages": 1,
+    "ocr_pages": 1,
+    "flagged_pages": 0,
+    "status": "verify_before_indexing",
+    "reason": "ocr_or_high_accuracy_content",
+    "page_shortlist_required": false
+  },
+  {
+    "title": "B-Tech-IInd-to-IV-th-Year-with-lateral-Entry-2026-27_0001",
+    "source_json": "data\\fresh\\pdf_data\\2701e2500b_B-Tech-IInd-to-IV-th-Year-with-lateral-Entry-2026-27_0001.json",
+    "total_pages": 1,
+    "ocr_pages": 1,
+    "flagged_pages": 0,
+    "status": "verify_before_indexing",
+    "reason": "ocr_or_high_accuracy_content",
+    "page_shortlist_required": false
+  },
+  {
+    "title": "NIRF DATA FOR RANKING 2026 - ENGINEERING",
+    "source_json": "data\\fresh\\pdf_data\\2e5c6f7442_NIRF2026.json",
+    "total_pages": 12,
+    "ocr_pages": 0,
+    "flagged_pages": 0,
+    "status": "verify_before_indexing",
+    "reason": "ocr_or_high_accuracy_content",
+    "page_shortlist_required": true
+  },
+  {
+    "title": "MCA1Yr",
+    "source_json": "data\\fresh\\pdf_data\\2ec6d47def_MCA1Yr.json",
+    "total_pages": 1,
+    "ocr_pages": 1,
+    "flagged_pages": 0,
+    "status": "verify_before_indexing",
+    "reason": "ocr_or_high_accuracy_content",
+    "page_shortlist_required": false
+  },
+  {
+    "title": "MCA-II-YEAR-FW-2026-27_0001",
+    "source_json": "data\\fresh\\pdf_data\\31cb72b99f_MCA-II-YEAR-FW-2026-27_0001.json",
+    "total_pages": 1,
+    "ocr_pages": 1,
+    "flagged_pages": 0,
+    "status": "verify_before_indexing",
+    "reason": "ocr_or_high_accuracy_content",
+    "page_shortlist_required": false
+  },
+  {
+    "title": "Visited Company Summary 2024",
+    "source_json": "data\\fresh\\pdf_data\\38b01aba84_VisitedCompanySummary2024.json",
+    "total_pages": 3,
+    "ocr_pages": 0,
+    "flagged_pages": 0,
+    "status": "ready_candidate",
+    "reason": "native_text_candidate",
+    "page_shortlist_required": false
+  },
+  {
+    "title": "HostelFee1Yr",
+    "source_json": "data\\fresh\\pdf_data\\5c3107bb90_HostelFee1Yr.json",
+    "total_pages": 1,
+    "ocr_pages": 1,
+    "flagged_pages": 0,
+    "status": "verify_before_indexing",
+    "reason": "ocr_or_high_accuracy_content",
+    "page_shortlist_required": false
+  },
+  {
+    "title": "BTech1Yr",
+    "source_json": "data\\fresh\\pdf_data\\5dcf30f410_BTech1Yr.json",
+    "total_pages": 1,
+    "ocr_pages": 1,
+    "flagged_pages": 0,
+    "status": "verify_before_indexing",
+    "reason": "ocr_or_high_accuracy_content",
+    "page_shortlist_required": false
+  },
+  {
+    "title": "Programs for Advanced and Slow Learners",
+    "source_json": "data\\fresh\\pdf_data\\5e2b1b6cb7_2.2.1_2023-24.json",
+    "total_pages": 80,
+    "ocr_pages": 50,
+    "flagged_pages": 2,
+    "status": "verify_before_indexing",
+    "reason": "ocr_or_high_accuracy_content",
+    "page_shortlist_required": true
+  },
+  {
+    "title": "Visited Company Summary 2025",
+    "source_json": "data\\fresh\\pdf_data\\60289139c8_VisitedCompanySummary2025.json",
+    "total_pages": 5,
+    "ocr_pages": 0,
+    "flagged_pages": 0,
+    "status": "ready_candidate",
+    "reason": "native_text_candidate",
+    "page_shortlist_required": false
+  },
+  {
+    "title": "Experiential Learning",
+    "source_json": "data\\fresh\\pdf_data\\63030d1e91_2.3.1_2023-24.json",
+    "total_pages": 25,
+    "ocr_pages": 20,
+    "flagged_pages": 0,
+    "status": "verify_before_indexing",
+    "reason": "ocr_or_high_accuracy_content",
+    "page_shortlist_required": true
+  },
+  {
+    "title": "B.TechIIYrLateral-new",
+    "source_json": "data\\fresh\\pdf_data\\7412e849ae_B.TechIIYrLateral-new.json",
+    "total_pages": 1,
+    "ocr_pages": 1,
+    "flagged_pages": 0,
+    "status": "verify_before_indexing",
+    "reason": "ocr_or_high_accuracy_content",
+    "page_shortlist_required": false
+  },
+  {
+    "title": "AKGEC User Manual",
+    "source_json": "data\\fresh\\pdf_data\\83e89c34dc_User-Manual-AKGEC_14.01.2026.json",
+    "total_pages": 23,
+    "ocr_pages": 2,
+    "flagged_pages": 2,
+    "status": "verify_before_indexing",
+    "reason": "ocr_or_high_accuracy_content",
+    "page_shortlist_required": true
+  },
+  {
+    "title": "Year 2025-26",
+    "source_json": "data\\fresh\\pdf_data\\947cabdfd0_Year-2025-26.json",
+    "total_pages": 5,
+    "ocr_pages": 0,
+    "flagged_pages": 0,
+    "status": "verify_before_indexing",
+    "reason": "ocr_or_high_accuracy_content",
+    "page_shortlist_required": true
+  },
+  {
+    "title": "Curricular-Planning-and-Implementation",
+    "source_json": "data\\fresh\\pdf_data\\9f550b64a0_Academic-Calender2023-24.json",
+    "total_pages": 5,
+    "ocr_pages": 0,
+    "flagged_pages": 0,
+    "status": "exclude",
+    "reason": "unreliable_or_historical_document",
+    "page_shortlist_required": false
+  },
+  {
+    "title": "Academic-Calendar-2026-27-Odd",
+    "source_json": "data\\fresh\\pdf_data\\aee75be87c_Academic-Calendar-2026-27-Odd.json",
+    "total_pages": 1,
+    "ocr_pages": 1,
+    "flagged_pages": 0,
+    "status": "verify_before_indexing",
+    "reason": "ocr_or_high_accuracy_content",
+    "page_shortlist_required": false
+  },
+  {
+    "title": "Year 2026-27",
+    "source_json": "data\\fresh\\pdf_data\\d067dacf90_AICTEApprovalYear-2026-27.json",
+    "total_pages": 5,
+    "ocr_pages": 0,
+    "flagged_pages": 0,
+    "status": "ready_candidate",
+    "reason": "native_text_candidate",
+    "page_shortlist_required": false
+  },
+  {
+    "title": "B-Tech-IInd-to-IVth-yaer-FW-2026-27_0001",
+    "source_json": "data\\fresh\\pdf_data\\d6d857600a_B-Tech-IInd-to-IVth-yaer-FW-2026-27_0001.json",
+    "total_pages": 1,
+    "ocr_pages": 1,
+    "flagged_pages": 0,
+    "status": "verify_before_indexing",
+    "reason": "ocr_or_high_accuracy_content",
+    "page_shortlist_required": false
+  },
+  {
+    "title": "NAAC Certificate 2023",
+    "source_json": "data\\fresh\\pdf_data\\d7b9d3baf1_NAAC-Certificate.json",
+    "total_pages": 1,
+    "ocr_pages": 1,
+    "flagged_pages": 1,
+    "status": "exclude",
+    "reason": "unreliable_or_historical_document",
+    "page_shortlist_required": false
+  },
+  {
+    "title": "Mechanism to deal with internal examination related grievances",
+    "source_json": "data\\fresh\\pdf_data\\e2c19f049e_2.5.2_2023-24.json",
+    "total_pages": 14,
+    "ocr_pages": 8,
+    "flagged_pages": 0,
+    "status": "verify_before_indexing",
+    "reason": "ocr_or_high_accuracy_content",
+    "page_shortlist_required": true
+  },
+  {
+    "title": "Mandatory Disclosure 2026-27",
+    "source_json": "data\\fresh\\pdf_data\\e41d17299d_AKGEC-Mandatory-Disclosure-_2026-27.json",
+    "total_pages": 93,
+    "ocr_pages": 24,
+    "flagged_pages": 1,
+    "status": "verify_before_indexing",
+    "reason": "ocr_or_high_accuracy_content",
+    "page_shortlist_required": true
+  },
+  {
+    "title": "Mechanism of internal assessment",
+    "source_json": "data\\fresh\\pdf_data\\e62e98936a_2.5.1_2023-24.json",
+    "total_pages": 47,
+    "ocr_pages": 31,
+    "flagged_pages": 0,
+    "status": "verify_before_indexing",
+    "reason": "ocr_or_high_accuracy_content",
+    "page_shortlist_required": true
+  },
+  {
+    "title": "MCA-II-YEAR-2026-27_0001",
+    "source_json": "data\\fresh\\pdf_data\\fe8dfbd8fc_MCA-II-YEAR-2026-27_0001.json",
+    "total_pages": 1,
+    "ocr_pages": 1,
+    "flagged_pages": 0,
+    "status": "verify_before_indexing",
+    "reason": "ocr_or_high_accuracy_content",
+    "page_shortlist_required": false
+  }
+]

@@ -1,0 +1,3872 @@
+{
+  "total_pdfs": 429,
+  "category_counts": {
+    "essential": 21,
+    "review": 99,
+    "optional": 303,
+    "excluded": 6
+  },
+  "documents": [
+    {
+      "title": "NIRF DATA FOR RANKING 2026 - ENGINEERING",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/04/NIRF2026.pdf",
+      "source_page": "https://www.akgec.ac.in/nirf-data-for-ranking-2025",
+      "section": "ABOUT",
+      "file_type": ".pdf",
+      "category": "essential",
+      "reason": "Core college information"
+    },
+    {
+      "title": "NIRF DATA FOR RANKING 2026 - INNOVATION",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/04/Ajay-Kumar-Garg-Engineering-College20260227-.pdf",
+      "source_page": "https://www.akgec.ac.in/nirf-data-for-ranking-2025",
+      "section": "ABOUT",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Institutional document or historical record"
+    },
+    {
+      "title": "Year 2026-27",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/04/AICTEApprovalYear-2026-27.pdf",
+      "source_page": "https://www.akgec.ac.in/aicte-approval-letters",
+      "section": "ABOUT",
+      "file_type": ".pdf",
+      "category": "essential",
+      "reason": "Core college information"
+    },
+    {
+      "title": "Year 2021-22",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2022/02/EOA-Report-2021-22-B.Tech_.-M.Tech_..pdf",
+      "source_page": "https://www.akgec.ac.in/aicte-approval-letters",
+      "section": "ABOUT",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Institutional document or historical record"
+    },
+    {
+      "title": "Year 2016-17",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/08/Year-2016-17.pdf",
+      "source_page": "https://www.akgec.ac.in/aicte-approval-letters",
+      "section": "ABOUT",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Institutional document or historical record"
+    },
+    {
+      "title": "Year 2011-12",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/Year-2011-12.pdf",
+      "source_page": "https://www.akgec.ac.in/aicte-approval-letters",
+      "section": "ABOUT",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Institutional document or historical record"
+    },
+    {
+      "title": "Year 2006-07",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/Year-2006-07.pdf",
+      "source_page": "https://www.akgec.ac.in/aicte-approval-letters",
+      "section": "ABOUT",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Institutional document or historical record"
+    },
+    {
+      "title": "Year 2000-01",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/Year-2000-01.pdf",
+      "source_page": "https://www.akgec.ac.in/aicte-approval-letters",
+      "section": "ABOUT",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Institutional document or historical record"
+    },
+    {
+      "title": "Year 2025-26",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/04/Year-2025-26.pdf",
+      "source_page": "https://www.akgec.ac.in/aicte-approval-letters",
+      "section": "ABOUT",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Institutional document or historical record"
+    },
+    {
+      "title": "Year 2020-21",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2020/09/EOA_Report_2020-21B.Tech_.-M.Tech_..pdf",
+      "source_page": "https://www.akgec.ac.in/aicte-approval-letters",
+      "section": "ABOUT",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Institutional document or historical record"
+    },
+    {
+      "title": "Year 2015-16",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/Year-2015-16.pdf",
+      "source_page": "https://www.akgec.ac.in/aicte-approval-letters",
+      "section": "ABOUT",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Institutional document or historical record"
+    },
+    {
+      "title": "Year 2010-11",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/Year-2010-11.pdf",
+      "source_page": "https://www.akgec.ac.in/aicte-approval-letters",
+      "section": "ABOUT",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Institutional document or historical record"
+    },
+    {
+      "title": "Year 2005-06",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/Year-2005-06.pdf",
+      "source_page": "https://www.akgec.ac.in/aicte-approval-letters",
+      "section": "ABOUT",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Institutional document or historical record"
+    },
+    {
+      "title": "Year 1999-2000",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/Year-1999-2000.pdf",
+      "source_page": "https://www.akgec.ac.in/aicte-approval-letters",
+      "section": "ABOUT",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Institutional document or historical record"
+    },
+    {
+      "title": "Year 2024-25",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/06/EOA-Report-2024-2025.pdf",
+      "source_page": "https://www.akgec.ac.in/aicte-approval-letters",
+      "section": "ABOUT",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Institutional document or historical record"
+    },
+    {
+      "title": "Year 2019-20",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/Year-2019-20.pdf",
+      "source_page": "https://www.akgec.ac.in/aicte-approval-letters",
+      "section": "ABOUT",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Institutional document or historical record"
+    },
+    {
+      "title": "Year 2014-15",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/Year-2014-15.pdf",
+      "source_page": "https://www.akgec.ac.in/aicte-approval-letters",
+      "section": "ABOUT",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Institutional document or historical record"
+    },
+    {
+      "title": "Year 2009-10",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/Year-2009-10.pdf",
+      "source_page": "https://www.akgec.ac.in/aicte-approval-letters",
+      "section": "ABOUT",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Institutional document or historical record"
+    },
+    {
+      "title": "Year 2003-06",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/Year-2003-06.pdf",
+      "source_page": "https://www.akgec.ac.in/aicte-approval-letters",
+      "section": "ABOUT",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Institutional document or historical record"
+    },
+    {
+      "title": "Year 1998-99",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/Year-1998-99.pdf",
+      "source_page": "https://www.akgec.ac.in/aicte-approval-letters",
+      "section": "ABOUT",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Institutional document or historical record"
+    },
+    {
+      "title": "Year 2023-24",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/09/EOA-Affilation-Letter-Report-2023-24.pdf",
+      "source_page": "https://www.akgec.ac.in/aicte-approval-letters",
+      "section": "ABOUT",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Institutional document or historical record"
+    },
+    {
+      "title": "Year 2018-19",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/Year-2018-19.pdf",
+      "source_page": "https://www.akgec.ac.in/aicte-approval-letters",
+      "section": "ABOUT",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Institutional document or historical record"
+    },
+    {
+      "title": "Year 2013-14",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/Year-2013-14.pdf",
+      "source_page": "https://www.akgec.ac.in/aicte-approval-letters",
+      "section": "ABOUT",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Institutional document or historical record"
+    },
+    {
+      "title": "Year 2008-09",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/Year-2008-09.pdf",
+      "source_page": "https://www.akgec.ac.in/aicte-approval-letters",
+      "section": "ABOUT",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Institutional document or historical record"
+    },
+    {
+      "title": "Year 2002-03",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/Year-2002-03.pdf",
+      "source_page": "https://www.akgec.ac.in/aicte-approval-letters",
+      "section": "ABOUT",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Institutional document or historical record"
+    },
+    {
+      "title": "Year 2022-23",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2022/10/EOA-Report_22-23-AKGEC-027.pdf",
+      "source_page": "https://www.akgec.ac.in/aicte-approval-letters",
+      "section": "ABOUT",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Institutional document or historical record"
+    },
+    {
+      "title": "Year 2017-18",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/Year-2017-18.pdf",
+      "source_page": "https://www.akgec.ac.in/aicte-approval-letters",
+      "section": "ABOUT",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Institutional document or historical record"
+    },
+    {
+      "title": "Year 2012-13",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/Year-2012-13.pdf",
+      "source_page": "https://www.akgec.ac.in/aicte-approval-letters",
+      "section": "ABOUT",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Institutional document or historical record"
+    },
+    {
+      "title": "Year 2007-08",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/Year-2007-08.pdf",
+      "source_page": "https://www.akgec.ac.in/aicte-approval-letters",
+      "section": "ABOUT",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Institutional document or historical record"
+    },
+    {
+      "title": "Year 2001-03",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/Year-2001-03.pdf",
+      "source_page": "https://www.akgec.ac.in/aicte-approval-letters",
+      "section": "ABOUT",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Institutional document or historical record"
+    },
+    {
+      "title": "AKGEC User Manual",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/01/User-Manual-AKGEC_14.01.2026.pdf",
+      "source_page": "https://www.akgec.ac.in/central-library",
+      "section": "ABOUT",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Institutional document or historical record"
+    },
+    {
+      "title": "Book Requisition Form",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/01/Book-Requisition-Form.pdf",
+      "source_page": "https://www.akgec.ac.in/central-library",
+      "section": "ABOUT",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Institutional document or historical record"
+    },
+    {
+      "title": "BB Requistion form",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/01/BB-Requistion-form.pdf",
+      "source_page": "https://www.akgec.ac.in/central-library",
+      "section": "ABOUT",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Institutional document or historical record"
+    },
+    {
+      "title": "Mandatory Disclosure 2026-27",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/02/AKGEC-Mandatory-Disclosure-_2026-27.pdf",
+      "source_page": "https://www.akgec.ac.in/mandatory-disclosure",
+      "section": "CENTRES OF EXCELLENCE",
+      "file_type": ".pdf",
+      "category": "essential",
+      "reason": "Core college information"
+    },
+    {
+      "title": "Delegation of Powers",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/09/Delegation-of-Powers.pdf",
+      "source_page": "https://www.akgec.ac.in/policies",
+      "section": "CENTRES OF EXCELLENCE",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Requires content review"
+    },
+    {
+      "title": "Recruitment & Career Advancement Policy",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/09/Recruitment-Career-Advancement-Policy.pdf",
+      "source_page": "https://www.akgec.ac.in/policies",
+      "section": "CENTRES OF EXCELLENCE",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Requires content review"
+    },
+    {
+      "title": "Appraisal Form",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/09/Final-Updated-Appraisal-Form.pdf",
+      "source_page": "https://www.akgec.ac.in/policies",
+      "section": "CENTRES OF EXCELLENCE",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Relevance requires manual verification"
+    },
+    {
+      "title": "ACR Evaluation Guidelines",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/09/Final-Updated-ACR-Evaluation-Guidelines.pdf",
+      "source_page": "https://www.akgec.ac.in/policies",
+      "section": "CENTRES OF EXCELLENCE",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Requires content review"
+    },
+    {
+      "title": "Service Rules & Leave Norms",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/09/Service-Rules-Leave-Norms.pdf",
+      "source_page": "https://www.akgec.ac.in/policies",
+      "section": "CENTRES OF EXCELLENCE",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Requires content review"
+    },
+    {
+      "title": "Magazine",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/05/CE-Newsletter.pdf",
+      "source_page": "https://www.akgec.ac.in/departments/civil-engineering",
+      "section": "DEPARTMENTS",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Requires content review"
+    },
+    {
+      "title": "Magazine",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/02/Magazine-CSE.pdf",
+      "source_page": "https://www.akgec.ac.in/departments/computer-science-and-engineering",
+      "section": "DEPARTMENTS",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Requires content review"
+    },
+    {
+      "title": "Magazine",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/02/Magazine-ECE.pdf",
+      "source_page": "https://www.akgec.ac.in/departments/electronics-and-communication-engineering",
+      "section": "DEPARTMENTS",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Requires content review"
+    },
+    {
+      "title": "B.Tech. 2nd Year Engg. Science Courses (Common)",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2021/11/B.Tech_.-2nd-Year-Engg-Science-Courses-Common.pdf",
+      "source_page": "https://www.akgec.ac.in/departments/electronics-and-communication-engineering",
+      "section": "DEPARTMENTS",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Requires content review"
+    },
+    {
+      "title": "B.Tech 3rd Year Non Credit Courses (Common)",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2021/11/B.Tech-3rd-Year-Non-Credit-Courses-Common.pdf",
+      "source_page": "https://www.akgec.ac.in/departments/electronics-and-communication-engineering",
+      "section": "DEPARTMENTS",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Requires content review"
+    },
+    {
+      "title": "B.Tech 4th Year HSMC Courses (Common)",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2021/11/B.Tech-4th-Year-HSMC-Courses-Common.pdf",
+      "source_page": "https://www.akgec.ac.in/departments/electronics-and-communication-engineering",
+      "section": "DEPARTMENTS",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Requires content review"
+    },
+    {
+      "title": "Magazine",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/02/Magazine-EN.pdf",
+      "source_page": "https://www.akgec.ac.in/departments/electrical-and-electronics-engineering",
+      "section": "DEPARTMENTS",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Requires content review"
+    },
+    {
+      "title": "Magazine",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/02/ITMagazine.pdf",
+      "source_page": "https://www.akgec.ac.in/departments/information-technology",
+      "section": "DEPARTMENTS",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Requires content review"
+    },
+    {
+      "title": "Magazine",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/02/Magazine-ME.pdf",
+      "source_page": "https://www.akgec.ac.in/departments/mechanical-engineering",
+      "section": "DEPARTMENTS",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Requires content review"
+    },
+    {
+      "title": "Magazine",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/02/Magazine-MCA.pdf",
+      "source_page": "https://www.akgec.ac.in/departments/master-of-computer-applications",
+      "section": "DEPARTMENTS",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Requires content review"
+    },
+    {
+      "title": "Academic-Calendar-2026-27-Odd",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/08/Academic-Calendar-2026-27-Odd.pdf",
+      "source_page": "https://www.akgec.ac.in/academics/academic-calendar",
+      "section": "ACADEMICS",
+      "file_type": ".pdf",
+      "category": "essential",
+      "reason": "Core college information"
+    },
+    {
+      "title": "Academic-Calendar-2026-27-1st-Year",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/09/Academic-Calendar-2026-27-1st-Year.pdf",
+      "source_page": "https://www.akgec.ac.in/academics/academic-calendar",
+      "section": "ACADEMICS",
+      "file_type": ".pdf",
+      "category": "essential",
+      "reason": "Core college information"
+    },
+    {
+      "title": "List-of-Holidays-2026",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/02/List-of-Holidays-2026.pdf",
+      "source_page": "https://www.akgec.ac.in/list-of-holidays",
+      "section": "ACADEMICS",
+      "file_type": ".pdf",
+      "category": "essential",
+      "reason": "Core college information"
+    },
+    {
+      "title": "B-Tech-IInd-to-IV-th-Year-with-lateral-Entry-2026-27_0001",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-IInd-to-IV-th-Year-with-lateral-Entry-2026-27_0001.pdf",
+      "source_page": "https://www.akgec.ac.in/academic-fee",
+      "section": "ADMISSIONS",
+      "file_type": ".pdf",
+      "category": "essential",
+      "reason": "Admission or hostel fee structure"
+    },
+    {
+      "title": "B-Tech-IInd-to-IVth-yaer-FW-2026-27_0001",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-IInd-to-IVth-yaer-FW-2026-27_0001.pdf",
+      "source_page": "https://www.akgec.ac.in/academic-fee",
+      "section": "ADMISSIONS",
+      "file_type": ".pdf",
+      "category": "essential",
+      "reason": "Admission or hostel fee structure"
+    },
+    {
+      "title": "MCA-II-YEAR-2026-27_0001",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/MCA-II-YEAR-2026-27_0001.pdf",
+      "source_page": "https://www.akgec.ac.in/academic-fee",
+      "section": "ADMISSIONS",
+      "file_type": ".pdf",
+      "category": "essential",
+      "reason": "Admission or hostel fee structure"
+    },
+    {
+      "title": "MCA-II-YEAR-FW-2026-27_0001",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/MCA-II-YEAR-FW-2026-27_0001.pdf",
+      "source_page": "https://www.akgec.ac.in/academic-fee",
+      "section": "ADMISSIONS",
+      "file_type": ".pdf",
+      "category": "essential",
+      "reason": "Admission or hostel fee structure"
+    },
+    {
+      "title": "BTech1Yr",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/07/BTech1Yr.pdf",
+      "source_page": "https://www.akgec.ac.in/fee-structure-for-new-students2026-27",
+      "section": "ADMISSIONS",
+      "file_type": ".pdf",
+      "category": "essential",
+      "reason": "Admission or hostel fee structure"
+    },
+    {
+      "title": "B.Tech1YrFW",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/07/B.Tech1YrFW.pdf",
+      "source_page": "https://www.akgec.ac.in/fee-structure-for-new-students2026-27",
+      "section": "ADMISSIONS",
+      "file_type": ".pdf",
+      "category": "essential",
+      "reason": "Admission or hostel fee structure"
+    },
+    {
+      "title": "B.TechIIYrLateral-new",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/08/B.TechIIYrLateral-new.pdf",
+      "source_page": "https://www.akgec.ac.in/fee-structure-for-new-students2026-27",
+      "section": "ADMISSIONS",
+      "file_type": ".pdf",
+      "category": "essential",
+      "reason": "Admission or hostel fee structure"
+    },
+    {
+      "title": "MCA1Yr",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/07/MCA1Yr.pdf",
+      "source_page": "https://www.akgec.ac.in/fee-structure-for-new-students2026-27",
+      "section": "ADMISSIONS",
+      "file_type": ".pdf",
+      "category": "essential",
+      "reason": "Admission or hostel fee structure"
+    },
+    {
+      "title": "MCA1YrFW",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/07/MCA1YrFW.pdf",
+      "source_page": "https://www.akgec.ac.in/fee-structure-for-new-students2026-27",
+      "section": "ADMISSIONS",
+      "file_type": ".pdf",
+      "category": "essential",
+      "reason": "Admission or hostel fee structure"
+    },
+    {
+      "title": "HostelFee1Yr",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/07/HostelFee1Yr.pdf",
+      "source_page": "https://www.akgec.ac.in/fee-structure-for-new-students2026-27",
+      "section": "ADMISSIONS",
+      "file_type": ".pdf",
+      "category": "essential",
+      "reason": "Admission or hostel fee structure"
+    },
+    {
+      "title": "Selected Students for B.Tech.",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/09/Selected-Students-for-B.Tech_.pdf",
+      "source_page": "https://www.akgec.ac.in/spotcounselling",
+      "section": "ADMISSIONS",
+      "file_type": ".pdf",
+      "category": "excluded",
+      "reason": "Potential personal/student records"
+    },
+    {
+      "title": "Selected Students for M.Tech.",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/09/Selected-students-for-M.Tech_.pdf",
+      "source_page": "https://www.akgec.ac.in/spotcounselling",
+      "section": "ADMISSIONS",
+      "file_type": ".pdf",
+      "category": "excluded",
+      "reason": "Potential personal/student records"
+    },
+    {
+      "title": "SAMPARK 2024-25",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/09/SAMPARK%202024-2025new.pdf",
+      "source_page": "https://www.akgec.ac.in/sampark",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "College magazine requires review"
+    },
+    {
+      "title": "SAMPARK 2023-24",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/06/SAMPARK-23-24.pdf",
+      "source_page": "https://www.akgec.ac.in/sampark",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "College magazine requires review"
+    },
+    {
+      "title": "SAMPARK 2022-23",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/05/Sampark-2022-23.pdf",
+      "source_page": "https://www.akgec.ac.in/sampark",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "College magazine requires review"
+    },
+    {
+      "title": "SAMPARK 2021-22",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/08/Sampark-2021-22-.pdf",
+      "source_page": "https://www.akgec.ac.in/sampark",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "College magazine requires review"
+    },
+    {
+      "title": "SAMPARK 2020-21",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2022/01/SAMPARK-20-21.pdf",
+      "source_page": "https://www.akgec.ac.in/sampark",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "College magazine requires review"
+    },
+    {
+      "title": "SAMPARK 2019-20",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2021/05/Sampark-2019-20.pdf",
+      "source_page": "https://www.akgec.ac.in/sampark",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "College magazine requires review"
+    },
+    {
+      "title": "SAMPARK 2018-19",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2022/01/SAMAPRK-18-19.pdf",
+      "source_page": "https://www.akgec.ac.in/sampark",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "College magazine requires review"
+    },
+    {
+      "title": "SAMPARK 2017-18",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2022/01/SAMAPRK-17-18.pdf",
+      "source_page": "https://www.akgec.ac.in/sampark",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "College magazine requires review"
+    },
+    {
+      "title": "Return of Propellers: Advancing Towards Sustainable Aviation",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/02/1-Daamanjyot-Barara_compressed.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Harnessing ChatGPT for Learning and Growth: A Guide for Engineering Students",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/02/2-Honey-Charnalia_compressed.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Advancing Healthcare with Retrieval Augmented Generation (RAG) and Large Context Models (LCM): A Comparative Study",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/02/3-Dr.-Rashmi-Sharma-and-Dr.-Himani-Garg_compressed.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Revolutionizing Academic Credential Verification and Job Matching with Blockchain and AI: A Case Study",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/03/4-Apporva-and-Shivani.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "A Review of Current Mode Circuits",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/02/4-Dr.-T.-S.-Rathore_compressed.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Recent Advances in Smart Grid Communication and Networking",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/02/5-Dr-Prem-Chand-Jain_compressed.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Biohacking, AI and Longevity in Transformative Wellness Strategies",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/02/6-Advocate-Prity-Khastgir_compressed.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Liquid Metal Corrosion Fluid Catalytic Cracking Units",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/02/7-Virendra-Babu_compressed.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Comprehensive Analysis of Load Frequency Control in Multi-Area of Power System Networks",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/02/8-Arun-Kumar-Maurya-and-Hera-Khan_compressed.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Carbon Footprints of Crypto-currency",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/02/9-Dr.-Ranjit-Singh_compressed.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "QUIZ: Fun with Engineering Facts",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/02/10-Quiz_compressed.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Weaponization of Social Media: Beyond Clicks and Shares",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/09/1_Weaponization-of-Social-Media.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Ethical AI in Industry: A Roadmap for Responsible Innovation",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/09/2-Ethical-AI-in-Industry-Honey-Charnalia.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Unveiling the Power of Wi-Fi in the 6-GHz Band: A Quantum Leap in Wireless Connectivity",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/09/3-Unveiling-the-Power-of-Wi-Fi-Bharat-Bhatia.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Overview of 6G Network & Technology",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/09/4-Overview-of-6G-Network-Technology-T-R-Dua.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Knowledge Sharing is Key to Assured Success",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/09/5-Knowledge-Sharing-is-Key-to-Assured-Success-Dr-Sarbjit-Singh.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Empowering the Future Workforce: A Comprehensive Analysis of Edubuk’s Certified Emerging Technologies Analyst Program",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/09/6-Empowering-the-Future-Workforce-Shivani-Mehrotra-Apoorva-Bajaj.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Next Generation IoT Networks Based on Wireless Sensor Networks",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/09/7-Next-Generation-IoT-Networks-Based-on-WSN-Dr.-Prem-Chand-Jain.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "SmartDSC: Innovative Architecture for Digital Supply Chain",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/09/8-SmartDSC_-Innovative-Architecture-Dr-Rashmi-Sharma-Dr-Ashish-Malik.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Addressing Urban Flooding in Delhi NCR",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/09/9-Addressing-Urban-Flooding-in-Delhi-NCR-Nikita-Jaiswal.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Stability and Performance Analysis of Load Frequency Control of Two Area Power System",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/09/10-Stability-and-Performance-Analysis-AK-Maurya-K-Gahlaut.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Frontiers of Artificial Intelligence in Healthcare",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/09/11-Frontiers-of-Artificial-Intelligence-in-Healthcare-Dr-Ranjit-Singh.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "QUIZ: Fun with Engineering Facts",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/09/12-QUIZ_Fun-with-Engineering-Facts-Dr-Ranjit-Singh.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "6GEdge Technology: Block-chain Powered Infrastructure",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/03/1-PRITY-Khastgir_pp.-1-4.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Unveiling the Digital Twin: Revolutionizing Future Network Planning",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/03/2-HONEY-Charnalia_pp.-5-6.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Blast Loading Versus Seismic Loading in Mining Areas: A Comparative Analysis",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/03/3-MONIKA-Tewari-Anup-Tewari_pp.-7-11.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Comprehensive Review of 3D Interactive Holographic Display",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/03/4-AKRITI-Gupta_pp.-12-16.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Business/IT Continuity Management",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/03/5-PRADEEP-K-Juneja_pp.-17-20.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Comprehensive Analysis of Regenerative Braking System in E-Mobility Applications",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/03/6-ARUN-K-Maurya-et-al._-pp.-21-26.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "An Empirical Investigation of Sustainable Products Among Indians",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/03/7-AASHISH-Dhiman_pp.-27-32.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Water Table Depth Prediction Using Machine Learning",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/03/8-SHELLEY-Gupta-et-al._pp.-33-37.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Recent Trends in Next Generation Cellular Mobile Network – 5G and beyond (6G)",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/03/9-PREM-Chand-Jain_pp.-38-43.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Advances in Emotion Detection and Recognition",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/03/10-MANJIT-Singh_pp.-44-46.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "6G Vision Framework",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/03/11-RANJIT-Singh_pp.-47-49.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Mobile Edge Computing (MEC)",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/08/1-Honey_Charnalia.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Electromagnetic Spectrum for Information Superiority of Nation’s Security",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/08/2-Brig_Sanjay_Rawal.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Configurable Memory Method for Gain Variation Compensation for RF Systems over Temperature and Frequency",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/08/3-Amit_Tiwari.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AI and Blockchain with Reference to IPRs",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/08/4-Advocate_Prity_Khastgir.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "IoT-Based Smart Posture Correcting Chair Design",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/08/5-Shreyansh_Singh.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Automatic Plants Watering and Treasuring System",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/08/6-Bhagya_Shree.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Pandemic Management via Technology",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/08/7-Dr._Gagandeep_Kaur.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Next Generation Wireless Local Area Network for 5G and IoT",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/08/8-Dr._P._C._Jain.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Analysis of Disease Prediction for Common Behavioural Symptoms",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/08/9-Angel_Jain.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Online Auction System",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/08/10-Aditya_Kumar_Singh.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Machine Learning Based Polygraph Test Using Skin Sensations",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/08/11-Pooja_Sharma.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Potential of Green Energy: Current Status in Indian Subcontinent",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/08/12-Nikita_Jaiswal.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Structure of PID Controller and Its Performance in Multi-Area Power System Network",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/08/13-Arun_Kumar_Maurya.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Block-chain and Future Communication based Decentralised Train Control System",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/01/6.1.23_1-Dr_SN-Gupta.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Digital Transformation – the Frontier of Evolution",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/01/6.1.23_2-Tilak_Raj_Dua.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Parents’ Perceptions towards Learning of Their Children during Covid 19",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/01/6.1.23_3-Dr_Neha.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Dual Channel Transmitter for Medium Range Secondary Surveillance Radar",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/01/6.1.23_4-Amit_Tiwari.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Work-Life Balance in the Shadow of the Pandemic- with Due Consideration to IT Companies",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/01/6.1.23_5-Aashish_Dhiman.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Disposable Dispenser-Cum-Extruder Units for 3D Printers to Use with Wet Mix Materials",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/01/6.1.23_6-Dr_K_Kamal.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Impact of Covid 19 on Physical and Mental Health with Special Reference to Healthcare Personnel",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/01/6.1.23_7-Sneha_Dhiman.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Phygital is the New Normal",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/01/6.1.23_8-DR_Ranjit_Singh-_Phygital.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Chain-Necklace Diagrams with the Sum of Two Consecutive Numbers a Perfect Cube",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/01/6.1.23_9-Dr_TS-Rathore.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "ISRO’s NAVIC: Navigation Support to Civil and Military Segments",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/01/6.1.23_10-Dr_Ranjit_Singh_NAVIC.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Digital Transformation of Railway Signalling through Emerging Communication Technologies",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2022/06/1-Dr_Satya_N_Gupta.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Gig, a New-Age Economy",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2022/06/2-Manjit_Singh.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Bi-phase Modulator for L-band Applications",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2022/06/3-Amit_Tiwari.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Artificial Intelligence: Master Key for Career in Emerging Technologies",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2022/06/4-Dr_Sarbjit_Singh.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "5G Technology: the Game Changer",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2022/06/5-SD_Saxena.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Save Paper – An Eco-Friendly Research",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2022/06/6-APR_Srinivas.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Rotating Radiation Beam Slotted Antenna with Two Orthogonal Frequencies for 5G Applications",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2022/06/7-Dr_Manoj_Kumar_Garg.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "A Simulation of Night Vision Technology Aided with AI",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2022/06/8-Amit_Tiwari_and_Jalaj_Gupta.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Performance Study of Grid Connected Solar-PV System",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2022/06/9-Arun_Kumar_Maurya.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Perils of Screen Addiction",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2022/06/10-Dr_Ranjit_Singh-1.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Some Properties of Integer Numbers",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2022/06/11-Dr_Tejmal_S_Rathore_.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Innovation: A National Priority for India",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2022/02/1-Vipin_Tyagi.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Implications of Industry 4.0 for Improving Industrial Performance",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2022/02/2-Neha_Vashistha.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "PM-WANI (Prime Minister’s Wi-Fi Access Network Interface) – Technology and Business Case for VLE (Village Level Entrepreneur)",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2022/02/3-Satya_N_Gupta.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Performance Improvement using MIMO-OFDM in Visible Light Communication Systems",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2022/02/4-Amit_Tiwari.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "A Comprehensive Review: Shunt Active Power Filter for Nonlinear IoT Applications",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2022/02/5-Dr_Pankaj_Kumar_Goswam.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Fostering Higher Thinking among Students via Human-values in the Class",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2022/02/6-Dr_PS_Grover.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Renewable Energy and Coal-Based Electricity: Impasse, Challenges and Imperatives for India",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2022/02/7-Rakesh_Kumar.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Faculty Members’ Level of Job Satisfaction in Private and Government Institutions",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2022/02/8-Aashish_Dhiman.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Corporate Social Responsibility Driven Tele-Education for the Poor",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2022/02/9-APR_Srinivas.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Green Hydrogen Emerging as Auto-Fuel",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2022/02/10-Dr_Ranjit_Singh.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Shared Digital Infrastructure for 5G-IoT Ready Smart Cities",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2021/08/1-Tilak_Raj_Dua.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Importance of Private 5G Spectrum for Industrial Development of India",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2021/08/2-_Bharat_Bhatia.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Voltage and Current Mode Filter Realizations using Active Devices",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2021/08/3-Dr_T_S_Rathore-CORRECTED_again_15_JUL_SUPERFINAL.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "A Simulation of Night Vision Technology Aided with AI",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2021/08/4-Amit_Tiwari.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Case for Wi-Max Technology",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2021/08/5-Dr_Neelesh_Kumar_Gupta.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Trade Secret as Intellectual Property Strategic Tool in Industry 4.0",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2021/08/6-Prity_Khastgir.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Design and Fabrication of a Prototype Electric Vehicle",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2021/08/7-Arun_Kumar_Maurya.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Gauging Job Satisfaction in the Indian Oil and Gas Sector",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2021/08/8-Dr_Sheetal_Khanka.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Implementation of Crime Patterns Prediction Using Data Mining",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2021/08/9-Sudha_Rani.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Advent of the Data Centre Era",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2021/08/10-Dr_Ranjit_Singh.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Collaborating for Self Reliance – Co-Creating IoT Connectivity Solutions Using NB.Fi",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2020/10/1-Satya_N_CORRECTED_26_SEPT.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Industry 4.0: High-tech Strategy for Future Manufacturing Industries",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2020/10/2-Manjit_Singh_CORRECTED_26_SEPT.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Amplitude Equalizers – Types and Design",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2020/10/3-Dr_T_S_Rathore_CORRECTED_26_SEPT.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Harmonising Outcome-Based Education Accreditation Framework and International Educational Standard ISO 21001:2018",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2020/10/4-Dr_PS_Grover_CORRECTED_26_SEPT.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "EBG Configured Wideband Sensing Antenna for Smart RF Applications",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2020/10/5-Dr_Pankaj_Kumar_Goswami_CORRECTED_26_SEPT.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Modeling and Analysis of Helical Springs Using CATIA-V5R19 and ANSYS 16.0",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2020/10/6-Dr_Reddy_Sreenivasulu_CORRECTED_26_SEPT.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Advanced Structural Sandwiched Panels in Layered Corrugate Core",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2020/10/7-Dr_K_Kamal_-CORRECTED_8_OCT-Final.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Block-chain Technology and its Application against COVID-19",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2020/10/8-Dr_Brijesh_Kumar_Gupta_CORRECTED_26_SEPT.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Menace of Space Junk around Earth",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2020/10/9-Dr_Ranjit_Singh_CORRECTED_26_SEPT.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "8:1 High Power Combiner for S-Band Radar",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2020/10/10-Amit_Tiwari_CORRECTED_26_SEPT.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Mobile Edge Computing In 5G Era",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2020/10/1-Manjit_Singh.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Innovations- Sustainability of Telecom",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2020/10/2-Tilak_Raj_Dua.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Managing New Internet (IPv6) in Country – Case for a 22 National Root Server for v6",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2020/10/3-Satya_N_Gupta.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "General Data Protection Regulation and Its 28 Impact on Indian Enterprises",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2020/10/4-Dr_Brijesh_Kumar.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Soil Nailing for Highway Construction",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2020/10/5-Archita_Goyal.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Power Balance ICP Model",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2020/10/6-Dr_Bhupal_Singh.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Plastics Addiction: Humanity’s Existential Crisis",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2020/10/7-PRATIBHA-Singh-Om_Pal_Singh.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Transmitter for Beam Forming Applications",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2020/10/8-Amit_Tiwari.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Deep Learning Algorithms to Improve Financial Decisions",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2020/10/9-Shweta_Roy.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Symbiosis of Electronics and Mechanical Engineering",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2020/10/10-Dr_Ranjit_Singh.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Substitution in Titanium Dioxide Hydroelectric Cell Induces Higher Green Energy",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/11/1-Abha_Shukla.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Public Protection and Disaster Relief Radio-communications",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/11/2-Bharat_Bhatia.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "A Low Cost Homemade Air purifier",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/11/4-Anuj_Tiwari.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Applicability of Industrial Internet of Things (IIoT) in Lean Manufacturing: A Brief Study",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/11/5-Reddy_Sreenivasulu.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Digital Super Divide: Humanity at Cross-road",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/11/6-K._K._Minocha.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Investigation of High-Strength Concrete Using Fly Ash and Silica Fume",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/11/7-Dr_Rakesh_Srivastava.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Study of Thermal Decomposition of Polystyrene Using Viscometric Analysis and Assessment of Its Reaction Rate Models",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/11/8-D._Aniruddh_Singh.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Carbon Footprint Reduction and Sustainable Reuse of Recycled Plastic",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/11/9-A.P.R._Srinivas.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Paradigm Shift in Manufacturing via Information Technology",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/11/10-Dr_Ranjit_Singh.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Increasing Pace of Innovation: The Innovation Cube Model",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/1-Dr.-Sandeep-Muju.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Circuit Theorems – Scope and Limitations (Part III: Miller’s theorem)",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/2-Dr.-T.-S.-Rathore.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "ICT Technologies and KPIs for Smart Safe and Sustainable Cities",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/3-T.R.-Dua.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Gyan Vahini – Creation of an Open Access National Digital Infrastructure Grid through Functional Separation Using Smart Contracts and Blockchain",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/4-Satya-N.-Gupta.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Wi-Fi Offloading – A Promising Solution to Solve Network Congestion",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/5-Keshav-Sharma.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Solar Installations and Reduction in LPG Consumption",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/6-APR-Srinivas.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Comparative Performance Analysis of Various Micro-strip Power Dividers",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/7-Siddhartha-Dubey-amit-tiwari.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Reverse Image Data Hiding Using Transform Techniques",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/8-Dr.-Neelesh-Gupta.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Digital Detoxification: Humanity on the Precipice",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/9-Dr.-Ranjit-Singh.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Design and Development of C-Band Down Converter for Data-link Application",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/10-Amit-Tiwari.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Composite Laptop Lid Design – A Conceptual Cost Reduction Technique",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/11-A.P.R.-Srinivas.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Spectrum Policy for Satellite and 5G Systems Focus on 28 GHz Band",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/1_-Dr.-LAURA-Roberti_Spectrum-Policy-for-Satellite-and-5G-Systems-Focus-on-28-GHz-Band.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Broadband Internet and Access Technology for Rural Connectivity",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/2_KISHORE-Kumar-Thakur_Broadband-Internet-and-Access-Technology-for-Rural-Connectivity.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "The Evolving Ecosystem in the World of Digital Data",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/3_K.K-Minocha_The-Evolving-Ecosystem-in-the-World-of-Digital-Data.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Glass Fibre Reinforced Polymer Jacketing over Concrete Column",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/4_Dr-K-KAMAL_Glass-Fibre-Reinforced-Polymer-Jacketing-over-Concrete-Column.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Manufacturing and Assembling Buildings as 3D Monolithic Shearwall Modules",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/5_SJ-VIJAY_Manufacturing-and-Assembling-Buildings-as-3D-Monolithic-Shearwall-Modules.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "High Speed and Delay Efficient Convolution by using Kogge Stone Device",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/6_Dr-NEELESH-Gupta-SHUBHI-Shrivastava_High-Speed-and-Delay-Efficient-Convolution-by-using-Kogge-Stone-Device.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Lithium Ion Batteries_ Answer to Communications-Energy Crunch",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/7_Dr-RANJIT-Singh_Lithium-Ion-Batteries_-Answer-to-Communications-Energy-Crunch.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Innovations Utilizing Haptic Technology in Industry 4.0 Era",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/8_PRITY-Khastgir_Innovations-Utilizing-Haptic-Technology-in-Industry-4.0-Era.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Design and Development of C-Band Up-Converter with Built-in-Check",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/9_AMIT-Tiwari_Design-and-Development-of-C-Band-Up-Converter-with-Built-in-Check.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "LC Model of Corner Arc Slotted Antenna for C, X and Ku Band Applications",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/10_MANOJ-Kumar-Garg_LC-Model-of-Corner-Arc-Slotted-Antenna-for-C-X-and-Ku-Band-Applications.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "5G Technology of Mobile Communications A Review",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/11_NEHA-Gehlot-RITU-Sindhu_5G-Technology-of-Mobile-Communications-A-Review.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Circuit Theorems – Scope and Limitations",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/1-Circuit-Theorems-Dr-TS-Rathore.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Face Recognition Techniques – A Review",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/2-Face-Recognition-Techniques-Bhaskar-Gupta.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Green Technologies in ICT Sector for Development: A Path to Environmental Sustainability",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/3-Green-Technologies-Om-Pal-Singh-Pratibha-Singh.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Influence of Zinc Oxide and Silicon Carbide Micro fillers on Impact Strength and Hardness in E-Glass/Polyester Composites: Fabrication and Testing",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/4-Influence-of-Zinc-Oxide-and-...-Reddy-Sreenivasulu.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Internet of Medical Things: Advent of Digital Doctor",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/5-Internet-of-Medical-Things-Manjit-Singh.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Collaboration: A Key to Innovation",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/6-Collaboration-_A-Key-to-Innovation-Amit-Tiwari.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Survey: Internet of Things",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/7-Survey_Internet-of-Things-Ruchi-Parashar.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Automatic Facial Feature Point Extraction by Using Harris Algorithm",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/8-Autiomatic-Facial-Feature-Point-Extraction-Pushpa-Kesarwani-et-al..pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Image Processing in Face Detection through Morphological Shared-weight Neural Networks",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/9-Image-Processingin-Face-Detection-Dr-Chandani-Sharma-Dr-Ranjit-Singh.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Taguchi Based Experimental Studies on Surface Roughness and Burr Formation during End Milling of Inconel 718",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/10-End-Milling-of-Inconel-718-Reddy-Sreenivasulu-et-al..pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKGEC_Intel_Journal_8_no_1_1",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKGEC_Intel_Journal_8_no_1_1.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKGEC_Intel_Journal_8_no_1_3",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKGEC_Intel_Journal_8_no_1_3.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKGEC_Intel_Journal_8_no_1_5",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKGEC_Intel_Journal_8_no_1_5.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKGEC_Intel_Journal_8_no_1_7",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKGEC_Intel_Journal_8_no_1_7.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKGEC_Intel_Journal_8_no_1_9",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKGEC_Intel_Journal_8_no_1_9.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKGEC_Intel_Journal_8_no_1_11",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKGEC_Intel_Journal_8_no_1_11.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKGEC_Intel_Journal_8_no_1_2",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKGEC_Intel_Journal_8_no_1_2.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKGEC_Intel_Journal_8_no_1_4",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKGEC_Intel_Journal_8_no_1_4.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKGEC_Intel_Journal_8_no_1_6",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKGEC_Intel_Journal_8_no_1_6.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKGEC_Intel_Journal_8_no_1_8",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKGEC_Intel_Journal_8_no_1_8.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKGEC_Intel_Journal_8_no_1_10",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKGEC_Intel_Journal_8_no_1_10.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKGEC_Vol_7_No_2_1",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKGEC_Vol_7_No_2_1.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKGEC_Vol_7_No_2_4",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKGEC_Vol_7_No_2_4.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKGEC_Vol_7_No_2_7",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKGEC_Vol_7_No_2_7.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKGEC_Vol_7_No_2_10",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKGEC_Vol_7_No_2_10.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKGEC_Vol_7_No_2_2",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKGEC_Vol_7_No_2_2.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKGEC_Vol_7_No_2_5",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKGEC_Vol_7_No_2_5.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKGEC_Vol_7_No_2_8",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKGEC_Vol_7_No_2_8.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKGEC_Vol_7_No_2_11",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKGEC_Vol_7_No_2_11.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKGEC_Vol_7_No_2_3",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKGEC_Vol_7_No_2_3.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKGEC_Vol_7_No_2_6",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKGEC_Vol_7_No_2_6.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKGEC_Vol_7_No_2_9",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKGEC_Vol_7_No_2_9.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKGEC_Vol_7_No_1_1",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKGEC_Vol_7_No_1_1.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKGEC_Vol_7_No_1_4",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKGEC_Vol_7_No_1_4.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKGEC_Vol_7_No_1_7",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKGEC_Vol_7_No_1_7.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKGEC_Vol_7_No_1_10",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKGEC_Vol_7_No_1_10.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKGEC_Vol_7_No_1_2",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKGEC_Vol_7_No_1_2.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKGEC_Vol_7_No_1_5",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKGEC_Vol_7_No_1_5.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKGEC_Vol_7_No_1_8",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKGEC_Vol_7_No_1_8.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKGEC_Vol_7_No_1_3",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKGEC_Vol_7_No_1_3.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKGEC_Vol_7_No_1_6",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKGEC_Vol_7_No_1_6.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKGEC_Vol_7_No_1_9",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKGEC_Vol_7_No_1_9.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKG_Int_Journal_Tech_Vol_6_no_2_1",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKG_Int_Journal_Tech_Vol_6_no_2_1.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKG_Int_Journal_Tech_Vol_6_no_2_3",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKG_Int_Journal_Tech_Vol_6_no_2_3.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKG_Int_Journal_Tech_Vol_6_no_2_5",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKG_Int_Journal_Tech_Vol_6_no_2_5.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKG_Int_Journal_Tech_Vol_6_no_2_7",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKG_Int_Journal_Tech_Vol_6_no_2_7.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKG_Int_Journal_Tech_Vol_6_no_2_9",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKG_Int_Journal_Tech_Vol_6_no_2_9.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKG_Int_Journal_Tech_Vol_6_no_2_11",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKG_Int_Journal_Tech_Vol_6_no_2_11.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKG_Int_Journal_Tech_Vol_6_no_2_13",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKG_Int_Journal_Tech_Vol_6_no_2_13.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKG_Int_Journal_Tech_Vol_6_no_2_2",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKG_Int_Journal_Tech_Vol_6_no_2_2.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKG_Int_Journal_Tech_Vol_6_no_2_4",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKG_Int_Journal_Tech_Vol_6_no_2_4.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKG_Int_Journal_Tech_Vol_6_no_2_6",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKG_Int_Journal_Tech_Vol_6_no_2_6.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKG_Int_Journal_Tech_Vol_6_no_2_8",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKG_Int_Journal_Tech_Vol_6_no_2_8.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKG_Int_Journal_Tech_Vol_6_no_2_10",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKG_Int_Journal_Tech_Vol_6_no_2_10.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKG_Int_Journal_Tech_Vol_6_no_2_12",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKG_Int_Journal_Tech_Vol_6_no_2_12.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKG_Int_Journal_Tech_Vol_6_no_2_14",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKG_Int_Journal_Tech_Vol_6_no_2_14.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKG_Int_Journal_Tech_Vol_6_no_1_1",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKG_Int_Journal_Tech_Vol_6_no_1_1.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKG_Int_Journal_Tech_Vol_6_no_1_3",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKG_Int_Journal_Tech_Vol_6_no_1_3.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKG_Int_Journal_Tech_Vol_6_no_1_5",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKG_Int_Journal_Tech_Vol_6_no_1_5.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKG_Int_Journal_Tech_Vol_6_no_1_7",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKG_Int_Journal_Tech_Vol_6_no_1_7.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKG_Int_Journal_Tech_Vol_6_no_1_9",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKG_Int_Journal_Tech_Vol_6_no_1_9.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKG_Int_Journal_Tech_Vol_6_no_1_11",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKG_Int_Journal_Tech_Vol_6_no_1_11.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKG_Int_Journal_Tech_Vol_6_no_1_13",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKG_Int_Journal_Tech_Vol_6_no_1_13.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKG_Int_Journal_Tech_Vol_6_no_1_2",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKG_Int_Journal_Tech_Vol_6_no_1_2.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKG_Int_Journal_Tech_Vol_6_no_1_4",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKG_Int_Journal_Tech_Vol_6_no_1_4.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKG_Int_Journal_Tech_Vol_6_no_1_6",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKG_Int_Journal_Tech_Vol_6_no_1_6.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKG_Int_Journal_Tech_Vol_6_no_1_8",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKG_Int_Journal_Tech_Vol_6_no_1_8.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKG_Int_Journal_Tech_Vol_6_no_1_10",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKG_Int_Journal_Tech_Vol_6_no_1_10.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AKG_Int_Journal_Tech_Vol_6_no_1_12",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/AKG_Int_Journal_Tech_Vol_6_no_1_12.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Profile Link: https://www.akgec.ac.in/wp-content/uploads/2024/01/HODCSE_Profile.pdf",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/HODCSE_Profile.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Profile Link: https://www.akgec.ac.in/wp-content/uploads/2023/04/Dr.-Rajesh-Prasad.pdf",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/04/Dr.-Rajesh-Prasad.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Profile Link: https://www.akgec.ac.in/wp-content/uploads/2023/04/Dr.-Shashank-Sahu.pdf",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/04/Dr.-Shashank-Sahu.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Profile Link: https://www.akgec.ac.in/wp-content/uploads/2023/09/Dr.-Avdhesh-Gupta.pdf",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/09/Dr.-Avdhesh-Gupta.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Profile Link: https://www.akgec.ac.in/wp-content/uploads/2023/04/Dr.-Sonam-Gupta.pdf",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/04/Dr.-Sonam-Gupta.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Profile Link: https://www.akgec.ac.in/wp-content/uploads/2023/04/Dr.-Santosh-Kumar-Upadhyay.pdf",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/04/Dr.-Santosh-Kumar-Upadhyay.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Profile Link: https://www.akgec.ac.in/wp-content/uploads/2023/04/Akhilesh-Verma-.pdf",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/04/Akhilesh-Verma-.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Glimpse-Volume-4[Issue-2][JULY-DECEMBER]Cover Page",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/09/cover-Glimpse-4-no-2-JUL-DEC-25new.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "DCGAN in Augmenting Algorithm Analysis Dataset and Scarcity Classification",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/09/Paper1.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Transforming Diabetes Diagnosis: A Synergistic Machine Learning Framework For Early Detection",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/09/Paper2.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Real-Time Indian Sign Language Paragraph Translation Using Convolutional Neural Networks and Transformer-Based Models",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/09/Paper3.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Facespot: A Smart Human Facial Detection System Using Supervised Learning",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/09/Paper4.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Smart Inventory Management System Using Machine Learning",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/09/Paper5.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "A Review Of Media Role In Military Decision Making",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/09/Paper6.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "A Machine Learning-Driven Collaborative Model For Water Quality Evaluation In India",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/09/Paper7.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Application of LSTMAND RNN In Predicting Stock Market Trends",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/09/Paper8.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Energy-Efficient Deep Learning Architectures For Sustainable AI",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/09/Paper9.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Glimpse-Volume-4[Issue-1][JANUARY-JUNE]Cover Page",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/05/cover-Glimpse-4-no-1-JAN-JUN-25.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Detection of Fake News using classification algorithms of Machine Learning",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/05/Paper1.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Enhancing Nutritional Analysis through CNN-based food classification",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/05/Paper2.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Methods for finding errors in predicting modes of oscillation",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/05/Paper-3.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "A Comparative study on Data Analytics",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/05/Paper4.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Medical Plant identification tool using Convolutional Neural Network",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/05/Paper-5.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Precision Agriculture: An Extensive analysis for applications of Machine Learning Techniques",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/05/Paper-6.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Sentiment analysis on tweets for farmer's protest",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/05/paper-7.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Hand Gesture Recognition: A smart technique",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/05/Paper-8.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Prevention of Vision Health from Smart Phone light",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/05/Paper-9.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Bibliographic analysis of Air quality and exposure of various pollutants, conditions and, better routing approaches",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/05/Paper-10.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Glimpse-Volume-3[Issue-2][JULY-DECEMBER]Cover Page",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/10/cover-Glimpse-15-no-2-JUL-DEC-24.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "CLOUD COMPUTING UNVEILED: TRENDS, CHALLENGES, AND FUTURE DIRECTIONS",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/10/1.-Jaishree-Jain.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "SECURABLE VIRTUAL STUDENT’S FEEDBACK SYSTEM TO PREVENT THE UNETHICAL COMMENTS",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/10/2.-Rakesh-Kumar-Yadav.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "ETHICS IN ARTIFICIAL INTELLIGENCE",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/10/3.-Vaishali.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "STUDY OF MULTIMODAL EMOTION RECOGNITION: INTEGRATING FACIAL EXPRESSIONS, VOICE, AND PHYSIOLOGICAL SIGNALS FOR ENHANCED ACCURACY",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/10/4.-Surendra-Kumar.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "EXPLORING INTERIOR SPACE DESIGN IN THE ERA OF INTELLIGENT INTERNET ENVIRONMENTS",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/10/5.-Ritika-Dhayani.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "ENHANCING POLICING EFFICIENCY: A MACHINE LEARNING-BASED CRIME MANAGEMENT SYSTEM",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/10/6.-Neeharika-Tripathi.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "TRANSFORMATIVE APPLICATIONS OF BLOCKCHAIN AND MACHINE LEARNING IN HEALTHCARE: A REVIEW",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/10/7.-Anuradha.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "BIG IOT DATA ANALYTICS USING FOG COMPUTING",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/10/8.-Manoj-Srivatava.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "ADVANCES IN SPEECH EMOTION RECOGNITION: TECHNIQUES, CHALLENGES, AND APPLICATIONS",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/10/9.-Yogendra.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Network Intrusion Detection system using Federated Learning",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jan-June2024_1.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "A Melanoma skin cancer Diagnosis using Hybrid Feature-optimized msvm classification model on Dermotoscopic Images",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jan-June2024_2.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Exploring the synergy: The intersection of IOI and Robotics in transforming industries and daily life",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jan-June2024_3.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Deep Learning’s Obstacles in Medical Image Analysis: Boosting trust and explainability",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jan-June2024_4.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Exploring the impact of machine learning algorithms on Cardiovascular health assessment",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jan-June2024_5.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "The day-after-tomorrow: On the performance of radio fingerprinting overtime",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jan-June2024_6.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Novel mp3: The music with senses",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jan-June2024_7.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Beyond roll call: Harnessing RFID Technology for student’s attendance management",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jan-June2024_8.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Fake News Detection techniques",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jan-June2024_9.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Machine Learning Methods in Software Engineering – Review",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jan-June2024_10.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Review of Network Security Measures and Threats: Recent developments and future research directions",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jul-Dec2023_1.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "The emergence of Data Science: Trasforming insights into action",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jul-Dec2023_2.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Message Security using PGP with two stage steganography",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jul-Dec2023_3.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Malicious URL Detection",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jul-Dec2023_4.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Brain Tumor Detection Model Based CNN and Threshold Segmentation",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jul-Dec2023_5.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "A systematic review of wavelet tree compression techniques",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jul-Dec2023_6.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Human Behaviour Recognition through AI",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jul-Dec2023_7.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Security issues in 5G Network",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jul-Dec2023_8.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Artificial Intelligence Based virtual Mouse using hand gestures",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jul-Dec2023_9.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Analysis of human sentiments using Machine Learning",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jul-Dec2023_10.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Machine Learning Solutions to Polycystic Ovary Syndrome",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jan-June2023_1.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Efficient Allocation of Bandwidth & Congestion Avoidance during Data",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jan-June2023_2.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Asymmetric Multi-Core Architectures",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jan-June2023_3.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Combining Steganography and Cryptography Techniques for securing Patient information",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jan-June2023_4.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "A Melanoma Skin Cancer Diagnosis Using Hybrid Feature- Optimized MSVM Classification Model On Dermotoscopic Images",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jan-June2023_5.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "A Review of Parallel Approach Using Genetic Algorithms",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jan-June2023_6.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "LOAN PREDICTION USING MACHINE LEARNING",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jan-June2023_7.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Evaluation of Academic Performance of Student with Fuzzy Logic",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jan-June2023_8.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Predicting Heart Diseases Using Machine Learning Techniques",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jan-June2023_9.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "MACHINE LEARNING AND NATURAL LANGUAGE PROCESSING BASED COGNETIVE DISEASE PREDICTION MODEL FOR PREDICTION OF PSYCOLOGICAL DISEASES",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jul-Dec2022_1.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "A Brief introduction to AWS technology",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jul-Dec2022_2.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "CLOUD COMPUTING SECURITY FUNDAMENTALS",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jul-Dec2022_3.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "INTEGRITY CHECK IN BIOMETRIC IMAGE",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jul-Dec2022_4.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "A NEW ANTI-PHISHING TECHNIQUE",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jul-Dec2022_5.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "A MACHINE LEARNING BASESD HEALTHCARE DIAGNOSTIC MODEL",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jul-Dec2022_6.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "OPINION MINING IN R",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jul-Dec2022_7.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "SHIFT INVARIANCE IN UNMASKING NEO PLASMA",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jul-Dec2022_8.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "AN ANALYSIS OF CONTACT TRACING APPS FOR CONTROLLING VIRAL DISEASES",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jul-Dec2022_9.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Internet of Behaviour: A New Era of Data Collection",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jan-Jun2022_1.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Computer Vision And Its Application Areas",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jan-Jun2022_2.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Asymmetric Multi-Core Architectures",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jan-Jun2022_3.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Cloud Cryptography to Ensure Security and Privacy in Cloud",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jan-Jun2022_4.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "The Implementation of GABASS in to Bank Data",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jan-Jun2022_5.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "A Brief Introduction to SalesForce Technology",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jan-Jun2022_6.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Advance Cataloguing Method for the Microarray Breast Cancer Detection",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jan-Jun2022_7.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Practices of Implementing Agile Procedures & DevOps Methodologies in the Development of Web Application",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jan-Jun2022_8.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "Heart Disease Prediction Using Data Mining Techniques",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jan-Jun2022_9.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "A Survey on Sentiment Analysis",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jan-Jun2022_10.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "BLOCKCHAIN TECHNOLOGY: AN INTRODUCTION",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/Jan-Jun2022_11.pdf",
+      "source_page": "https://www.akgec.ac.in/cse-journal-gjcs",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "CONFERENCES AND SEMINARS IN 2018-19",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/CONFERENCES_2018-19.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/conferences",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "CONFERENCES AND SEMINARS IN 2017-18",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/CONFERENCES-2017-18.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/conferences",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "FDPs IN 2018-19",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/FDPs_2018-19.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/fdps",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "FDPs IN 2015-16",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/FDPs_2015-16.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/fdps",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "FDPs IN 2017-18",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/FDPs_2017-18.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/fdps",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "FDPs IN 2014-15",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/FDPs_2014-15.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/fdps",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "FDPs IN 2016-17",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/FDPs_2016-17.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/fdps",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "FDPs IN 2013-14",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2019/06/FDPs_2013-14.pdf",
+      "source_page": "https://www.akgec.ac.in/rd/fdps",
+      "section": "COLLEGE PUBLICATIONS",
+      "file_type": ".pdf",
+      "category": "optional",
+      "reason": "Research publication or article"
+    },
+    {
+      "title": "2023-24",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/02/CSI-Session-2023-24.pdf",
+      "source_page": "https://www.akgec.ac.in/life-akgec/societies/student-chapters/csi",
+      "section": "LIFE@AKGEC",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Relevance requires manual verification"
+    },
+    {
+      "title": "2022-23",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/07/CSI-Session_2022-23.pdf",
+      "source_page": "https://www.akgec.ac.in/life-akgec/societies/student-chapters/csi",
+      "section": "LIFE@AKGEC",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Relevance requires manual verification"
+    },
+    {
+      "title": "2021-22",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/05/CSI-Session-2021-22.pdf",
+      "source_page": "https://www.akgec.ac.in/life-akgec/societies/student-chapters/csi",
+      "section": "LIFE@AKGEC",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Relevance requires manual verification"
+    },
+    {
+      "title": "2020-21",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/05/CSI-Session-2020-21.pdf",
+      "source_page": "https://www.akgec.ac.in/life-akgec/societies/student-chapters/csi",
+      "section": "LIFE@AKGEC",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Relevance requires manual verification"
+    },
+    {
+      "title": "2019-20",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/05/CSI-Session-2019-20.pdf",
+      "source_page": "https://www.akgec.ac.in/life-akgec/societies/student-chapters/csi",
+      "section": "LIFE@AKGEC",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Relevance requires manual verification"
+    },
+    {
+      "title": "2018-19",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/05/CSI-Session-2018-19.pdf",
+      "source_page": "https://www.akgec.ac.in/life-akgec/societies/student-chapters/csi",
+      "section": "LIFE@AKGEC",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Relevance requires manual verification"
+    },
+    {
+      "title": "2017-18",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/05/CSI-Session-2017-18.pdf",
+      "source_page": "https://www.akgec.ac.in/life-akgec/societies/student-chapters/csi",
+      "section": "LIFE@AKGEC",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Relevance requires manual verification"
+    },
+    {
+      "title": "2016-17",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/05/CSI-Session-2016-17.pdf",
+      "source_page": "https://www.akgec.ac.in/life-akgec/societies/student-chapters/csi",
+      "section": "LIFE@AKGEC",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Relevance requires manual verification"
+    },
+    {
+      "title": "Link",
+      "url": "https://www.akgec.ac.in/ieee-student-branch-chapter/Desotrix'22%20report.pdf",
+      "source_page": "https://www.akgec.ac.in/ieee-student-branch-chapter",
+      "section": "LIFE@AKGEC",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Relevance requires manual verification"
+    },
+    {
+      "title": "Visited Company Summary 2026",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/10/VisitedCompanySummary2026.pdf",
+      "source_page": "https://www.akgec.ac.in/placements/placement-records",
+      "section": "PLACEMENTS",
+      "file_type": ".pdf",
+      "category": "essential",
+      "reason": "Core college information"
+    },
+    {
+      "title": "Visited Company Summary 2025",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/10/VisitedCompanySummary2025.pdf",
+      "source_page": "https://www.akgec.ac.in/placements/placement-records",
+      "section": "PLACEMENTS",
+      "file_type": ".pdf",
+      "category": "essential",
+      "reason": "Core college information"
+    },
+    {
+      "title": "Visited Company Summary 2024",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2026/10/VisitedCompanySummary2024.pdf",
+      "source_page": "https://www.akgec.ac.in/placements/placement-records",
+      "section": "PLACEMENTS",
+      "file_type": ".pdf",
+      "category": "essential",
+      "reason": "Core college information"
+    },
+    {
+      "title": "Value Education Cell",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/02/EMERGENCE-22-24.pdf",
+      "source_page": "https://www.akgec.ac.in/ve-cell",
+      "section": "VE CELL",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Requires content review"
+    },
+    {
+      "title": "Value Education Cell",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2022/01/ValueEducationCell.pdf",
+      "source_page": "https://www.akgec.ac.in/ve-cell",
+      "section": "VE CELL",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Requires content review"
+    },
+    {
+      "title": "AQAR 2018-2019",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/01/Updated-AQAR-2018-19.pdf",
+      "source_page": "https://www.akgec.ac.in/iqac",
+      "section": "IQAC",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "Requires content review"
+    },
+    {
+      "title": "Curricular-Planning-and-Implementation",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/01/Academic-Calender2023-24.pdf",
+      "source_page": "https://www.akgec.ac.in/iqac",
+      "section": "IQAC",
+      "file_type": ".pdf",
+      "category": "essential",
+      "reason": "Core college information"
+    },
+    {
+      "title": "1.2.2",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/01/1.2.2certis.pdf",
+      "source_page": "https://www.akgec.ac.in/iqac",
+      "section": "IQAC",
+      "file_type": ".pdf",
+      "category": "excluded",
+      "reason": "Potential personal/student records"
+    },
+    {
+      "title": "Student's NPTEL Certificates",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/01/NPTEL-Certificates.pdf",
+      "source_page": "https://www.akgec.ac.in/iqac",
+      "section": "IQAC",
+      "file_type": ".pdf",
+      "category": "excluded",
+      "reason": "Potential personal/student records"
+    },
+    {
+      "title": "1.3.2",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/01/1.3.2-certificates2023-24.pdf",
+      "source_page": "https://www.akgec.ac.in/iqac",
+      "section": "IQAC",
+      "file_type": ".pdf",
+      "category": "excluded",
+      "reason": "Potential personal/student records"
+    },
+    {
+      "title": "Programs for Advanced and Slow Learners",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/01/2.2.1_2023-24.pdf",
+      "source_page": "https://www.akgec.ac.in/iqac",
+      "section": "IQAC",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "IQAC supporting document"
+    },
+    {
+      "title": "Experiential Learning",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/01/2.3.1_2023-24.pdf",
+      "source_page": "https://www.akgec.ac.in/iqac",
+      "section": "IQAC",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "IQAC supporting document"
+    },
+    {
+      "title": "ICT Enabled Tools",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/01/2.3.2_2023-24.pdf",
+      "source_page": "https://www.akgec.ac.in/iqac",
+      "section": "IQAC",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "IQAC supporting document"
+    },
+    {
+      "title": "Mechanism of internal assessment",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/01/2.5.1_2023-24.pdf",
+      "source_page": "https://www.akgec.ac.in/iqac",
+      "section": "IQAC",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "IQAC supporting document"
+    },
+    {
+      "title": "Mechanism to deal with internal examination related grievances",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/01/2.5.2_2023-24.pdf",
+      "source_page": "https://www.akgec.ac.in/iqac",
+      "section": "IQAC",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "IQAC supporting document"
+    },
+    {
+      "title": "CO PO Attainment specimen",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/01/2.6.2_2023-24.pdf",
+      "source_page": "https://www.akgec.ac.in/iqac",
+      "section": "IQAC",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "IQAC supporting document"
+    },
+    {
+      "title": "Annual Report",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/01/2.6.3_2023-24.pdf",
+      "source_page": "https://www.akgec.ac.in/iqac",
+      "section": "IQAC",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "IQAC supporting document"
+    },
+    {
+      "title": "Student Satisfaction Report",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/01/ReportSSS.pdf",
+      "source_page": "https://www.akgec.ac.in/iqac",
+      "section": "IQAC",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "IQAC supporting document"
+    },
+    {
+      "title": "3.3.1 Number of Ph.Ds registered per eligible teacher during the year",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/01/3.3.1_FINAL0.pdf",
+      "source_page": "https://www.akgec.ac.in/iqac",
+      "section": "IQAC",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "IQAC supporting document"
+    },
+    {
+      "title": "3.5.1",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/02/3.5.1-final.pdf",
+      "source_page": "https://www.akgec.ac.in/iqac",
+      "section": "IQAC",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "IQAC supporting document"
+    },
+    {
+      "title": "Audited Statement 2023",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/12/Audited-Statement_2023.pdf",
+      "source_page": "https://www.akgec.ac.in/iqac",
+      "section": "IQAC",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "IQAC supporting document"
+    },
+    {
+      "title": "Capacity building and skills enhancement initiatives taken by the institution",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/01/5.1.3_2023-24.pdf",
+      "source_page": "https://www.akgec.ac.in/iqac",
+      "section": "IQAC",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "IQAC supporting document"
+    },
+    {
+      "title": "Certificates",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/02/Certificates-5.3.1.pdf",
+      "source_page": "https://www.akgec.ac.in/iqac",
+      "section": "IQAC",
+      "file_type": ".pdf",
+      "category": "excluded",
+      "reason": "Potential personal/student records"
+    },
+    {
+      "title": "Supporting Docs",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/02/5.3.2.pdf",
+      "source_page": "https://www.akgec.ac.in/iqac",
+      "section": "IQAC",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "IQAC supporting document"
+    },
+    {
+      "title": "Supporting Docs",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/02/5.3.3-Supporting-Documents.pdf",
+      "source_page": "https://www.akgec.ac.in/iqac",
+      "section": "IQAC",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "IQAC supporting document"
+    },
+    {
+      "title": "MoM",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/11/MoM-Odd-sem-2025-26-1.pdf",
+      "source_page": "https://www.akgec.ac.in/iqac",
+      "section": "IQAC",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "IQAC supporting document"
+    },
+    {
+      "title": "MoM",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/02/MoM-Odd-sem-2024-25-1.pdf",
+      "source_page": "https://www.akgec.ac.in/iqac",
+      "section": "IQAC",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "IQAC supporting document"
+    },
+    {
+      "title": "MoM",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/02/MoM-Odd-Sem-2024-25-2.pdf",
+      "source_page": "https://www.akgec.ac.in/iqac",
+      "section": "IQAC",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "IQAC supporting document"
+    },
+    {
+      "title": "ATR",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/01/ATR-2024-25-odd-sem.pdf",
+      "source_page": "https://www.akgec.ac.in/iqac",
+      "section": "IQAC",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "IQAC supporting document"
+    },
+    {
+      "title": "ATR",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/02/ATR-2024-25-Odd-sem.pdf",
+      "source_page": "https://www.akgec.ac.in/iqac",
+      "section": "IQAC",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "IQAC supporting document"
+    },
+    {
+      "title": "MoM",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/01/MOM-2023-24-Even.pdf",
+      "source_page": "https://www.akgec.ac.in/iqac",
+      "section": "IQAC",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "IQAC supporting document"
+    },
+    {
+      "title": "MoM",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/01/MOM-2023-24-even-2.pdf",
+      "source_page": "https://www.akgec.ac.in/iqac",
+      "section": "IQAC",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "IQAC supporting document"
+    },
+    {
+      "title": "ATR",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/01/ATR-2023-24-even-sem.pdf",
+      "source_page": "https://www.akgec.ac.in/iqac",
+      "section": "IQAC",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "IQAC supporting document"
+    },
+    {
+      "title": "ATR",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2025/01/ATR-2023-24-even.pdf",
+      "source_page": "https://www.akgec.ac.in/iqac",
+      "section": "IQAC",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "IQAC supporting document"
+    },
+    {
+      "title": "MoM",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/11/MoM-even-2023-24.pdf",
+      "source_page": "https://www.akgec.ac.in/iqac",
+      "section": "IQAC",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "IQAC supporting document"
+    },
+    {
+      "title": "MoM",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/05/MOM-2022-23-Even-Sem.pdf",
+      "source_page": "https://www.akgec.ac.in/iqac",
+      "section": "IQAC",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "IQAC supporting document"
+    },
+    {
+      "title": "ATR",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2024/02/ATR-2022-23-Even-Sem.pdf",
+      "source_page": "https://www.akgec.ac.in/iqac",
+      "section": "IQAC",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "IQAC supporting document"
+    },
+    {
+      "title": "MoM",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/05/MoM-2022-23-Odd-Sem.pdf",
+      "source_page": "https://www.akgec.ac.in/iqac",
+      "section": "IQAC",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "IQAC supporting document"
+    },
+    {
+      "title": "ATR",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/05/ATR-2022-23-Odd-Sem.pdf",
+      "source_page": "https://www.akgec.ac.in/iqac",
+      "section": "IQAC",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "IQAC supporting document"
+    },
+    {
+      "title": "MoM",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2022/10/IQAC-MOMs-2021-22-Even-sem.pdf",
+      "source_page": "https://www.akgec.ac.in/iqac",
+      "section": "IQAC",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "IQAC supporting document"
+    },
+    {
+      "title": "ATR",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2022/10/ATR-2021-22-Even-Sem.pdf",
+      "source_page": "https://www.akgec.ac.in/iqac",
+      "section": "IQAC",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "IQAC supporting document"
+    },
+    {
+      "title": "MoM",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2022/10/IQAC-MOMs-2021-22-Odd-sem.pdf",
+      "source_page": "https://www.akgec.ac.in/iqac",
+      "section": "IQAC",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "IQAC supporting document"
+    },
+    {
+      "title": "ATR",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2022/10/ATR-2021-22-Odd-Sem.pdf",
+      "source_page": "https://www.akgec.ac.in/iqac",
+      "section": "IQAC",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "IQAC supporting document"
+    },
+    {
+      "title": "NAAC Certificate 2023",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/10/NAAC-Certificate.pdf",
+      "source_page": "https://www.akgec.ac.in/iqac",
+      "section": "IQAC",
+      "file_type": ".pdf",
+      "category": "essential",
+      "reason": "Core college information"
+    },
+    {
+      "title": "Link",
+      "url": "https://www.akgec.ac.in/wp-content/uploads/2023/10/MCA-Department-PO-PEO-PSO.pdf",
+      "source_page": "https://www.akgec.ac.in/iqac",
+      "section": "IQAC",
+      "file_type": ".pdf",
+      "category": "review",
+      "reason": "IQAC supporting document"
+    }
+  ]
+}

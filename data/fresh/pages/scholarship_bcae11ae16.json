@@ -1,0 +1,39 @@
+{
+  "title": "Scholarship - AJAY KUMAR GARG ENGINEERING COLLEGE",
+  "url": "https://www.akgec.ac.in/scholarship/",
+  "section": "ADMISSIONS",
+  "blocks": [
+    {
+      "type": "heading",
+      "tag": "h1",
+      "text": "Scholarship"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "This policy outlines the scholarship program for students securing an All India Rank (AIR) upto 25000 in the Joint Entrance Examination (JEE) for admission into the B.Tech course and and All India Rank (AIR) between 1 and 750 in the Common University Entrance Test Post Graduate (CUET PG) for admission into the MCA course. The scholarship aims to provide financial support to meritorious students and encourage academic excellence."
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "B.Tech [For I, II, III and IV Year]\n | AIR in JEE Examination | Scholarship\na) | 1 – 10,000 | Equivalent to 100% of Tuition Fees\nb) | 10,001 – 15,000 | Equivalent to 75% of Tuition Fees\nc) | 15,001 – 20,000 | Equivalent to 50% of Tuition Fees\nd) | 20,001 – 25,000 | Equivalent to 25% of Tuition Fees"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "MCA [For I and II Year]\n | AIR in CUET PG Examination | Scholarship\na) | 1 – 100 | Equivalent to 100% of Tuition Fees\nb) | 101 – 250 | Equivalent to 75% of Tuition Fees\nc) | 251 – 500 | Equivalent to 50% of Tuition Fees\nd) | 501 – 750 | Equivalent to 25% of Tuition Fees"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Note:"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "For both B.Tech and MCA, from the II Year, the scholarship is subject to overall attendance of above 90% and achieving CGPA of more than 7.5 with no carry-over papers in all semesters."
+    }
+  ],
+  "text": "SCHOLARSHIP\n\n\nThis policy outlines the scholarship program for students securing an All India Rank (AIR) upto 25000 in the Joint Entrance Examination (JEE) for admission into the B.Tech course and and All India Rank (AIR) between 1 and 750 in the Common University Entrance Test Post Graduate (CUET PG) for admission into the MCA course. The scholarship aims to provide financial support to meritorious students and encourage academic excellence.\n\nB.Tech [For I, II, III and IV Year]\n | AIR in JEE Examination | Scholarship\na) | 1 – 10,000 | Equivalent to 100% of Tuition Fees\nb) | 10,001 – 15,000 | Equivalent to 75% of Tuition Fees\nc) | 15,001 – 20,000 | Equivalent to 50% of Tuition Fees\nd) | 20,001 – 25,000 | Equivalent to 25% of Tuition Fees\n\nMCA [For I and II Year]\n | AIR in CUET PG Examination | Scholarship\na) | 1 – 100 | Equivalent to 100% of Tuition Fees\nb) | 101 – 250 | Equivalent to 75% of Tuition Fees\nc) | 251 – 500 | Equivalent to 50% of Tuition Fees\nd) | 501 – 750 | Equivalent to 25% of Tuition Fees\n\nNote:\n\nFor both B.Tech and MCA, from the II Year, the scholarship is subject to overall attendance of above 90% and achieving CGPA of more than 7.5 with no carry-over papers in all semesters.",
+  "character_count": 1212
+}

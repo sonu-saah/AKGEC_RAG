@@ -1,0 +1,714 @@
+{
+  "title": "IQAC - AJAY KUMAR GARG ENGINEERING COLLEGE",
+  "url": "https://www.akgec.ac.in/iqac/",
+  "section": "IQAC",
+  "blocks": [
+    {
+      "type": "heading",
+      "tag": "h1",
+      "text": "IQAC"
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "About IQAC"
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "Goals of IQAC"
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "Benefits of IQAC"
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "IQAC Members"
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "Annual Quality Assurance Report (AQAR)"
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "IQAC Minutes of Meeting"
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "Functions of IQAC"
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "NAAC Awarded Certificate"
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "PEOs/POs/PSOs"
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "Best Practices"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "About IQAC"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "As per National Assessment and Accreditation Council (NAAC) guidelines every accredited institution should establish an Internal Quality Assurance Cell (IQAC) as a pre-accreditation quality sustenance measure. Since quality enhancement is a continuous process, the IQAC becomes a part of the institution's system and works towards realization of the goals of quality enhancement and sustenance."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "The prime task of the IQAC is to develop a system for conscious, consistent and catalytic improvement in the overall performance of institutions. AKGEC was accredited by NAAC in 2015 for the first cycle. IQAC established at AKGEC continued to strive for the betterment of processes and setup. The NAAC visited the AKGEC Campus from 22nd to 24th January 2015."
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Goals of IQAC"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Its aim is to introduce a consistent plan of action that would lead the organization towards progress. It involves preparing strategies for –"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "* Efficient & timely work processes"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "* Academic research & programs"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "* Affordable & innovative approaches"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "* Use of ICT for modernization of education"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "* Best assessment process for maintaining quality"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "* Ensuring the best infrastructure to achieve goals"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Benefits of IQAC"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "The following are the top 10 benefits of IQAC in the NAAC accreditation process."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "1. Best Practices: IQAC ensures clarity of the work processes and enables the stakeholders to “re-think” the current work processes."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "2. Internalization Of Quality Culture: The continuous assessment patterns make it possible to create an internalization of quality education culture in higher education institutions."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "3. Better Collaboration of Departments: IQAC ensures a better collaboration between various departments of the HEIs and eradicates the communication gap with frequent evaluation & feedbacks from the stakeholders."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "4. Improved Functioning of The HEIs: With a greater level of transparency & assessments, institutions are able to make better decisions and improve their overall functioning."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "5. Proper Documentation: IQAC allows the faculty to properly create authentic documentations & keep their records for future reference in the NAAC assessment process."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "6. Encourages R&D: IQAC encourages HEIs to pay attention to R&D and make the faculty future-ready by empowering them."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "7. Greater Transparency: IQAC peer team verifies all the documents, evidence, and facts and resolves the challenges faced by the HEIs."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "8. Project-Based & Service-Based Learning: Students are taught the value of practical knowledge by involving project-based learning as well as service-based learning."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "9. Professional Practices: To help children grow academically as well as develop skills, the IQAC team encourages conducting various programs & lectures of professional experts."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "10. Global Platform: Unlike traditional teaching-learning culture, IQAC tries to provide a globalized platform to students by inculcating the “think locally- act globally” mindset."
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "IQAC Members"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "S. No. | Name | Designation | Designation in IQAC\n1. | Shri Vinay Garg | Treasurer, BOG | Member (Management)\n2. | Dr. Hemant Ahuja | Director | Director\n3. | Dr. Neelesh Kumar Gupta | Prof. & HoD, ECE | IQAC Coordinator\n4. | Mr. Satender Singh | Chief Administrative Officer | Member (Administration)\n5. | Mr. Sanjay Srivastava | Project Manager | Member (Administration)\n6. | Dr. Rakesh Srivastava | Prof. & HoD, CE | Member (Faculty)\n7. | Dr. Anupama Sharma | Professor, IT | Member (Faculty)\n8. | Dr. Avdhesh Gupta | Professor, CSE | Member (Faculty)\n9. | Dr. Himani Garg | Professor, ECE | Member (Faculty)\n10. | Dr. Vani Bhargava | Associate Professor, EN | Member (Faculty)\n11. | Dr. Jitendra Yadav | Associate Professor, ME | Member (Faculty)\n12. | Dr. Akash Kumar | Assistant Professor, AS & H | Member (Faculty)\n13. | Dr. Gaganpreet Kaur | Assistant Professor, ME & TIFAC | Member (Faculty)\n14. | Dr. Dushyant Singh Chauhan | Assistant Professor, ECE | Member (Faculty)\n15. | Mr. Ishu Bansal | CTO, Truck Suvidha | Member (Alumni)\n16. | Mr. R. R. Tanwar | Council Member, IEI | Member (Local Society)\n17. | Ms. Aanya Goyal | Student IV Year ECE | Member (Student)\n18. | Ms. Riya Goyal | Student IV Year CSE-DS2 | Member (Student)\n19. | Mr. Rajit Sikka | Regional Head -Academic Alliances – India North, TCS | Member (Industry)\n20. | Mr. Abhijeet Nehra | President APAC – Wipro PARI | Member (Employer)\n21. | Dr. R. P. Maheshwari | Ex Professor, IIT Roorkee | Member (Academician)"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "IQAC Special Invitee Faculty Members (w.e.f. 2025-26)"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "S. No. | Name | Designation | Designation in IQAC\n1 | Dr. Jitender Chhabra | Associate Professor, ECE | Special Invitee\n2 | Dr. Naresh Kumar | Assistant Professor, ECE | Special Invitee\n3 | Mr. Pronab Kumar Adhikari | Assistant Professor, CSE | Special Invitee\n4 | Mr. Parveen Kumar | Assistant Professor, EN | Special Invitee\n5 | Dr. Uma Sharma | Assistant Professor, ECE | Special Invitee\n6 | Dr. Pradeep Gupta | Assistant Professor, CSE | Special Invitee\n7 | Mr. Neeraj Sharma | Assistant Professor, ECE | Special Invitee"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Annual Quality Assurance Report (AQAR)"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AQAR 2023-2024"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AQAR 2022-2023"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AQAR 2021-2022"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AQAR 2020-2021"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AQAR 2019-2020"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AQAR 2018-2019"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AQAR 2017-2018"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AQAR 2016-2017"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AQAR 2015-2016"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Additional Documents"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Academic Calendar"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "Academic Year 2023-24 | Link\nAcademic Year 2021-22 (Revised) | Link\nAcademic Year 2021-22 | Link\nAcademic Year 2020-21 | Link\nAcademic Year 2019-20 | Link"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Session 2023-24"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "CRITERION I – CURRICULAR ASPECTS 1.1.1. Curricular-Planning-and-Implementation"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "1.2.2 1.2.2"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "1.2.2.1 Student's NPTEL Certificates"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "1.3.2 1.3.2"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "1.3.3 1.3.3"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "1.4 – Feedback System"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "CRITERION II –TEACHING-LEARNING AND EVALUATION 2.2.1 Programs for Advanced and Slow Learners"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "2.3.1 Experiential Learning"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "2.3.2 ICT Enabled Tools"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "2.5.1 Mechanism of internal assessment"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "2.5.2 Mechanism to deal with internal examination related grievances"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "2.6.2 CO PO Attainment specimen"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "2.6.3 Annual Report"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "2.7.1 Student's Satisfaction Survey"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "2.7.1 Student Satisfaction Report"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "CRITERION III – RESEARCH, INNOVATIONS AND EXTENSION 3.3.1 Number of Ph.Ds registered per eligible teacher during the year"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "3.5.1"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "CRITERION IV – INFRASTRUCTURE AND LEARNING RESOURCES 4.1.1 Infrastructure and physical facilities for teaching-learning"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "4.1.2 Facilities for cultural activities and sports"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "4.1.3 Classrooms and seminar halls with ICT- enabled facilities"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "4.2.3 Audited Statement 2023"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "CRITERION V – STUDENT SUPPORT AND PROGRESSION"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "5.1.3 Capacity building and skills enhancement initiatives taken by the institution"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "5.3.1 Certificates"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "5.3.2 Supporting Docs"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "5.3.3 Supporting Docs"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "CRITERION VI –GOVERNANCE, LEADERSHIP AND MANAGEMENT"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "6.1 – Institutional Vision and Leadership"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "6.2 – Strategy Development and Deployment"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "6.3 – Faculty Empowerment Strategies"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "6.4 – Financial Management and Resource Mobilization"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "6.5 – Internal Quality Assurance System"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "CRITERION VII – INSTITUTIONAL VALUES AND BEST PRACTICES"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "7.1 Institutional Values and Social Responsibilities"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "7.2 – Best Practices"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Session 2022-23"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "CRITERION I – CURRICULAR ASPECTS 1.1.1. Curricular-Planning-and-Implementation"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "1.2.2 1.2.2"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "1.2.2.1 Student's NPTEL Certificates"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "1.3.3 1.3.3"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "1.4 – Feedback System"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "CRITERION II –TEACHING-LEARNING AND EVALUATION 2.2.1 Programs for Advanced and Slow Learners"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "2.3.1 Experiential Learning"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "2.3.2 ICT Enabled Tools"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "2.5.1 2.5.1"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "2.5.2 2.5.2"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "2.6.2 CO PO Attainment specimen"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "2.7.1 Student's Satisfaction Survey"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "CRITERION III – RESEARCH, INNOVATIONS AND EXTENSION 3.3.1 Number of Ph.Ds registered per eligible teacher during the year"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "3.5.1"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "CRITERION IV – INFRASTRUCTURE AND LEARNING RESOURCES 4.1.1 Infrastructure and physical facilities for teaching-learning"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "4.1.2 Facilities for cultural activities and sports"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "4.1.3 Classrooms and seminar halls with ICT- enabled facilities"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "4.2.3 Audited Statement 2023"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "CRITERION V – STUDENT SUPPORT AND PROGRESSION"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "5.1.3 Capacity building and skills enhancement initiatives taken by the institution"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "5.3.1 Certificates"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "5.3.2 Supporting Docs"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "5.3.3 Supporting Docs"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "CRITERION VI –GOVERNANCE, LEADERSHIP AND MANAGEMENT"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "6.1 – Institutional Vision and Leadership"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "6.2 – Strategy Development and Deployment"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "6.3 – Faculty Empowerment Strategies"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "6.4 – Financial Management and Resource Mobilization"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "6.5 – Internal Quality Assurance System"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "CRITERION VII – INSTITUTIONAL VALUES AND BEST PRACTICES"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "7.1 Institutional Values and Social Responsibilities"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "7.2 – Best Practices"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "IQAC Minutes of Meeting"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "Session | Minutes of Meeting | Minutes of Meeting | Action Taken Report | Action Taken Report\n2025-26 Odd Sem | MoM |  |  | \n2024-25 Odd Sem | MoM | MoM | ATR | ATR\n2023-24 Even Sem | MoM | MoM | ATR | ATR"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "Session | Minutes of Meeting | Action Taken Report\n2023-24 Odd Sem | MoM | ATR\n2022-23 Even Sem | MoM | ATR\n2022-23 Odd Sem | MoM | ATR\n2021-22 Even Sem | MoM | ATR\n2021-22 Odd Sem | MoM | ATR\n2020-21 Even Sem | MoM | ATR\n2020-21 Odd Sem | MoM | ATR\n2019-20 Even Sem | MoM | ATR\n2019-20 Odd Sem | MoM | ATR"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Circulars"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "Circulars | LINK"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Functions of IQAC"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "AKGEC is a premier institute in the country. To take AKGEC to the next level, the Internal Quality Assurance Cell exists to engrain an internal quality culture in teaching-learning, research, students development and progression, innovations and all other academic and administrative operations. The primary objective of IQAC shall be quality sustenance, quality enhancement and quality initiatives so that it acts as a catalyst for continuous improvement in the overall performance of the institution. Following are the objectives, strategies and functions of the IQAC:"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "a) Objectives"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "• To develop a system for conscious, consistent and catalytic action to improve the academic and administrative performance of the institution. • To promote measures for institutional functioning towards quality enhancement through internalization of quality culture and institutionalization of best practices."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "b) Strategies"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "IQAC shall evolve mechanisms and procedures for • Ensuring timely, efficient and progressive performance of academic, administrative and financial tasks. • The relevance and quality of academic and research programs. • Equitable access to and affordability of academic programs for various sections of society. • Optimization and integration of modern methods of teaching and learning. • The credibility of evaluation procedures. • Ensuring the adequacy, maintenance and proper allocation of support structure and services. • Sharing of research findings and networking with other institutions in India and abroad."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "c) Tasks of IQAC"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "The primary task of IQAC is to ensure and enhance the quality of education and the overall functioning of the institution. Here are the key tasks and responsibilities of an IQAC: • Quality Assurance: The central role of IQAC is to develop and implement quality assurance processes to maintain and enhance the quality of education and related activities within the institution. • Accreditation and Assessment: IQAC has a crucial role in preparing the institution for accreditation processes. It coordinates in gathering data and evidence required for various accreditations. • Continuous Improvement: IQAC monitors and evaluates the various academic and administrative processes within the college, identifying areas that need improvement and recommending necessary changes. • Benchmarking: IQAC benchmarks the institution's performance against national and international standards to identify areas where the institution can excel. • Planning and Strategy: It assists in the development of long-term strategic and annual action plans to achieve institutional goals related to quality education. • Feedback and Grievance Handling: IQAC manages mechanisms for collecting feedback from students, faculty and other stakeholders to address their concerns and grievances related to quality. • Faculty and Staff Development: It promotes the professional development of faculty and staff by organizing workshops, training programs, and other activities. • Research and Innovation: IQAC encourages and supports research and innovation within the institution, aiming to improve academic and research standards. • Documentation and Reporting: It maintains records of various quality-related activities and prepares reports to share with internal and external stakeholders, including regulatory bodies and accrediting agencies. • Data Collection and Analysis: It collects and analyzes data related to student performance, faculty productivity, institute infrastructure, research activities, and other aspects of the institution to make informed decisions. • Best Practices Dissemination: IQAC identifies and shares best practices within the institution and with other institutions to facilitate continuous improvement. • Stakeholder Engagement: IQAC engages with various stakeholders, such as students, parents, alumni, and the community, to understand their needs and expectations and align institutional efforts accordingly. • Resource Mobilization: It assists in securing resources, both financial and infrastructural, required to maintain and improve the quality of education. • Preparation and submission of the AQAR: Annual Quality Assurance Report (AQAR) is prepared & submitted to NAAC based on the quality parameters in each academic year by the IQAC. • Mentoring: IQAC establishes a support system for mentors and mentees, offering resources, guidance, and avenues for addressing challenges. • Audit procedures: IQAC performs Academic, Administration and Accounts audits at institute level. • Implementation of OBE/NEP: IQAC performs whole activities under NEP and awares its stakeholders on the OBE & NEP-related transformation. • Compliance: Ensuring compliance with various regulatory and statutory requirements in the field of education."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "d) IQAC Meetings"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "The IQAC meets at least once every quarter. The quorum for the meeting is maintained as two-thirds of the total number of members. The agenda, minutes and Action Taken Reports are documented with official signatures and maintained electronically in a retrievable format."
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "NAAC Awarded Certificate"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "NAAC Certificate 2023"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "PEOs/POs/PSOs"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "Department | Link\nComputer Science and Engineering | Link\nCivil Engineering | Link\nElectronics & Communication Engineering | Link\nElectrical & Electronics Engineering | Link\nInformation Technology | Link\nMechanical Engineering | Link\nMaster of Computer Applications | Link"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Best Practices"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "BEST PRACTICES"
+    }
+  ],
+  "text": "IQAC\n\n\n- About IQAC\n\n- Goals of IQAC\n\n- Benefits of IQAC\n\n- IQAC Members\n\n- Annual Quality Assurance Report (AQAR)\n\n- IQAC Minutes of Meeting\n\n- Functions of IQAC\n\n- NAAC Awarded Certificate\n\n- PEOs/POs/PSOs\n\n- Best Practices\n\n\nABOUT IQAC\n\n\nAs per National Assessment and Accreditation Council (NAAC) guidelines every accredited institution should establish an Internal Quality Assurance Cell (IQAC) as a pre-accreditation quality sustenance measure. Since quality enhancement is a continuous process, the IQAC becomes a part of the institution's system and works towards realization of the goals of quality enhancement and sustenance.\n\nThe prime task of the IQAC is to develop a system for conscious, consistent and catalytic improvement in the overall performance of institutions. AKGEC was accredited by NAAC in 2015 for the first cycle. IQAC established at AKGEC continued to strive for the betterment of processes and setup. The NAAC visited the AKGEC Campus from 22nd to 24th January 2015.\n\n\nGOALS OF IQAC\n\n\nIts aim is to introduce a consistent plan of action that would lead the organization towards progress. It involves preparing strategies for –\n\n* Efficient & timely work processes\n\n* Academic research & programs\n\n* Affordable & innovative approaches\n\n* Use of ICT for modernization of education\n\n* Best assessment process for maintaining quality\n\n* Ensuring the best infrastructure to achieve goals\n\n\nBENEFITS OF IQAC\n\n\nThe following are the top 10 benefits of IQAC in the NAAC accreditation process.\n\n1. Best Practices: IQAC ensures clarity of the work processes and enables the stakeholders to “re-think” the current work processes.\n\n2. Internalization Of Quality Culture: The continuous assessment patterns make it possible to create an internalization of quality education culture in higher education institutions.\n\n3. Better Collaboration of Departments: IQAC ensures a better collaboration between various departments of the HEIs and eradicates the communication gap with frequent evaluation & feedbacks from the stakeholders.\n\n4. Improved Functioning of The HEIs: With a greater level of transparency & assessments, institutions are able to make better decisions and improve their overall functioning.\n\n5. Proper Documentation: IQAC allows the faculty to properly create authentic documentations & keep their records for future reference in the NAAC assessment process.\n\n6. Encourages R&D: IQAC encourages HEIs to pay attention to R&D and make the faculty future-ready by empowering them.\n\n7. Greater Transparency: IQAC peer team verifies all the documents, evidence, and facts and resolves the challenges faced by the HEIs.\n\n8. Project-Based & Service-Based Learning: Students are taught the value of practical knowledge by involving project-based learning as well as service-based learning.\n\n9. Professional Practices: To help children grow academically as well as develop skills, the IQAC team encourages conducting various programs & lectures of professional experts.\n\n10. Global Platform: Unlike traditional teaching-learning culture, IQAC tries to provide a globalized platform to students by inculcating the “think locally- act globally” mindset.\n\n\nIQAC MEMBERS\n\n\nS. No. | Name | Designation | Designation in IQAC\n1. | Shri Vinay Garg | Treasurer, BOG | Member (Management)\n2. | Dr. Hemant Ahuja | Director | Director\n3. | Dr. Neelesh Kumar Gupta | Prof. & HoD, ECE | IQAC Coordinator\n4. | Mr. Satender Singh | Chief Administrative Officer | Member (Administration)\n5. | Mr. Sanjay Srivastava | Project Manager | Member (Administration)\n6. | Dr. Rakesh Srivastava | Prof. & HoD, CE | Member (Faculty)\n7. | Dr. Anupama Sharma | Professor, IT | Member (Faculty)\n8. | Dr. Avdhesh Gupta | Professor, CSE | Member (Faculty)\n9. | Dr. Himani Garg | Professor, ECE | Member (Faculty)\n10. | Dr. Vani Bhargava | Associate Professor, EN | Member (Faculty)\n11. | Dr. Jitendra Yadav | Associate Professor, ME | Member (Faculty)\n12. | Dr. Akash Kumar | Assistant Professor, AS & H | Member (Faculty)\n13. | Dr. Gaganpreet Kaur | Assistant Professor, ME & TIFAC | Member (Faculty)\n14. | Dr. Dushyant Singh Chauhan | Assistant Professor, ECE | Member (Faculty)\n15. | Mr. Ishu Bansal | CTO, Truck Suvidha | Member (Alumni)\n16. | Mr. R. R. Tanwar | Council Member, IEI | Member (Local Society)\n17. | Ms. Aanya Goyal | Student IV Year ECE | Member (Student)\n18. | Ms. Riya Goyal | Student IV Year CSE-DS2 | Member (Student)\n19. | Mr. Rajit Sikka | Regional Head -Academic Alliances – India North, TCS | Member (Industry)\n20. | Mr. Abhijeet Nehra | President APAC – Wipro PARI | Member (Employer)\n21. | Dr. R. P. Maheshwari | Ex Professor, IIT Roorkee | Member (Academician)\n\n\nIQAC SPECIAL INVITEE FACULTY MEMBERS (W.E.F. 2025-26)\n\n\nS. No. | Name | Designation | Designation in IQAC\n1 | Dr. Jitender Chhabra | Associate Professor, ECE | Special Invitee\n2 | Dr. Naresh Kumar | Assistant Professor, ECE | Special Invitee\n3 | Mr. Pronab Kumar Adhikari | Assistant Professor, CSE | Special Invitee\n4 | Mr. Parveen Kumar | Assistant Professor, EN | Special Invitee\n5 | Dr. Uma Sharma | Assistant Professor, ECE | Special Invitee\n6 | Dr. Pradeep Gupta | Assistant Professor, CSE | Special Invitee\n7 | Mr. Neeraj Sharma | Assistant Professor, ECE | Special Invitee\n\n\nANNUAL QUALITY ASSURANCE REPORT (AQAR)\n\n\nAQAR 2023-2024\n\nAQAR 2022-2023\n\nAQAR 2021-2022\n\nAQAR 2020-2021\n\nAQAR 2019-2020\n\nAQAR 2018-2019\n\nAQAR 2017-2018\n\nAQAR 2016-2017\n\nAQAR 2015-2016\n\n\nADDITIONAL DOCUMENTS\n\n\n\nACADEMIC CALENDAR\n\n\nAcademic Year 2023-24 | Link\nAcademic Year 2021-22 (Revised) | Link\nAcademic Year 2021-22 | Link\nAcademic Year 2020-21 | Link\nAcademic Year 2019-20 | Link\n\n\nSESSION 2023-24\n\n\nCRITERION I – CURRICULAR ASPECTS 1.1.1. Curricular-Planning-and-Implementation\n\n1.2.2 1.2.2\n\n1.2.2.1 Student's NPTEL Certificates\n\n1.3.2 1.3.2\n\n1.3.3 1.3.3\n\n1.4 – Feedback System\n\nCRITERION II –TEACHING-LEARNING AND EVALUATION 2.2.1 Programs for Advanced and Slow Learners\n\n2.3.1 Experiential Learning\n\n2.3.2 ICT Enabled Tools\n\n2.5.1 Mechanism of internal assessment\n\n2.5.2 Mechanism to deal with internal examination related grievances\n\n2.6.2 CO PO Attainment specimen\n\n2.6.3 Annual Report\n\n2.7.1 Student's Satisfaction Survey\n\n2.7.1 Student Satisfaction Report\n\nCRITERION III – RESEARCH, INNOVATIONS AND EXTENSION 3.3.1 Number of Ph.Ds registered per eligible teacher during the year\n\n3.5.1\n\nCRITERION IV – INFRASTRUCTURE AND LEARNING RESOURCES 4.1.1 Infrastructure and physical facilities for teaching-learning\n\n4.1.2 Facilities for cultural activities and sports\n\n4.1.3 Classrooms and seminar halls with ICT- enabled facilities\n\n4.2.3 Audited Statement 2023\n\nCRITERION V – STUDENT SUPPORT AND PROGRESSION\n\n5.1.3 Capacity building and skills enhancement initiatives taken by the institution\n\n5.3.1 Certificates\n\n5.3.2 Supporting Docs\n\n5.3.3 Supporting Docs\n\nCRITERION VI –GOVERNANCE, LEADERSHIP AND MANAGEMENT\n\n6.1 – Institutional Vision and Leadership\n\n6.2 – Strategy Development and Deployment\n\n6.3 – Faculty Empowerment Strategies\n\n6.4 – Financial Management and Resource Mobilization\n\n6.5 – Internal Quality Assurance System\n\nCRITERION VII – INSTITUTIONAL VALUES AND BEST PRACTICES\n\n7.1 Institutional Values and Social Responsibilities\n\n7.2 – Best Practices\n\n\nSESSION 2022-23\n\n\nCRITERION I – CURRICULAR ASPECTS 1.1.1. Curricular-Planning-and-Implementation\n\n1.2.2 1.2.2\n\n1.2.2.1 Student's NPTEL Certificates\n\n1.3.3 1.3.3\n\n1.4 – Feedback System\n\nCRITERION II –TEACHING-LEARNING AND EVALUATION 2.2.1 Programs for Advanced and Slow Learners\n\n2.3.1 Experiential Learning\n\n2.3.2 ICT Enabled Tools\n\n2.5.1 2.5.1\n\n2.5.2 2.5.2\n\n2.6.2 CO PO Attainment specimen\n\n2.7.1 Student's Satisfaction Survey\n\nCRITERION III – RESEARCH, INNOVATIONS AND EXTENSION 3.3.1 Number of Ph.Ds registered per eligible teacher during the year\n\n3.5.1\n\nCRITERION IV – INFRASTRUCTURE AND LEARNING RESOURCES 4.1.1 Infrastructure and physical facilities for teaching-learning\n\n4.1.2 Facilities for cultural activities and sports\n\n4.1.3 Classrooms and seminar halls with ICT- enabled facilities\n\n4.2.3 Audited Statement 2023\n\nCRITERION V – STUDENT SUPPORT AND PROGRESSION\n\n5.1.3 Capacity building and skills enhancement initiatives taken by the institution\n\n5.3.1 Certificates\n\n5.3.2 Supporting Docs\n\n5.3.3 Supporting Docs\n\nCRITERION VI –GOVERNANCE, LEADERSHIP AND MANAGEMENT\n\n6.1 – Institutional Vision and Leadership\n\n6.2 – Strategy Development and Deployment\n\n6.3 – Faculty Empowerment Strategies\n\n6.4 – Financial Management and Resource Mobilization\n\n6.5 – Internal Quality Assurance System\n\nCRITERION VII – INSTITUTIONAL VALUES AND BEST PRACTICES\n\n7.1 Institutional Values and Social Responsibilities\n\n7.2 – Best Practices\n\n\nIQAC MINUTES OF MEETING\n\n\nSession | Minutes of Meeting | Minutes of Meeting | Action Taken Report | Action Taken Report\n2025-26 Odd Sem | MoM |  |  | \n2024-25 Odd Sem | MoM | MoM | ATR | ATR\n2023-24 Even Sem | MoM | MoM | ATR | ATR\n\nSession | Minutes of Meeting | Action Taken Report\n2023-24 Odd Sem | MoM | ATR\n2022-23 Even Sem | MoM | ATR\n2022-23 Odd Sem | MoM | ATR\n2021-22 Even Sem | MoM | ATR\n2021-22 Odd Sem | MoM | ATR\n2020-21 Even Sem | MoM | ATR\n2020-21 Odd Sem | MoM | ATR\n2019-20 Even Sem | MoM | ATR\n2019-20 Odd Sem | MoM | ATR\n\n\nCIRCULARS\n\n\nCirculars | LINK\n\n\nFUNCTIONS OF IQAC\n\n\nAKGEC is a premier institute in the country. To take AKGEC to the next level, the Internal Quality Assurance Cell exists to engrain an internal quality culture in teaching-learning, research, students development and progression, innovations and all other academic and administrative operations. The primary objective of IQAC shall be quality sustenance, quality enhancement and quality initiatives so that it acts as a catalyst for continuous improvement in the overall performance of the institution. Following are the objectives, strategies and functions of the IQAC:\n\na) Objectives\n\n• To develop a system for conscious, consistent and catalytic action to improve the academic and administrative performance of the institution. • To promote measures for institutional functioning towards quality enhancement through internalization of quality culture and institutionalization of best practices.\n\nb) Strategies\n\nIQAC shall evolve mechanisms and procedures for • Ensuring timely, efficient and progressive performance of academic, administrative and financial tasks. • The relevance and quality of academic and research programs. • Equitable access to and affordability of academic programs for various sections of society. • Optimization and integration of modern methods of teaching and learning. • The credibility of evaluation procedures. • Ensuring the adequacy, maintenance and proper allocation of support structure and services. • Sharing of research findings and networking with other institutions in India and abroad.\n\nc) Tasks of IQAC\n\nThe primary task of IQAC is to ensure and enhance the quality of education and the overall functioning of the institution. Here are the key tasks and responsibilities of an IQAC: • Quality Assurance: The central role of IQAC is to develop and implement quality assurance processes to maintain and enhance the quality of education and related activities within the institution. • Accreditation and Assessment: IQAC has a crucial role in preparing the institution for accreditation processes. It coordinates in gathering data and evidence required for various accreditations. • Continuous Improvement: IQAC monitors and evaluates the various academic and administrative processes within the college, identifying areas that need improvement and recommending necessary changes. • Benchmarking: IQAC benchmarks the institution's performance against national and international standards to identify areas where the institution can excel. • Planning and Strategy: It assists in the development of long-term strategic and annual action plans to achieve institutional goals related to quality education. • Feedback and Grievance Handling: IQAC manages mechanisms for collecting feedback from students, faculty and other stakeholders to address their concerns and grievances related to quality. • Faculty and Staff Development: It promotes the professional development of faculty and staff by organizing workshops, training programs, and other activities. • Research and Innovation: IQAC encourages and supports research and innovation within the institution, aiming to improve academic and research standards. • Documentation and Reporting: It maintains records of various quality-related activities and prepares reports to share with internal and external stakeholders, including regulatory bodies and accrediting agencies. • Data Collection and Analysis: It collects and analyzes data related to student performance, faculty productivity, institute infrastructure, research activities, and other aspects of the institution to make informed decisions. • Best Practices Dissemination: IQAC identifies and shares best practices within the institution and with other institutions to facilitate continuous improvement. • Stakeholder Engagement: IQAC engages with various stakeholders, such as students, parents, alumni, and the community, to understand their needs and expectations and align institutional efforts accordingly. • Resource Mobilization: It assists in securing resources, both financial and infrastructural, required to maintain and improve the quality of education. • Preparation and submission of the AQAR: Annual Quality Assurance Report (AQAR) is prepared & submitted to NAAC based on the quality parameters in each academic year by the IQAC. • Mentoring: IQAC establishes a support system for mentors and mentees, offering resources, guidance, and avenues for addressing challenges. • Audit procedures: IQAC performs Academic, Administration and Accounts audits at institute level. • Implementation of OBE/NEP: IQAC performs whole activities under NEP and awares its stakeholders on the OBE & NEP-related transformation. • Compliance: Ensuring compliance with various regulatory and statutory requirements in the field of education.\n\nd) IQAC Meetings\n\nThe IQAC meets at least once every quarter. The quorum for the meeting is maintained as two-thirds of the total number of members. The agenda, minutes and Action Taken Reports are documented with official signatures and maintained electronically in a retrievable format.\n\n\nNAAC AWARDED CERTIFICATE\n\n\nNAAC Certificate 2023\n\n\nPEOS/POS/PSOS\n\n\nDepartment | Link\nComputer Science and Engineering | Link\nCivil Engineering | Link\nElectronics & Communication Engineering | Link\nElectrical & Electronics Engineering | Link\nInformation Technology | Link\nMechanical Engineering | Link\nMaster of Computer Applications | Link\n\n\nBEST PRACTICES\n\n\nBEST PRACTICES",
+  "character_count": 14716
+}

@@ -1,0 +1,23 @@
+{
+  "document": "NIRF DATA FOR RANKING 2026 - ENGINEERING",
+  "source_json": "data\\fresh\\pdf_data\\2e5c6f7442_NIRF2026.json",
+  "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/04/NIRF2026.pdf",
+  "selected_pages": [
+    1,
+    2,
+    3
+  ],
+  "excluded_pages": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "reason": "Keep institutional statistics; exclude individual faculty records",
+  "status": "pending_content_validation"
+}

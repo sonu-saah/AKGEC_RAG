@@ -1,0 +1,1302 @@
+[
+  {
+    "title": "Approvals by Statutory Bodies - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/about/approvals-by-statutory-bodies/",
+    "section": "ABOUT",
+    "source_json": "data\\fresh\\pages\\about_approvals-by-statutory-bodies_d7e3afa78f.json",
+    "word_count": 110,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Director - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/about/director_akgec/",
+    "section": "ABOUT",
+    "source_json": "data\\fresh\\pages\\about_director_akgec_851b35a5c5.json",
+    "word_count": 301,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Gallery - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/about/gallery/",
+    "section": "CENTRES OF EXCELLENCE",
+    "source_json": "data\\fresh\\pages\\about_gallery_0d22bb1b45.json",
+    "word_count": 29,
+    "status": "exclude",
+    "reasons": [
+      "very_short_content",
+      "low_value_for_general_qa"
+    ]
+  },
+  {
+    "title": "Important Functionaries - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/about/important-functionaries/",
+    "section": "ABOUT",
+    "source_json": "data\\fresh\\pages\\about_important-functionaries_7769213b51.json",
+    "word_count": 163,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Academic Complex - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/about/infrastructure-visual-tour/academic-complex/",
+    "section": "ABOUT",
+    "source_json": "data\\fresh\\pages\\about_infrastructure-visual-tour_academic-complex_271a94131a.json",
+    "word_count": 25,
+    "status": "keep",
+    "reasons": [
+      "very_short_content",
+      "short_but_potentially_useful",
+      "potentially_useful_college_information"
+    ]
+  },
+  {
+    "title": "Centres Of Excellence - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/about/infrastructure-visual-tour/centres-of-excellence/",
+    "section": "CENTRES OF EXCELLENCE",
+    "source_json": "data\\fresh\\pages\\about_infrastructure-visual-tour_centres-of-excellence_001ff3c670.json",
+    "word_count": 1120,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "College Canteen - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/about/infrastructure-visual-tour/college-canteen/",
+    "section": "CENTRES OF EXCELLENCE",
+    "source_json": "data\\fresh\\pages\\about_infrastructure-visual-tour_college-canteen_65df1a0696.json",
+    "word_count": 73,
+    "status": "keep",
+    "reasons": [
+      "short_content",
+      "short_but_potentially_useful",
+      "potentially_useful_college_information"
+    ]
+  },
+  {
+    "title": "Faith Centre - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/about/infrastructure-visual-tour/faith-centre/",
+    "section": "CENTRES OF EXCELLENCE",
+    "source_json": "data\\fresh\\pages\\about_infrastructure-visual-tour_faith-centre_ed627aac22.json",
+    "word_count": 169,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Hostel - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/about/infrastructure-visual-tour/hostel/",
+    "section": "ABOUT",
+    "source_json": "data\\fresh\\pages\\about_infrastructure-visual-tour_hostel_99c8cb5790.json",
+    "word_count": 243,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Stationary Shop - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/about/infrastructure-visual-tour/stationary-shop/",
+    "section": "CENTRES OF EXCELLENCE",
+    "source_json": "data\\fresh\\pages\\about_infrastructure-visual-tour_stationary-shop_79d74e2669.json",
+    "word_count": 65,
+    "status": "exclude",
+    "reasons": [
+      "short_content",
+      "low_value_for_general_qa"
+    ]
+  },
+  {
+    "title": "Support Facilities - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/about/infrastructure-visual-tour/support-facilities/",
+    "section": "CENTRES OF EXCELLENCE",
+    "source_json": "data\\fresh\\pages\\about_infrastructure-visual-tour_support-facilities_52440bf996.json",
+    "word_count": 138,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Management - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/about/management/",
+    "section": "ABOUT",
+    "source_json": "data\\fresh\\pages\\about_management_c0a77ed610.json",
+    "word_count": 136,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Testimonials - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/about/testimonials/",
+    "section": "CENTRES OF EXCELLENCE",
+    "source_json": "data\\fresh\\pages\\about_testimonials_6c27f6f340.json",
+    "word_count": 503,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Fee Structure for Existing Students - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/academic-fee/",
+    "section": "ADMISSIONS",
+    "source_json": "data\\fresh\\pages\\academic-fee_778fa5dc3d.json",
+    "word_count": 36,
+    "status": "reference_only",
+    "reasons": [
+      "short_content",
+      "official_reference_or_resource_page"
+    ]
+  },
+  {
+    "title": "Academic Calendar - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/academics/academic-calendar/",
+    "section": "ACADEMICS",
+    "source_json": "data\\fresh\\pages\\academics_academic-calendar_c779402062.json",
+    "word_count": 4,
+    "status": "reference_only",
+    "reasons": [
+      "very_short_content",
+      "official_reference_or_resource_page"
+    ]
+  },
+  {
+    "title": "Educational Verification - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/academics/educational-verification/",
+    "section": "ACADEMICS",
+    "source_json": "data\\fresh\\pages\\academics_educational-verification_84b11560e9.json",
+    "word_count": 115,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Issuance of certificates for passout students - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/academics/issuance-of-certificates-for-passout-students/",
+    "section": "ACADEMICS",
+    "source_json": "data\\fresh\\pages\\academics_issuance-of-certificates-for-passout-students_8f55efcd16.json",
+    "word_count": 219,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Policy and Process for Refund of Caution Money - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/academics/policy-and-process-for-refund-of-caution-money/",
+    "section": "ACADEMICS",
+    "source_json": "data\\fresh\\pages\\academics_policy-and-process-for-refund-of-caution-money_c45c471bc9.json",
+    "word_count": 137,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "CFC Foundation Stone - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/achievements/cfc-foundation-stone/",
+    "section": "ACHIEVEMENTS",
+    "source_json": "data\\fresh\\pages\\achievements_cfc-foundation-stone_14c6cd65ef.json",
+    "word_count": 399,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "College Awards - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/achievements/college-awards/",
+    "section": "ACHIEVEMENTS",
+    "source_json": "data\\fresh\\pages\\achievements_college-awards_99e5ea4ec9.json",
+    "word_count": 1311,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Faculty Achievements - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/achievements/faculty-achievements/",
+    "section": "ACHIEVEMENTS",
+    "source_json": "data\\fresh\\pages\\achievements_faculty-achievements_721e1f0e54.json",
+    "word_count": 307,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Student Awards (Extra Curricular) - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/achievements/student-awards-extra-curricular/",
+    "section": "ACHIEVEMENTS",
+    "source_json": "data\\fresh\\pages\\achievements_student-awards-extra-curricular_cfeddd2512.json",
+    "word_count": 4521,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Student Achievements (Technical) - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/achievements/student-awards-technical/",
+    "section": "ACHIEVEMENTS",
+    "source_json": "data\\fresh\\pages\\achievements_student-awards-technical_d7a45cd101.json",
+    "word_count": 5168,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "AICTE Approval Letters - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/aicte-approval-letters/",
+    "section": "ABOUT",
+    "source_json": "data\\fresh\\pages\\aicte-approval-letters_f069af783d.json",
+    "word_count": 59,
+    "status": "reference_only",
+    "reasons": [
+      "short_content",
+      "official_reference_or_resource_page"
+    ]
+  },
+  {
+    "title": "AKGEC Digital School - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/akgec-digital-school/",
+    "section": "ACADEMICS",
+    "source_json": "data\\fresh\\pages\\akgec-digital-school_f6b60bc96d.json",
+    "word_count": 148,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Book Chapters - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/book-chapters/",
+    "section": "R&D",
+    "source_json": "data\\fresh\\pages\\book-chapters_1e59ac126d.json",
+    "word_count": 63,
+    "status": "reference_only",
+    "reasons": [
+      "short_content",
+      "official_reference_or_resource_page"
+    ]
+  },
+  {
+    "title": "Careers - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/careers/",
+    "section": "CAREER",
+    "source_json": "data\\fresh\\pages\\careers_23f0fec6d2.json",
+    "word_count": 18,
+    "status": "reference_only",
+    "reasons": [
+      "very_short_content",
+      "short_but_potentially_useful",
+      "navigation_or_reference_content"
+    ]
+  },
+  {
+    "title": "Central Library - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/central-library/",
+    "section": "ABOUT",
+    "source_json": "data\\fresh\\pages\\central-library_21e6ab4d38.json",
+    "word_count": 1541,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "College Events - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/college-events/",
+    "section": "LIFE@AKGEC",
+    "source_json": "data\\fresh\\pages\\college-events_4ba4c4a5cd.json",
+    "word_count": 78,
+    "status": "exclude",
+    "reasons": [
+      "short_content",
+      "low_value_for_general_qa"
+    ]
+  },
+  {
+    "title": "Communication Club - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/communication-club/",
+    "section": "LIFE@AKGEC",
+    "source_json": "data\\fresh\\pages\\communication-club_4c236bfcbc.json",
+    "word_count": 597,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Courses Offered - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/courses-offered/",
+    "section": "ADMISSIONS",
+    "source_json": "data\\fresh\\pages\\courses-offered_20e02b0663.json",
+    "word_count": 95,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Glimpse-Journal of Computer Science - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/cse-journal-gjcs/",
+    "section": "COLLEGE PUBLICATIONS",
+    "source_json": "data\\fresh\\pages\\cse-journal-gjcs_a9dd93c5cd.json",
+    "word_count": 3461,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "DEPARTMENTS - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/departments/",
+    "section": "DEPARTMENTS",
+    "source_json": "data\\fresh\\pages\\departments_3be5e28eac.json",
+    "word_count": 27,
+    "status": "reference_only",
+    "reasons": [
+      "very_short_content",
+      "short_but_potentially_useful",
+      "navigation_or_reference_content"
+    ]
+  },
+  {
+    "title": "Applied Sciences & Humanities - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/departments/applied-sciences-humanities/",
+    "section": "DEPARTMENTS",
+    "source_json": "data\\fresh\\pages\\departments_applied-sciences-humanities_a1dea31de1.json",
+    "word_count": 773,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "AKGEC | Top Civil Engineering Colleges in Ghaziabad",
+    "url": "https://www.akgec.ac.in/departments/civil-engineering/",
+    "section": "DEPARTMENTS",
+    "source_json": "data\\fresh\\pages\\departments_civil-engineering_b6202c7b40.json",
+    "word_count": 1416,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "AKGEC | Top Computer Science Engineering Colleges in Ghaziabad",
+    "url": "https://www.akgec.ac.in/departments/computer-science-and-engineering/",
+    "section": "DEPARTMENTS",
+    "source_json": "data\\fresh\\pages\\departments_computer-science-and-engineering_27fa66501a.json",
+    "word_count": 3034,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "AKGEC | Top Electrical Engineering Colleges in Ghaziabad",
+    "url": "https://www.akgec.ac.in/departments/electrical-and-electronics-engineering/",
+    "section": "DEPARTMENTS",
+    "source_json": "data\\fresh\\pages\\departments_electrical-and-electronics-engineering_d88f036247.json",
+    "word_count": 2054,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "AKGEC | Top Electronics Engineering Colleges in Ghaziabad",
+    "url": "https://www.akgec.ac.in/departments/electronics-and-communication-engineering/",
+    "section": "DEPARTMENTS",
+    "source_json": "data\\fresh\\pages\\departments_electronics-and-communication-engineering_a74a542ccd.json",
+    "word_count": 3440,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "AKGEC | Top Information Technology Colleges in Ghaziabad",
+    "url": "https://www.akgec.ac.in/departments/information-technology/",
+    "section": "DEPARTMENTS",
+    "source_json": "data\\fresh\\pages\\departments_information-technology_70fda1c0e6.json",
+    "word_count": 1931,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Master of Computer Applications - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/departments/master-of-computer-applications/",
+    "section": "DEPARTMENTS",
+    "source_json": "data\\fresh\\pages\\departments_master-of-computer-applications_aa78e075ac.json",
+    "word_count": 1081,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "AKGEC | Top Mechanical Engineering Colleges in Ghaziabad",
+    "url": "https://www.akgec.ac.in/departments/mechanical-engineering/",
+    "section": "DEPARTMENTS",
+    "source_json": "data\\fresh\\pages\\departments_mechanical-engineering_846745e5d8.json",
+    "word_count": 1222,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Departmentwise Conference Papers - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/departmentwise-conference-papers/",
+    "section": "R&D",
+    "source_json": "data\\fresh\\pages\\departmentwise-conference-papers_4683d44b17.json",
+    "word_count": 64,
+    "status": "reference_only",
+    "reasons": [
+      "short_content",
+      "official_reference_or_resource_page"
+    ]
+  },
+  {
+    "title": "Electronics Club - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/electronics-club/",
+    "section": "LIFE@AKGEC",
+    "source_json": "data\\fresh\\pages\\electronics-club_1214d5d242.json",
+    "word_count": 779,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Extension Activities - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/extension-activities/",
+    "section": "VE CELL",
+    "source_json": "data\\fresh\\pages\\extension-activities_8386cac3e1.json",
+    "word_count": 831,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Fee Refund Norms - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/fee-refund-norms/",
+    "section": "ADMISSIONS",
+    "source_json": "data\\fresh\\pages\\fee-refund-norms_8a202021f4.json",
+    "word_count": 94,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Fee Structure for New Students(2026-27) - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/fee-structure-for-new-students2026-27/",
+    "section": "ADMISSIONS",
+    "source_json": "data\\fresh\\pages\\fee-structure-for-new-students2026-27_b2924adadf.json",
+    "word_count": 1047,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Funded Projects - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/funded-projects/",
+    "section": "R&D",
+    "source_json": "data\\fresh\\pages\\funded-projects_6e4fe52d97.json",
+    "word_count": 44,
+    "status": "reference_only",
+    "reasons": [
+      "short_content",
+      "official_reference_or_resource_page"
+    ]
+  },
+  {
+    "title": "Future Forward: Sustainability Club - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/future-forward-sustainability-club/",
+    "section": "VE CELL",
+    "source_json": "data\\fresh\\pages\\future-forward-sustainability-club_6296f534dd.json",
+    "word_count": 4759,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Green Audit - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/green-audit/",
+    "section": "LIFE@AKGEC",
+    "source_json": "data\\fresh\\pages\\green-audit_57248e8628.json",
+    "word_count": 19,
+    "status": "reference_only",
+    "reasons": [
+      "very_short_content",
+      "official_reference_or_resource_page"
+    ]
+  },
+  {
+    "title": "Grievance Committee - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/grievance-committee/",
+    "section": "ABOUT",
+    "source_json": "data\\fresh\\pages\\grievance-committee_4fa7256cc4.json",
+    "word_count": 16,
+    "status": "keep",
+    "reasons": [
+      "very_short_content",
+      "short_but_potentially_useful",
+      "potentially_useful_college_information"
+    ]
+  },
+  {
+    "title": "Guest Lectures/Webinars - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/guest-lectures-webinars/",
+    "section": "VE CELL",
+    "source_json": "data\\fresh\\pages\\guest-lectures-webinars_460d09edea.json",
+    "word_count": 5296,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Ajay Kumar Garg Engineering College (AKGEC) | Top Private Engineering Colleges in Ghaziabad UP (Delhi NCR)",
+    "url": "https://www.akgec.ac.in/",
+    "section": "ABOUT",
+    "source_json": "data\\fresh\\pages\\homepage_d9ec03e9dc.json",
+    "word_count": 249,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "IEEE Student Branch Chapter - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/ieee-student-branch-chapter/",
+    "section": "LIFE@AKGEC",
+    "source_json": "data\\fresh\\pages\\ieee-student-branch-chapter_dbbb6da472.json",
+    "word_count": 363,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "INDIAN CONCRETE INSTITUTE - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/indian-concrete-institute/",
+    "section": "LIFE@AKGEC",
+    "source_json": "data\\fresh\\pages\\indian-concrete-institute_0e0d2dde03.json",
+    "word_count": 435,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "IQAC - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/iqac/",
+    "section": "IQAC",
+    "source_json": "data\\fresh\\pages\\iqac_b6004a575f.json",
+    "word_count": 2188,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Mediclaim - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/life-akgec/mediclaim/",
+    "section": "LIFE@AKGEC",
+    "source_json": "data\\fresh\\pages\\life-akgec_mediclaim_3caca6d78c.json",
+    "word_count": 440,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Adarsh Vikas Kendra - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/life-akgec/social-responsibilities/adarsh-vikas-kendra/",
+    "section": "LIFE@AKGEC",
+    "source_json": "data\\fresh\\pages\\life-akgec_social-responsibilities_adarsh-vikas-kendra_47b27735e7.json",
+    "word_count": 215,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Blood Donation Camp - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/life-akgec/social-responsibilities/blood-donation-camp/",
+    "section": "LIFE@AKGEC",
+    "source_json": "data\\fresh\\pages\\life-akgec_social-responsibilities_blood-donation-camp_3050bd0f95.json",
+    "word_count": 1076,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Eco Friendly Environment - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/life-akgec/social-responsibilities/eco-friendly-environment/",
+    "section": "LIFE@AKGEC",
+    "source_json": "data\\fresh\\pages\\life-akgec_social-responsibilities_eco-friendly-environment_8f3fc7210f.json",
+    "word_count": 405,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Nature Club - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/life-akgec/social-responsibilities/nature-club/",
+    "section": "LIFE@AKGEC",
+    "source_json": "data\\fresh\\pages\\life-akgec_social-responsibilities_nature-club_1395433dc6.json",
+    "word_count": 164,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Skill Development Programme For Village Students - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/life-akgec/social-responsibilities/skill-development-programme-for-village-students/",
+    "section": "LIFE@AKGEC",
+    "source_json": "data\\fresh\\pages\\life-akgec_social-responsibilities_skill-development-programme-for-village-students_29c4708fdd.json",
+    "word_count": 586,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Skill Development Programme Under PMKVY - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/life-akgec/social-responsibilities/skill-development-programme-under-pmkvy/",
+    "section": "LIFE@AKGEC",
+    "source_json": "data\\fresh\\pages\\life-akgec_social-responsibilities_skill-development-programme-under-pmkvy_0d7e152017.json",
+    "word_count": 242,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Unnat Bharat Abhiyaan - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/life-akgec/social-responsibilities/unnat-bharat-abhiyaan/",
+    "section": "LIFE@AKGEC",
+    "source_json": "data\\fresh\\pages\\life-akgec_social-responsibilities_unnat-bharat-abhiyaan_d21476c1cc.json",
+    "word_count": 857,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Conatus - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/life-akgec/societies/departmental-societies/conatus/",
+    "section": "LIFE@AKGEC",
+    "source_json": "data\\fresh\\pages\\life-akgec_societies_departmental-societies_conatus_3c328f37cc.json",
+    "word_count": 4486,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Nirmaan - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/life-akgec/societies/departmental-societies/nirman/",
+    "section": "LIFE@AKGEC",
+    "source_json": "data\\fresh\\pages\\life-akgec_societies_departmental-societies_nirman_dbd60ae86a.json",
+    "word_count": 992,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Oorja - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/life-akgec/societies/departmental-societies/oorja/",
+    "section": "LIFE@AKGEC",
+    "source_json": "data\\fresh\\pages\\life-akgec_societies_departmental-societies_oorja_dbb5a58a7b.json",
+    "word_count": 4651,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Phoenix - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/life-akgec/societies/departmental-societies/phoenix/",
+    "section": "LIFE@AKGEC",
+    "source_json": "data\\fresh\\pages\\life-akgec_societies_departmental-societies_phoenix_7285a58fb6.json",
+    "word_count": 1639,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Samveg - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/life-akgec/societies/departmental-societies/samveg/",
+    "section": "LIFE@AKGEC",
+    "source_json": "data\\fresh\\pages\\life-akgec_societies_departmental-societies_samveg_a0d5d9516e.json",
+    "word_count": 1018,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Euphony - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/life-akgec/societies/extra-curricular-societies/euphony/",
+    "section": "LIFE@AKGEC",
+    "source_json": "data\\fresh\\pages\\life-akgec_societies_extra-curricular-societies_euphony_90a21dfd62.json",
+    "word_count": 533,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Footprints - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/life-akgec/societies/extra-curricular-societies/footprints/",
+    "section": "LIFE@AKGEC",
+    "source_json": "data\\fresh\\pages\\life-akgec_societies_extra-curricular-societies_footprints_61dddd6ee7.json",
+    "word_count": 1149,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Goonj - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/life-akgec/societies/extra-curricular-societies/goonj/",
+    "section": "LIFE@AKGEC",
+    "source_json": "data\\fresh\\pages\\life-akgec_societies_extra-curricular-societies_goonj_55f59c06b3.json",
+    "word_count": 1090,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Horizon - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/life-akgec/societies/extra-curricular-societies/horizon/",
+    "section": "LIFE@AKGEC",
+    "source_json": "data\\fresh\\pages\\life-akgec_societies_extra-curricular-societies_horizon_91d9d86fb4.json",
+    "word_count": 1923,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Photography and Media Club - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/life-akgec/societies/extra-curricular-societies/photography-and-media-club/",
+    "section": "LIFE@AKGEC",
+    "source_json": "data\\fresh\\pages\\life-akgec_societies_extra-curricular-societies_photography-and-media-club_aaecf37a29.json",
+    "word_count": 287,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Renaissance - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/life-akgec/societies/extra-curricular-societies/renaissance-2/",
+    "section": "LIFE@AKGEC",
+    "source_json": "data\\fresh\\pages\\life-akgec_societies_extra-curricular-societies_renaissance-2_4038f47d9c.json",
+    "word_count": 1257,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Taal - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/life-akgec/societies/extra-curricular-societies/taal/",
+    "section": "LIFE@AKGEC",
+    "source_json": "data\\fresh\\pages\\life-akgec_societies_extra-curricular-societies_taal_b1a5da6902.json",
+    "word_count": 190,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Verve - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/life-akgec/societies/extra-curricular-societies/verve/",
+    "section": "LIFE@AKGEC",
+    "source_json": "data\\fresh\\pages\\life-akgec_societies_extra-curricular-societies_verve_21d784ee4d.json",
+    "word_count": 755,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "CSI - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/life-akgec/societies/student-chapters/csi/",
+    "section": "LIFE@AKGEC",
+    "source_json": "data\\fresh\\pages\\life-akgec_societies_student-chapters_csi_dad0415dcd.json",
+    "word_count": 3187,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "ISTE - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/life-akgec/societies/student-chapters/iste/",
+    "section": "LIFE@AKGEC",
+    "source_json": "data\\fresh\\pages\\life-akgec_societies_student-chapters_iste_51fd9be76c.json",
+    "word_count": 514,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Robotics Club - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/life-akgec/societies/student-chapters/robotics-club/",
+    "section": "LIFE@AKGEC",
+    "source_json": "data\\fresh\\pages\\life-akgec_societies_student-chapters_robotics-club_f4357e8a40.json",
+    "word_count": 657,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "SAE India - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/life-akgec/societies/student-chapters/sae-india/",
+    "section": "LIFE@AKGEC",
+    "source_json": "data\\fresh\\pages\\life-akgec_societies_student-chapters_sae-india_6ee9e54340.json",
+    "word_count": 1440,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Mandatory Disclosure - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/mandatory-disclosure/",
+    "section": "CENTRES OF EXCELLENCE",
+    "source_json": "data\\fresh\\pages\\mandatory-disclosure_e5f4712ffb.json",
+    "word_count": 18,
+    "status": "reference_only",
+    "reasons": [
+      "very_short_content",
+      "official_reference_or_resource_page"
+    ]
+  },
+  {
+    "title": "Message on VECell - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/msgonvecell/",
+    "section": "VE CELL",
+    "source_json": "data\\fresh\\pages\\msgonvecell_7546032da5.json",
+    "word_count": 146,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "National Cadet Corps - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/national-cadet-corps/",
+    "section": "LIFE@AKGEC",
+    "source_json": "data\\fresh\\pages\\national-cadet-corps_c0fcee43a3.json",
+    "word_count": 1895,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Nature Club - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/nature-club/",
+    "section": "VE CELL",
+    "source_json": "data\\fresh\\pages\\nature-club_3517534b72.json",
+    "word_count": 1625,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "NBA Accreditation - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/nba-accreditation/",
+    "section": "ABOUT",
+    "source_json": "data\\fresh\\pages\\nba-accreditation_c6352ea4ae.json",
+    "word_count": 175,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "NIRF Data for Ranking 2026 - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/nirf-data-for-ranking-2025/",
+    "section": "ABOUT",
+    "source_json": "data\\fresh\\pages\\nirf-data-for-ranking-2025_2f419c6a41.json",
+    "word_count": 19,
+    "status": "reference_only",
+    "reasons": [
+      "very_short_content",
+      "official_reference_or_resource_page"
+    ]
+  },
+  {
+    "title": "Participation in Societal Development - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/outside-participation/",
+    "section": "VE CELL",
+    "source_json": "data\\fresh\\pages\\outside-participation_0f2d9b5fbb.json",
+    "word_count": 721,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Patent - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/patent/",
+    "section": "R&D",
+    "source_json": "data\\fresh\\pages\\patent_de8ea390bc.json",
+    "word_count": 58,
+    "status": "reference_only",
+    "reasons": [
+      "short_content",
+      "official_reference_or_resource_page"
+    ]
+  },
+  {
+    "title": "Placement Records - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/placements/placement-records/",
+    "section": "PLACEMENTS",
+    "source_json": "data\\fresh\\pages\\placements_placement-records_a12ff39dc5.json",
+    "word_count": 14,
+    "status": "reference_only",
+    "reasons": [
+      "very_short_content",
+      "official_reference_or_resource_page"
+    ]
+  },
+  {
+    "title": "T&P Department - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/placements/tp-department/",
+    "section": "PLACEMENTS",
+    "source_json": "data\\fresh\\pages\\placements_tp-department_ec46885b6d.json",
+    "word_count": 406,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "T&P Programmes - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/placements/tp-programmes/",
+    "section": "PLACEMENTS",
+    "source_json": "data\\fresh\\pages\\placements_tp-programmes_5263ad4ec5.json",
+    "word_count": 323,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Policies - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/policies/",
+    "section": "CENTRES OF EXCELLENCE",
+    "source_json": "data\\fresh\\pages\\policies_d3183a47d4.json",
+    "word_count": 21,
+    "status": "reference_only",
+    "reasons": [
+      "very_short_content",
+      "official_reference_or_resource_page"
+    ]
+  },
+  {
+    "title": "R&D - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/rd/",
+    "section": "COLLEGE PUBLICATIONS",
+    "source_json": "data\\fresh\\pages\\rd_9adebee505.json",
+    "word_count": 45,
+    "status": "reference_only",
+    "reasons": [
+      "short_content",
+      "short_but_potentially_useful",
+      "navigation_or_reference_content"
+    ]
+  },
+  {
+    "title": "AKGEC International Journal of Technology - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology/",
+    "section": "COLLEGE PUBLICATIONS",
+    "source_json": "data\\fresh\\pages\\rd_akgec-international-journal-of-technology_936e9f2c1a.json",
+    "word_count": 9062,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Conferences - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/rd/conferences/",
+    "section": "COLLEGE PUBLICATIONS",
+    "source_json": "data\\fresh\\pages\\rd_conferences_064215fb67.json",
+    "word_count": 31,
+    "status": "reference_only",
+    "reasons": [
+      "short_content",
+      "short_but_potentially_useful",
+      "navigation_or_reference_content"
+    ]
+  },
+  {
+    "title": "Consultancy - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/rd/consultancy-2/",
+    "section": "COLLEGE PUBLICATIONS",
+    "source_json": "data\\fresh\\pages\\rd_consultancy-2_425d022e65.json",
+    "word_count": 346,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "FDPs - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/rd/fdps/",
+    "section": "COLLEGE PUBLICATIONS",
+    "source_json": "data\\fresh\\pages\\rd_fdps_4c3f833767.json",
+    "word_count": 3308,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Journals - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/rd/journals/",
+    "section": "R&D",
+    "source_json": "data\\fresh\\pages\\rd_journals_e8d111d4d3.json",
+    "word_count": 62,
+    "status": "reference_only",
+    "reasons": [
+      "short_content",
+      "official_reference_or_resource_page"
+    ]
+  },
+  {
+    "title": "College Magazine - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/sampark/",
+    "section": "COLLEGE PUBLICATIONS",
+    "source_json": "data\\fresh\\pages\\sampark_195e1a4240.json",
+    "word_count": 18,
+    "status": "reference_only",
+    "reasons": [
+      "very_short_content",
+      "official_reference_or_resource_page"
+    ]
+  },
+  {
+    "title": "Samriddhi Pravaah - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/samriddhi-pravaah/",
+    "section": "VE CELL",
+    "source_json": "data\\fresh\\pages\\samriddhi-pravaah_eb692e7f15.json",
+    "word_count": 315,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Scholarship - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/scholarship/",
+    "section": "ADMISSIONS",
+    "source_json": "data\\fresh\\pages\\scholarship_bcae11ae16.json",
+    "word_count": 228,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Student Induction Program - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/sip/",
+    "section": "VE CELL",
+    "source_json": "data\\fresh\\pages\\sip_0cef8ce0df.json",
+    "word_count": 456,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Sports Club - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/sports-club/",
+    "section": "LIFE@AKGEC",
+    "source_json": "data\\fresh\\pages\\sports-club_c3f7f44201.json",
+    "word_count": 1367,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Spot Counselling – Selected List - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/spotcounselling/",
+    "section": "ADMISSIONS",
+    "source_json": "data\\fresh\\pages\\spotcounselling_089875437b.json",
+    "word_count": 13,
+    "status": "exclude",
+    "reasons": [
+      "very_short_content",
+      "short_but_potentially_useful",
+      "time_sensitive_admission_list"
+    ]
+  },
+  {
+    "title": "Sustainable Production Centre - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/sustainable-production-centre/",
+    "section": "VE CELL",
+    "source_json": "data\\fresh\\pages\\sustainable-production-centre_a305f561d5.json",
+    "word_count": 397,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Talk by Experts - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/talk-by-experts/",
+    "section": "LIFE@AKGEC",
+    "source_json": "data\\fresh\\pages\\talk-by-experts_2ed2655756.json",
+    "word_count": 280,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Teachers Orientation Program - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/teachers-orientation-program/",
+    "section": "VE CELL",
+    "source_json": "data\\fresh\\pages\\teachers-orientation-program_1f98738f83.json",
+    "word_count": 618,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "T&P Activities - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/tp-activities/",
+    "section": "PLACEMENTS",
+    "source_json": "data\\fresh\\pages\\tp-activities_acba9879ea.json",
+    "word_count": 185,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Transformative Sharing - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/transformative-sharing/",
+    "section": "VE CELL",
+    "source_json": "data\\fresh\\pages\\transformative-sharing_1fb4438d8d.json",
+    "word_count": 444,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "UHV Departmental Seminars - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/uhv-departmental-seminars/",
+    "section": "VE CELL",
+    "source_json": "data\\fresh\\pages\\uhv-departmental-seminars_a949c989c6.json",
+    "word_count": 526,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Faculty/Staff Development Programs - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/uhvfdp/",
+    "section": "VE CELL",
+    "source_json": "data\\fresh\\pages\\uhvfdp_69d30e32ee.json",
+    "word_count": 5414,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Reporting Process for Admission through UPTAC Counselling 2026-27 - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/uptac/",
+    "section": "ADMISSIONS",
+    "source_json": "data\\fresh\\pages\\uptac_375f3bb06a.json",
+    "word_count": 72,
+    "status": "keep",
+    "reasons": [
+      "short_content",
+      "short_but_potentially_useful",
+      "potentially_useful_college_information"
+    ]
+  },
+  {
+    "title": "VE Cell - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/ve-cell/",
+    "section": "VE CELL",
+    "source_json": "data\\fresh\\pages\\ve-cell_230f79060c.json",
+    "word_count": 1815,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "VECell SDPs - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/vecell-sdps/",
+    "section": "VE CELL",
+    "source_json": "data\\fresh\\pages\\vecell-sdps_817d5f2016.json",
+    "word_count": 7944,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  },
+  {
+    "title": "Vision And Mission - AJAY KUMAR GARG ENGINEERING COLLEGE",
+    "url": "https://www.akgec.ac.in/vision-and-mission/",
+    "section": "ABOUT",
+    "source_json": "data\\fresh\\pages\\vision-and-mission_4f73a334d2.json",
+    "word_count": 125,
+    "status": "keep",
+    "reasons": [
+      "sufficient_content"
+    ]
+  }
+]

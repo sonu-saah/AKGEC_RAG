@@ -1,0 +1,29 @@
+{
+  "title": "Careers - AJAY KUMAR GARG ENGINEERING COLLEGE",
+  "url": "https://www.akgec.ac.in/careers/",
+  "section": "CAREER",
+  "blocks": [
+    {
+      "type": "heading",
+      "tag": "h1",
+      "text": "Careers"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Fill the forms given below to apply for jobs"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Recruitment Form for Faculty"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Recruitment Form for Staff"
+    }
+  ],
+  "text": "CAREERS\n\n\n\nFILL THE FORMS GIVEN BELOW TO APPLY FOR JOBS\n\n\nRecruitment Form for Faculty\n\nRecruitment Form for Staff",
+  "character_count": 114
+}

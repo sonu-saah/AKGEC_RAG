@@ -1,0 +1,419 @@
+{
+  "title": "Central Library - AJAY KUMAR GARG ENGINEERING COLLEGE",
+  "url": "https://www.akgec.ac.in/central-library/",
+  "section": "ABOUT",
+  "blocks": [
+    {
+      "type": "heading",
+      "tag": "h1",
+      "text": "Central Library"
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "Home"
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "About Us"
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "Digital Library"
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "Digital Repository"
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "E-resources"
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "KOHA OPAC (Search)"
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "Useful Links"
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "Library Team"
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "Contact Us"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Home"
+    },
+    {
+      "type": "heading",
+      "tag": "h4",
+      "text": "Vision"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "To attain high standards of comprehensive services related to dissemination of required information by adoption of state-of-the-art technology thereby creating a welcoming and comfortable physical environment for the user."
+    },
+    {
+      "type": "heading",
+      "tag": "h4",
+      "text": "Mission"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "We strive to provide and maintain state-of-the-art comprehensive resource center of books and journals and most efficient library service environment for dissemination of required knowledge to our faculty and students."
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "About the Library"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "About AKGEC Central Library"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "The AKGEC Library System comprises of a Central Library, nine Departmental Libraries and five Hostel Libraries."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "The Central Library, housed in the Administrative Block of the College, consists of two sections spread over 1465 sq. m and with a seating capacity for 344 users. Comfortable study space is provided for faculty, staff and students in the form of reading hall, study cubicles, digital library and faculty reading room."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "The state-of-the-art facilities include KOHA Open Source Library Management Software, Web Based Online Public Access Catalogue (Web OPAC), Digital Library, DSpace Institutional Repository Server and Membership to DELNET and National Digital Library."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "The library system is very user friendly with sufficient resources to meet the requirements of the users. Addition of resources as per the requirements and norms is a regular feature. Sufficient number of qualified staff are employed to manage the activities of the library."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "The Departmental and Hostel libraries are managed and run by the respective departments and hostels with resources on loan from the Central Library."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "All students, faculty and staff of the College are entitled to make use of the library facilities on availing library membership."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Admission to the Central Library is through Library cum Identity Card, which is scanned at the entrance, to keep record of the users. The library is under camera surveillance through ten cameras that have been installed at various locations."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "The library attracts an average of 350 users on a regular working day."
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Library Timings"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "Library Timings in normal Working days: (Monday – Saturday) | 8:30 AM – 9:00 PM\nLibrary Timings in holidays: (Sunday and Closed Saturday) | 9:00 AM – 05:00 PM\nLibrary Timings during Examinations: (Monday – Saturday) | 8:30 AM – 12:01 AM\nIssue & Return of Books (Monday – Saturday) | 8:40 AM – 3:45 PM\nDigital Library (E-resources / Database, DELNET) | 8:30 AM – 9:00 PM\nConsultation of Examination Papers & Solution / Old Newspaper etc. | 9:30 AM – 3:45 PM\nReprographic Service | 8:30 AM – 4:00 PM"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Central Library Rules"
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "Library users must show their Identity cum library card at the security point of the Central Library. In case the member does not possess his/her identity card, he/she will not allowed to enter the library."
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "Personal belongings like bags, books, etc. are not allowed inside the library in any case. However, only one/two Books can be taken inside with the issue of prescribed slip."
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "Identity cards cum library cards are non-transferable. Use of other’s library-card is a punishable conduct. The borrower as well as authorized holder of the card may be punished for such an act."
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "Library hours are 8:30 AM – 9:00 PM and during examination library hours will be extended till 12:00 midnight. Books will be issued from 8:45 AM to 3:45 PM only. Digital Library and reference section will be open 8:45 AM to 3:30 PM."
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "Reservation of books Issue shall be made between 8:45 AM to 3:30 PM only."
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "General Books: Maximum Two Books will be issued at one time to the UG Students and Three Books for PG Students for a period of ten days. Quota (SC/ST) books are issued for a period of one month. Deposition of books after the due date will attract a fine of Rs. 10/- per day per volume. The amount of fine would not be more than double the cost of the book."
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "In case of late Issue of Book Bank Books due to non-collection by the students, Rs. 10/- will be charged for each day delayed from scheduled date. Books for Book Bank must be deposited / submitted at the end of the semester, failing which a fine of Rs. 10/- per day per volume will be charged to them."
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "Reference books will be issued only for special cases with prior permission of Senior Librarian/Asst. Librarian between 3:15 PM to 3:45 PM for overnight purpose on Library cards. Deposition of the reference book should be made positively on the next day up to 10:00 AM, failing which, a fine of Rs.20/- will be charged for each day. The user who doesn’t deposit the reference book in time will be treated, as defaulter and overnight issue of reference book will not be made to him in future."
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "Reference Books / Question Papers & Solutions and other library materials will be issued for an hour only; late submission will attract a fine of Rs.2/- per hour per document."
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "Borrowers must satisfy themselves about the condition of the books before borrowing, they shall be responsible for any damage or mutilations noticed at the time of return."
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "Leaving circulation counter without ensuring the book(s) have been returned, is a punishable act. Doing so a fine of Rs. 50/- will be charged even if book is traced later on."
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "No book will be renewed/re-issued on same day."
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "If a book is already issued to a student, another copy of the same book cannot be issued to or reserved for him/her."
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "The latest edition of book will only be accepted in replacement of a lost/damaged book along with a fine of Rs.100/- as processing fee. If the book is not available in the market / publisher, double the cost of book will be charged."
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "Misplacing/Marking/Tearing of books is punishable offence. Any user caught for such offence would be fined Rs.1000/- and may even lead to withdrawal of library facility to him."
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "If any student is caught stealing from the library, a fine of Rs. 2000/- will be imposed on him in addition to suitable disciplinary action."
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "Disciplinary action will be taken against Library users found misbehaving with the library staff."
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "The loss of an Identity card/library membership card should be immediately informed to the Senior Librarian."
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "For the duplicate PVC Identity card (In case of loss of card), the student will have to make a written request to the Director General / Director and will have to deposit a fine of Rs.300/- for duplicate I-Card. A fine of Rs.150/- will have to be paid as the processing fee for the replacement of ragged/damaged PVC Identity cards or taking Identity card very late."
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "Timing for other library services has been fixed which are subjected to change in the interest of the library users."
+    },
+    {
+      "type": "list_item",
+      "tag": "li",
+      "text": "Library users must ensure that their activities do not disturb the fellow users."
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "User Manual"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "AKGEC User Manual"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Digital Library"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "ProQuest Engineering Collection (E-journals)"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "https://www.proquest.com/"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Video Lectures"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "https://www.youtube.com/@AKGECDigitalSchool"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "National Digital Library of India (NDL)"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "https://ndl.iitkgp.ac.in/"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "NDLI Club"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "https://club.ndl.iitkgp.ac.in/club-home"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "DELNET"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "http://www.delnet.in/"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "DOAJ"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "https://doaj.org/"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "DOAB"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "https://doabooks.org/"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Digital Repository"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "AKGEC Central Library maintains a Question Papers & Model Solutions Bank consisting of previous question papers of Sessional, PUT (Pre-University Test), and University Examinations along with their model solutions prepared by the respective subject teachers. The collection is readily available for reference of students in electronic as well as print form in central library and also in electronic form in departmental and hostel libraries for benefit of faculty and students respectively users are allowed to take the documents for making photocopies at the photocopy. The collection is readily available for student reference through open source DSpace Institutional repository."
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Previous Question Papers with Solutions"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "http://10.10.153.40:8080/jspui/"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Book Requisition Form"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "BB Requistion form"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "E-Resources"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "S. No. | Publication | Subject Areas | Web Address\n1. | AKGEC through (DSpace Digital Library Software) | Institutional Repository – | http://10.10.153.40:8080/jspui/\n2. | AKGEC Central Library | Central Library web link | https://www.akgec.ac.in/central-library/\n3. | Web OPAC | Library Management System: KOHA | http://117.55.241.42/\n4. | ProQuest Engineering Collection | All Engineering Subject | https://www.proquest.com/\n5. | DELNET | General Engineering & Reference | http://www.delnet.in/ Login : upakgec Password : akgec201\n6. | National Digital Library | General Engineering & Reference | https://ndl.iitkgp.ac.in/"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "KOHA OPAC"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "http://117.55.241.42/"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Useful Links"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "1. TURNITIN: https://www.turnitin.com/ 2. NDL: https://ndl.iitkgp.ac.in/ 3. NPTEL: https://nptel.ac.in/ 4. Coursera: https://www.coursera.org/ 5. edx: https://www.edx.org/ 6. IEI: https://www.ieindia.org/webui/iei-home.aspx 7. E-Sodh Ganga: https://shodhganga.inflibnet.ac.in/ 8. E-Pathshala: https://epgp.inflibnet.ac.in/"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Library Team"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "Gp Capt I P Sharma (Retd) Prof & Dean, ME Dept | Dean Library\nDr. Shiv Shankar Srivastava | Senior Librarian\nMs. Kavita Kulshreshtha | Assistant Librarian\nMr. Ram Abhilash | Library Assistant\nMr. Rajkumar Sharma | Library Assistant\nMr. Rajeev Kumar | Library Assistant\nMr. Davendra Kumar | Library Assistant\nMr. Rajeev Sharma | Library Assistant\nMr. Balkishan | Library Assistant\nMs. Monika | Book Lifter\nMr. Jiya Lal | Book Lifter\nMr. Ratan Singh | Library Attendant\nMr. Rahul | Library Attendant"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Contact Us"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Dr. Shiv Shankar Srivastava Senior Librarian Ajay Kumar Garg Engineering College (AKGEC) 27th Km Stone, Delhi-Meerut Expressway, Ghaziabad, Uttar Pradesh – 201015 Email: [email protected] Mobile: 9818590621"
+    }
+  ],
+  "text": "CENTRAL LIBRARY\n\n\n- Home\n\n- About Us\n\n- Digital Library\n\n- Digital Repository\n\n- E-resources\n\n- KOHA OPAC (Search)\n\n- Useful Links\n\n- Library Team\n\n- Contact Us\n\n\nHOME\n\n\n\nVISION\n\n\nTo attain high standards of comprehensive services related to dissemination of required information by adoption of state-of-the-art technology thereby creating a welcoming and comfortable physical environment for the user.\n\n\nMISSION\n\n\nWe strive to provide and maintain state-of-the-art comprehensive resource center of books and journals and most efficient library service environment for dissemination of required knowledge to our faculty and students.\n\n\nABOUT THE LIBRARY\n\n\n\nABOUT AKGEC CENTRAL LIBRARY\n\n\nThe AKGEC Library System comprises of a Central Library, nine Departmental Libraries and five Hostel Libraries.\n\nThe Central Library, housed in the Administrative Block of the College, consists of two sections spread over 1465 sq. m and with a seating capacity for 344 users. Comfortable study space is provided for faculty, staff and students in the form of reading hall, study cubicles, digital library and faculty reading room.\n\nThe state-of-the-art facilities include KOHA Open Source Library Management Software, Web Based Online Public Access Catalogue (Web OPAC), Digital Library, DSpace Institutional Repository Server and Membership to DELNET and National Digital Library.\n\nThe library system is very user friendly with sufficient resources to meet the requirements of the users. Addition of resources as per the requirements and norms is a regular feature. Sufficient number of qualified staff are employed to manage the activities of the library.\n\nThe Departmental and Hostel libraries are managed and run by the respective departments and hostels with resources on loan from the Central Library.\n\nAll students, faculty and staff of the College are entitled to make use of the library facilities on availing library membership.\n\nAdmission to the Central Library is through Library cum Identity Card, which is scanned at the entrance, to keep record of the users. The library is under camera surveillance through ten cameras that have been installed at various locations.\n\nThe library attracts an average of 350 users on a regular working day.\n\n\nLIBRARY TIMINGS\n\n\nLibrary Timings in normal Working days: (Monday – Saturday) | 8:30 AM – 9:00 PM\nLibrary Timings in holidays: (Sunday and Closed Saturday) | 9:00 AM – 05:00 PM\nLibrary Timings during Examinations: (Monday – Saturday) | 8:30 AM – 12:01 AM\nIssue & Return of Books (Monday – Saturday) | 8:40 AM – 3:45 PM\nDigital Library (E-resources / Database, DELNET) | 8:30 AM – 9:00 PM\nConsultation of Examination Papers & Solution / Old Newspaper etc. | 9:30 AM – 3:45 PM\nReprographic Service | 8:30 AM – 4:00 PM\n\n\nCENTRAL LIBRARY RULES\n\n\n- Library users must show their Identity cum library card at the security point of the Central Library. In case the member does not possess his/her identity card, he/she will not allowed to enter the library.\n\n- Personal belongings like bags, books, etc. are not allowed inside the library in any case. However, only one/two Books can be taken inside with the issue of prescribed slip.\n\n- Identity cards cum library cards are non-transferable. Use of other’s library-card is a punishable conduct. The borrower as well as authorized holder of the card may be punished for such an act.\n\n- Library hours are 8:30 AM – 9:00 PM and during examination library hours will be extended till 12:00 midnight. Books will be issued from 8:45 AM to 3:45 PM only. Digital Library and reference section will be open 8:45 AM to 3:30 PM.\n\n- Reservation of books Issue shall be made between 8:45 AM to 3:30 PM only.\n\n- General Books: Maximum Two Books will be issued at one time to the UG Students and Three Books for PG Students for a period of ten days. Quota (SC/ST) books are issued for a period of one month. Deposition of books after the due date will attract a fine of Rs. 10/- per day per volume. The amount of fine would not be more than double the cost of the book.\n\n- In case of late Issue of Book Bank Books due to non-collection by the students, Rs. 10/- will be charged for each day delayed from scheduled date. Books for Book Bank must be deposited / submitted at the end of the semester, failing which a fine of Rs. 10/- per day per volume will be charged to them.\n\n- Reference books will be issued only for special cases with prior permission of Senior Librarian/Asst. Librarian between 3:15 PM to 3:45 PM for overnight purpose on Library cards. Deposition of the reference book should be made positively on the next day up to 10:00 AM, failing which, a fine of Rs.20/- will be charged for each day. The user who doesn’t deposit the reference book in time will be treated, as defaulter and overnight issue of reference book will not be made to him in future.\n\n- Reference Books / Question Papers & Solutions and other library materials will be issued for an hour only; late submission will attract a fine of Rs.2/- per hour per document.\n\n- Borrowers must satisfy themselves about the condition of the books before borrowing, they shall be responsible for any damage or mutilations noticed at the time of return.\n\n- Leaving circulation counter without ensuring the book(s) have been returned, is a punishable act. Doing so a fine of Rs. 50/- will be charged even if book is traced later on.\n\n- No book will be renewed/re-issued on same day.\n\n- If a book is already issued to a student, another copy of the same book cannot be issued to or reserved for him/her.\n\n- The latest edition of book will only be accepted in replacement of a lost/damaged book along with a fine of Rs.100/- as processing fee. If the book is not available in the market / publisher, double the cost of book will be charged.\n\n- Misplacing/Marking/Tearing of books is punishable offence. Any user caught for such offence would be fined Rs.1000/- and may even lead to withdrawal of library facility to him.\n\n- If any student is caught stealing from the library, a fine of Rs. 2000/- will be imposed on him in addition to suitable disciplinary action.\n\n- Disciplinary action will be taken against Library users found misbehaving with the library staff.\n\n- The loss of an Identity card/library membership card should be immediately informed to the Senior Librarian.\n\n- For the duplicate PVC Identity card (In case of loss of card), the student will have to make a written request to the Director General / Director and will have to deposit a fine of Rs.300/- for duplicate I-Card. A fine of Rs.150/- will have to be paid as the processing fee for the replacement of ragged/damaged PVC Identity cards or taking Identity card very late.\n\n- Timing for other library services has been fixed which are subjected to change in the interest of the library users.\n\n- Library users must ensure that their activities do not disturb the fellow users.\n\n\nUSER MANUAL\n\n\nAKGEC User Manual\n\n\nDIGITAL LIBRARY\n\n\n\nPROQUEST ENGINEERING COLLECTION (E-JOURNALS)\n\n\nhttps://www.proquest.com/\n\n\nVIDEO LECTURES\n\n\nhttps://www.youtube.com/@AKGECDigitalSchool\n\n\nNATIONAL DIGITAL LIBRARY OF INDIA (NDL)\n\n\nhttps://ndl.iitkgp.ac.in/\n\n\nNDLI CLUB\n\n\nhttps://club.ndl.iitkgp.ac.in/club-home\n\n\nDELNET\n\n\nhttp://www.delnet.in/\n\n\nDOAJ\n\n\nhttps://doaj.org/\n\n\nDOAB\n\n\nhttps://doabooks.org/\n\n\nDIGITAL REPOSITORY\n\n\nAKGEC Central Library maintains a Question Papers & Model Solutions Bank consisting of previous question papers of Sessional, PUT (Pre-University Test), and University Examinations along with their model solutions prepared by the respective subject teachers. The collection is readily available for reference of students in electronic as well as print form in central library and also in electronic form in departmental and hostel libraries for benefit of faculty and students respectively users are allowed to take the documents for making photocopies at the photocopy. The collection is readily available for student reference through open source DSpace Institutional repository.\n\n\nPREVIOUS QUESTION PAPERS WITH SOLUTIONS\n\n\nhttp://10.10.153.40:8080/jspui/\n\n\nBOOK REQUISITION FORM\n\n\n\nBB REQUISTION FORM\n\n\n\nE-RESOURCES\n\n\nS. No. | Publication | Subject Areas | Web Address\n1. | AKGEC through (DSpace Digital Library Software) | Institutional Repository – | http://10.10.153.40:8080/jspui/\n2. | AKGEC Central Library | Central Library web link | https://www.akgec.ac.in/central-library/\n3. | Web OPAC | Library Management System: KOHA | http://117.55.241.42/\n4. | ProQuest Engineering Collection | All Engineering Subject | https://www.proquest.com/\n5. | DELNET | General Engineering & Reference | http://www.delnet.in/ Login : upakgec Password : akgec201\n6. | National Digital Library | General Engineering & Reference | https://ndl.iitkgp.ac.in/\n\n\nKOHA OPAC\n\n\nhttp://117.55.241.42/\n\n\nUSEFUL LINKS\n\n\n1. TURNITIN: https://www.turnitin.com/ 2. NDL: https://ndl.iitkgp.ac.in/ 3. NPTEL: https://nptel.ac.in/ 4. Coursera: https://www.coursera.org/ 5. edx: https://www.edx.org/ 6. IEI: https://www.ieindia.org/webui/iei-home.aspx 7. E-Sodh Ganga: https://shodhganga.inflibnet.ac.in/ 8. E-Pathshala: https://epgp.inflibnet.ac.in/\n\n\nLIBRARY TEAM\n\n\nGp Capt I P Sharma (Retd) Prof & Dean, ME Dept | Dean Library\nDr. Shiv Shankar Srivastava | Senior Librarian\nMs. Kavita Kulshreshtha | Assistant Librarian\nMr. Ram Abhilash | Library Assistant\nMr. Rajkumar Sharma | Library Assistant\nMr. Rajeev Kumar | Library Assistant\nMr. Davendra Kumar | Library Assistant\nMr. Rajeev Sharma | Library Assistant\nMr. Balkishan | Library Assistant\nMs. Monika | Book Lifter\nMr. Jiya Lal | Book Lifter\nMr. Ratan Singh | Library Attendant\nMr. Rahul | Library Attendant\n\n\nCONTACT US\n\n\nDr. Shiv Shankar Srivastava Senior Librarian Ajay Kumar Garg Engineering College (AKGEC) 27th Km Stone, Delhi-Meerut Expressway, Ghaziabad, Uttar Pradesh – 201015 Email: [email protected] Mobile: 9818590621",
+  "character_count": 9877
+}

@@ -1,0 +1,644 @@
+{
+  "title": "Oorja - AJAY KUMAR GARG ENGINEERING COLLEGE",
+  "url": "https://www.akgec.ac.in/life-akgec/societies/departmental-societies/oorja/",
+  "section": "LIFE@AKGEC",
+  "blocks": [
+    {
+      "type": "heading",
+      "tag": "h1",
+      "text": "Oorja"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "Home"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "Faculty"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "Labs"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "Achievements"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "Society"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "Departmental Activities"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "“OORJA” is the technical Society of Electrical & Electronics Engineering students. The society was established on 21stJan 2006, to enhance techno-managerial skills of the students and bring laurels to department and college through innovative ideas, conducting events like workshops, model building competitions and technical quizzes."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Activities/Events"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "KSHITIJ — THE DAWN OF POSSIBILITIES (One-Day Workshop on Sensors, NI LabVIEW, PLC and Embedded Systems)"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Kshitij – The Dawn of Possibilities was a one-day workshop held on on 25 August 2026 in CS-IT Seminar Hall, organised by Team Oorja, the technical society of the Department of Electrical and Electronics Engineering, AKGEC. The workshop was designed to give participants a single-day, end-to-end view of how modern industrial and embedded systems are built — beginning with how sensors capture the physical world, moving through NI LabVIEW as a graphical measurement and control platform, into the Programmable Logic Controller (PLC) as the backbone of industrial automation, and finally into embedded systems that tie sensing, computation and connectivity together."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "The inaugural address was marked by the presence of esteemed faculty members of the Department of Electrical and Electronics Engineering and our society faculty incharge M/s Nupur Mittal along with the Head of Department Dr. Lokesh Varshney, whose encouragement set an enthusiastic tone for the day ahead."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Session 1 — Sensors: The Eyes and Ears of Modern Technology The day opened with a session on sensors, led by team members Manish and Chirag. The session introduced sensors as the bridge between the physical world and electronic control, following the core engineering pattern of physical quantity → sensor → signal → controller → action. Participants were walked through everyday sensing devices such as the DHT11 temperature-and-humidity module and the PIR motion sensor, followed by soil-moisture and photoelectric sensors used in irrigation and industrial inspection."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Session 2 — NI LabVIEW: From Graphical Programming to Real-World Systems Engineering The second session was led by the team of Priyanshi, Saanvi, Himanshu and Aniket, and introduced participants to National Instruments LabVIEW as a graphical programming and systems-engineering platform used for test, measurement, data acquisition, hardware control and automation. Starting from an engineering problem of testing an electric motor, the speakers explained the concept of a Virtual Instrument (VI) — combining a front panel, block diagram, and icon/connector pane — and how a computer with LabVIEW and appropriate hardware becomes a customised instrument in its own right."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Session 3 — PLC: The Programmable Logic Controller The third session, conducted by the team of Swapnil, Arjun and Tanmay, took participants through the evolution and working of the Programmable Logic Controller. The session began by placing automation in everyday context before tracing its history from manual control and pneumatic systems through hardwired relay logic to modern, software-based, reprogrammable PLCs — illustrated with a live example of a relay-based star-delta starter panel and the wiring complexity it once demanded."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Session 4 — Embedded Systems The concluding technical session was led by the team of Akshara, Akshita, Nikhil and Gaurav, and focused on embedded systems, covering the basics of Arduino and ESP32 as platforms where sensing, computation and connectivity converge. Building on the concepts introduced earlier in the day, the session covered the working of microcontrollers, their programming, and how embedded platforms integrate sensors and communication modules to build complete, responsive systems. Participants were introduced to the basics of Arduino programming, including simple LED blinking and push-button interfacing activities. The session also covered the basics of ESP32, its Wi-Fi connectivity, and basic programming through an LED blinking example. These activities gave participants a practical understanding of how sensing, control logic, programming and connectivity come together inside an embedded device to sense, decide and act in real time."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "TECHNOVERSE – Technical Innovation Competition"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Technoverse is a technical innovation competition organized to promote creativity, innovation, teamwork, and problem-solving skills among students. The event served as an excellent platform for participants to showcase their technical expertise by developing innovative solutions for real-world challenges. It encouraged students to explore modern technological trends and propose impactful ideas across multiple engineering and technology domains."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "The event was successfully conducted on 11th April and was organized by Oorja Society in collaboration with IAS (Industry Applications Society), PES (Power and Energy Society), and WIE (Women in Engineering) Student Branch Chapter. The competition witnessed enthusiastic participation from multiple teams who presented innovative ideas, prototypes, and technical solutions based on defined problem statements."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Objectives of the Event The primary objectives of Technoverse were: • To promote innovation and technical creativity among students • To encourage teamwork and collaborative learning • To provide exposure to emerging and modern technology domains • To develop practical and implementable solutions for real-life problems • To enhance presentation, ideation, and problem-solving skills • To identify and encourage promising innovations"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Event Domains Technoverse was conducted across multiple domains to ensure wide participation and coverage of diverse technological areas. The teams participated in the following domains: 1. Smart Energy and Power Systems 2. Embedded Systems and Internet of Things (IoT) 3. Drone Technology 4. Sustainable and Green Energy 5. Software Solutions 6. Open Innovation Each domain consisted of unique and application-oriented problem statements that challenged the participants’ creativity and technical capabilities."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Participation Details A total of 18 teams participated in the Technoverse competition. Each team worked with dedication and enthusiasm to develop unique solutions and demonstrate their technical creativity. The competition received an excellent response from students across various domains."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Along with teams from our institution, several teams from other colleges also participated, making the event more competitive and providing a wider platform for inter-college innovation and knowledge exchange. This diverse participation enhanced the overall learning experience and encouraged healthy technical competition among students."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Highlights of the Event Some major highlights of Technoverse included: • Active participation of 18 teams across multiple technical domains • Innovative projects focusing on smart systems and sustainable technologies • Impressive prototypes in IoT, embedded systems, energy systems, and software development • Strong emphasis on sustainable and green energy solutions • A competitive and motivating learning environment"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Winners"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "Position | Team Name | Team Members\n1 st Prize | Vasudev | 1 Nishit kumar Prajapati 2 Pranav Raj 3 Kritarth Tiwari\n2 nd Prize | Commit | 1 Rishant gupta 2 Aaditya pratap singh 3 Aashika sahu 4 Prafull sharma\n3 rd Prize | Flux | 1 Mrigank Raj 2 Prince 3 Pradeep singh 4 Ankit Kumar yadav\nBest Innovation | Nextronix | 1 Sparsh Trivedi 2 Aman Singh\nWomen in Tech | Commit | 1 Aashika sahu\nBest Social Impact | AgriPulse | 1 Deepak Kumar 2 Samarth Rana 3 Priyanshu Yadav 4 Shreyash Rai"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Code2 Ctrl (2-day Workshop on Embedded System and IoT Workshop)"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Date: 10 Nov,2025 Venue: CS-IT Seminar Hall"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "The workshop is based on Embedded system and Internet of things, by Team Oorja, the society of Dept. of Electrical and Electronics. In the workshop day-1 dedicated to Microcontroller and Microprocessor and their Programming language with follow on day-2 is on internet protocol. The event had massive success and the enthusiasm by the participant was exceptional. The workshop theme is to educate students how controllers work and programmed and how sensors work. The participants also awarded with certification of 2- day workshop and hands-on."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Day 1: The session was started with Warm-welcoming of participants and our Faculty in-charge by our speakers Nandini and Manish."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Microprocessor v/s Microcontroller: The session is based on how microprocessor invent and their evolution throughout the years, how they compute and works and how they are different from Microcontroller. The session was taken by the club members Ayush and Sachin. Their hard work reflects toward participants how the mechanical computation changes to electrical and fast computation."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Arduino and It’s working: Arduino the basic microcontroller available in the market for embedded project which controls the microworld and do specific task. The session was taken by team member Gaurav and Nachiketan. The session includes the architecture of Arduino their pin diagrams and the simulation of basic project with their programming. Hands-on also included to give better experience to participants."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Sensor and their applications: Sensor is the basic and most import thing in the world of embedded system as it works as bridge between physical world and electronics. The session was full of know how it integrates it with controllers and their working principal. The session volunteers are Amrit and Jana Bikram which make session fun and interactive as they show real practical of all the basic day to day use sensors."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Raspberry Pi: The powerful microcontroller in the world of embedded system, it is a single board computer which operates multitasking. The session was taken by our team 3rd year member Ashish Thakur. The session follows day-2 also as the session was so interactive that make participants make eager to know more about pi and its features."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Fun activity: Day-1 wrap-up with fun activity and playing games which is made up on microcontrollers and integrating others microelectronics which helps to introduces student about more of controllers and processor how it works and have fun with it. The games include Ping-Pong competition among the participants."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Day-2: The day-2 follow on with full of enthusiasm of our participants and volunteers. The eager to get know more about controllers boost the energy and lit-up the environment of seminar hall. The session was inaugurated with our speaker Jaanvi and Arjun."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Libraries and IDE: The session inaugurates the day-2 of the workshop. The session includes basic libraries of sensors and motors, how to integrate external circuits and their individual libraries required to make them work. The was session was so interesting that it lit-up the participants to work on the project and our volunteers Gaurav and Nachiketan also makes hands-on to them. Also introduce their coding language embedded c and Micropython and their IDEs."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Esp32 and Real-life application: The session was full of interaction on how esp32 is different from other microcontrollers in the market as it comes up with in-built touch, temperature, hall effect sensor and also with in-built Wi-Fi and BLE. The session was taken by Nikhil and Nagesh who also demonstrate the in-built touch sensor which amaze the participants and the connectivity of internet in the controller. They also simulate the real-life motion light sensing application."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "The session was all about communication of controller and user, how sensor actuate data and sent it to user through internet protocol https. The session was taken by Ayush; the session comes up with one practical demo of https protocol of light blinking."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Blynk IoT: The session was on free user-friendly dashboard to communicate with microcontroller and control the data through dashboard. The session was taken by Nikhil and follow on with one demo of controlling light through dashboard."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Quiz: The quiz session was the interesting part of the session as it checks the knowledge of participants about what they digest from the workshop and also it showcases the volunteer’s results, The session fun and interactive. The quiz winners also get rewards by Head of Department, Dr. Lokesh Varshney."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Fun Activity: The closing ceremony of the workshop was done with two fun games based on Bluetooth communication of controlling the car and small goal-keeping game which integrates servo motor and joystick to control the keeper as all these games are developed by team to make event more knowledgeable and interactive."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Micro Master"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "The workshop “Micro Master\" on the Atmega8A microcontroller was conducted on 13th April 2024. A total of 55 students from the 1st and 2nd years participated in the workshop, displaying a high level of interest. The workshop focused on providing students with comprehensive knowledge and practical skills in programming and interfacing related to the Atmega8A microcontroller. The workshop successfully provided students with valuable insights into the practical applications of the Atmega8A microcontroller and encouraged them to apply their theoretical knowledge to real-world projects and competitions. The event showcased the commitment and enthusiasm of the students in embracing technological advancements and honing their practical skills."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Techbrawl Workshop"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Oorja Society organized a workshop on 23rd September 2023. It was a captivating workshop as it received massive participation from students of all the Departments. Students were asked to register for the workshop through Google form online and a total 56 registration were made and later participants were asked to make a team of 2 members for the hands-on session which was after the Theoretical Session."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "The workshop consisted of two sessions, which were: • Theoretical Session • Hands-on Session"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Theoretical Session In the Theoretical session, the members of team Oorja gave the students knowledge of sensors, how they work, and how they can use them in various parts of their life. They also gave information about the process of making projects using various sensors and what components are used and the knowledge about the components with the programming part applied in a sensor project. Students also had the privilege to go through some sensor equipment. The Theoretical Session was about 3 hours after that we had the hands-on session."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Hands-on Session The Hands-on Session was for the students to have a real experience of how a sensors works and how they can use it. In the workshop, they were provided with the equipment by which they had to make their own sensor project which everyone succeeded. The hands-on session gave students a better experience of what they learned in the theoretical."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Competition The competition round was an engaging experience as everyone was split into teams of two and assigned a task. The task was to correctly connect the pins of the Arduino microprocessor, and the extra challenge was to create a working model of an ultrasonic sensor. Whichever team finished the task first would win the prize. Following were the winners:"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "1st Position Vishwanath Negi 2nd Position Nikesh Yadav, Adhiraj Tomar 3rd Position Nikesh Yadav, Adhiraj Tomar"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "GLEAM Event"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Oorja Society organized an event named GLEAM on 21 April’23, which was a great success with a total of 53 teams participating in the event. The event was divided into three rounds, which tested the participants' knowledge, skills, and technical expertise. • Round 1: Quiz Round The first round of the event was a quiz round in which the participants had to solve four quizzes. The quiz questions were based on various topics. Out of the 53 teams, 24 teams qualified for the next round. • Round 2: Game Round The second round was a game round, and each participant had to play four games within one minute. The games included Dart, Jenga, Boggle, and Spot the Difference. It was played simultaneously by all 4 members of the team and the scores of all four games were added to determine the final score. This round was tough, and the participants had to show their skills to qualify for the next round."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "• Round 3: Technical Round The third round was a surprise round, 7 teams qualified for this round and the participants were given one MCQ to solve. After solving the question, the participants were asked to implement the solution on a breadboard. This round was a technical round, and the participants had to show their technical skills and expertise to qualify for the top position. This round was tough, and only the best teams could perform well and qualify for the top position."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Winners of GLEAM"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "After the completion of all three rounds, the winners of the GLEAM event were announced. The team who completed the circuit within a given time was declared the winner."
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "Team Name | Position | Team Members | Branch | Year\nOutlaws | 1 st Position | Rohan Maurya | CSE | 2 nd\nSwati Verma | CSE | 2 nd\nSatyendra Srivastava | CSE | 2 nd\nJanhavi Verma | CSE AIML | 2 nd\nTrailblazers | 2 nd Position | Akshat Singh | CSIT | 1 st\nSagar Singh | CS | 1 st\nAtul Shukla | IT | 1 st\nVarun Pandey | ECE | 1 st\nFabFour | 3 rd Position | Yashaswi Sharma | ECE | 3 rd\nUjjwal Kumar | ECE | 3 rd\nYash Kumar Saxena | ECE | 3 rd\nTushar Sharma | ECE | 3 rd"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "ROBOIGNITOR 2.0"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "On 5th November 2022 a workshop “ROBOIGNITOR 2.0” was organised by OORJA SOCIETY in our college. It was a captivating workshop as it received massive participation from students of the all departments. Students were asked to register for the workshop through Google form online and a total 57 registration were made, later 48 participants attended the workshop. Participants were distributed to make a team of 6 members for the hands-on session which was after the Theoretical Session."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "The workshop began with warm welcome with an introduction to the events organised by the Team Oorja over the past few years. Then a brief introduction about the workshop Roboignitor."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "The workshop consisted of two sessions, which were; • Theoretical Session • Hands-on Session"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Theoretical Session"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "In the Theoretical session, the members of team Oorja gave the students knowledge of Robots, how they work, and how they can use them in various parts of their life. They also gave information about the process of making a Voice Recognition Robot and what components are used and the knowledge about the components with the programming part applied in the robot. Students also had the privilege to go through some Robot equipment. The Theoretical Session was about 3 hours after that we had the hands-on session."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Hands-on Session"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "The Hands-on Session was for the students to have a real experience of how a robot works and how they can use it. In the workshop, they were provided with the equipment by which they had to make their own Robot which everyone succeeded. The hands-on session gave students a better experience of what they learned in the theoretical session."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "SOLARDECK (Seminar cum hands-on workshop on Solar Application)"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "On 3rd March,2022 a workshop was organized in our college in collaboration with LOOM SOLAR. It was a captivating workshop as it received massive participation from students of the EN Department. Students were asked to register for the workshop through Google form online and later were asked to make a team of 4 members for the hands-on session which was after the workshop."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "The workshop began with welcoming and introducing the guests of LOOM SOLAR followed by the words from Dr Hemant Ahuja Sir (HoD EN Department), The guests of honor were Mr. Amod Anand (Director – Loom Solar Pvt Ltd) Mr. Nishi Chandra (Head – Marketing) Mr. Abhishek Rathore (Head – New Product Development) and also an alumnus of AKGEC."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "The workshop consisted of two sessions, which were; • Theoretical Session • Hands-on Session"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Theoretical Session"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "In the Theoretical session, the people of LOOM SOLAR gave our students knowledge regarding Solar panels, how they work, how they can use them in their daily life etc. They also gave information about how to build your startup from core electrical engineering. Students also had the privilege to go through some solar equipment."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Hands-on Session"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "The Hands-on Session was for the students to have a real experience of how a solar panel works and how they can use it. In the workshop, they were provided with the equipment by which they had to light a mini tube light which everyone succeeded and all were inspected by our guests. The hands-on session gave students a better experience of what they learned in the theoretical session."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "ROBOIGNITOR"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "On 20th February 2022 a workshop was organized in our college. This workshop was organized for the 1st year students of all branches. Students were asked to get registered online via Google form. Around 20 students were shortlisted to take part in the workshop."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "The idea of conducting this workshop was to make them aware of the various types of robots and their functioning. It was about gaining hands-on experience with the robots."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "At first, the theoretical aspect was shared and then the practical demonstration was given to the students. The 1st year students were asked to make ‘WIFI-Controlled RC CAR’. Student mentors were assigned for guiding the participants in the practical demonstration."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "We were overwhelmed by the participation of students and really enjoyed it a lot and dispersed with a sincere hope that such interactive workshops should be organized again by giving the students a chance to display their talents and gain knowledge."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "EFFULGENCE"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "On 26th October 2021, a technical, as well as non-technical event, was organized in our college. It was an enthralling event as it received massive participation of students from various departments of all three years. More than 100 teams participated."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "It included three rounds, namely: ● Scavenger Hunt ● Picture Puzzle with Crossword ● Surprise Round"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Scavenger Hunt round included two sub-rounds 1-A & 1-B."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "In Round 1-A, participating teams were given a list of 5 items and were asked to collect them within the stipulated time. In Round 1-B, participants were asked to find 5 flags of different colors in a given sequence, which were hidden on the college campus by the team Oorja itself."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "In Round 2, a puzzle of electrical components was given with a crossword. Participants were asked to solve the puzzle by putting the correct pieces in place. Out of 12 teams, first 5 teams who completed the round were taken to the last and final surprise round."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "In Round 3, electrical components were provided. The participants were asked to make a working & well-presentable model. The team who completed the circuit within a given time was declared the winner."
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "TEAM NAMES | POSITION | TEAM MEMBERS | BRANCH | YEAR\nTEAM SPARTANS | 1 | Vibhuti | ECE | 4\nUtkarsh | ECE | 4\nYash | ECE | 3\nTEAM FRIENDS | 2 | Abhinav Kumar | AI&ML | 2\nKumari Deeksha | AI&ML | 2\nAniket Thakur | CSE | 2\nTEAM ENVY | 3 | Anishkha Chaudhary | CS | 2\nKeertiker Singh | CE | 2\nKushagra Tyagi | IT | 2"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "We are overwhelmed by the participation of students hoping that such interactive events will be organized again giving the students a chance to display their talents."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "EFFULGENCE"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "One event was organized by Oorja Society during the Odd Semester 2019-20. The details of which are as follows: Event Name: Effulgence Venue: Near ME Lawn Date: 08.11.2019 No. of participant : 80 students Type of Event : Team (2 to 3 students per team) Event consists of `3’ rounds:"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "• Questionnaire Round: Questions of domains like Science, Riddles and Netflix and Picture were asked which lasted for 30 minutes. The fourteen teams with highest score and minimum response time were qualified for the next round. • Murder mystery Round: `3’ questions related to Murder Mystery and pictorial information were posed to be solved within minimum time. The five teams were qualified for the final round. • Working Model Round (Final): The qualified teams were supplied certain components and were asked to built-up functional model out of the component given only. The `3’ teams built-up the functional model within least time declared first, second & third prize winners as listed below;"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "1st | Siddhant Singh Sneha Gupta ShubhamVerma | EN | Cash Prize Rs. 1200\n2nd | Jai Prakash Narayan Pandey AishwaryaPratap Singh AshutoshPandey | EC EC CS | Cash Prize Rs. 800\n3rd | YashSingh AanchalChaurasia | EC CS | Cash Prize Rs. 500"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "ROBOCLASH"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Team OORJA organized a bot battle event “ROBOCLASH\" for students to grandstand their ability of robot fabrication and handling."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Two roles were assigned: a defender and an attacker. Attacker had to choose between two paths, one was full of hurdles and other was a maze, and defeat the defender by entering into the flagzone and hit the three flags. Each flag was assigned some points. The time limit for each team was 5 minutes."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "The results of 'ROBOCLASH 2017' are as follows-"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Team AAA"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "Aniruddh Mittal | 1540142 | ME | 2\nAniket Agarwal | 1540141 | ME | 2\nAbhishek Dubey | 1540134 | ME | 2"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Team Trail Blazers"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "Sumit Kumar Yadav | 1640088 | ME | 1\nRajat Singh | 1631027 | EC | 1\nShubham Sharma | 1640104 | ME | 1"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Team Boney Eagles"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "Jalaj Gupta | 1631021 | EC | 1\nPrateek Tyagi | 1631142 | EC | 1\nAmritansh Yadav | 1610012 | CS | 1\nKumar Kirtimaan | 1521114 | EN | 2"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "ROBOTRIX"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "The three core technical societies of AKGEC namely OORJA, PHOENIX, and SAMVEG conducted 'ROBOTRIX’ , an annual workshop on manual and autonomous robots."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "This workshop is annually conducted by all the three societies together, with emphasis on basics of manual and autonomous robotics.."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "The workshop had witnessed wide participation form first year students with great zeal and enthusiasm."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "EXUBRENZA"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Team OORJA organized 'EXUBRENZA'- a Technical Working Model Presentation & Demonstration encourage young minds to come up with innovative ideas and their implementation."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Dr. Bhupal Singh HoD (EN department) along with Prof. V.K.Parashar, Dean Students Welfare and Prof. I.P. Sharma, HoD (ME Department), graced the occasion with their presence during the event."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "The event comprised of set of two rounds: the first round was synopsis submission in which 40 teams participated out of which 26 qualified, were for the final round. Large number of students from all the years and disciplines, had shown interest and visited the event."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "The following faculty members adjudicated at the competition:"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "Dr. Bhupal Singh"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "HoD, EN Department"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "Mr. Atul Sood"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "EN Department"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "Dr. Purohit"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "EC Department"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "The following teams were declared prize winners:"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "Position | Name of project | Cash Prize\n1st | Identification of Friend and Foe Pratyush Singh EC/2nd year Prakhar Dixit EC/2nd year Shashank Shekhar IT/2nd year Priyanshu Gupta EC/2nd year | 2000\nPratyush Singh | EC/2nd year\nPrakhar Dixit | EC/2nd year\nShashank Shekhar | IT/2nd year\nPriyanshu Gupta | EC/2nd year\n2nd | Incarnate the Virtual into Reality Surbhika Rastogi EC/3rd year Saurabh Singh EC/3rd year | 1500\nSurbhika Rastogi | EC/3rd year\nSaurabh Singh | EC/3rd year\n3rd | Food Ordering App Ashutosh Kumar Singh CS/2nd year Avinash Rai CS/2nd year Ankit Gupta CS/2nd year Aman Agarwal CS/2nd year | 1000\nAshutosh Kumar Singh | CS/2nd year\nAvinash Rai | CS/2nd year\nAnkit Gupta | CS/2nd year\nAman Agarwal | CS/2nd year"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "QUADMANIA"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "The two core technical societies of AKGEC namely Oorja and Samveg conducted a workshop on ‘Quadrotor – Fundamentals and Design’ for 2nd, 3rd and 4th year students."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "The workshop was held in the college for the very first time and it was a great success. With perfect coordination of the two societies and the teaching skills of resource persons the basic skills of Quadcopter were imparted to more than 200 students."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "There were a few students who worked further and made a quadcopter of their own which was further presented to DSW Prof. V. K. Parashar in the event Exubrenza."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "ROBORODENTIA"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Team OORJA successfully organized ROBORODENTIA – A Manual Robot Racing Competition on Wednesday, 06thApril 2016 to instill in students the importance of robotics and its working. It also encouraged students to take part in various robotics and other related events at national level."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "The event was organized under the guidance of Dr. Bhupal Singh, HoD EN Department along with the faculty coordinator of OORJA society, Astt. Prof. Dinanath Prasad. A total of 27 teams participated in the event with their manually controlled ROBOT that had capacity to cover maximum distance in shortest possible time, challenging the hurdles and be one of the best opponents."
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "The event was a great success with all the teams showing utmost zeal and enthusiasm. The event was successful in instilling innovative thinking and technical acumen among all the students of the college. In the event students from all the years and disciplines came in large numbers and the participation of many senior students also made the event successful."
+    }
+  ],
+  "text": "OORJA\n\n\nHome\n\nFaculty\n\nLabs\n\nAchievements\n\nSociety\n\nDepartmental Activities\n\nIntroduction\n\n“OORJA” is the technical Society of Electrical & Electronics Engineering students. The society was established on 21stJan 2006, to enhance techno-managerial skills of the students and bring laurels to department and college through innovative ideas, conducting events like workshops, model building competitions and technical quizzes.\n\nActivities/Events\n\nKSHITIJ — THE DAWN OF POSSIBILITIES (One-Day Workshop on Sensors, NI LabVIEW, PLC and Embedded Systems)\n\nKshitij – The Dawn of Possibilities was a one-day workshop held on on 25 August 2026 in CS-IT Seminar Hall, organised by Team Oorja, the technical society of the Department of Electrical and Electronics Engineering, AKGEC. The workshop was designed to give participants a single-day, end-to-end view of how modern industrial and embedded systems are built — beginning with how sensors capture the physical world, moving through NI LabVIEW as a graphical measurement and control platform, into the Programmable Logic Controller (PLC) as the backbone of industrial automation, and finally into embedded systems that tie sensing, computation and connectivity together.\n\nThe inaugural address was marked by the presence of esteemed faculty members of the Department of Electrical and Electronics Engineering and our society faculty incharge M/s Nupur Mittal along with the Head of Department Dr. Lokesh Varshney, whose encouragement set an enthusiastic tone for the day ahead.\n\nSession 1 — Sensors: The Eyes and Ears of Modern Technology The day opened with a session on sensors, led by team members Manish and Chirag. The session introduced sensors as the bridge between the physical world and electronic control, following the core engineering pattern of physical quantity → sensor → signal → controller → action. Participants were walked through everyday sensing devices such as the DHT11 temperature-and-humidity module and the PIR motion sensor, followed by soil-moisture and photoelectric sensors used in irrigation and industrial inspection.\n\nSession 2 — NI LabVIEW: From Graphical Programming to Real-World Systems Engineering The second session was led by the team of Priyanshi, Saanvi, Himanshu and Aniket, and introduced participants to National Instruments LabVIEW as a graphical programming and systems-engineering platform used for test, measurement, data acquisition, hardware control and automation. Starting from an engineering problem of testing an electric motor, the speakers explained the concept of a Virtual Instrument (VI) — combining a front panel, block diagram, and icon/connector pane — and how a computer with LabVIEW and appropriate hardware becomes a customised instrument in its own right.\n\nSession 3 — PLC: The Programmable Logic Controller The third session, conducted by the team of Swapnil, Arjun and Tanmay, took participants through the evolution and working of the Programmable Logic Controller. The session began by placing automation in everyday context before tracing its history from manual control and pneumatic systems through hardwired relay logic to modern, software-based, reprogrammable PLCs — illustrated with a live example of a relay-based star-delta starter panel and the wiring complexity it once demanded.\n\nSession 4 — Embedded Systems The concluding technical session was led by the team of Akshara, Akshita, Nikhil and Gaurav, and focused on embedded systems, covering the basics of Arduino and ESP32 as platforms where sensing, computation and connectivity converge. Building on the concepts introduced earlier in the day, the session covered the working of microcontrollers, their programming, and how embedded platforms integrate sensors and communication modules to build complete, responsive systems. Participants were introduced to the basics of Arduino programming, including simple LED blinking and push-button interfacing activities. The session also covered the basics of ESP32, its Wi-Fi connectivity, and basic programming through an LED blinking example. These activities gave participants a practical understanding of how sensing, control logic, programming and connectivity come together inside an embedded device to sense, decide and act in real time.\n\nTECHNOVERSE – Technical Innovation Competition\n\nTechnoverse is a technical innovation competition organized to promote creativity, innovation, teamwork, and problem-solving skills among students. The event served as an excellent platform for participants to showcase their technical expertise by developing innovative solutions for real-world challenges. It encouraged students to explore modern technological trends and propose impactful ideas across multiple engineering and technology domains.\n\nThe event was successfully conducted on 11th April and was organized by Oorja Society in collaboration with IAS (Industry Applications Society), PES (Power and Energy Society), and WIE (Women in Engineering) Student Branch Chapter. The competition witnessed enthusiastic participation from multiple teams who presented innovative ideas, prototypes, and technical solutions based on defined problem statements.\n\nObjectives of the Event The primary objectives of Technoverse were: • To promote innovation and technical creativity among students • To encourage teamwork and collaborative learning • To provide exposure to emerging and modern technology domains • To develop practical and implementable solutions for real-life problems • To enhance presentation, ideation, and problem-solving skills • To identify and encourage promising innovations\n\nEvent Domains Technoverse was conducted across multiple domains to ensure wide participation and coverage of diverse technological areas. The teams participated in the following domains: 1. Smart Energy and Power Systems 2. Embedded Systems and Internet of Things (IoT) 3. Drone Technology 4. Sustainable and Green Energy 5. Software Solutions 6. Open Innovation Each domain consisted of unique and application-oriented problem statements that challenged the participants’ creativity and technical capabilities.\n\nParticipation Details A total of 18 teams participated in the Technoverse competition. Each team worked with dedication and enthusiasm to develop unique solutions and demonstrate their technical creativity. The competition received an excellent response from students across various domains.\n\nAlong with teams from our institution, several teams from other colleges also participated, making the event more competitive and providing a wider platform for inter-college innovation and knowledge exchange. This diverse participation enhanced the overall learning experience and encouraged healthy technical competition among students.\n\nHighlights of the Event Some major highlights of Technoverse included: • Active participation of 18 teams across multiple technical domains • Innovative projects focusing on smart systems and sustainable technologies • Impressive prototypes in IoT, embedded systems, energy systems, and software development • Strong emphasis on sustainable and green energy solutions • A competitive and motivating learning environment\n\nWinners\n\nPosition | Team Name | Team Members\n1 st Prize | Vasudev | 1 Nishit kumar Prajapati 2 Pranav Raj 3 Kritarth Tiwari\n2 nd Prize | Commit | 1 Rishant gupta 2 Aaditya pratap singh 3 Aashika sahu 4 Prafull sharma\n3 rd Prize | Flux | 1 Mrigank Raj 2 Prince 3 Pradeep singh 4 Ankit Kumar yadav\nBest Innovation | Nextronix | 1 Sparsh Trivedi 2 Aman Singh\nWomen in Tech | Commit | 1 Aashika sahu\nBest Social Impact | AgriPulse | 1 Deepak Kumar 2 Samarth Rana 3 Priyanshu Yadav 4 Shreyash Rai\n\nCode2 Ctrl (2-day Workshop on Embedded System and IoT Workshop)\n\nDate: 10 Nov,2025 Venue: CS-IT Seminar Hall\n\nThe workshop is based on Embedded system and Internet of things, by Team Oorja, the society of Dept. of Electrical and Electronics. In the workshop day-1 dedicated to Microcontroller and Microprocessor and their Programming language with follow on day-2 is on internet protocol. The event had massive success and the enthusiasm by the participant was exceptional. The workshop theme is to educate students how controllers work and programmed and how sensors work. The participants also awarded with certification of 2- day workshop and hands-on.\n\nDay 1: The session was started with Warm-welcoming of participants and our Faculty in-charge by our speakers Nandini and Manish.\n\nMicroprocessor v/s Microcontroller: The session is based on how microprocessor invent and their evolution throughout the years, how they compute and works and how they are different from Microcontroller. The session was taken by the club members Ayush and Sachin. Their hard work reflects toward participants how the mechanical computation changes to electrical and fast computation.\n\nArduino and It’s working: Arduino the basic microcontroller available in the market for embedded project which controls the microworld and do specific task. The session was taken by team member Gaurav and Nachiketan. The session includes the architecture of Arduino their pin diagrams and the simulation of basic project with their programming. Hands-on also included to give better experience to participants.\n\nSensor and their applications: Sensor is the basic and most import thing in the world of embedded system as it works as bridge between physical world and electronics. The session was full of know how it integrates it with controllers and their working principal. The session volunteers are Amrit and Jana Bikram which make session fun and interactive as they show real practical of all the basic day to day use sensors.\n\nRaspberry Pi: The powerful microcontroller in the world of embedded system, it is a single board computer which operates multitasking. The session was taken by our team 3rd year member Ashish Thakur. The session follows day-2 also as the session was so interactive that make participants make eager to know more about pi and its features.\n\nFun activity: Day-1 wrap-up with fun activity and playing games which is made up on microcontrollers and integrating others microelectronics which helps to introduces student about more of controllers and processor how it works and have fun with it. The games include Ping-Pong competition among the participants.\n\nDay-2: The day-2 follow on with full of enthusiasm of our participants and volunteers. The eager to get know more about controllers boost the energy and lit-up the environment of seminar hall. The session was inaugurated with our speaker Jaanvi and Arjun.\n\nLibraries and IDE: The session inaugurates the day-2 of the workshop. The session includes basic libraries of sensors and motors, how to integrate external circuits and their individual libraries required to make them work. The was session was so interesting that it lit-up the participants to work on the project and our volunteers Gaurav and Nachiketan also makes hands-on to them. Also introduce their coding language embedded c and Micropython and their IDEs.\n\nEsp32 and Real-life application: The session was full of interaction on how esp32 is different from other microcontrollers in the market as it comes up with in-built touch, temperature, hall effect sensor and also with in-built Wi-Fi and BLE. The session was taken by Nikhil and Nagesh who also demonstrate the in-built touch sensor which amaze the participants and the connectivity of internet in the controller. They also simulate the real-life motion light sensing application.\n\nThe session was all about communication of controller and user, how sensor actuate data and sent it to user through internet protocol https. The session was taken by Ayush; the session comes up with one practical demo of https protocol of light blinking.\n\nBlynk IoT: The session was on free user-friendly dashboard to communicate with microcontroller and control the data through dashboard. The session was taken by Nikhil and follow on with one demo of controlling light through dashboard.\n\nQuiz: The quiz session was the interesting part of the session as it checks the knowledge of participants about what they digest from the workshop and also it showcases the volunteer’s results, The session fun and interactive. The quiz winners also get rewards by Head of Department, Dr. Lokesh Varshney.\n\nFun Activity: The closing ceremony of the workshop was done with two fun games based on Bluetooth communication of controlling the car and small goal-keeping game which integrates servo motor and joystick to control the keeper as all these games are developed by team to make event more knowledgeable and interactive.\n\nMicro Master\n\nThe workshop “Micro Master\" on the Atmega8A microcontroller was conducted on 13th April 2024. A total of 55 students from the 1st and 2nd years participated in the workshop, displaying a high level of interest. The workshop focused on providing students with comprehensive knowledge and practical skills in programming and interfacing related to the Atmega8A microcontroller. The workshop successfully provided students with valuable insights into the practical applications of the Atmega8A microcontroller and encouraged them to apply their theoretical knowledge to real-world projects and competitions. The event showcased the commitment and enthusiasm of the students in embracing technological advancements and honing their practical skills.\n\nTechbrawl Workshop\n\nOorja Society organized a workshop on 23rd September 2023. It was a captivating workshop as it received massive participation from students of all the Departments. Students were asked to register for the workshop through Google form online and a total 56 registration were made and later participants were asked to make a team of 2 members for the hands-on session which was after the Theoretical Session.\n\nThe workshop consisted of two sessions, which were: • Theoretical Session • Hands-on Session\n\nTheoretical Session In the Theoretical session, the members of team Oorja gave the students knowledge of sensors, how they work, and how they can use them in various parts of their life. They also gave information about the process of making projects using various sensors and what components are used and the knowledge about the components with the programming part applied in a sensor project. Students also had the privilege to go through some sensor equipment. The Theoretical Session was about 3 hours after that we had the hands-on session.\n\nHands-on Session The Hands-on Session was for the students to have a real experience of how a sensors works and how they can use it. In the workshop, they were provided with the equipment by which they had to make their own sensor project which everyone succeeded. The hands-on session gave students a better experience of what they learned in the theoretical.\n\nCompetition The competition round was an engaging experience as everyone was split into teams of two and assigned a task. The task was to correctly connect the pins of the Arduino microprocessor, and the extra challenge was to create a working model of an ultrasonic sensor. Whichever team finished the task first would win the prize. Following were the winners:\n\n1st Position Vishwanath Negi 2nd Position Nikesh Yadav, Adhiraj Tomar 3rd Position Nikesh Yadav, Adhiraj Tomar\n\nGLEAM Event\n\nOorja Society organized an event named GLEAM on 21 April’23, which was a great success with a total of 53 teams participating in the event. The event was divided into three rounds, which tested the participants' knowledge, skills, and technical expertise. • Round 1: Quiz Round The first round of the event was a quiz round in which the participants had to solve four quizzes. The quiz questions were based on various topics. Out of the 53 teams, 24 teams qualified for the next round. • Round 2: Game Round The second round was a game round, and each participant had to play four games within one minute. The games included Dart, Jenga, Boggle, and Spot the Difference. It was played simultaneously by all 4 members of the team and the scores of all four games were added to determine the final score. This round was tough, and the participants had to show their skills to qualify for the next round.\n\n• Round 3: Technical Round The third round was a surprise round, 7 teams qualified for this round and the participants were given one MCQ to solve. After solving the question, the participants were asked to implement the solution on a breadboard. This round was a technical round, and the participants had to show their technical skills and expertise to qualify for the top position. This round was tough, and only the best teams could perform well and qualify for the top position.\n\nWinners of GLEAM\n\nAfter the completion of all three rounds, the winners of the GLEAM event were announced. The team who completed the circuit within a given time was declared the winner.\n\nTeam Name | Position | Team Members | Branch | Year\nOutlaws | 1 st Position | Rohan Maurya | CSE | 2 nd\nSwati Verma | CSE | 2 nd\nSatyendra Srivastava | CSE | 2 nd\nJanhavi Verma | CSE AIML | 2 nd\nTrailblazers | 2 nd Position | Akshat Singh | CSIT | 1 st\nSagar Singh | CS | 1 st\nAtul Shukla | IT | 1 st\nVarun Pandey | ECE | 1 st\nFabFour | 3 rd Position | Yashaswi Sharma | ECE | 3 rd\nUjjwal Kumar | ECE | 3 rd\nYash Kumar Saxena | ECE | 3 rd\nTushar Sharma | ECE | 3 rd\n\nROBOIGNITOR 2.0\n\nOn 5th November 2022 a workshop “ROBOIGNITOR 2.0” was organised by OORJA SOCIETY in our college. It was a captivating workshop as it received massive participation from students of the all departments. Students were asked to register for the workshop through Google form online and a total 57 registration were made, later 48 participants attended the workshop. Participants were distributed to make a team of 6 members for the hands-on session which was after the Theoretical Session.\n\nThe workshop began with warm welcome with an introduction to the events organised by the Team Oorja over the past few years. Then a brief introduction about the workshop Roboignitor.\n\nThe workshop consisted of two sessions, which were; • Theoretical Session • Hands-on Session\n\nTheoretical Session\n\nIn the Theoretical session, the members of team Oorja gave the students knowledge of Robots, how they work, and how they can use them in various parts of their life. They also gave information about the process of making a Voice Recognition Robot and what components are used and the knowledge about the components with the programming part applied in the robot. Students also had the privilege to go through some Robot equipment. The Theoretical Session was about 3 hours after that we had the hands-on session.\n\nHands-on Session\n\nThe Hands-on Session was for the students to have a real experience of how a robot works and how they can use it. In the workshop, they were provided with the equipment by which they had to make their own Robot which everyone succeeded. The hands-on session gave students a better experience of what they learned in the theoretical session.\n\nSOLARDECK (Seminar cum hands-on workshop on Solar Application)\n\nOn 3rd March,2022 a workshop was organized in our college in collaboration with LOOM SOLAR. It was a captivating workshop as it received massive participation from students of the EN Department. Students were asked to register for the workshop through Google form online and later were asked to make a team of 4 members for the hands-on session which was after the workshop.\n\nThe workshop began with welcoming and introducing the guests of LOOM SOLAR followed by the words from Dr Hemant Ahuja Sir (HoD EN Department), The guests of honor were Mr. Amod Anand (Director – Loom Solar Pvt Ltd) Mr. Nishi Chandra (Head – Marketing) Mr. Abhishek Rathore (Head – New Product Development) and also an alumnus of AKGEC.\n\nThe workshop consisted of two sessions, which were; • Theoretical Session • Hands-on Session\n\nTheoretical Session\n\nIn the Theoretical session, the people of LOOM SOLAR gave our students knowledge regarding Solar panels, how they work, how they can use them in their daily life etc. They also gave information about how to build your startup from core electrical engineering. Students also had the privilege to go through some solar equipment.\n\nHands-on Session\n\nThe Hands-on Session was for the students to have a real experience of how a solar panel works and how they can use it. In the workshop, they were provided with the equipment by which they had to light a mini tube light which everyone succeeded and all were inspected by our guests. The hands-on session gave students a better experience of what they learned in the theoretical session.\n\nROBOIGNITOR\n\nOn 20th February 2022 a workshop was organized in our college. This workshop was organized for the 1st year students of all branches. Students were asked to get registered online via Google form. Around 20 students were shortlisted to take part in the workshop.\n\nThe idea of conducting this workshop was to make them aware of the various types of robots and their functioning. It was about gaining hands-on experience with the robots.\n\nAt first, the theoretical aspect was shared and then the practical demonstration was given to the students. The 1st year students were asked to make ‘WIFI-Controlled RC CAR’. Student mentors were assigned for guiding the participants in the practical demonstration.\n\nWe were overwhelmed by the participation of students and really enjoyed it a lot and dispersed with a sincere hope that such interactive workshops should be organized again by giving the students a chance to display their talents and gain knowledge.\n\nEFFULGENCE\n\nOn 26th October 2021, a technical, as well as non-technical event, was organized in our college. It was an enthralling event as it received massive participation of students from various departments of all three years. More than 100 teams participated.\n\nIt included three rounds, namely: ● Scavenger Hunt ● Picture Puzzle with Crossword ● Surprise Round\n\nScavenger Hunt round included two sub-rounds 1-A & 1-B.\n\nIn Round 1-A, participating teams were given a list of 5 items and were asked to collect them within the stipulated time. In Round 1-B, participants were asked to find 5 flags of different colors in a given sequence, which were hidden on the college campus by the team Oorja itself.\n\nIn Round 2, a puzzle of electrical components was given with a crossword. Participants were asked to solve the puzzle by putting the correct pieces in place. Out of 12 teams, first 5 teams who completed the round were taken to the last and final surprise round.\n\nIn Round 3, electrical components were provided. The participants were asked to make a working & well-presentable model. The team who completed the circuit within a given time was declared the winner.\n\nTEAM NAMES | POSITION | TEAM MEMBERS | BRANCH | YEAR\nTEAM SPARTANS | 1 | Vibhuti | ECE | 4\nUtkarsh | ECE | 4\nYash | ECE | 3\nTEAM FRIENDS | 2 | Abhinav Kumar | AI&ML | 2\nKumari Deeksha | AI&ML | 2\nAniket Thakur | CSE | 2\nTEAM ENVY | 3 | Anishkha Chaudhary | CS | 2\nKeertiker Singh | CE | 2\nKushagra Tyagi | IT | 2\n\nWe are overwhelmed by the participation of students hoping that such interactive events will be organized again giving the students a chance to display their talents.\n\nEFFULGENCE\n\nOne event was organized by Oorja Society during the Odd Semester 2019-20. The details of which are as follows: Event Name: Effulgence Venue: Near ME Lawn Date: 08.11.2019 No. of participant : 80 students Type of Event : Team (2 to 3 students per team) Event consists of `3’ rounds:\n\n• Questionnaire Round: Questions of domains like Science, Riddles and Netflix and Picture were asked which lasted for 30 minutes. The fourteen teams with highest score and minimum response time were qualified for the next round. • Murder mystery Round: `3’ questions related to Murder Mystery and pictorial information were posed to be solved within minimum time. The five teams were qualified for the final round. • Working Model Round (Final): The qualified teams were supplied certain components and were asked to built-up functional model out of the component given only. The `3’ teams built-up the functional model within least time declared first, second & third prize winners as listed below;\n\n1st | Siddhant Singh Sneha Gupta ShubhamVerma | EN | Cash Prize Rs. 1200\n2nd | Jai Prakash Narayan Pandey AishwaryaPratap Singh AshutoshPandey | EC EC CS | Cash Prize Rs. 800\n3rd | YashSingh AanchalChaurasia | EC CS | Cash Prize Rs. 500\n\nROBOCLASH\n\nTeam OORJA organized a bot battle event “ROBOCLASH\" for students to grandstand their ability of robot fabrication and handling.\n\nTwo roles were assigned: a defender and an attacker. Attacker had to choose between two paths, one was full of hurdles and other was a maze, and defeat the defender by entering into the flagzone and hit the three flags. Each flag was assigned some points. The time limit for each team was 5 minutes.\n\nThe results of 'ROBOCLASH 2017' are as follows-\n\nTeam AAA\n\nAniruddh Mittal | 1540142 | ME | 2\nAniket Agarwal | 1540141 | ME | 2\nAbhishek Dubey | 1540134 | ME | 2\n\nTeam Trail Blazers\n\nSumit Kumar Yadav | 1640088 | ME | 1\nRajat Singh | 1631027 | EC | 1\nShubham Sharma | 1640104 | ME | 1\n\nTeam Boney Eagles\n\nJalaj Gupta | 1631021 | EC | 1\nPrateek Tyagi | 1631142 | EC | 1\nAmritansh Yadav | 1610012 | CS | 1\nKumar Kirtimaan | 1521114 | EN | 2\n\nROBOTRIX\n\nThe three core technical societies of AKGEC namely OORJA, PHOENIX, and SAMVEG conducted 'ROBOTRIX’ , an annual workshop on manual and autonomous robots.\n\nThis workshop is annually conducted by all the three societies together, with emphasis on basics of manual and autonomous robotics..\n\nThe workshop had witnessed wide participation form first year students with great zeal and enthusiasm.\n\nEXUBRENZA\n\nTeam OORJA organized 'EXUBRENZA'- a Technical Working Model Presentation & Demonstration encourage young minds to come up with innovative ideas and their implementation.\n\nDr. Bhupal Singh HoD (EN department) along with Prof. V.K.Parashar, Dean Students Welfare and Prof. I.P. Sharma, HoD (ME Department), graced the occasion with their presence during the event.\n\nThe event comprised of set of two rounds: the first round was synopsis submission in which 40 teams participated out of which 26 qualified, were for the final round. Large number of students from all the years and disciplines, had shown interest and visited the event.\n\nThe following faculty members adjudicated at the competition:\n\nDr. Bhupal Singh\n\nHoD, EN Department\n\nMr. Atul Sood\n\nEN Department\n\nDr. Purohit\n\nEC Department\n\nThe following teams were declared prize winners:\n\nPosition | Name of project | Cash Prize\n1st | Identification of Friend and Foe Pratyush Singh EC/2nd year Prakhar Dixit EC/2nd year Shashank Shekhar IT/2nd year Priyanshu Gupta EC/2nd year | 2000\nPratyush Singh | EC/2nd year\nPrakhar Dixit | EC/2nd year\nShashank Shekhar | IT/2nd year\nPriyanshu Gupta | EC/2nd year\n2nd | Incarnate the Virtual into Reality Surbhika Rastogi EC/3rd year Saurabh Singh EC/3rd year | 1500\nSurbhika Rastogi | EC/3rd year\nSaurabh Singh | EC/3rd year\n3rd | Food Ordering App Ashutosh Kumar Singh CS/2nd year Avinash Rai CS/2nd year Ankit Gupta CS/2nd year Aman Agarwal CS/2nd year | 1000\nAshutosh Kumar Singh | CS/2nd year\nAvinash Rai | CS/2nd year\nAnkit Gupta | CS/2nd year\nAman Agarwal | CS/2nd year\n\nQUADMANIA\n\nThe two core technical societies of AKGEC namely Oorja and Samveg conducted a workshop on ‘Quadrotor – Fundamentals and Design’ for 2nd, 3rd and 4th year students.\n\nThe workshop was held in the college for the very first time and it was a great success. With perfect coordination of the two societies and the teaching skills of resource persons the basic skills of Quadcopter were imparted to more than 200 students.\n\nThere were a few students who worked further and made a quadcopter of their own which was further presented to DSW Prof. V. K. Parashar in the event Exubrenza.\n\nROBORODENTIA\n\nTeam OORJA successfully organized ROBORODENTIA – A Manual Robot Racing Competition on Wednesday, 06thApril 2016 to instill in students the importance of robotics and its working. It also encouraged students to take part in various robotics and other related events at national level.\n\nThe event was organized under the guidance of Dr. Bhupal Singh, HoD EN Department along with the faculty coordinator of OORJA society, Astt. Prof. Dinanath Prasad. A total of 27 teams participated in the event with their manually controlled ROBOT that had capacity to cover maximum distance in shortest possible time, challenging the hurdles and be one of the best opponents.\n\nThe event was a great success with all the teams showing utmost zeal and enthusiasm. The event was successful in instilling innovative thinking and technical acumen among all the students of the college. In the event students from all the years and disciplines came in large numbers and the participation of many senior students also made the event successful.",
+  "character_count": 29033
+}

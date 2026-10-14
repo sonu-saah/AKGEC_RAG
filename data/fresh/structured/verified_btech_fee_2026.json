@@ -1,0 +1,26 @@
+{
+  "title": "AKGEC B.Tech First Year Fee Structure 2026-27",
+  "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/07/BTech1Yr.pdf",
+  "academic_year": "2026-27",
+  "course": "B.Tech",
+  "year": 1,
+  "fee_details_inr": {
+    "registration": 1500,
+    "tuition_and_development": 111256,
+    "medical": 1500,
+    "book_bank": 2900,
+    "activity_one_time": 10000,
+    "career_planning_placement_one_time": 10000,
+    "refundable_caution_money": 5000
+  },
+  "college_fee_total_inr": 142156,
+  "university_fees_separate_inr": {
+    "examination": 7500,
+    "digital_library": 700
+  },
+  "notes": [
+    "University fees are paid separately as demanded.",
+    "Counselling deposit is deducted from the total college fee.",
+    "Fees are subject to change."
+  ]
+}

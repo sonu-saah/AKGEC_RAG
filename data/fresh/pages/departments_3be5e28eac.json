@@ -1,0 +1,54 @@
+{
+  "title": "DEPARTMENTS - AJAY KUMAR GARG ENGINEERING COLLEGE",
+  "url": "https://www.akgec.ac.in/departments/",
+  "section": "DEPARTMENTS",
+  "blocks": [
+    {
+      "type": "heading",
+      "tag": "h1",
+      "text": "DEPARTMENTS"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Applied Sciences & Humanities"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Electronics and Communication Engineering"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Mechanical Engineering"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Civil Engineering"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Electrical and Electronics Engineering"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Computer Science and Engineering"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Information Technology"
+    },
+    {
+      "type": "paragraph",
+      "tag": "p",
+      "text": "Master of Computer Applications"
+    }
+  ],
+  "text": "DEPARTMENTS\n\n\nApplied Sciences & Humanities\n\nElectronics and Communication Engineering\n\nMechanical Engineering\n\nCivil Engineering\n\nElectrical and Electronics Engineering\n\nComputer Science and Engineering\n\nInformation Technology\n\nMaster of Computer Applications",
+  "character_count": 260
+}

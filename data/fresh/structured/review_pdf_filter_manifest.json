@@ -1,0 +1,99 @@
+[
+  {
+    "title": "Year 2025-26",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2025/04/Year-2025-26.pdf",
+    "extracted_json": "data\\fresh\\pdf_data\\947cabdfd0_Year-2025-26.json",
+    "total_pages": 5,
+    "selected_pages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "status": "pending_content_validation",
+    "historical_reference": true
+  },
+  {
+    "title": "AKGEC User Manual",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/01/User-Manual-AKGEC_14.01.2026.pdf",
+    "extracted_json": "data\\fresh\\pdf_data\\83e89c34dc_User-Manual-AKGEC_14.01.2026.json",
+    "total_pages": 23,
+    "selected_pages": [
+      2,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "status": "pending_content_validation",
+    "historical_reference": false
+  },
+  {
+    "title": "Programs for Advanced and Slow Learners",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2025/01/2.2.1_2023-24.pdf",
+    "extracted_json": "data\\fresh\\pdf_data\\5e2b1b6cb7_2.2.1_2023-24.json",
+    "total_pages": 80,
+    "selected_pages": [
+      1
+    ],
+    "status": "pending_content_validation",
+    "historical_reference": true
+  },
+  {
+    "title": "Experiential Learning",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2025/01/2.3.1_2023-24.pdf",
+    "extracted_json": "data\\fresh\\pdf_data\\63030d1e91_2.3.1_2023-24.json",
+    "total_pages": 25,
+    "selected_pages": [
+      1,
+      22,
+      23,
+      24,
+      25
+    ],
+    "status": "pending_content_validation",
+    "historical_reference": true
+  },
+  {
+    "title": "Mechanism of internal assessment",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2025/01/2.5.1_2023-24.pdf",
+    "extracted_json": "data\\fresh\\pdf_data\\e62e98936a_2.5.1_2023-24.json",
+    "total_pages": 47,
+    "selected_pages": [
+      1,
+      2,
+      11,
+      12,
+      13,
+      14
+    ],
+    "status": "pending_content_validation",
+    "historical_reference": true
+  },
+  {
+    "title": "Mechanism to deal with internal examination related grievances",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2025/01/2.5.2_2023-24.pdf",
+    "extracted_json": "data\\fresh\\pdf_data\\e2c19f049e_2.5.2_2023-24.json",
+    "total_pages": 14,
+    "selected_pages": [
+      1
+    ],
+    "status": "pending_content_validation",
+    "historical_reference": true
+  }
+]

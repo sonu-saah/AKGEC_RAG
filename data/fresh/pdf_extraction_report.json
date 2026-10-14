@@ -1,0 +1,175 @@
+{
+  "processed": 21,
+  "failed": 0,
+  "completed": [
+    {
+      "title": "NIRF DATA FOR RANKING 2026 - ENGINEERING",
+      "section": "ABOUT",
+      "output": "data\\fresh\\pdf_data\\2e5c6f7442_NIRF2026.json",
+      "total_pages": 12,
+      "ocr_pages": 0,
+      "review_pages": 0
+    },
+    {
+      "title": "Year 2026-27",
+      "section": "ABOUT",
+      "output": "data\\fresh\\pdf_data\\d067dacf90_AICTEApprovalYear-2026-27.json",
+      "total_pages": 5,
+      "ocr_pages": 0,
+      "review_pages": 0
+    },
+    {
+      "title": "Mandatory Disclosure 2026-27",
+      "section": "CENTRES OF EXCELLENCE",
+      "output": "data\\fresh\\pdf_data\\e41d17299d_AKGEC-Mandatory-Disclosure-_2026-27.json",
+      "total_pages": 93,
+      "ocr_pages": 24,
+      "review_pages": 1
+    },
+    {
+      "title": "Academic-Calendar-2026-27-Odd",
+      "section": "ACADEMICS",
+      "output": "data\\fresh\\pdf_data\\aee75be87c_Academic-Calendar-2026-27-Odd.json",
+      "total_pages": 1,
+      "ocr_pages": 1,
+      "review_pages": 0
+    },
+    {
+      "title": "Academic-Calendar-2026-27-1st-Year",
+      "section": "ACADEMICS",
+      "output": "data\\fresh\\pdf_data\\2619a59a4f_Academic-Calendar-2026-27-1st-Year.json",
+      "total_pages": 1,
+      "ocr_pages": 1,
+      "review_pages": 0
+    },
+    {
+      "title": "List-of-Holidays-2026",
+      "section": "ACADEMICS",
+      "output": "data\\fresh\\pdf_data\\0957c01a02_List-of-Holidays-2026.json",
+      "total_pages": 2,
+      "ocr_pages": 0,
+      "review_pages": 0
+    },
+    {
+      "title": "B-Tech-IInd-to-IV-th-Year-with-lateral-Entry-2026-27_0001",
+      "section": "ADMISSIONS",
+      "output": "data\\fresh\\pdf_data\\2701e2500b_B-Tech-IInd-to-IV-th-Year-with-lateral-Entry-2026-27_0001.json",
+      "total_pages": 1,
+      "ocr_pages": 1,
+      "review_pages": 0
+    },
+    {
+      "title": "B-Tech-IInd-to-IVth-yaer-FW-2026-27_0001",
+      "section": "ADMISSIONS",
+      "output": "data\\fresh\\pdf_data\\d6d857600a_B-Tech-IInd-to-IVth-yaer-FW-2026-27_0001.json",
+      "total_pages": 1,
+      "ocr_pages": 1,
+      "review_pages": 0
+    },
+    {
+      "title": "MCA-II-YEAR-2026-27_0001",
+      "section": "ADMISSIONS",
+      "output": "data\\fresh\\pdf_data\\fe8dfbd8fc_MCA-II-YEAR-2026-27_0001.json",
+      "total_pages": 1,
+      "ocr_pages": 1,
+      "review_pages": 0
+    },
+    {
+      "title": "MCA-II-YEAR-FW-2026-27_0001",
+      "section": "ADMISSIONS",
+      "output": "data\\fresh\\pdf_data\\31cb72b99f_MCA-II-YEAR-FW-2026-27_0001.json",
+      "total_pages": 1,
+      "ocr_pages": 1,
+      "review_pages": 0
+    },
+    {
+      "title": "BTech1Yr",
+      "section": "ADMISSIONS",
+      "output": "data\\fresh\\pdf_data\\5dcf30f410_BTech1Yr.json",
+      "total_pages": 1,
+      "ocr_pages": 1,
+      "review_pages": 0
+    },
+    {
+      "title": "B.Tech1YrFW",
+      "section": "ADMISSIONS",
+      "output": "data\\fresh\\pdf_data\\190872af1b_B.Tech1YrFW.json",
+      "total_pages": 1,
+      "ocr_pages": 1,
+      "review_pages": 0
+    },
+    {
+      "title": "B.TechIIYrLateral-new",
+      "section": "ADMISSIONS",
+      "output": "data\\fresh\\pdf_data\\7412e849ae_B.TechIIYrLateral-new.json",
+      "total_pages": 1,
+      "ocr_pages": 1,
+      "review_pages": 0
+    },
+    {
+      "title": "MCA1Yr",
+      "section": "ADMISSIONS",
+      "output": "data\\fresh\\pdf_data\\2ec6d47def_MCA1Yr.json",
+      "total_pages": 1,
+      "ocr_pages": 1,
+      "review_pages": 0
+    },
+    {
+      "title": "MCA1YrFW",
+      "section": "ADMISSIONS",
+      "output": "data\\fresh\\pdf_data\\1fc45b79f9_MCA1YrFW.json",
+      "total_pages": 1,
+      "ocr_pages": 1,
+      "review_pages": 0
+    },
+    {
+      "title": "HostelFee1Yr",
+      "section": "ADMISSIONS",
+      "output": "data\\fresh\\pdf_data\\5c3107bb90_HostelFee1Yr.json",
+      "total_pages": 1,
+      "ocr_pages": 1,
+      "review_pages": 0
+    },
+    {
+      "title": "Visited Company Summary 2026",
+      "section": "PLACEMENTS",
+      "output": "data\\fresh\\pdf_data\\02cd6b4ea5_VisitedCompanySummary2026.json",
+      "total_pages": 4,
+      "ocr_pages": 0,
+      "review_pages": 0
+    },
+    {
+      "title": "Visited Company Summary 2025",
+      "section": "PLACEMENTS",
+      "output": "data\\fresh\\pdf_data\\60289139c8_VisitedCompanySummary2025.json",
+      "total_pages": 5,
+      "ocr_pages": 0,
+      "review_pages": 0
+    },
+    {
+      "title": "Visited Company Summary 2024",
+      "section": "PLACEMENTS",
+      "output": "data\\fresh\\pdf_data\\38b01aba84_VisitedCompanySummary2024.json",
+      "total_pages": 3,
+      "ocr_pages": 0,
+      "review_pages": 0
+    },
+    {
+      "title": "Curricular-Planning-and-Implementation",
+      "section": "IQAC",
+      "output": "data\\fresh\\pdf_data\\9f550b64a0_Academic-Calender2023-24.json",
+      "total_pages": 5,
+      "ocr_pages": 0,
+      "review_pages": 0
+    },
+    {
+      "title": "NAAC Certificate 2023",
+      "section": "IQAC",
+      "output": "data\\fresh\\pdf_data\\d7b9d3baf1_NAAC-Certificate.json",
+      "total_pages": 1,
+      "ocr_pages": 1,
+      "review_pages": 1
+    }
+  ],
+  "failures": []
+}

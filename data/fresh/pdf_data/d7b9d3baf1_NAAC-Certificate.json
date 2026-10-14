@@ -1,0 +1,19 @@
+{
+  "title": "NAAC Certificate 2023",
+  "section": "IQAC",
+  "source_url": "https://www.akgec.ac.in/wp-content/uploads/2023/10/NAAC-Certificate.pdf",
+  "source_page": "https://www.akgec.ac.in/iqac",
+  "local_file": "data\\fresh\\resources\\d7b9d3baf1_NAAC-Certificate.pdf",
+  "sha256": "3a66abfd4e4b154e1e2d59220755d1575d1aeb6be4b48a11a85899421927bf0d",
+  "total_pages": 1,
+  "pages": [
+    {
+      "page_number": 1,
+      "method": "ocr",
+      "text": "ATIONAL ASSESS\n\n7\n\nN\nnN",
+      "character_count": 23,
+      "tables": [],
+      "needs_review": true
+    }
+  ]
+}

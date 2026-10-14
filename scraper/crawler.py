@@ -1,301 +1,331 @@
-import requests
-from bs4 import BeautifulSoup
-from urllib.parse import urljoin, urlparse, urldefrag
-from pathlib import Path
+# AKGEC section-wise website crawler
+
 import json
 import time
-import re
+import hashlib
+from pathlib import Path
+from urllib.parse import urlparse, urldefrag
+from urllib.robotparser import RobotFileParser
 
-# AKGEC ke official domains ko allow karta hai.
+import requests
+
+from page_text import extract_page, save_page
+
+
+# Configuration
+BASE_URL = "https://www.akgec.ac.in"
+
+NAVIGATION_FILE = Path("data/fresh/navigation_urls.json")
+OUTPUT_DIR = Path("data/fresh/pages")
+REPORT_FILE = Path("data/fresh/crawl_report.json")
+
+USER_AGENT = "AKGEC-RAG-Research-Bot/1.0"
+
+REQUEST_DELAY = 1.5
+MIN_TEXT_LENGTH = 80
+
 ALLOWED_DOMAINS = {
     "www.akgec.ac.in",
-    "akgec.ac.in",
-    "admissions.akgec.ac.in"
+    "akgec.ac.in"
 }
 
-START_URL = "https://www.akgec.ac.in/"
-
-# Abhi testing ke liye maximum 50 pages crawl honge.
-MAX_PAGES = 50
-
-# Requests ke beech delay rakhta hai taaki website par unnecessary load na ho.
-REQUEST_DELAY = 0.5
-
-# In file types ko HTML pages ki tarah crawl nahi karenge.
-IGNORED_EXTENSIONS = {
-    ".pdf", ".jpg", ".jpeg", ".png", ".gif", ".webp", ".svg",
-    ".mp4", ".mp3", ".zip", ".rar", ".doc", ".docx",
-    ".xls", ".xlsx", ".ppt", ".pptx"
-}
-
-# In document types ko future RAG pipeline ke liye collect karenge.
-RESOURCE_EXTENSIONS = {
-    ".pdf", ".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx"
-}
-
-# Scraped HTML pages yahan JSON format mein save honge.
-PAGE_OUTPUT_DIR = Path("data/pages")
-PAGE_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-
-# Discovered document URLs yahan save honge.
-RESOURCE_OUTPUT = Path("data/resource_urls.json")
-RESOURCE_OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-
-# Website ko request ke source ke baare mein batata hai.
-HEADERS = {
-    "User-Agent": "AKGEC-RAG-Research-Bot/1.0"
-}
+# First test 5 new pages, then enable full crawl
+TEST_MODE = False
+TEST_LIMIT = 5
 
 
-# URL ko standard format mein convert karta hai aur duplicates reduce karta hai.
+# Normalize URLs consistently
 def normalize_url(url):
     url, _ = urldefrag(url)
+
     parsed = urlparse(url)
 
-    domain = parsed.netloc.lower()
+    path = parsed.path.rstrip("/") or "/"
 
-    if domain == "akgec.ac.in":
-        domain = "www.akgec.ac.in"
-
-    path = parsed.path
-
-    if path != "/" and path.endswith("/"):
-        path = path.rstrip("/")
-
-    return f"https://{domain}{path}"
+    return f"https://www.akgec.ac.in{path}"
 
 
-# Sirf allowed AKGEC domains ko crawl karne deta hai.
-def is_allowed_domain(url):
+# Check official domain
+def is_allowed_url(url):
     parsed = urlparse(url)
-    domain = parsed.netloc.lower()
-    path = parsed.path.lower()
 
-    # Cloudflare email-protection URLs ko skip karta hai.
-    if path.startswith("/cdn-cgi/"):
-        return False
-
-    return domain in ALLOWED_DOMAINS
+    return (
+        parsed.scheme == "https"
+        and parsed.netloc.lower() in ALLOWED_DOMAINS
+        and not parsed.query
+    )
 
 
-# URL se file extension nikalta hai.
-def get_extension(url):
-    return Path(urlparse(url).path.lower()).suffix
-
-
-# Check karta hai ki URL downloadable resource hai ya nahi.
-def is_resource(url):
-    return get_extension(url) in RESOURCE_EXTENSIONS
-
-
-# URL se safe JSON filename banata hai.
-def create_filename(url):
-    path = urlparse(url).path.strip("/")
-
-    if not path:
-        return "index.json"
-
-    filename = path.replace("/", "_")
-    filename = re.sub(r"[^a-zA-Z0-9._-]", "_", filename)
-
-    return filename + ".json"
-
-
-# HTML se unnecessary elements remove karke clean text extract karta hai.
-def clean_page_text(soup):
-    for tag in soup([
-        "script",
-        "style",
-        "noscript",
-        "header",
-        "nav",
-        "footer"
-    ]):
-        tag.decompose()
-
-    main_content = soup.find("main")
-
-    if main_content:
-        # HTML tables ko readable row-wise text mein convert karta hai.
-        for table in main_content.find_all("table"):
-            rows = []
-
-            for row in table.find_all("tr"):
-                cells = [
-                    cell.get_text(" ", strip=True)
-                    for cell in row.find_all(["th", "td"])
-                ]
-
-                if cells:
-                    rows.append(" | ".join(cells))
-
-            # Table ko remove karne se pehle uska structured text preserve karta hai.
-            table_text = "\n".join(rows)
-
-            if table_text:
-                table.replace_with(
-                    soup.new_string("\n" + table_text + "\n")
-                )
-            else:
-                table.decompose()
-
-        text = main_content.get_text(
-            separator=" ",
-            strip=True
-        )
-    else:
-        text = soup.get_text(
-            separator=" ",
-            strip=True
-        )
-
-    # Multiple spaces ko single space mein convert karta hai.
-    text = re.sub(r"\s+", " ", text)
-
-    return text.strip()
-
-
-# Page ke andar HTML links aur downloadable resources find karta hai.
-def extract_page_links(page_url, soup):
-    html_links = []
-    resources = []
-
-    for tag in soup.find_all("a", href=True):
-        href = tag["href"].strip()
-
-        if not href:
-            continue
-
-        absolute_url = urljoin(page_url, href)
-        absolute_url = normalize_url(absolute_url)
-
-        if not is_allowed_domain(absolute_url):
-            continue
-
-        # PDF/DOC/XLS jaise resources ko alag list mein rakhta hai.
-        if is_resource(absolute_url):
-            resources.append({
-                "url": absolute_url,
-                "source_page": page_url,
-                "file_type": get_extension(absolute_url)
-            })
-            continue
-
-        # Images, videos aur documents ko HTML queue mein add nahi karta.
-        if get_extension(absolute_url) in IGNORED_EXTENSIONS:
-            continue
-
-        html_links.append(absolute_url)
-
-    return html_links, resources
-
-
-# Crawler ki current state maintain karta hai.
-visited_urls = set()
-urls_to_visit = [START_URL]
-all_resources = {}
-
-
-# Website ke pages recursively crawl karta hai.
-while urls_to_visit and len(visited_urls) < MAX_PAGES:
-    current_url = normalize_url(urls_to_visit.pop(0))
-
-    if current_url in visited_urls:
-        continue
-
-    if not is_allowed_domain(current_url):
-        continue
-
-    print(f"\n[{len(visited_urls) + 1}/{MAX_PAGES}] {current_url}")
+# Load robots.txt
+def load_robots():
+    robots = RobotFileParser()
+    robots.set_url(f"{BASE_URL}/robots.txt")
 
     try:
         response = requests.get(
-            current_url,
-            headers=HEADERS,
+            robots.url,
+            headers={"User-Agent": USER_AGENT},
             timeout=20
         )
         response.raise_for_status()
 
+        robots.parse(response.text.splitlines())
+        return robots
+
     except requests.RequestException as error:
-        print("Request error:", error)
-        continue
+        print("Robots verification failed:", error)
+        return None
 
-    visited_urls.add(current_url)
 
-    # HTML ko BeautifulSoup ke through parse karta hai.
-    soup = BeautifulSoup(response.text, "html.parser")
+# Stable filename for each URL
+def create_filename(url):
+    parsed = urlparse(url)
 
-    # Page ka title aur clean text extract karta hai.
-    title = soup.title.get_text(strip=True) if soup.title else ""
-    text = clean_page_text(soup)
+    path = parsed.path.strip("/").replace("/", "_")
 
-    # Scraped page ko JSON file mein save karta hai.
-    output_file = PAGE_OUTPUT_DIR / create_filename(current_url)
+    if not path:
+        path = "homepage"
 
-    page_data = {
-        "title": title,
-        "url": current_url,
-        "text": text
+    url_hash = hashlib.sha256(
+        url.encode("utf-8")
+    ).hexdigest()[:10]
+
+    return f"{path}_{url_hash}.json"
+
+
+# Load existing pages and content hashes
+def load_existing_pages():
+    existing_urls = set()
+    existing_hashes = set()
+
+    for file in OUTPUT_DIR.glob("*.json"):
+        try:
+            with open(file, "r", encoding="utf-8") as handle:
+                page = json.load(handle)
+
+            url = page.get("url", "")
+
+            if url:
+                existing_urls.add(normalize_url(url))
+
+            text = page.get("text", "").strip()
+
+            if text:
+                existing_hashes.add(
+                    hashlib.sha256(
+                        text.encode("utf-8")
+                    ).hexdigest()
+                )
+
+        except (OSError, ValueError) as error:
+            print("Could not read:", file, error)
+
+    return existing_urls, existing_hashes
+
+
+# Read discovered navigation URLs
+def load_navigation_urls():
+    with open(
+        NAVIGATION_FILE,
+        "r",
+        encoding="utf-8"
+    ) as handle:
+        data = json.load(handle)
+
+    selected = []
+    seen = set()
+
+    for item in data.get("pages", []):
+        url = item.get("url", "")
+
+        if not is_allowed_url(url):
+            continue
+
+        normalized = normalize_url(url)
+
+        if normalized in seen:
+            continue
+
+        seen.add(normalized)
+
+        selected.append({
+            "section": item.get("section", "UNCLASSIFIED"),
+            "title": item.get("title", ""),
+            "url": normalized
+        })
+
+    return selected
+
+
+# Main crawler
+def main():
+    if not NAVIGATION_FILE.exists():
+        print("Navigation file missing:", NAVIGATION_FILE)
+        return
+
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    REPORT_FILE.parent.mkdir(parents=True, exist_ok=True)
+
+    robots = load_robots()
+
+    if robots is None:
+        print("Crawler stopped for safety.")
+        return
+
+    selected = load_navigation_urls()
+
+    existing_urls, existing_hashes = load_existing_pages()
+
+    new_pages = [
+        item for item in selected
+        if item["url"] not in existing_urls
+    ]
+
+    if TEST_MODE:
+        new_pages = new_pages[:TEST_LIMIT]
+
+    successful = []
+    failed = []
+    skipped = []
+
+    print("=" * 55)
+    print("AKGEC SECTION-WISE CRAWLER")
+    print("=" * 55)
+    print("Test mode:", TEST_MODE)
+    print("Navigation URLs:", len(selected))
+    print("Existing URLs:", len(existing_urls))
+    print("Pages selected for this run:", len(new_pages))
+
+    for index, item in enumerate(new_pages, start=1):
+        section = item["section"]
+        url = item["url"]
+
+        print(f"\n[{index}/{len(new_pages)}] {section}")
+        print(url)
+
+        if not robots.can_fetch(USER_AGENT, url):
+            skipped.append({
+                "url": url,
+                "section": section,
+                "reason": "Blocked by robots.txt"
+            })
+            print("Skipped: robots.txt")
+            continue
+
+        try:
+            page_data = extract_page(
+                url,
+                section=section
+            )
+
+            # Reject redirects to unrelated domains
+            final_url = page_data.get("url", url)
+
+            if not is_allowed_url(final_url):
+                skipped.append({
+                    "url": url,
+                    "reason": "Redirected outside allowed domain"
+                })
+                continue
+
+            text = page_data.get("text", "").strip()
+
+            if len(text) < MIN_TEXT_LENGTH:
+                skipped.append({
+                    "url": url,
+                    "section": section,
+                    "reason": "Short content",
+                    "characters": len(text)
+                })
+                print("Skipped: short content")
+                continue
+
+            content_hash = hashlib.sha256(
+                text.encode("utf-8")
+            ).hexdigest()
+
+            if content_hash in existing_hashes:
+                skipped.append({
+                    "url": url,
+                    "section": section,
+                    "reason": "Duplicate content"
+                })
+                print("Skipped: duplicate content")
+                continue
+
+            existing_hashes.add(content_hash)
+
+            filename = create_filename(url)
+            output_file = OUTPUT_DIR / filename
+
+            if output_file.exists():
+                skipped.append({
+                    "url": url,
+                    "reason": "Output file already exists"
+                })
+                continue
+
+            saved_file = save_page(
+                page_data,
+                filename
+            )
+
+            existing_urls.add(normalize_url(final_url))
+
+            successful.append({
+                "section": section,
+                "title": item["title"],
+                "url": final_url,
+                "file": str(saved_file),
+                "characters": len(text),
+                "blocks": len(page_data.get("blocks", []))
+            })
+
+            print("Saved:", saved_file)
+            print("Characters:", len(text))
+
+        except Exception as error:
+            failed.append({
+                "section": section,
+                "url": url,
+                "error": str(error)
+            })
+
+            print("Failed:", error)
+
+        finally:
+            time.sleep(REQUEST_DELAY)
+
+    report = {
+        "test_mode": TEST_MODE,
+        "navigation_urls": len(selected),
+        "existing_urls_before_run": len(existing_urls) - len(successful),
+        "attempted": len(new_pages),
+        "successful": successful,
+        "failed": failed,
+        "skipped": skipped
     }
 
-    with open(output_file, "w", encoding="utf-8") as file:
+    with open(
+        REPORT_FILE,
+        "w",
+        encoding="utf-8"
+    ) as handle:
         json.dump(
-            page_data,
-            file,
+            report,
+            handle,
             ensure_ascii=False,
-            indent=4
+            indent=2
         )
 
-    print("Text length:", len(text))
-
-    # Page ke HTML links aur downloadable resources find karta hai.
-    html_links, resources = extract_page_links(
-        current_url,
-        soup
-    )
-
-    # Same resource multiple pages par mile to duplicate remove karta hai.
-    for resource in resources:
-        all_resources[resource["url"]] = resource
-
-    # New HTML pages ko crawling queue mein add karta hai.
-    for link in html_links:
-        if link not in visited_urls and link not in urls_to_visit:
-            urls_to_visit.append(link)
-
-    # Website par unnecessary load avoid karta hai.
-    time.sleep(REQUEST_DELAY)
+    print("\n" + "=" * 55)
+    print("CRAWL COMPLETED")
+    print("=" * 55)
+    print("Saved:", len(successful))
+    print("Failed:", len(failed))
+    print("Skipped:", len(skipped))
+    print("Report:", REPORT_FILE)
 
 
-# Resource dictionary ko list mein convert karta hai.
-resource_list = list(all_resources.values())
-
-# Saare discovered resources ko JSON file mein save karta hai.
-with open(RESOURCE_OUTPUT, "w", encoding="utf-8") as file:
-    json.dump(
-        {
-            "total_resources": len(resource_list),
-            "resources": resource_list
-        },
-        file,
-        ensure_ascii=False,
-        indent=4
-    )
-
-
-# Final crawling report show karta hai.
-print("\n" + "=" * 60)
-print("CRAWLING + RESOURCE DISCOVERY COMPLETED")
-print("=" * 60)
-print("HTML pages visited:", len(visited_urls))
-print("Unique resources:", len(resource_list))
-print("Resource list:", RESOURCE_OUTPUT)
-
-print("\nFirst 20 resources:")
-
-for resource in resource_list[:20]:
-    print(
-        resource["file_type"],
-        "->",
-        resource["url"]
-    )
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,875 @@
+{
+  "test_mode": false,
+  "navigation_urls": 123,
+  "existing_urls_before_run": 13,
+  "attempted": 110,
+  "successful": [
+    {
+      "section": "ABOUT",
+      "title": "AICTE Approval Letters",
+      "url": "https://www.akgec.ac.in/aicte-approval-letters/",
+      "file": "data\\fresh\\pages\\aicte-approval-letters_f069af783d.json",
+      "characters": 417,
+      "blocks": 29
+    },
+    {
+      "section": "ABOUT",
+      "title": "Grievance Committee",
+      "url": "https://www.akgec.ac.in/grievance-committee/",
+      "file": "data\\fresh\\pages\\grievance-committee_4fa7256cc4.json",
+      "characters": 137,
+      "blocks": 4
+    },
+    {
+      "section": "ABOUT",
+      "title": "Library",
+      "url": "https://www.akgec.ac.in/central-library/",
+      "file": "data\\fresh\\pages\\central-library_21e6ab4d38.json",
+      "characters": 9877,
+      "blocks": 82
+    },
+    {
+      "section": "ABOUT",
+      "title": "Academic Complex",
+      "url": "https://www.akgec.ac.in/about/infrastructure-visual-tour/academic-complex/",
+      "file": "data\\fresh\\pages\\about_infrastructure-visual-tour_academic-complex_271a94131a.json",
+      "characters": 171,
+      "blocks": 9
+    },
+    {
+      "section": "ABOUT",
+      "title": "Hostel",
+      "url": "https://www.akgec.ac.in/about/infrastructure-visual-tour/hostel/",
+      "file": "data\\fresh\\pages\\about_infrastructure-visual-tour_hostel_99c8cb5790.json",
+      "characters": 1573,
+      "blocks": 16
+    },
+    {
+      "section": "CENTRES OF EXCELLENCE",
+      "title": "Centres Of Excellence",
+      "url": "https://www.akgec.ac.in/about/infrastructure-visual-tour/centres-of-excellence/",
+      "file": "data\\fresh\\pages\\about_infrastructure-visual-tour_centres-of-excellence_001ff3c670.json",
+      "characters": 7912,
+      "blocks": 31
+    },
+    {
+      "section": "CENTRES OF EXCELLENCE",
+      "title": "Faith Centre",
+      "url": "https://www.akgec.ac.in/about/infrastructure-visual-tour/faith-centre/",
+      "file": "data\\fresh\\pages\\about_infrastructure-visual-tour_faith-centre_ed627aac22.json",
+      "characters": 1007,
+      "blocks": 2
+    },
+    {
+      "section": "CENTRES OF EXCELLENCE",
+      "title": "Support Facilities",
+      "url": "https://www.akgec.ac.in/about/infrastructure-visual-tour/support-facilities/",
+      "file": "data\\fresh\\pages\\about_infrastructure-visual-tour_support-facilities_52440bf996.json",
+      "characters": 819,
+      "blocks": 31
+    },
+    {
+      "section": "CENTRES OF EXCELLENCE",
+      "title": "Stationary Shop",
+      "url": "https://www.akgec.ac.in/about/infrastructure-visual-tour/stationary-shop/",
+      "file": "data\\fresh\\pages\\about_infrastructure-visual-tour_stationary-shop_79d74e2669.json",
+      "characters": 433,
+      "blocks": 3
+    },
+    {
+      "section": "CENTRES OF EXCELLENCE",
+      "title": "College Canteen",
+      "url": "https://www.akgec.ac.in/about/infrastructure-visual-tour/college-canteen/",
+      "file": "data\\fresh\\pages\\about_infrastructure-visual-tour_college-canteen_65df1a0696.json",
+      "characters": 444,
+      "blocks": 2
+    },
+    {
+      "section": "CENTRES OF EXCELLENCE",
+      "title": "Testimonials",
+      "url": "https://www.akgec.ac.in/about/testimonials/",
+      "file": "data\\fresh\\pages\\about_testimonials_6c27f6f340.json",
+      "characters": 3308,
+      "blocks": 22
+    },
+    {
+      "section": "CENTRES OF EXCELLENCE",
+      "title": "Mandatory Disclosure",
+      "url": "https://www.akgec.ac.in/mandatory-disclosure/",
+      "file": "data\\fresh\\pages\\mandatory-disclosure_e5f4712ffb.json",
+      "characters": 158,
+      "blocks": 6
+    },
+    {
+      "section": "CENTRES OF EXCELLENCE",
+      "title": "College Policies",
+      "url": "https://www.akgec.ac.in/policies/",
+      "file": "data\\fresh\\pages\\policies_d3183a47d4.json",
+      "characters": 165,
+      "blocks": 7
+    },
+    {
+      "section": "CENTRES OF EXCELLENCE",
+      "title": "Gallery",
+      "url": "https://www.akgec.ac.in/about/gallery/",
+      "file": "data\\fresh\\pages\\about_gallery_0d22bb1b45.json",
+      "characters": 206,
+      "blocks": 13
+    },
+    {
+      "section": "DEPARTMENTS",
+      "title": "DEPARTMENTS",
+      "url": "https://www.akgec.ac.in/departments/",
+      "file": "data\\fresh\\pages\\departments_3be5e28eac.json",
+      "characters": 260,
+      "blocks": 9
+    },
+    {
+      "section": "DEPARTMENTS",
+      "title": "Applied Sciences & Humanities",
+      "url": "https://www.akgec.ac.in/departments/applied-sciences-humanities/",
+      "file": "data\\fresh\\pages\\departments_applied-sciences-humanities_a1dea31de1.json",
+      "characters": 5271,
+      "blocks": 47
+    },
+    {
+      "section": "DEPARTMENTS",
+      "title": "Civil Engineering",
+      "url": "https://www.akgec.ac.in/departments/civil-engineering/",
+      "file": "data\\fresh\\pages\\departments_civil-engineering_b6202c7b40.json",
+      "characters": 9942,
+      "blocks": 82
+    },
+    {
+      "section": "DEPARTMENTS",
+      "title": "Electronics and Communication Engineering",
+      "url": "https://www.akgec.ac.in/departments/electronics-and-communication-engineering/",
+      "file": "data\\fresh\\pages\\departments_electronics-and-communication-engineering_a74a542ccd.json",
+      "characters": 23767,
+      "blocks": 123
+    },
+    {
+      "section": "DEPARTMENTS",
+      "title": "Electrical and Electronics Engineering",
+      "url": "https://www.akgec.ac.in/departments/electrical-and-electronics-engineering/",
+      "file": "data\\fresh\\pages\\departments_electrical-and-electronics-engineering_d88f036247.json",
+      "characters": 14094,
+      "blocks": 98
+    },
+    {
+      "section": "DEPARTMENTS",
+      "title": "Information Technology",
+      "url": "https://www.akgec.ac.in/departments/information-technology/",
+      "file": "data\\fresh\\pages\\departments_information-technology_70fda1c0e6.json",
+      "characters": 12817,
+      "blocks": 94
+    },
+    {
+      "section": "DEPARTMENTS",
+      "title": "Mechanical Engineering",
+      "url": "https://www.akgec.ac.in/departments/mechanical-engineering/",
+      "file": "data\\fresh\\pages\\departments_mechanical-engineering_846745e5d8.json",
+      "characters": 8963,
+      "blocks": 82
+    },
+    {
+      "section": "DEPARTMENTS",
+      "title": "Master of Computer Applications",
+      "url": "https://www.akgec.ac.in/departments/master-of-computer-applications/",
+      "file": "data\\fresh\\pages\\departments_master-of-computer-applications_aa78e075ac.json",
+      "characters": 7578,
+      "blocks": 75
+    },
+    {
+      "section": "ACADEMICS",
+      "title": "AKGEC Digital School",
+      "url": "https://www.akgec.ac.in/akgec-digital-school/",
+      "file": "data\\fresh\\pages\\akgec-digital-school_f6b60bc96d.json",
+      "characters": 1001,
+      "blocks": 6
+    },
+    {
+      "section": "ACADEMICS",
+      "title": "Educational Verification",
+      "url": "https://www.akgec.ac.in/academics/educational-verification/",
+      "file": "data\\fresh\\pages\\academics_educational-verification_84b11560e9.json",
+      "characters": 753,
+      "blocks": 6
+    },
+    {
+      "section": "ACADEMICS",
+      "title": "Policy and Process for Refund of Caution Money",
+      "url": "https://www.akgec.ac.in/academics/policy-and-process-for-refund-of-caution-money/",
+      "file": "data\\fresh\\pages\\academics_policy-and-process-for-refund-of-caution-money_c45c471bc9.json",
+      "characters": 841,
+      "blocks": 3
+    },
+    {
+      "section": "ACADEMICS",
+      "title": "Issuance of certificates for passout students",
+      "url": "https://www.akgec.ac.in/academics/issuance-of-certificates-for-passout-students/",
+      "file": "data\\fresh\\pages\\academics_issuance-of-certificates-for-passout-students_8f55efcd16.json",
+      "characters": 1455,
+      "blocks": 18
+    },
+    {
+      "section": "ADMISSIONS",
+      "title": "Fee Structure for Existing Students",
+      "url": "https://www.akgec.ac.in/academic-fee/",
+      "file": "data\\fresh\\pages\\academic-fee_778fa5dc3d.json",
+      "characters": 353,
+      "blocks": 9
+    },
+    {
+      "section": "ADMISSIONS",
+      "title": "Fee Refund Norms",
+      "url": "https://www.akgec.ac.in/fee-refund-norms/",
+      "file": "data\\fresh\\pages\\fee-refund-norms_8a202021f4.json",
+      "characters": 538,
+      "blocks": 4
+    },
+    {
+      "section": "ADMISSIONS",
+      "title": "Spot Counselling – Selected List",
+      "url": "https://www.akgec.ac.in/spotcounselling/",
+      "file": "data\\fresh\\pages\\spotcounselling_089875437b.json",
+      "characters": 95,
+      "blocks": 3
+    },
+    {
+      "section": "ADMISSIONS",
+      "title": "Scholarship",
+      "url": "https://www.akgec.ac.in/scholarship/",
+      "file": "data\\fresh\\pages\\scholarship_bcae11ae16.json",
+      "characters": 1212,
+      "blocks": 6
+    },
+    {
+      "section": "ADMISSIONS",
+      "title": "Reporting process for First Year",
+      "url": "https://www.akgec.ac.in/uptac/",
+      "file": "data\\fresh\\pages\\uptac_375f3bb06a.json",
+      "characters": 554,
+      "blocks": 11
+    },
+    {
+      "section": "R&D",
+      "title": "Journal Papers",
+      "url": "https://www.akgec.ac.in/rd/journals/",
+      "file": "data\\fresh\\pages\\rd_journals_e8d111d4d3.json",
+      "characters": 364,
+      "blocks": 3
+    },
+    {
+      "section": "R&D",
+      "title": "Conference Papers",
+      "url": "https://www.akgec.ac.in/departmentwise-conference-papers/",
+      "file": "data\\fresh\\pages\\departmentwise-conference-papers_4683d44b17.json",
+      "characters": 357,
+      "blocks": 2
+    },
+    {
+      "section": "R&D",
+      "title": "Book/Book Chapters",
+      "url": "https://www.akgec.ac.in/book-chapters/",
+      "file": "data\\fresh\\pages\\book-chapters_1e59ac126d.json",
+      "characters": 367,
+      "blocks": 3
+    },
+    {
+      "section": "R&D",
+      "title": "Patent",
+      "url": "https://www.akgec.ac.in/patent/",
+      "file": "data\\fresh\\pages\\patent_de8ea390bc.json",
+      "characters": 319,
+      "blocks": 2
+    },
+    {
+      "section": "R&D",
+      "title": "Funded Projects",
+      "url": "https://www.akgec.ac.in/funded-projects/",
+      "file": "data\\fresh\\pages\\funded-projects_6e4fe52d97.json",
+      "characters": 253,
+      "blocks": 2
+    },
+    {
+      "section": "COLLEGE PUBLICATIONS",
+      "title": "College Magazine (Sampark)",
+      "url": "https://www.akgec.ac.in/sampark/",
+      "file": "data\\fresh\\pages\\sampark_195e1a4240.json",
+      "characters": 153,
+      "blocks": 9
+    },
+    {
+      "section": "COLLEGE PUBLICATIONS",
+      "title": "Research & Development Centres",
+      "url": "https://www.akgec.ac.in/rd/",
+      "file": "data\\fresh\\pages\\rd_9adebee505.json",
+      "characters": 345,
+      "blocks": 13
+    },
+    {
+      "section": "COLLEGE PUBLICATIONS",
+      "title": "AKGEC International Journal of Technology",
+      "url": "https://www.akgec.ac.in/rd/akgec-international-journal-of-technology/",
+      "file": "data\\fresh\\pages\\rd_akgec-international-journal-of-technology_936e9f2c1a.json",
+      "characters": 62205,
+      "blocks": 257
+    },
+    {
+      "section": "COLLEGE PUBLICATIONS",
+      "title": "Glimpse Journal of Computer Science",
+      "url": "https://www.akgec.ac.in/cse-journal-gjcs/",
+      "file": "data\\fresh\\pages\\cse-journal-gjcs_a9dd93c5cd.json",
+      "characters": 22605,
+      "blocks": 65
+    },
+    {
+      "section": "COLLEGE PUBLICATIONS",
+      "title": "Conferences",
+      "url": "https://www.akgec.ac.in/rd/conferences/",
+      "file": "data\\fresh\\pages\\rd_conferences_064215fb67.json",
+      "characters": 234,
+      "blocks": 7
+    },
+    {
+      "section": "COLLEGE PUBLICATIONS",
+      "title": "FDPs",
+      "url": "https://www.akgec.ac.in/rd/fdps/",
+      "file": "data\\fresh\\pages\\rd_fdps_4c3f833767.json",
+      "characters": 22315,
+      "blocks": 73
+    },
+    {
+      "section": "COLLEGE PUBLICATIONS",
+      "title": "Consultancy",
+      "url": "https://www.akgec.ac.in/rd/consultancy-2/",
+      "file": "data\\fresh\\pages\\rd_consultancy-2_425d022e65.json",
+      "characters": 2173,
+      "blocks": 8
+    },
+    {
+      "section": "LIFE@AKGEC",
+      "title": "Conatus",
+      "url": "https://www.akgec.ac.in/life-akgec/societies/departmental-societies/conatus/",
+      "file": "data\\fresh\\pages\\life-akgec_societies_departmental-societies_conatus_3c328f37cc.json",
+      "characters": 27570,
+      "blocks": 181
+    },
+    {
+      "section": "LIFE@AKGEC",
+      "title": "Nirmaan",
+      "url": "https://www.akgec.ac.in/life-akgec/societies/departmental-societies/nirman/",
+      "file": "data\\fresh\\pages\\life-akgec_societies_departmental-societies_nirman_dbd60ae86a.json",
+      "characters": 6587,
+      "blocks": 84
+    },
+    {
+      "section": "LIFE@AKGEC",
+      "title": "Oorja",
+      "url": "https://www.akgec.ac.in/life-akgec/societies/departmental-societies/oorja/",
+      "file": "data\\fresh\\pages\\life-akgec_societies_departmental-societies_oorja_dbb5a58a7b.json",
+      "characters": 29033,
+      "blocks": 127
+    },
+    {
+      "section": "LIFE@AKGEC",
+      "title": "Phoenix",
+      "url": "https://www.akgec.ac.in/life-akgec/societies/departmental-societies/phoenix/",
+      "file": "data\\fresh\\pages\\life-akgec_societies_departmental-societies_phoenix_7285a58fb6.json",
+      "characters": 11516,
+      "blocks": 154
+    },
+    {
+      "section": "LIFE@AKGEC",
+      "title": "Samveg",
+      "url": "https://www.akgec.ac.in/life-akgec/societies/departmental-societies/samveg/",
+      "file": "data\\fresh\\pages\\life-akgec_societies_departmental-societies_samveg_a0d5d9516e.json",
+      "characters": 6581,
+      "blocks": 25
+    },
+    {
+      "section": "LIFE@AKGEC",
+      "title": "Euphony",
+      "url": "https://www.akgec.ac.in/life-akgec/societies/extra-curricular-societies/euphony/",
+      "file": "data\\fresh\\pages\\life-akgec_societies_extra-curricular-societies_euphony_90a21dfd62.json",
+      "characters": 3382,
+      "blocks": 18
+    },
+    {
+      "section": "LIFE@AKGEC",
+      "title": "Footprints",
+      "url": "https://www.akgec.ac.in/life-akgec/societies/extra-curricular-societies/footprints/",
+      "file": "data\\fresh\\pages\\life-akgec_societies_extra-curricular-societies_footprints_61dddd6ee7.json",
+      "characters": 7630,
+      "blocks": 30
+    },
+    {
+      "section": "LIFE@AKGEC",
+      "title": "Horizon",
+      "url": "https://www.akgec.ac.in/life-akgec/societies/extra-curricular-societies/horizon/",
+      "file": "data\\fresh\\pages\\life-akgec_societies_extra-curricular-societies_horizon_91d9d86fb4.json",
+      "characters": 13217,
+      "blocks": 86
+    },
+    {
+      "section": "LIFE@AKGEC",
+      "title": "Goonj",
+      "url": "https://www.akgec.ac.in/life-akgec/societies/extra-curricular-societies/goonj/",
+      "file": "data\\fresh\\pages\\life-akgec_societies_extra-curricular-societies_goonj_55f59c06b3.json",
+      "characters": 6728,
+      "blocks": 28
+    },
+    {
+      "section": "LIFE@AKGEC",
+      "title": "Renaissance",
+      "url": "https://www.akgec.ac.in/life-akgec/societies/extra-curricular-societies/renaissance-2/",
+      "file": "data\\fresh\\pages\\life-akgec_societies_extra-curricular-societies_renaissance-2_4038f47d9c.json",
+      "characters": 8448,
+      "blocks": 45
+    },
+    {
+      "section": "LIFE@AKGEC",
+      "title": "Taal",
+      "url": "https://www.akgec.ac.in/life-akgec/societies/extra-curricular-societies/taal/",
+      "file": "data\\fresh\\pages\\life-akgec_societies_extra-curricular-societies_taal_b1a5da6902.json",
+      "characters": 1135,
+      "blocks": 11
+    },
+    {
+      "section": "LIFE@AKGEC",
+      "title": "Verve",
+      "url": "https://www.akgec.ac.in/life-akgec/societies/extra-curricular-societies/verve/",
+      "file": "data\\fresh\\pages\\life-akgec_societies_extra-curricular-societies_verve_21d784ee4d.json",
+      "characters": 4655,
+      "blocks": 19
+    },
+    {
+      "section": "LIFE@AKGEC",
+      "title": "Photography and Media Club",
+      "url": "https://www.akgec.ac.in/life-akgec/societies/extra-curricular-societies/photography-and-media-club/",
+      "file": "data\\fresh\\pages\\life-akgec_societies_extra-curricular-societies_photography-and-media-club_aaecf37a29.json",
+      "characters": 2053,
+      "blocks": 6
+    },
+    {
+      "section": "LIFE@AKGEC",
+      "title": "Sports Club",
+      "url": "https://www.akgec.ac.in/sports-club/",
+      "file": "data\\fresh\\pages\\sports-club_c3f7f44201.json",
+      "characters": 8756,
+      "blocks": 46
+    },
+    {
+      "section": "LIFE@AKGEC",
+      "title": "CSI",
+      "url": "https://www.akgec.ac.in/life-akgec/societies/student-chapters/csi/",
+      "file": "data\\fresh\\pages\\life-akgec_societies_student-chapters_csi_dad0415dcd.json",
+      "characters": 19074,
+      "blocks": 106
+    },
+    {
+      "section": "LIFE@AKGEC",
+      "title": "Indian Concrete Institute",
+      "url": "https://www.akgec.ac.in/indian-concrete-institute/",
+      "file": "data\\fresh\\pages\\indian-concrete-institute_0e0d2dde03.json",
+      "characters": 2829,
+      "blocks": 14
+    },
+    {
+      "section": "LIFE@AKGEC",
+      "title": "Robotics Club",
+      "url": "https://www.akgec.ac.in/life-akgec/societies/student-chapters/robotics-club/",
+      "file": "data\\fresh\\pages\\life-akgec_societies_student-chapters_robotics-club_f4357e8a40.json",
+      "characters": 4070,
+      "blocks": 34
+    },
+    {
+      "section": "LIFE@AKGEC",
+      "title": "IEEE",
+      "url": "https://www.akgec.ac.in/ieee-student-branch-chapter/",
+      "file": "data\\fresh\\pages\\ieee-student-branch-chapter_dbbb6da472.json",
+      "characters": 2139,
+      "blocks": 12
+    },
+    {
+      "section": "LIFE@AKGEC",
+      "title": "ISTE",
+      "url": "https://www.akgec.ac.in/life-akgec/societies/student-chapters/iste/",
+      "file": "data\\fresh\\pages\\life-akgec_societies_student-chapters_iste_51fd9be76c.json",
+      "characters": 3509,
+      "blocks": 39
+    },
+    {
+      "section": "LIFE@AKGEC",
+      "title": "SAE India",
+      "url": "https://www.akgec.ac.in/life-akgec/societies/student-chapters/sae-india/",
+      "file": "data\\fresh\\pages\\life-akgec_societies_student-chapters_sae-india_6ee9e54340.json",
+      "characters": 9839,
+      "blocks": 42
+    },
+    {
+      "section": "LIFE@AKGEC",
+      "title": "Electronics Club",
+      "url": "https://www.akgec.ac.in/electronics-club/",
+      "file": "data\\fresh\\pages\\electronics-club_1214d5d242.json",
+      "characters": 5094,
+      "blocks": 11
+    },
+    {
+      "section": "LIFE@AKGEC",
+      "title": "Communication Club",
+      "url": "https://www.akgec.ac.in/communication-club/",
+      "file": "data\\fresh\\pages\\communication-club_4c236bfcbc.json",
+      "characters": 4063,
+      "blocks": 10
+    },
+    {
+      "section": "LIFE@AKGEC",
+      "title": "Events",
+      "url": "https://www.akgec.ac.in/college-events/",
+      "file": "data\\fresh\\pages\\college-events_4ba4c4a5cd.json",
+      "characters": 635,
+      "blocks": 32
+    },
+    {
+      "section": "LIFE@AKGEC",
+      "title": "Green Audit",
+      "url": "https://www.akgec.ac.in/green-audit/",
+      "file": "data\\fresh\\pages\\green-audit_57248e8628.json",
+      "characters": 162,
+      "blocks": 8
+    },
+    {
+      "section": "LIFE@AKGEC",
+      "title": "National  Cadet Corps",
+      "url": "https://www.akgec.ac.in/national-cadet-corps/",
+      "file": "data\\fresh\\pages\\national-cadet-corps_c0fcee43a3.json",
+      "characters": 11619,
+      "blocks": 43
+    },
+    {
+      "section": "LIFE@AKGEC",
+      "title": "Unnat Bharat Abhiyaan & NSS",
+      "url": "https://www.akgec.ac.in/life-akgec/social-responsibilities/unnat-bharat-abhiyaan/",
+      "file": "data\\fresh\\pages\\life-akgec_social-responsibilities_unnat-bharat-abhiyaan_d21476c1cc.json",
+      "characters": 5728,
+      "blocks": 22
+    },
+    {
+      "section": "LIFE@AKGEC",
+      "title": "Experts Talk/Workshops",
+      "url": "https://www.akgec.ac.in/talk-by-experts/",
+      "file": "data\\fresh\\pages\\talk-by-experts_2ed2655756.json",
+      "characters": 1976,
+      "blocks": 8
+    },
+    {
+      "section": "LIFE@AKGEC",
+      "title": "Nature Club",
+      "url": "https://www.akgec.ac.in/life-akgec/social-responsibilities/nature-club/",
+      "file": "data\\fresh\\pages\\life-akgec_social-responsibilities_nature-club_1395433dc6.json",
+      "characters": 1087,
+      "blocks": 4
+    },
+    {
+      "section": "LIFE@AKGEC",
+      "title": "Adarsh Vikas Kendra",
+      "url": "https://www.akgec.ac.in/life-akgec/social-responsibilities/adarsh-vikas-kendra/",
+      "file": "data\\fresh\\pages\\life-akgec_social-responsibilities_adarsh-vikas-kendra_47b27735e7.json",
+      "characters": 1321,
+      "blocks": 3
+    },
+    {
+      "section": "LIFE@AKGEC",
+      "title": "Blood Donation Camp",
+      "url": "https://www.akgec.ac.in/life-akgec/social-responsibilities/blood-donation-camp/",
+      "file": "data\\fresh\\pages\\life-akgec_social-responsibilities_blood-donation-camp_3050bd0f95.json",
+      "characters": 6882,
+      "blocks": 26
+    },
+    {
+      "section": "LIFE@AKGEC",
+      "title": "Eco Friendly Environment",
+      "url": "https://www.akgec.ac.in/life-akgec/social-responsibilities/eco-friendly-environment/",
+      "file": "data\\fresh\\pages\\life-akgec_social-responsibilities_eco-friendly-environment_8f3fc7210f.json",
+      "characters": 2593,
+      "blocks": 9
+    },
+    {
+      "section": "LIFE@AKGEC",
+      "title": "SDP For Village Students",
+      "url": "https://www.akgec.ac.in/life-akgec/social-responsibilities/skill-development-programme-for-village-students/",
+      "file": "data\\fresh\\pages\\life-akgec_social-responsibilities_skill-development-programme-for-village-students_29c4708fdd.json",
+      "characters": 3786,
+      "blocks": 17
+    },
+    {
+      "section": "LIFE@AKGEC",
+      "title": "SDP Under PMKVY",
+      "url": "https://www.akgec.ac.in/life-akgec/social-responsibilities/skill-development-programme-under-pmkvy/",
+      "file": "data\\fresh\\pages\\life-akgec_social-responsibilities_skill-development-programme-under-pmkvy_0d7e152017.json",
+      "characters": 1654,
+      "blocks": 5
+    },
+    {
+      "section": "LIFE@AKGEC",
+      "title": "Mediclaim",
+      "url": "https://www.akgec.ac.in/life-akgec/mediclaim/",
+      "file": "data\\fresh\\pages\\life-akgec_mediclaim_3caca6d78c.json",
+      "characters": 2650,
+      "blocks": 22
+    },
+    {
+      "section": "ACHIEVEMENTS",
+      "title": "CFC Foundation Stone",
+      "url": "https://www.akgec.ac.in/achievements/cfc-foundation-stone/",
+      "file": "data\\fresh\\pages\\achievements_cfc-foundation-stone_14c6cd65ef.json",
+      "characters": 2642,
+      "blocks": 9
+    },
+    {
+      "section": "ACHIEVEMENTS",
+      "title": "College Awards",
+      "url": "https://www.akgec.ac.in/achievements/college-awards/",
+      "file": "data\\fresh\\pages\\achievements_college-awards_99e5ea4ec9.json",
+      "characters": 8918,
+      "blocks": 39
+    },
+    {
+      "section": "ACHIEVEMENTS",
+      "title": "Faculty Achievements",
+      "url": "https://www.akgec.ac.in/achievements/faculty-achievements/",
+      "file": "data\\fresh\\pages\\achievements_faculty-achievements_721e1f0e54.json",
+      "characters": 2221,
+      "blocks": 8
+    },
+    {
+      "section": "ACHIEVEMENTS",
+      "title": "Student Achievements (Technical)",
+      "url": "https://www.akgec.ac.in/achievements/student-awards-technical/",
+      "file": "data\\fresh\\pages\\achievements_student-awards-technical_d7a45cd101.json",
+      "characters": 34086,
+      "blocks": 147
+    },
+    {
+      "section": "ACHIEVEMENTS",
+      "title": "Student Achievements (Extra Curricular)",
+      "url": "https://www.akgec.ac.in/achievements/student-awards-extra-curricular/",
+      "file": "data\\fresh\\pages\\achievements_student-awards-extra-curricular_cfeddd2512.json",
+      "characters": 27986,
+      "blocks": 167
+    },
+    {
+      "section": "PLACEMENTS",
+      "title": "T&P Department",
+      "url": "https://www.akgec.ac.in/placements/tp-department/",
+      "file": "data\\fresh\\pages\\placements_tp-department_ec46885b6d.json",
+      "characters": 2787,
+      "blocks": 13
+    },
+    {
+      "section": "PLACEMENTS",
+      "title": "T&P Programmes",
+      "url": "https://www.akgec.ac.in/placements/tp-programmes/",
+      "file": "data\\fresh\\pages\\placements_tp-programmes_5263ad4ec5.json",
+      "characters": 2183,
+      "blocks": 9
+    },
+    {
+      "section": "PLACEMENTS",
+      "title": "T&P Activities",
+      "url": "https://www.akgec.ac.in/tp-activities/",
+      "file": "data\\fresh\\pages\\tp-activities_acba9879ea.json",
+      "characters": 1294,
+      "blocks": 6
+    },
+    {
+      "section": "VE CELL",
+      "title": "Director General Message",
+      "url": "https://www.akgec.ac.in/msgonvecell/",
+      "file": "data\\fresh\\pages\\msgonvecell_7546032da5.json",
+      "characters": 959,
+      "blocks": 5
+    },
+    {
+      "section": "VE CELL",
+      "title": "About VE Cell",
+      "url": "https://www.akgec.ac.in/ve-cell/",
+      "file": "data\\fresh\\pages\\ve-cell_230f79060c.json",
+      "characters": 9395,
+      "blocks": 26
+    },
+    {
+      "section": "VE CELL",
+      "title": "Transformative Sharing",
+      "url": "https://www.akgec.ac.in/transformative-sharing/",
+      "file": "data\\fresh\\pages\\transformative-sharing_1fb4438d8d.json",
+      "characters": 2972,
+      "blocks": 8
+    },
+    {
+      "section": "VE CELL",
+      "title": "Participation in Societal Development",
+      "url": "https://www.akgec.ac.in/outside-participation/",
+      "file": "data\\fresh\\pages\\outside-participation_0f2d9b5fbb.json",
+      "characters": 4611,
+      "blocks": 22
+    },
+    {
+      "section": "VE CELL",
+      "title": "Faculty/Staff Development Programs (FDPs/SDPs)",
+      "url": "https://www.akgec.ac.in/uhvfdp/",
+      "file": "data\\fresh\\pages\\uhvfdp_69d30e32ee.json",
+      "characters": 36284,
+      "blocks": 161
+    },
+    {
+      "section": "VE CELL",
+      "title": "Student Development Programs (SDPs)",
+      "url": "https://www.akgec.ac.in/vecell-sdps/",
+      "file": "data\\fresh\\pages\\vecell-sdps_817d5f2016.json",
+      "characters": 51473,
+      "blocks": 204
+    },
+    {
+      "section": "VE CELL",
+      "title": "Student Induction Program",
+      "url": "https://www.akgec.ac.in/sip/",
+      "file": "data\\fresh\\pages\\sip_0cef8ce0df.json",
+      "characters": 3270,
+      "blocks": 13
+    },
+    {
+      "section": "VE CELL",
+      "title": "UHV Departmental Seminars",
+      "url": "https://www.akgec.ac.in/uhv-departmental-seminars/",
+      "file": "data\\fresh\\pages\\uhv-departmental-seminars_a949c989c6.json",
+      "characters": 2960,
+      "blocks": 5
+    },
+    {
+      "section": "VE CELL",
+      "title": "Guest Lectures/Webinars",
+      "url": "https://www.akgec.ac.in/guest-lectures-webinars/",
+      "file": "data\\fresh\\pages\\guest-lectures-webinars_460d09edea.json",
+      "characters": 33560,
+      "blocks": 100
+    },
+    {
+      "section": "VE CELL",
+      "title": "Nature Club",
+      "url": "https://www.akgec.ac.in/nature-club/",
+      "file": "data\\fresh\\pages\\nature-club_3517534b72.json",
+      "characters": 8487,
+      "blocks": 15
+    },
+    {
+      "section": "VE CELL",
+      "title": "Future Forward : Sustainability Club",
+      "url": "https://www.akgec.ac.in/future-forward-sustainability-club/",
+      "file": "data\\fresh\\pages\\future-forward-sustainability-club_6296f534dd.json",
+      "characters": 28347,
+      "blocks": 89
+    },
+    {
+      "section": "VE CELL",
+      "title": "Extension Activities",
+      "url": "https://www.akgec.ac.in/extension-activities/",
+      "file": "data\\fresh\\pages\\extension-activities_8386cac3e1.json",
+      "characters": 5692,
+      "blocks": 15
+    },
+    {
+      "section": "VE CELL",
+      "title": "Teachers Orientation Program",
+      "url": "https://www.akgec.ac.in/teachers-orientation-program/",
+      "file": "data\\fresh\\pages\\teachers-orientation-program_1f98738f83.json",
+      "characters": 4071,
+      "blocks": 7
+    },
+    {
+      "section": "VE CELL",
+      "title": "SPC (Sustainable Production Centre)",
+      "url": "https://www.akgec.ac.in/sustainable-production-centre/",
+      "file": "data\\fresh\\pages\\sustainable-production-centre_a305f561d5.json",
+      "characters": 2520,
+      "blocks": 5
+    },
+    {
+      "section": "VE CELL",
+      "title": "Samriddhi Pravaah",
+      "url": "https://www.akgec.ac.in/samriddhi-pravaah/",
+      "file": "data\\fresh\\pages\\samriddhi-pravaah_eb692e7f15.json",
+      "characters": 1986,
+      "blocks": 5
+    },
+    {
+      "section": "IQAC",
+      "title": "IQAC",
+      "url": "https://www.akgec.ac.in/iqac/",
+      "file": "data\\fresh\\pages\\iqac_b6004a575f.json",
+      "characters": 14716,
+      "blocks": 141
+    },
+    {
+      "section": "CAREER",
+      "title": "CAREER",
+      "url": "https://www.akgec.ac.in/careers/",
+      "file": "data\\fresh\\pages\\careers_23f0fec6d2.json",
+      "characters": 114,
+      "blocks": 4
+    }
+  ],
+  "failed": [],
+  "skipped": [
+    {
+      "url": "https://www.akgec.ac.in/akgec-visual-tour",
+      "section": "CENTRES OF EXCELLENCE",
+      "reason": "Short content",
+      "characters": 17
+    },
+    {
+      "url": "https://www.akgec.ac.in/coe-videos",
+      "section": "CENTRES OF EXCELLENCE",
+      "reason": "Short content",
+      "characters": 10
+    },
+    {
+      "url": "https://www.akgec.ac.in/about/organisation-chart",
+      "section": "CENTRES OF EXCELLENCE",
+      "reason": "Short content",
+      "characters": 18
+    },
+    {
+      "url": "https://www.akgec.ac.in/list-of-holidays",
+      "section": "ACADEMICS",
+      "reason": "Short content",
+      "characters": 40
+    },
+    {
+      "url": "https://www.akgec.ac.in/r-d-policy",
+      "section": "R&D",
+      "reason": "Short content",
+      "characters": 28
+    },
+    {
+      "url": "https://www.akgec.ac.in/placements/our-recruiters",
+      "section": "PLACEMENTS",
+      "reason": "Short content",
+      "characters": 14
+    },
+    {
+      "url": "https://www.akgec.ac.in/placement-highlights",
+      "section": "PLACEMENTS",
+      "reason": "Short content",
+      "characters": 20
+    },
+    {
+      "url": "https://www.akgec.ac.in/vecell-upcoming-events",
+      "section": "VE CELL",
+      "reason": "Short content",
+      "characters": 43
+    }
+  ]
+}

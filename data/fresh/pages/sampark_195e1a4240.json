@@ -1,0 +1,54 @@
+{
+  "title": "College Magazine - AJAY KUMAR GARG ENGINEERING COLLEGE",
+  "url": "https://www.akgec.ac.in/sampark/",
+  "section": "COLLEGE PUBLICATIONS",
+  "blocks": [
+    {
+      "type": "heading",
+      "tag": "h1",
+      "text": "College Magazine"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "SAMPARK 2024-25"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "SAMPARK 2023-24"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "SAMPARK 2022-23"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "SAMPARK 2021-22"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "SAMPARK 2020-21"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "SAMPARK 2019-20"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "SAMPARK 2018-19"
+    },
+    {
+      "type": "paragraph",
+      "tag": "div",
+      "text": "SAMPARK 2017-18"
+    }
+  ],
+  "text": "COLLEGE MAGAZINE\n\n\nSAMPARK 2024-25\n\nSAMPARK 2023-24\n\nSAMPARK 2022-23\n\nSAMPARK 2021-22\n\nSAMPARK 2020-21\n\nSAMPARK 2019-20\n\nSAMPARK 2018-19\n\nSAMPARK 2017-18",
+  "character_count": 153
+}

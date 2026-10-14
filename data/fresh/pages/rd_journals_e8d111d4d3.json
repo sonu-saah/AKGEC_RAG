@@ -1,0 +1,24 @@
+{
+  "title": "Journals - AJAY KUMAR GARG ENGINEERING COLLEGE",
+  "url": "https://www.akgec.ac.in/rd/journals/",
+  "section": "R&D",
+  "blocks": [
+    {
+      "type": "heading",
+      "tag": "h1",
+      "text": "Journals"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Departmentwise Journal Papers"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "S.No. | Department | Journal Papers\n1. | Computer Science & Engineering | 224\n2. | Information Technology | 64\n3. | Electronics & Communication Engineering | 71\n4. | Electrical & Electronics Engineering | 19\n5. | Mechanical Engineering | 66\n6. | Applied Science & Humanities | 16\n7. | Master of Computer Applications | 9"
+    }
+  ],
+  "text": "JOURNALS\n\n\n\nDEPARTMENTWISE JOURNAL PAPERS\n\n\nS.No. | Department | Journal Papers\n1. | Computer Science & Engineering | 224\n2. | Information Technology | 64\n3. | Electronics & Communication Engineering | 71\n4. | Electrical & Electronics Engineering | 19\n5. | Mechanical Engineering | 66\n6. | Applied Science & Humanities | 16\n7. | Master of Computer Applications | 9",
+  "character_count": 364
+}

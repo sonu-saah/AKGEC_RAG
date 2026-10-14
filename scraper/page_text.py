@@ -1,143 +1,232 @@
-import requests
-from bs4 import BeautifulSoup
+# Extract structured content from AKGEC webpages
+
 import json
+import re
 from pathlib import Path
 
-
-# Test webpage
-# Abhi ek AKGEC webpage ka structured data save karenge.
-url = "https://www.akgec.ac.in/vision-and-mission/"
+import requests
+from bs4 import BeautifulSoup, Tag
 
 
-# Download webpage
-# Requests website ka HTML download karega.
-response = requests.get(
-    url,
-    timeout=10,
-    headers={
-        "User-Agent": "Mozilla/5.0 AKGEC-RAG-Research"
-    }
-)
+OUTPUT_DIR = Path("data/fresh/pages")
 
+HEADERS = {
+    "User-Agent": "AKGEC-RAG-Research-Bot/1.0"
+}
 
-# Check request status
-print("Status Code:", response.status_code)
-
-
-# Convert HTML into searchable structure
-# BeautifulSoup HTML ko parse karega.
-soup = BeautifulSoup(
-    response.text,
-    "html.parser"
-)
-
-
-# Remove unnecessary elements
-# Header, navigation, footer aur scripts RAG ke main content ka part nahi hain.
-for tag in soup([
+REMOVE_TAGS = [
     "script",
     "style",
     "noscript",
     "header",
     "nav",
-    "footer"
-]):
-    tag.decompose()
+    "footer",
+    "form",
+    "aside",
+    "iframe",
+]
+
+BLOCK_TAGS = [
+    "h1", "h2", "h3", "h4", "h5", "h6",
+    "p", "li", "table"
+]
 
 
-# Extract webpage title
-# Title ko metadata ke roop mein save karenge.
-if soup.title:
-    title = soup.title.get_text(
-        " ",
-        strip=True
+# Clean extra spaces without joining separate paragraphs
+def clean_text(text):
+    return re.sub(r"\s+", " ", text).strip()
+
+
+# Extract a table row by row
+def extract_table(table):
+    rows = []
+
+    for tr in table.find_all("tr"):
+        cells = [
+            clean_text(cell.get_text(" ", strip=True))
+            for cell in tr.find_all(["th", "td"], recursive=False)
+        ]
+
+        if cells:
+            rows.append(" | ".join(cells))
+
+    return "\n".join(rows)
+
+
+# Find main content area
+def find_main_content(soup):
+    for selector in [
+        "main",
+        "article",
+        ".entry-content",
+        ".elementor-widget-theme-post-content",
+        ".page-content",
+    ]:
+        content = soup.select_one(selector)
+
+        if content and clean_text(content.get_text(" ", strip=True)):
+            return content
+
+    return soup.body
+
+
+# Extract structured blocks, including div-based content
+def extract_blocks(content):
+    blocks = []
+
+    if content is None:
+        return blocks
+
+    # These elements directly represent meaningful content
+    meaningful_tags = {
+        "h1", "h2", "h3", "h4", "h5", "h6",
+        "p", "li", "table"
+    }
+
+    for element in content.descendants:
+        if not isinstance(element, Tag):
+            continue
+
+        tag = element.name
+
+        if tag in meaningful_tags:
+            if element.find_parent(["p", "li", "table"]):
+                continue
+
+            if tag == "table":
+                text = extract_table(element)
+                block_type = "table"
+
+            else:
+                text = clean_text(element.get_text(" ", strip=True))
+                block_type = (
+                    "heading" if tag.startswith("h")
+                    else "list_item" if tag == "li"
+                    else "paragraph"
+                )
+
+        elif tag == "div":
+            # Extract only leaf divs to avoid duplicate parent content
+            if element.find(
+                ["div", "p", "h1", "h2", "h3", "h4", "h5", "h6", "li", "table"]
+            ):
+                continue
+
+            text = clean_text(element.get_text(" ", strip=True))
+            block_type = "paragraph"
+
+        else:
+            continue
+
+        if not text:
+            continue
+
+        # Avoid consecutive duplicate blocks
+        if blocks and blocks[-1]["text"] == text:
+            continue
+
+        blocks.append({
+            "type": block_type,
+            "tag": tag,
+            "text": text
+        })
+
+    return blocks
+
+# Convert blocks into readable text
+def format_blocks(blocks):
+    lines = []
+
+    for block in blocks:
+        text = block["text"]
+
+        if block["type"] == "heading":
+            lines.append(f"\n{text.upper()}\n")
+
+        elif block["type"] == "list_item":
+            lines.append(f"- {text}")
+
+        else:
+            lines.append(text)
+
+    return "\n\n".join(lines).strip()
+
+
+# Extract one webpage
+def extract_page(url, section="UNCLASSIFIED"):
+    response = requests.get(
+        url,
+        headers=HEADERS,
+        timeout=20
     )
-else:
-    title = "No Title"
+    response.raise_for_status()
 
+    soup = BeautifulSoup(response.text, "html.parser")
 
-# Find main webpage content
-# Main tag available ho to usi ko use karenge.
-main_content = soup.find("main")
-
-
-# Fallback
-# Agar main tag nahi mila to body use karenge.
-if main_content is None:
-    main_content = soup.body
-
-
-# Extract clean text
-# HTML tags remove karke readable text nikala jayega.
-if main_content:
-    text = main_content.get_text(
-        separator=" ",
-        strip=True
+    title = (
+        clean_text(soup.title.get_text(" ", strip=True))
+        if soup.title
+        else ""
     )
-else:
-    text = ""
+
+    for tag in soup(REMOVE_TAGS):
+        tag.decompose()
+
+    content = find_main_content(soup)
+    blocks = extract_blocks(content)
+    text = format_blocks(blocks)
+
+    return {
+        "title": title,
+        "url": response.url,
+        "section": section,
+        "blocks": blocks,
+        "text": text,
+        "character_count": len(text)
+    }
 
 
-# Clean extra spaces
-# Multiple spaces ko single space mein convert karenge.
-text = " ".join(text.split())
+# Save extracted page as JSON
+def save_page(page_data, filename):
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
+    output_file = OUTPUT_DIR / filename
+
+    with open(output_file, "w", encoding="utf-8") as file:
+        json.dump(
+            page_data,
+            file,
+            ensure_ascii=False,
+            indent=2
+        )
+
+    return output_file
 
 
-# Create structured data
-# Title, source URL aur clean text ko ek object mein store kar rahe hain.
-page_data = {
-    "title": title,
-    "url": url,
-    "text": text
-}
+# Test only one AKGEC page
+def main():
+    url = "https://www.akgec.ac.in/vision-and-mission/"
 
+    page_data = extract_page(
+        url,
+        section="ABOUT"
+    )
 
-# Create output folder
-# data/pages folder automatically create ho jayega agar exist nahi karta.
-output_folder = Path("data/pages")
-
-output_folder.mkdir(
-    parents=True,
-    exist_ok=True
-)
-
-
-# Create output filename
-# Vision and Mission page ke liye readable filename banayenge.
-output_file = output_folder / "vision-and-mission.json"
-
-
-# Save data as JSON
-# UTF-8 encoding Hindi/Unicode text ko bhi safely support karegi.
-with open(
-    output_file,
-    "w",
-    encoding="utf-8"
-) as file:
-
-    json.dump(
+    output_file = save_page(
         page_data,
-        file,
-        ensure_ascii=False,
-        indent=4
+        "vision-and-mission.json"
     )
 
+    print("Status: SUCCESS")
+    print("Title:", page_data["title"])
+    print("Section:", page_data["section"])
+    print("Total blocks:", len(page_data["blocks"]))
+    print("Text length:", page_data["character_count"])
+    print("Output:", output_file)
 
-# Show result
-print("\n" + "=" * 60)
+    print("\nFIRST 1500 CHARACTERS:\n")
+    print(page_data["text"][:1500])
 
-print("DATA SAVED SUCCESSFULLY")
 
-print("File:")
-print(output_file)
-
-print("\nTitle:")
-print(title)
-
-print("\nSource URL:")
-print(url)
-
-print("\nText length:")
-print(len(text), "characters")
-
-print("=" * 60)
+if __name__ == "__main__":
+    main()

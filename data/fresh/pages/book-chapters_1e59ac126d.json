@@ -1,0 +1,24 @@
+{
+  "title": "Book Chapters - AJAY KUMAR GARG ENGINEERING COLLEGE",
+  "url": "https://www.akgec.ac.in/book-chapters/",
+  "section": "R&D",
+  "blocks": [
+    {
+      "type": "heading",
+      "tag": "h1",
+      "text": "Book Chapters"
+    },
+    {
+      "type": "heading",
+      "tag": "h3",
+      "text": "Departmentwise Book Chapters"
+    },
+    {
+      "type": "table",
+      "tag": "table",
+      "text": "S.No. | Department | Book/Book Chapters\n1. | Computer Science & Engineering | 57\n2. | Information Technology | 14\n3. | Electronics & Communication Engineering | 8\n4. | Electrical & Electronics Engineering | 8\n5. | Mechanical Engineering | 9\n6. | Applied Science & Humanities | 4\n7. | Master of Computer Applications | 7"
+    }
+  ],
+  "text": "BOOK CHAPTERS\n\n\n\nDEPARTMENTWISE BOOK CHAPTERS\n\n\nS.No. | Department | Book/Book Chapters\n1. | Computer Science & Engineering | 57\n2. | Information Technology | 14\n3. | Electronics & Communication Engineering | 8\n4. | Electrical & Electronics Engineering | 8\n5. | Mechanical Engineering | 9\n6. | Applied Science & Humanities | 4\n7. | Master of Computer Applications | 7",
+  "character_count": 367
+}
