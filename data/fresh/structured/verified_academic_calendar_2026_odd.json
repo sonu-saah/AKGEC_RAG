@@ -1,0 +1,70 @@
+{
+  "title": "Academic Calendar 2026-27 - Odd Semester - Except First Year",
+  "section": "ACADEMICS",
+  "applicable_to": "B.Tech, M.Tech and MCA (except first year)",
+  "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/08/Academic-Calendar-2026-27-Odd.pdf",
+  "verification_method": "manual_visual_verification",
+  "verified": true,
+  "events": [
+    {
+      "activity": "Student Registration",
+      "date": "20 July 2026"
+    },
+    {
+      "activity": "Commencement of Classes",
+      "date": "21 July 2026"
+    },
+    {
+      "activity": "Sessional Test 1 (ST1)",
+      "date": "17-22 August 2026"
+    },
+    {
+      "activity": "Distribution of Corrected ST1 Answer Scripts",
+      "date": "27 August 2026"
+    },
+    {
+      "activity": "Mid Term Lab Assessment",
+      "date": "7-11 September 2026"
+    },
+    {
+      "activity": "Sessional Test 2 (ST2)",
+      "date": "21-26 September 2026"
+    },
+    {
+      "activity": "Distribution of Corrected ST2 Answer Scripts",
+      "date": "1 October 2026"
+    },
+    {
+      "activity": "End Term Lab Assessment",
+      "date": "26-30 October 2026"
+    },
+    {
+      "activity": "Last Teaching Day - B.Tech 3rd Year",
+      "date": "30 October 2026"
+    },
+    {
+      "activity": "Last Teaching Day - Other Students",
+      "date": "5 November 2026"
+    },
+    {
+      "activity": "Pre-University Test - B.Tech 3rd Year",
+      "date": "2-20 November 2026"
+    },
+    {
+      "activity": "Pre-University Test - Other Students",
+      "date": "13-27 November 2026"
+    },
+    {
+      "activity": "PUT Marks Submission - B.Tech 3rd Year",
+      "date": "26 November 2026"
+    },
+    {
+      "activity": "PUT Marks Submission - Other Students",
+      "date": "3 December 2026"
+    },
+    {
+      "activity": "External End Semester Examination Date Range",
+      "date": "24 November-27 December 2026"
+    }
+  ]
+}

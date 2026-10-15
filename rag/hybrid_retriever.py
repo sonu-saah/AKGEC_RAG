@@ -28,6 +28,8 @@ def tokenize(text):
     for word in words:
         if word.endswith("ies") and len(word) > 4:
             word = word[:-3] + "y"
+        elif word.endswith(("ches", "shes", "xes", "zes")) and len(word) > 5:
+            word = word[:-2]
         elif word.endswith("s") and not word.endswith("ss") and len(word) > 4:
             word = word[:-1]
 
@@ -151,7 +153,7 @@ class HybridRetriever:
         )
 
         if placement_intent:
-            years = re.findall(r"\\b20\\d{2}\\b", question)
+            years = re.findall(r"\b20\d{2}\b", question)
             target_year = years[0] if years else "2026"
 
             for chunk_id in scores:
@@ -203,6 +205,51 @@ class HybridRetriever:
                     and "dr. hemant ahuja" in content
                 ):
                     scores[chunk_id] += 0.05
+
+        # Prioritize official course lists for course/branch questions.
+        course_intent = (
+            bool(query_terms & {"course", "branch", "program"})
+            and bool(query_terms & {
+                "offer", "offered", "available",
+                "list", "listing"
+            })
+        )
+
+        if course_intent:
+            for chunk_id in scores:
+                chunk = self.by_id[chunk_id]
+                title = chunk.get("title", "").lower()
+                url = chunk.get("source_url", "").lower()
+
+                if (
+                    "courses offered" in title
+                    or "/courses-offered/" in url
+                ):
+                    scores[chunk_id] += 0.06
+
+        # Prefer the matching academic calendar for first-year queries.
+        question_lower = question.lower()
+        first_year_query = bool(
+            __import__("re").search(r"first[ -]?year|1st[ -]?year", question_lower)
+        )
+        calendar_query = bool(
+            {"class", "classes", "calendar", "semester", "session", "commencement", "start"}
+            & set(question_lower.split())
+        )
+
+        if first_year_query and calendar_query:
+            for chunk_id in scores:
+                chunk = self.by_id[chunk_id]
+                title = chunk.get("title", "").lower()
+                url = chunk.get("source_url", "").lower()
+
+                if "academic calendar" not in title:
+                    continue
+
+                if "except first year" in title:
+                    scores[chunk_id] -= 0.02
+                elif "first year" in title or "1st-year" in url:
+                    scores[chunk_id] += 0.02
 
         ranked = sorted(scores, key=scores.get, reverse=True)
 

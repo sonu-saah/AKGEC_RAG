@@ -1,0 +1,54 @@
+{
+  "title": "Academic Calendar 2026-27 - Odd Semester - First Year",
+  "section": "ACADEMICS",
+  "applicable_to": [
+    "B.Tech First Year",
+    "M.Tech First Year",
+    "MCA First Year"
+  ],
+  "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/09/Academic-Calendar-2026-27-1st-Year.pdf",
+  "verification_method": "manual_visual_verification",
+  "verified": true,
+  "events": [
+    {
+      "activity": "Student Induction Program",
+      "date": "17 August 2026"
+    },
+    {
+      "activity": "Commencement of Classes",
+      "date": "31 August 2026"
+    },
+    {
+      "activity": "Sessional Test",
+      "date": "21-26 September 2026"
+    },
+    {
+      "activity": "Distribution of Corrected Answer Scripts",
+      "date": "1 October 2026"
+    },
+    {
+      "activity": "Mid Term Lab Assessment",
+      "date": "5-9 October 2026"
+    },
+    {
+      "activity": "End Term Lab Assessment",
+      "date": "16-27 November 2026"
+    },
+    {
+      "activity": "Last Day of Teaching",
+      "date": "27 November 2026"
+    },
+    {
+      "activity": "Pre-University Test",
+      "date": "30 November-11 December 2026"
+    },
+    {
+      "activity": "Submission of Pre-University Test Marks",
+      "date": "17 December 2026"
+    },
+    {
+      "activity": "AKTU End Semester Theory and Practical Examinations",
+      "date": "To be announced"
+    }
+  ]
+}

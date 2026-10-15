@@ -1,0 +1,5 @@
+Average answer generation time
+1.50 seconds
+Across these five tests, excluding initial model loading
+
+

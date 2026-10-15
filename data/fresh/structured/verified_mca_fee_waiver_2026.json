@@ -1,0 +1,29 @@
+{
+  "title": "AKGEC MCA First Year Fee Waiver Structure 2026-27",
+  "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/07/MCA1YrFW.pdf",
+  "academic_year": "2026-27",
+  "course": "MCA",
+  "year": 1,
+  "scheme": "Fee Waiver",
+  "verification_method": "user_supplied_pdf_text_cross_check",
+  "fee_details_inr": {
+    "registration": 1500,
+    "development": 10114,
+    "medical": 1500,
+    "book_bank": 3200,
+    "activity_one_time": 5000,
+    "pdp_charges": 3500,
+    "refundable_caution_money": 5000,
+    "career_planning_placement_one_time": 5000
+  },
+  "college_fee_total_inr": 34814,
+  "university_fees_separate_inr": {
+    "examination": 7500,
+    "digital_library": 700
+  },
+  "notes": [
+    "University charges are payable separately when demanded.",
+    "Counselling deposit is deducted from the college fee.",
+    "Fees are subject to change."
+  ]
+}

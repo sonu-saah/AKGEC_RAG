@@ -1,0 +1,181 @@
+[
+  {
+    "title": "NIRF DATA FOR RANKING 2026 - INNOVATION",
+    "status": "REVIEW",
+    "characters": 34974,
+    "ocr_pages": 0,
+    "issues": [
+      "Possible OCR digit/text corruption",
+      "High-accuracy facts require validation"
+    ]
+  },
+  {
+    "title": "B.Tech1YrFW",
+    "status": "PRELIMINARY_OK",
+    "characters": 1688,
+    "ocr_pages": 1,
+    "issues": []
+  },
+  {
+    "title": "MCA1YrFW",
+    "status": "PRELIMINARY_OK",
+    "characters": 1696,
+    "ocr_pages": 1,
+    "issues": []
+  },
+  {
+    "title": "Academic-Calendar-2026-27-1st-Year",
+    "status": "REVIEW",
+    "characters": 988,
+    "ocr_pages": 1,
+    "issues": [
+      "High-accuracy facts require validation"
+    ]
+  },
+  {
+    "title": "B-Tech-IInd-to-IV-th-Year-with-lateral-Entry-2026-27_0001",
+    "status": "REVIEW",
+    "characters": 2785,
+    "ocr_pages": 1,
+    "issues": [
+      "Possible OCR digit/text corruption"
+    ]
+  },
+  {
+    "title": "NIRF DATA FOR RANKING 2026 - ENGINEERING",
+    "status": "REVIEW",
+    "characters": 30094,
+    "ocr_pages": 0,
+    "issues": [
+      "High-accuracy facts require validation"
+    ]
+  },
+  {
+    "title": "MCA1Yr",
+    "status": "PRELIMINARY_OK",
+    "characters": 1696,
+    "ocr_pages": 1,
+    "issues": []
+  },
+  {
+    "title": "MCA-II-YEAR-FW-2026-27_0001",
+    "status": "REVIEW",
+    "characters": 1868,
+    "ocr_pages": 1,
+    "issues": [
+      "Possible OCR digit/text corruption"
+    ]
+  },
+  {
+    "title": "HostelFee1Yr",
+    "status": "REVIEW",
+    "characters": 922,
+    "ocr_pages": 1,
+    "issues": [
+      "High-accuracy facts require validation"
+    ]
+  },
+  {
+    "title": "BTech1Yr",
+    "status": "PRELIMINARY_OK",
+    "characters": 1675,
+    "ocr_pages": 1,
+    "issues": []
+  },
+  {
+    "title": "Programs for Advanced and Slow Learners",
+    "status": "REVIEW",
+    "characters": 62636,
+    "ocr_pages": 50,
+    "issues": [
+      "Possible table formatting noise",
+      "Possible OCR digit/text corruption",
+      "Extractor flagged pages"
+    ]
+  },
+  {
+    "title": "Experiential Learning",
+    "status": "REVIEW",
+    "characters": 20671,
+    "ocr_pages": 20,
+    "issues": [
+      "Possible OCR digit/text corruption"
+    ]
+  },
+  {
+    "title": "B.TechIIYrLateral-new",
+    "status": "PRELIMINARY_OK",
+    "characters": 1948,
+    "ocr_pages": 1,
+    "issues": []
+  },
+  {
+    "title": "AKGEC User Manual",
+    "status": "REVIEW",
+    "characters": 21756,
+    "ocr_pages": 2,
+    "issues": [
+      "Extractor flagged pages"
+    ]
+  },
+  {
+    "title": "Year 2025-26",
+    "status": "PRELIMINARY_OK",
+    "characters": 9792,
+    "ocr_pages": 0,
+    "issues": []
+  },
+  {
+    "title": "Academic-Calendar-2026-27-Odd",
+    "status": "REVIEW",
+    "characters": 1414,
+    "ocr_pages": 1,
+    "issues": [
+      "High-accuracy facts require validation"
+    ]
+  },
+  {
+    "title": "B-Tech-IInd-to-IVth-yaer-FW-2026-27_0001",
+    "status": "PRELIMINARY_OK",
+    "characters": 2154,
+    "ocr_pages": 1,
+    "issues": []
+  },
+  {
+    "title": "Mechanism to deal with internal examination related grievances",
+    "status": "REVIEW",
+    "characters": 14924,
+    "ocr_pages": 8,
+    "issues": [
+      "Possible OCR digit/text corruption"
+    ]
+  },
+  {
+    "title": "Mandatory Disclosure 2026-27",
+    "status": "REVIEW",
+    "characters": 172212,
+    "ocr_pages": 24,
+    "issues": [
+      "Possible table formatting noise",
+      "Possible OCR digit/text corruption",
+      "Extractor flagged pages"
+    ]
+  },
+  {
+    "title": "Mechanism of internal assessment",
+    "status": "REVIEW",
+    "characters": 46294,
+    "ocr_pages": 31,
+    "issues": [
+      "Possible table formatting noise",
+      "Possible OCR digit/text corruption"
+    ]
+  },
+  {
+    "title": "MCA-II-YEAR-2026-27_0001",
+    "status": "PRELIMINARY_OK",
+    "characters": 1783,
+    "ocr_pages": 1,
+    "issues": []
+  }
+]

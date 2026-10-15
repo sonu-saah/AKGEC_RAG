@@ -1,0 +1,28 @@
+{
+  "title": "AKGEC MCA First Year Fee Structure 2026-27",
+  "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/07/MCA1Yr.pdf",
+  "academic_year": "2026-27",
+  "course": "MCA",
+  "year": 1,
+  "verification_method": "user_supplied_pdf_text_cross_check",
+  "fee_details_inr": {
+    "registration": 1500,
+    "tuition_and_development": 111256,
+    "medical": 1500,
+    "book_bank": 3200,
+    "activity_one_time": 5000,
+    "pdp_one_time": 3500,
+    "career_planning_placement_one_time": 5000,
+    "refundable_caution_money": 5000
+  },
+  "college_fee_total_inr": 135956,
+  "university_fees_separate_inr": {
+    "examination": 7500,
+    "digital_library": 1000
+  },
+  "notes": [
+    "University examination and digital library fees are paid separately when demanded.",
+    "Counselling deposit is deducted from the college fee.",
+    "Fee structure is subject to change."
+  ]
+}
