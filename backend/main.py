@@ -18,7 +18,7 @@ async def lifespan(app: FastAPI):
     # Configure the validated experimental RAG.
     module = importlib.import_module(AnswerGenerator.__init__.__globals__["HybridRetriever"].__module__)
 
-    module.CHUNKS_FILE = Path("data/fresh/structured/rag_experiment_chunks_v2.json")
+    module.CHUNKS_FILE = Path("data/fresh/structured/rag_experiment_chunks_v3.json")
     module.DB_DIR = "data/fresh/chroma_db_experiment"
     module.COLLECTION_NAME = "akgec_experiment_documents"
 
