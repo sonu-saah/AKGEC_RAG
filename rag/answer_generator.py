@@ -247,6 +247,29 @@ ANSWER:
                         f"[Source {source_number}]."
                     )
 
+        # Remove citations from unsupported-information answers.
+        unavailable_phrases = (
+            "not available in the provided documents",
+            "not available in the retrieved documents",
+            "the provided documents do not contain",
+            "the retrieved documents do not contain",
+        )
+
+        if (
+            any(phrase in answer_text.lower() for phrase in unavailable_phrases)
+            and not re.search(
+                r"\b(?:only available for|information is only available for)\b",
+                answer_text,
+                flags=re.IGNORECASE
+            )
+        ):
+            answer_text = re.sub(
+                r"\s*\[Sources?\s+[\d,\sSource]*\]",
+                "",
+                answer_text,
+                flags=re.IGNORECASE
+            )
+
         # Validate citation numbers against unique URLs.
         def clean_citation(match):
             numbers = [
