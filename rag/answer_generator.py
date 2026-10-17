@@ -247,21 +247,33 @@ ANSWER:
                         f"[Source {source_number}]."
                     )
 
-        # Remove citations from unsupported-information answers.
+        # Remove unsupported citations, but preserve cited older-year details.
         unavailable_phrases = (
             "not available in the provided documents",
             "not available in the retrieved documents",
             "the provided documents do not contain",
             "the retrieved documents do not contain",
+            "is not available",
+            "are not available",
+        )
+
+        has_supported_year_context = bool(
+            re.search(
+                r"\b(?:only|available records only)\s+"
+                r"(?:detail|details|provide|cover)\b",
+                answer_text,
+                flags=re.IGNORECASE
+            )
+            or re.search(
+                r"\bonly available for\b",
+                answer_text,
+                flags=re.IGNORECASE
+            )
         )
 
         if (
             any(phrase in answer_text.lower() for phrase in unavailable_phrases)
-            and not re.search(
-                r"\b(?:only available for|information is only available for)\b",
-                answer_text,
-                flags=re.IGNORECASE
-            )
+            and not has_supported_year_context
         ):
             answer_text = re.sub(
                 r"\s*\[Sources?\s+[\d,\sSource]*\]",
