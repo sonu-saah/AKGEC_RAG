@@ -135,11 +135,10 @@ def print_citations(citations):
         print("Official URL:", citation["url"])
 
 
-def main():
-    """Execute the complete AKGEC RAG question-answering pipeline."""
+def answer_question(question):
+    """Execute the AKGEC RAG pipeline for one question."""
 
-    # Accept a question from the terminal
-    question = input("Ask your AKGEC question: ").strip()
+
 
     # Hybrid retrieval: Search using vector similarity and BM25
     (
@@ -189,6 +188,31 @@ def main():
             "\nWARNING: Answer could not be fully verified "
             "from the retrieved AKGEC data."
         )
+
+
+def main():
+    """Run the chatbot continuously until the user exits."""
+
+    print("\n===== AKGEC RAG CHATBOT =====")
+    print("Type 'exit' or 'quit' to stop.\n")
+
+    while True:
+        question = input("\nAsk your AKGEC question: ").strip()
+
+        if question.lower() in ("exit", "quit"):
+            print("\nChatbot stopped. Goodbye!")
+            break
+
+        if not question:
+            print("Please enter a valid question.")
+            continue
+
+        try:
+            answer_question(question)
+
+        except Exception as error:
+            print(f"\nERROR: {error}")
+            print("Please try another question.")
 
 
 # Run main() only when this file is executed directly

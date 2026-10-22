@@ -13,7 +13,7 @@ from sentence_transformers import SentenceTransformer
 
 # Project paths and retrieval configuration
 BASE_DIR = Path(__file__).resolve().parent.parent
-CHUNKS_FILE = BASE_DIR / "data" / "rag_chunks.json"
+CHUNKS_FILE = BASE_DIR / "data" / "fresh" / "structured" / "rag_chunks.json"
 CHROMA_DIR = BASE_DIR / "data" / "chroma_db"
 
 COLLECTION_NAME = "akgec_documents"
