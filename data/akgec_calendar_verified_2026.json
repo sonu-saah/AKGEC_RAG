@@ -1,0 +1,139 @@
+{
+  "academic_session": "2026-27",
+  "calendars": [
+    {
+      "title": "Odd Semester 2026-27",
+      "applicable_to": "B.Tech, M.Tech and MCA (Except 1st Year)",
+      "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/08/Academic-Calendar-2026-27-Odd.pdf",
+      "activities": [
+        {
+          "activity": "Registration of Students",
+          "date": "20 July 2026",
+          "day": "Monday"
+        },
+        {
+          "activity": "Commencement of Classes",
+          "date": "21 July 2026",
+          "day": "Tuesday"
+        },
+        {
+          "activity": "Sessional Test 1 (ST1) (1 Unit, 1 Hour)",
+          "date": "17-22 August 2026",
+          "day": "Monday-Saturday"
+        },
+        {
+          "activity": "Last Date of Distribution of corrected answer scripts of ST1",
+          "date": "27 August 2026",
+          "day": "Thursday"
+        },
+        {
+          "activity": "Mid Term Lab Assessment",
+          "date": "7-11 September 2026",
+          "day": "Monday-Friday"
+        },
+        {
+          "activity": "Sessional Test 2 (ST2) (2 Units, 2 Hour)",
+          "date": "21-26 September 2026",
+          "day": "Monday-Saturday"
+        },
+        {
+          "activity": "Last Date of Distribution of corrected answer scripts of ST2",
+          "date": "1 October 2026",
+          "day": "Thursday"
+        },
+        {
+          "activity": "End Term Lab Assessment",
+          "date": "26-30 October 2026",
+          "day": "Monday-Friday"
+        },
+        {
+          "activity": "Last day of Teaching - B.Tech 3rd Year",
+          "date": "30 October 2026",
+          "day": "Friday"
+        },
+        {
+          "activity": "Last day of Teaching - Rest of the students",
+          "date": "5 November 2026",
+          "day": "Thursday"
+        },
+        {
+          "activity": "Pre-University Test (PUT) - B.Tech 3rd Year",
+          "date": "2-20 November 2026",
+          "day": "Monday-Friday"
+        },
+        {
+          "activity": "Pre-University Test (PUT) - Rest of the students",
+          "date": "13-27 November 2026",
+          "day": "Friday-Friday"
+        },
+        {
+          "activity": "Last date of submitting Pre University Test Marks",
+          "date": "26 Nov 2026 (3rd Year); 03 December 2026 (Rest)",
+          "day": "Thursday"
+        },
+        {
+          "activity": "End Semester Theory & Practical Examination (External)",
+          "date": "24 November - 27 December 2026",
+          "day": "Tuesday-Sunday"
+        }
+      ]
+    },
+    {
+      "title": "Odd Semester 2026-27 - 1st Year",
+      "applicable_to": "1st Year B.Tech, M.Tech, MCA",
+      "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/09/Academic-Calendar-2026-27-1st-Year.pdf",
+      "activities": [
+        {
+          "activity": "Commencement of Student Induction Program",
+          "date": "17 August 2026",
+          "day": "Monday"
+        },
+        {
+          "activity": "Commencement of Classes",
+          "date": "31 August 2026",
+          "day": "Monday"
+        },
+        {
+          "activity": "Sessional Test (2 Units, 2 Hour)",
+          "date": "21-26 September 2026",
+          "day": "Monday-Saturday"
+        },
+        {
+          "activity": "Last Date of Distribution of corrected answer scripts of ST",
+          "date": "1 October 2026",
+          "day": "Thursday"
+        },
+        {
+          "activity": "Mid Term Lab Assessment",
+          "date": "5-9 October 2026",
+          "day": "Monday-Friday"
+        },
+        {
+          "activity": "End Term Lab Assessment",
+          "date": "16-27 November 2026",
+          "day": "Monday-Friday"
+        },
+        {
+          "activity": "Last day of Teaching",
+          "date": "27 November 2026",
+          "day": "Friday"
+        },
+        {
+          "activity": "Pre-University Test (PUT)",
+          "date": "30 November - 11 December 2026",
+          "day": "Monday-Friday"
+        },
+        {
+          "activity": "Last date of submitting Pre University Test Marks",
+          "date": "17 December 2026",
+          "day": "Thursday"
+        },
+        {
+          "activity": "AKTU End Semester Theory & Practical Examinations",
+          "date": "To be Announced",
+          "day": ""
+        }
+      ]
+    }
+  ]
+}

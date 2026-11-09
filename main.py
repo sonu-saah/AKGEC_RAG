@@ -135,12 +135,17 @@ def print_citations(citations):
         print("Official URL:", citation["url"])
 
 
+
 def answer_question(question):
-    """Execute the AKGEC RAG pipeline for one question."""
+    """Execute the RAG pipeline and measure performance."""
 
+    import time
 
+    total_start = time.perf_counter()
 
-    # Hybrid retrieval: Search using vector similarity and BM25
+    # 1. Hybrid retrieval
+    start = time.perf_counter()
+
     (
         vector_results,
         keyword_results,
@@ -148,46 +153,73 @@ def answer_question(question):
         normalized_query,
     ) = search(question)
 
-    # Result fusion: Merge vector and keyword search results
-    results = combine_results(vector_results, keyword_results)
+    retrieval_time = time.perf_counter() - start
 
-    # Reranking: Prioritize the most relevant document chunks
+    # 2. Combine and rerank
+    start = time.perf_counter()
+
+    results = combine_results(
+        vector_results,
+        keyword_results
+    )
+
     results = rerank(question, results)
 
-    # Context building: Prepare retrieved evidence for Gemini
+    rerank_time = time.perf_counter() - start
+
+    # 3. Build context
     context = build_context(results)
 
-    # LLM inference: Generate an answer using Gemini API
+    # 4. Gemini answer generation
+    start = time.perf_counter()
+
     answer = generate_answer(question, context)
 
-    # Answer verification: Check the answer against retrieved context
-    verification = verify_answer(answer, context)
+    llm_time = time.perf_counter() - start
 
-    # Source attribution: Collect official citation references
+    # 5. Verification and citations
+    start = time.perf_counter()
+
+    verification = verify_answer(answer, context)
     citations = build_citations(results)
 
-    # Display the original and normalized queries
+    verification_time = time.perf_counter() - start
+
+    total_time = time.perf_counter() - total_start
+
+    # Display output
     print("\nORIGINAL QUESTION")
     print(original_query)
 
     print("\nNORMALIZED QUERY")
     print(normalized_query)
 
-    # Display the generated answer
     print("\nFINAL ANSWER")
     print(answer)
 
-    # Display citations and verification result
     print_citations(citations)
 
     print("\nVERIFICATION")
     print(verification)
 
+    # Performance report
+    print("\n===== PERFORMANCE REPORT =====")
+    print(f"Retrieval Time: {retrieval_time:.3f} sec")
+    print(f"Reranking Time: {rerank_time:.3f} sec")
+    print(f"Gemini Time: {llm_time:.3f} sec")
+    print(f"Verification Time: {verification_time:.3f} sec")
+    print(f"Total Response Time: {total_time:.3f} sec")
+
+    print(f"Vector Results: {len(vector_results)}")
+    print(f"BM25 Results: {len(keyword_results)}")
+    print(f"Final Retrieved Chunks: {len(results)}")
+
     if not verification["verified"]:
         print(
-            "\nWARNING: Answer could not be fully verified "
-            "from the retrieved AKGEC data."
+            "\nWARNING: Numeric claims could not be "
+            "fully verified against retrieved context."
         )
+
 
 
 def main():

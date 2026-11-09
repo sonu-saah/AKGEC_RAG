@@ -1,0 +1,522 @@
+{
+  "master_file": "data\\akgec_master_v13.json",
+  "total_sections": 72,
+  "sections_with_content": 72,
+  "sections_missing_content": [],
+  "sections_missing_source_url": [],
+  "special_review_sections": [
+    "AICTE Approval Letters",
+    "Our Recruiters",
+    "Placement Highlights",
+    "Upcoming Events"
+  ],
+  "structured_fee_records": 44,
+  "fee_records_pending_visual_review": 14,
+  "sections": [
+    {
+      "section": "Vision And Mission",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 6,
+      "source_url_present": true
+    },
+    {
+      "section": "Director",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 8,
+      "source_url_present": true
+    },
+    {
+      "section": "Management",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 28,
+      "source_url_present": true
+    },
+    {
+      "section": "Important Functionaries",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 36,
+      "source_url_present": true
+    },
+    {
+      "section": "NBA Accreditation",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 6,
+      "source_url_present": true
+    },
+    {
+      "section": "Approvals by Statutory Bodies",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 4,
+      "source_url_present": true
+    },
+    {
+      "section": "AICTE Approval Letters",
+      "collected": true,
+      "needs_special_review": true,
+      "blocks": 6,
+      "source_url_present": true
+    },
+    {
+      "section": "Grievance Committee",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 20,
+      "source_url_present": true
+    },
+    {
+      "section": "Library",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 13,
+      "source_url_present": true
+    },
+    {
+      "section": "Hostel",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 16,
+      "source_url_present": true
+    },
+    {
+      "section": "Centres Of Excellence",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 34,
+      "source_url_present": true
+    },
+    {
+      "section": "College Canteen",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 1,
+      "source_url_present": true
+    },
+    {
+      "section": "Applied Sciences & Humanities",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 39,
+      "source_url_present": true
+    },
+    {
+      "section": "Civil Engineering",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 74,
+      "source_url_present": true
+    },
+    {
+      "section": "Computer Science and Engineering",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 84,
+      "source_url_present": true
+    },
+    {
+      "section": "Electronics and Communication Engineering",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 113,
+      "source_url_present": true
+    },
+    {
+      "section": "Electrical and Electronics Engineering",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 87,
+      "source_url_present": true
+    },
+    {
+      "section": "Information Technology",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 81,
+      "source_url_present": true
+    },
+    {
+      "section": "Mechanical Engineering",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 74,
+      "source_url_present": true
+    },
+    {
+      "section": "Master of Computer Applications",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 67,
+      "source_url_present": true
+    },
+    {
+      "section": "Academic Calendar",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 4,
+      "source_url_present": true
+    },
+    {
+      "section": "List of Holidays",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 2,
+      "source_url_present": true
+    },
+    {
+      "section": "Issuance of certificates for passout students",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 14,
+      "source_url_present": true
+    },
+    {
+      "section": "Courses Offered",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 1,
+      "source_url_present": true
+    },
+    {
+      "section": "Fee Structure for Existing Students",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 8,
+      "source_url_present": true
+    },
+    {
+      "section": "Fee Structure for New Students",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 21,
+      "source_url_present": true
+    },
+    {
+      "section": "Fee Refund Norms",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 3,
+      "source_url_present": true
+    },
+    {
+      "section": "Scholarship",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 4,
+      "source_url_present": true
+    },
+    {
+      "section": "Conatus",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 155,
+      "source_url_present": true
+    },
+    {
+      "section": "Nirmaan",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 46,
+      "source_url_present": true
+    },
+    {
+      "section": "Oorja",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 107,
+      "source_url_present": true
+    },
+    {
+      "section": "Phoenix",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 57,
+      "source_url_present": true
+    },
+    {
+      "section": "Samveg",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 17,
+      "source_url_present": true
+    },
+    {
+      "section": "Euphony",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 14,
+      "source_url_present": true
+    },
+    {
+      "section": "Footprints",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 29,
+      "source_url_present": true
+    },
+    {
+      "section": "Horizon",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 75,
+      "source_url_present": true
+    },
+    {
+      "section": "Goonj",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 28,
+      "source_url_present": true
+    },
+    {
+      "section": "Renaissance",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 43,
+      "source_url_present": true
+    },
+    {
+      "section": "Taal",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 10,
+      "source_url_present": true
+    },
+    {
+      "section": "Verve",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 12,
+      "source_url_present": true
+    },
+    {
+      "section": "Photography and Media Club",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 5,
+      "source_url_present": true
+    },
+    {
+      "section": "Sports Club",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 45,
+      "source_url_present": true
+    },
+    {
+      "section": "CSI",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 74,
+      "source_url_present": true
+    },
+    {
+      "section": "Indian Concrete Institute",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 13,
+      "source_url_present": true
+    },
+    {
+      "section": "Robotics Club",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 30,
+      "source_url_present": true
+    },
+    {
+      "section": "IEEE",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 12,
+      "source_url_present": true
+    },
+    {
+      "section": "ISTE",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 25,
+      "source_url_present": true
+    },
+    {
+      "section": "SAE India",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 37,
+      "source_url_present": true
+    },
+    {
+      "section": "Electronics Club",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 9,
+      "source_url_present": true
+    },
+    {
+      "section": "Communication Club",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 8,
+      "source_url_present": true
+    },
+    {
+      "section": "Events",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 19,
+      "source_url_present": true
+    },
+    {
+      "section": "Mediclaim",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 29,
+      "source_url_present": true
+    },
+    {
+      "section": "College Awards",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 51,
+      "source_url_present": true
+    },
+    {
+      "section": "Faculty Achievements",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 7,
+      "source_url_present": true
+    },
+    {
+      "section": "T&P Department",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 10,
+      "source_url_present": true
+    },
+    {
+      "section": "Placement Records",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 39,
+      "source_url_present": true
+    },
+    {
+      "section": "T&P Programmes",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 9,
+      "source_url_present": true
+    },
+    {
+      "section": "About VE Cell",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 23,
+      "source_url_present": true
+    },
+    {
+      "section": "Transformative Sharing",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 7,
+      "source_url_present": true
+    },
+    {
+      "section": "Participation in Societal Development",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 23,
+      "source_url_present": true
+    },
+    {
+      "section": "Faculty/Staff Development Programs (FDPs/SDPs)",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 144,
+      "source_url_present": true
+    },
+    {
+      "section": "Student Development Programs (SDPs)",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 169,
+      "source_url_present": true
+    },
+    {
+      "section": "Student Induction Program",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 12,
+      "source_url_present": true
+    },
+    {
+      "section": "UHV Departmental Seminars",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 4,
+      "source_url_present": true
+    },
+    {
+      "section": "Guest Lectures/Webinars",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 77,
+      "source_url_present": true
+    },
+    {
+      "section": "Extension Activities",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 14,
+      "source_url_present": true
+    },
+    {
+      "section": "Teachers Orientation Program",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 6,
+      "source_url_present": true
+    },
+    {
+      "section": "CAREER",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 6,
+      "source_url_present": true
+    },
+    {
+      "section": "Reporting Process for Admission through UPTAC Counselling 2026-27",
+      "collected": true,
+      "needs_special_review": false,
+      "blocks": 24,
+      "source_url_present": true
+    },
+    {
+      "section": "Our Recruiters",
+      "collected": true,
+      "needs_special_review": true,
+      "blocks": 63,
+      "source_url_present": true
+    },
+    {
+      "section": "Placement Highlights",
+      "collected": true,
+      "needs_special_review": true,
+      "blocks": 3,
+      "source_url_present": true
+    },
+    {
+      "section": "Upcoming Events",
+      "collected": true,
+      "needs_special_review": true,
+      "blocks": 8,
+      "source_url_present": true
+    }
+  ],
+  "scraping_status": "collection_complete_verification_pending"
+}

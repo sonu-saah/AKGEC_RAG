@@ -1,0 +1,589 @@
+
+import json
+import re
+from difflib import SequenceMatcher
+from functools import lru_cache
+
+
+# Normalize text for evidence matching.
+def normalize(text):
+    return re.sub(r"\s+", " ", str(text).lower()).strip()
+
+
+# Extract numeric values in a consistent format.
+def numbers(text):
+    values = re.findall(r"(?<!\w)\d[\d,]*(?:\.\d+)?(?!\w)", str(text))
+    return {
+        str(float(v.replace(",", ""))).rstrip("0").rstrip(".")
+        if "." in v else str(int(v.replace(",", "")))
+        for v in values
+    }
+
+
+# Split an answer into individual claims.
+def split_claims(answer):
+    text = re.sub(
+        r"\[Sources?\s+\d+(?:\s*,\s*(?:Source\s+)?\d+)*\]",
+        "",
+        str(answer),
+        flags=re.IGNORECASE
+    )
+
+    claims = []
+
+    for line in text.splitlines():
+        line = line.strip()
+
+        if not line:
+            continue
+
+        line = re.sub(r"^(?:[-*?]\s+|\d+[.)]\s+)", "", line)
+
+        if not line.strip():
+            continue
+
+        parts = re.split(
+            r"(?<=[.!?])\s+(?=[A-Z])",
+            line
+        )
+
+        claims.extend(
+            part.strip()
+            for part in parts
+            if part.strip()
+        )
+
+    return claims
+
+
+# Keep structured records and tables intact for complete evidence matching.
+def evidence_spans(chunk):
+    raw = str(chunk.get("text", "")).strip()
+
+    if not raw:
+        return []
+
+    if chunk.get("content_type") in {"structured_fee", "table"}:
+        return [raw]
+
+    try:
+        record = json.loads(raw)
+        if isinstance(record, dict):
+            return [raw]
+    except (ValueError, TypeError):
+        pass
+
+    spans = re.split(r"(?<=[.!?])\s+(?=[A-Z])|\n+", raw)
+
+    return [s.strip() for s in spans if s.strip()]
+
+
+# Validate explicit fee attributes against structured records.
+def fee_field_matches(claim, record):
+    q = claim.lower()
+
+    if not re.search(r"\b(?:fees?|cost|payable|tuition)\b", q):
+        return False
+
+    if isinstance(record, str):
+        fields = {}
+
+        for line in record.splitlines():
+            if ":" in line:
+                key, value = line.split(":", 1)
+                fields[key.strip().lower()] = value.strip()
+
+        course = fields.get("course", "").lower()
+        year = fields.get("year", "").lower()
+        category = fields.get("category", "").lower()
+        session = fields.get("academic session", "")
+        total_fee = fields.get("total fee", "")
+
+        if not all([course, year, category, session, total_fee]):
+            return False
+
+        if re.search(r"\bb\s*\.?\s*tech\b", q):
+            if course != "b.tech":
+                return False
+
+        years = {
+            "1st year": r"\b(?:first|1st)[ -]?year\b",
+            "2nd year": r"\b(?:second|2nd)[ -]?year\b",
+            "3rd year": r"\b(?:third|3rd)[ -]?year\b",
+            "4th year": r"\b(?:fourth|4th)[ -]?year\b"
+        }
+
+        for expected, pattern in years.items():
+            if re.search(pattern, q) and year != expected:
+                return False
+
+        if re.search(r"\bfee[ -]?waiver\b|\btfw\b", q):
+            if category != "fee waiver":
+                return False
+
+        if re.search(r"\bregular\b", q) and category != "regular":
+            return False
+
+        requested_session = re.search(r"\b20\d{2}-\d{2}\b", q)
+
+        if requested_session:
+            if requested_session.group(0) != session:
+                return False
+
+        requested_amount = re.search(
+            r"(?:inr|rs\.?|₹)\s*([\d,]+)",
+            q,
+            re.IGNORECASE
+        )
+
+        if requested_amount:
+            claim_amount = requested_amount.group(1).replace(",", "")
+            evidence_amount = re.sub(r"[^\d]", "", total_fee)
+
+            if claim_amount != evidence_amount:
+                return False
+
+        return True
+
+    if not isinstance(record, dict):
+        return False
+
+    if "total_fee_inr" not in record:
+        return False
+
+    years = {
+        "1st year": r"\b(?:first|1st)[ -]?year\b",
+        "2nd year": r"\b(?:second|2nd)[ -]?year\b",
+        "3rd year": r"\b(?:third|3rd)[ -]?year\b",
+        "4th year": r"\b(?:fourth|4th)[ -]?year\b"
+    }
+
+    for year, pattern in years.items():
+        if re.search(pattern, q):
+            if str(record.get("year", "")).lower() != year:
+                return False
+
+    session = re.search(r"\b20\d{2}-\d{2}\b", q)
+
+    if session:
+        if session.group(0) != str(record.get("academic_session", "")):
+            return False
+
+    if re.search(r"\bfee[ -]?waiver\b|\btfw\b", q):
+        if str(record.get("category", "")).lower() != "fee waiver":
+            return False
+
+    if re.search(r"\bregular\b", q):
+        if str(record.get("category", "")).lower() != "regular":
+            return False
+
+    if re.search(r"\bb\s*\.?\s*tech\b", q):
+        if str(record.get("course", "")).lower() != "b.tech":
+            return False
+
+    requested_amount = re.search(
+        r"(?:inr|rs\.?|₹)\s*([\d,]+)",
+        q,
+        re.IGNORECASE
+    )
+
+    if requested_amount:
+        claim_amount = requested_amount.group(1).replace(",", "")
+
+        if claim_amount != str(record.get("total_fee_inr", "")):
+            return False
+
+    return True
+
+
+# Compare one claim with a source evidence span.
+def compare_claim(claim, evidence):
+    claim_text = normalize(claim)
+    evidence_text = normalize(evidence)
+
+    claim_numbers = numbers(claim)
+    evidence_numbers = numbers(evidence)
+
+    if not claim_numbers.issubset(evidence_numbers):
+        return 0.0, "numeric_mismatch"
+
+    stopwords = {
+        "the", "and", "for", "with", "from", "this", "that",
+        "are", "was", "were", "has", "have", "at", "of",
+        "in", "is", "to", "a", "an", "please", "note",
+        "according", "source"
+    }
+
+    claim_terms = {
+        w for w in re.findall(r"[a-z]+", claim_text)
+        if len(w) > 2 and w not in stopwords
+    }
+
+    evidence_terms = {
+        w for w in re.findall(r"[a-z]+", evidence_text)
+        if len(w) > 2 and w not in stopwords
+    }
+
+    overlap = (
+        len(claim_terms & evidence_terms) / len(claim_terms)
+        if claim_terms else 0.0
+    )
+
+    similarity = SequenceMatcher(
+        None, claim_text, evidence_text
+    ).ratio()
+
+    score = round(0.8 * overlap + 0.2 * similarity, 3)
+
+    return score, "candidate_evidence"
+
+
+# Load the semantic verification model only once.
+@lru_cache(maxsize=1)
+def get_nli_model():
+    from transformers import AutoTokenizer, AutoModelForSequenceClassification
+
+    name = "cross-encoder/nli-MiniLM2-L6-H768"
+    tokenizer = AutoTokenizer.from_pretrained(name)
+    model = AutoModelForSequenceClassification.from_pretrained(name)
+    model.eval()
+
+    return tokenizer, model
+
+
+# Classify whether evidence supports or contradicts a claim.
+def nli_scores(evidence, claim):
+    import torch
+
+    tokenizer, model = get_nli_model()
+
+    inputs = tokenizer(
+        evidence,
+        claim,
+        return_tensors="pt",
+        truncation=True,
+        max_length=512
+    )
+
+    with torch.inference_mode():
+        probabilities = torch.softmax(
+            model(**inputs).logits[0],
+            dim=-1
+        )
+
+    return {
+        model.config.id2label[i].lower(): round(float(value), 4)
+        for i, value in enumerate(probabilities)
+    }
+
+
+# Evaluate multiple evidence-claim pairs in small batches.
+def nli_scores_batch(pairs, batch_size=4):
+    import torch
+
+    if not pairs:
+        return []
+
+    tokenizer, model = get_nli_model()
+    outputs = []
+
+    with torch.inference_mode():
+        for start in range(0, len(pairs), batch_size):
+            batch = pairs[start:start + batch_size]
+
+            inputs = tokenizer(
+                [evidence for evidence, claim in batch],
+                [claim for evidence, claim in batch],
+                padding=True,
+                truncation=True,
+                max_length=512,
+                return_tensors="pt"
+            )
+
+            probabilities = torch.softmax(
+                model(**inputs).logits,
+                dim=-1
+            )
+
+            for row in probabilities:
+                outputs.append({
+                    model.config.id2label[i].lower(): round(float(value), 4)
+                    for i, value in enumerate(row)
+                })
+
+    return outputs
+
+
+# Produce sentence-wise evidence attribution.
+def verify_answer(answer, retrieved_chunks):
+    claims = split_claims(answer)
+    reports = []
+
+    for claim in claims:
+        candidates = []
+        blocked = False
+        ranked_spans = []
+
+        for chunk in retrieved_chunks:
+            for span in evidence_spans(chunk):
+                lexical_score, reason = compare_claim(claim, span)
+
+                ranked_spans.append((
+                    lexical_score,
+                    chunk,
+                    span,
+                    reason
+                ))
+
+        ranked_spans.sort(
+            key=lambda item: item[0],
+            reverse=True
+        )
+
+        selected_spans = ranked_spans[:5]
+
+        # Batch eligible NLI evidence without including structured fee records.
+        nli_items = []
+
+        for _, chunk, span, reason in selected_spans:
+            if chunk.get("content_type") == "structured_fee":
+                continue
+
+            try:
+                record = json.loads(span)
+            except (ValueError, TypeError):
+                record = None
+
+            if (
+                fee_field_matches(claim, record)
+                and reason != "numeric_mismatch"
+                and not (
+                    isinstance(record, dict)
+                    and "total_fee_inr" in record
+                )
+            ):
+                nli_items.append((span, claim))
+            elif (
+                reason != "numeric_mismatch"
+                and not (
+                    isinstance(record, dict)
+                    and "total_fee_inr" in record
+                )
+            ):
+                nli_items.append((span, claim))
+
+        nli_results = iter(nli_scores_batch(nli_items))
+
+        for _, chunk, span, _ in selected_spans:
+            if chunk.get("content_type") == "structured_fee":
+                if not fee_field_matches(claim, span):
+                    blocked = True
+                    continue
+
+                lexical_score, reason = compare_claim(claim, span)
+
+                if reason == "numeric_mismatch":
+                    blocked = True
+                    continue
+
+                candidates.append({
+                    "status": "supported",
+                    "score": 1.0,
+                    "evidence_span": span,
+                    "source_url": chunk.get("source_url", ""),
+                    "chunk_id": chunk.get("id", ""),
+                    "verification_status": chunk.get(
+                        "verification_status", "unknown"
+                    )
+                })
+                continue
+
+            try:
+                record = json.loads(span)
+            except (ValueError, TypeError):
+                record = None
+
+            if (
+                isinstance(record, dict)
+                and "total_fee_inr" in record
+            ):
+                if not fee_field_matches(claim, record):
+                    blocked = True
+                    continue
+
+                lexical_score, reason = compare_claim(claim, span)
+
+                if reason == "numeric_mismatch":
+                    blocked = True
+                    continue
+
+                candidates.append({
+                    "status": "supported" if lexical_score >= 0.65 else "insufficient_evidence",
+                    "score": lexical_score,
+                    "evidence_span": span,
+                    "source_url": chunk.get("source_url", ""),
+                    "chunk_id": chunk.get("id", ""),
+                    "verification_status": record.get(
+                        "verification_status", "unknown"
+                    )
+                })
+                continue
+
+            lexical_score, reason = compare_claim(claim, span)
+
+            if reason == "numeric_mismatch":
+                blocked = True
+                continue
+
+            scores = next(nli_results)
+            label = max(scores, key=scores.get)
+
+            status = {
+                "entailment": "supported",
+                "contradiction": "contradicted",
+                "neutral": "insufficient_evidence"
+            }.get(label, "insufficient_evidence")
+
+            candidates.append({
+                "status": status,
+                "score": scores[label],
+                "evidence_span": span,
+                "source_url": chunk.get("source_url", ""),
+                "chunk_id": chunk.get("id", ""),
+                "verification_status": chunk.get(
+                    "verification_status", "unknown"
+                ),
+                "nli_scores": scores
+            })
+
+        # Check whether two relevant evidence spans jointly support the claim.
+        combined_spans = []
+
+        for score, chunk, span, reason in ranked_spans:
+            if score < 0.20 or reason == "numeric_mismatch":
+                continue
+
+            if chunk.get("content_type") == "structured_fee":
+                continue
+
+            try:
+                record = json.loads(span)
+            except (ValueError, TypeError):
+                record = None
+
+            if isinstance(record, dict):
+                continue
+
+            if not combined_spans:
+                if chunk.get("source_url"):
+                    combined_spans.append((score, chunk, span))
+            elif (
+                chunk.get("source_url")
+                and chunk.get("source_url")
+                == combined_spans[0][1].get("source_url")
+                and span != combined_spans[0][2]
+            ):
+                combined_spans.append((score, chunk, span))
+                break
+
+        if len(combined_spans) == 2:
+            first, second = combined_spans
+            combined_text = first[2] + " " + second[2]
+            combined_scores = nli_scores(combined_text, claim)
+
+            if (
+                combined_scores["entailment"] >= 0.80
+                and combined_scores["entailment"]
+                > combined_scores["contradiction"]
+            ):
+                candidates.append({
+                    "status": "supported",
+                    "score": combined_scores["entailment"],
+                    "evidence_span": combined_text,
+                    "source_url": first[1].get("source_url", ""),
+                    "chunk_id": first[1].get("id", ""),
+                    "verification_status": "combined_evidence",
+                    "nli_scores": combined_scores
+                })
+
+        supported = [
+            c for c in candidates if c["status"] == "supported"
+        ]
+
+        contradicted = [
+            c for c in candidates if c["status"] == "contradicted"
+        ]
+
+        strong_support = [
+            c for c in supported if c["score"] >= 0.80
+        ]
+
+        strong_contradiction = [
+            c for c in contradicted if c["score"] >= 0.80
+        ]
+
+        if strong_support and strong_contradiction:
+            best = max(strong_support, key=lambda c: c["score"])
+            conflict = max(
+                strong_contradiction,
+                key=lambda c: c["score"]
+            )
+
+            support_text = best.get("evidence_span", "")
+            conflict_text = conflict.get("evidence_span", "")
+
+            support_relevance, _ = compare_claim(claim, support_text)
+            conflict_relevance, _ = compare_claim(claim, conflict_text)
+
+            if (
+                conflict_relevance >= 0.40
+                and conflict_relevance >= support_relevance * 0.75
+            ):
+                status = "conflicting_evidence"
+            else:
+                status = "supported"
+                conflict = None
+
+        elif supported:
+            best = max(supported, key=lambda c: c["score"])
+            conflict = None
+            status = "supported"
+
+        elif contradicted:
+            best = max(contradicted, key=lambda c: c["score"])
+            conflict = None
+            status = "contradicted"
+
+        else:
+            best = max(
+                candidates,
+                key=lambda c: c["score"],
+                default=None
+            )
+            conflict = None
+            status = "insufficient_evidence"
+
+        # Ignore unrelated numeric mismatches when evidence supports the claim.
+        final_mismatch = blocked and status != "supported"
+
+        reports.append({
+            "claim": claim,
+            "status": status,
+            "attribution_score": best["score"] if best else 0.0,
+            "evidence": best,
+            "conflicting_evidence": conflict,
+            "structured_mismatch_detected": final_mismatch
+        })
+
+    supported_count = sum(
+        c["status"] == "supported" for c in reports
+    )
+
+    return {
+        "verified": False,
+        "review_status": "automated_semantic_screening",
+        "total_claims": len(reports),
+        "candidate_supported_claims": supported_count,
+        "needs_review_claims": len(reports) - supported_count,
+        "claims": reports
+    }

@@ -1,0 +1,79 @@
+AKGEC MASTER DATA QUALITY AUDIT
+=======================================================
+Total sections: 72
+Total blocks: 2452
+Unique source URLs: 22
+Repeated source references: 41
+Empty sections: 0
+Pending-review blocks: 49
+
+BLOCK TYPES:
+paragraph: 1581
+heading: 573
+list_item: 197
+table: 88
+link: 7
+document: 6
+
+VERIFICATION STATUSES:
+not_marked: 2393
+extracted_pending_review: 42
+link_discovered: 7
+cleaned_pending_review: 6
+extracted_reviewed: 2
+ocr_pending_visual_verification: 1
+incomplete_ocr_requires_visual_verification: 1
+
+EMPTY SECTIONS:
+None
+
+PENDING-REVIEW BLOCKS:
+Grievance Committee | paragraph | extracted_pending_review
+Grievance Committee | table | extracted_pending_review
+Grievance Committee | paragraph | extracted_pending_review
+Grievance Committee | paragraph | extracted_pending_review
+Grievance Committee | paragraph | extracted_pending_review
+Grievance Committee | paragraph | extracted_pending_review
+Grievance Committee | table | extracted_pending_review
+Grievance Committee | paragraph | extracted_pending_review
+Grievance Committee | paragraph | extracted_pending_review
+Grievance Committee | paragraph | extracted_pending_review
+Grievance Committee | paragraph | extracted_pending_review
+Grievance Committee | paragraph | extracted_pending_review
+Grievance Committee | table | extracted_pending_review
+Grievance Committee | paragraph | extracted_pending_review
+Grievance Committee | paragraph | extracted_pending_review
+Grievance Committee | paragraph | extracted_pending_review
+Grievance Committee | paragraph | extracted_pending_review
+Academic Calendar | paragraph | ocr_pending_visual_verification
+List of Holidays | paragraph | extracted_pending_review
+Placement Records | paragraph | extracted_pending_review
+Placement Records | table | extracted_pending_review
+Placement Records | paragraph | extracted_pending_review
+Placement Records | table | extracted_pending_review
+Placement Records | paragraph | extracted_pending_review
+Placement Records | table | extracted_pending_review
+Placement Records | paragraph | extracted_pending_review
+Placement Records | table | extracted_pending_review
+Placement Records | paragraph | extracted_pending_review
+Placement Records | table | extracted_pending_review
+Placement Records | paragraph | extracted_pending_review
+Placement Records | table | extracted_pending_review
+Placement Records | paragraph | extracted_pending_review
+Placement Records | table | extracted_pending_review
+Placement Records | paragraph | extracted_pending_review
+Placement Records | table | extracted_pending_review
+Placement Records | paragraph | extracted_pending_review
+Placement Records | table | extracted_pending_review
+Placement Records | paragraph | extracted_pending_review
+Placement Records | table | extracted_pending_review
+Placement Records | paragraph | extracted_pending_review
+Placement Records | table | extracted_pending_review
+Placement Records | paragraph | extracted_pending_review
+Placement Records | table | extracted_pending_review
+Reporting Process for Admission through UPTAC Counselling 2026-27 | document | cleaned_pending_review
+Reporting Process for Admission through UPTAC Counselling 2026-27 | document | cleaned_pending_review
+Reporting Process for Admission through UPTAC Counselling 2026-27 | document | cleaned_pending_review
+Reporting Process for Admission through UPTAC Counselling 2026-27 | document | cleaned_pending_review
+Reporting Process for Admission through UPTAC Counselling 2026-27 | document | cleaned_pending_review
+Reporting Process for Admission through UPTAC Counselling 2026-27 | document | cleaned_pending_review

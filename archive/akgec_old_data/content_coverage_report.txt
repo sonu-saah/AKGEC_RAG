@@ -1,0 +1,72 @@
+AICTE Approval Letters                        | Words:     0 | Tables:  6 | Blocks:   6
+Courses Offered                               | Words:     0 | Tables:  1 | Blocks:   1
+Placement Records                             | Words:    12 | Tables:  0 | Blocks:   3
+Grievance Committee                           | Words:    14 | Tables:  0 | Blocks:   3
+Placement Highlights                          | Words:    20 | Tables:  1 | Blocks:   3
+CAREER                                        | Words:    26 | Tables:  0 | Blocks:   4
+Fee Structure for Existing Students           | Words:    31 | Tables:  0 | Blocks:   8
+Fee Refund Norms                              | Words:    43 | Tables:  1 | Blocks:   3
+Upcoming Events                               | Words:    48 | Tables:  0 | Blocks:   8
+Events                                        | Words:    56 | Tables:  0 | Blocks:  19
+Reporting Process for Admission through UPTAC | Words:    64 | Tables:  0 | Blocks:  10
+College Canteen                               | Words:    71 | Tables:  0 | Blocks:   1
+Our Recruiters                                | Words:    80 | Tables:  0 | Blocks:  63
+Management                                    | Words:    86 | Tables:  0 | Blocks:  28
+Scholarship                                   | Words:   101 | Tables:  2 | Blocks:   4
+Approvals by Statutory Bodies                 | Words:   102 | Tables:  0 | Blocks:   4
+NBA Accreditation                             | Words:   111 | Tables:  1 | Blocks:   6
+Vision And Mission                            | Words:   122 | Tables:  0 | Blocks:   6
+Taal                                          | Words:   129 | Tables:  1 | Blocks:  10
+Important Functionaries                       | Words:   131 | Tables:  0 | Blocks:  36
+UHV Departmental Seminars                     | Words:   152 | Tables:  1 | Blocks:   4
+IEEE                                          | Words:   160 | Tables:  5 | Blocks:  12
+Issuance of certificates for passout students | Words:   183 | Tables:  0 | Blocks:  14
+Hostel                                        | Words:   238 | Tables:  0 | Blocks:  16
+Library                                       | Words:   275 | Tables:  1 | Blocks:  13
+Photography and Media Club                    | Words:   283 | Tables:  0 | Blocks:   5
+Director                                      | Words:   303 | Tables:  0 | Blocks:   8
+Faculty Achievements                          | Words:   305 | Tables:  0 | Blocks:   7
+T&P Programmes                                | Words:   324 | Tables:  0 | Blocks:   9
+Academic Calendar                             | Words:   349 | Tables:  0 | Blocks:   4
+T&P Department                                | Words:   402 | Tables:  0 | Blocks:  10
+Communication Club                            | Words:   414 | Tables:  2 | Blocks:   8
+Indian Concrete Institute                     | Words:   432 | Tables:  0 | Blocks:  13
+Transformative Sharing                        | Words:   442 | Tables:  0 | Blocks:   7
+Student Induction Program                     | Words:   453 | Tables:  0 | Blocks:  12
+Mediclaim                                     | Words:   473 | Tables:  0 | Blocks:  29
+ISTE                                          | Words:   489 | Tables:  0 | Blocks:  25
+List of Holidays                              | Words:   500 | Tables:  0 | Blocks:   2
+About VE Cell                                 | Words:   520 | Tables:  3 | Blocks:  23
+Euphony                                       | Words:   524 | Tables:  0 | Blocks:  14
+Fee Structure for New Students                | Words:   555 | Tables:  3 | Blocks:  21
+Applied Sciences & Humanities                 | Words:   556 | Tables:  2 | Blocks:  39
+Teachers Orientation Program                  | Words:   615 | Tables:  0 | Blocks:   6
+Robotics Club                                 | Words:   650 | Tables:  0 | Blocks:  30
+Electronics Club                              | Words:   670 | Tables:  1 | Blocks:   9
+Verve                                         | Words:   743 | Tables:  0 | Blocks:  12
+Participation in Societal Development         | Words:   766 | Tables:  0 | Blocks:  23
+Samveg                                        | Words:   823 | Tables:  0 | Blocks:  17
+Extension Activities                          | Words:   829 | Tables:  0 | Blocks:  14
+Nirmaan                                       | Words:   876 | Tables:  0 | Blocks:  46
+Master of Computer Applications               | Words:  1051 | Tables:  0 | Blocks:  67
+Centres Of Excellence                         | Words:  1094 | Tables:  0 | Blocks:  34
+Goonj                                         | Words:  1097 | Tables:  0 | Blocks:  28
+Footprints                                    | Words:  1148 | Tables:  0 | Blocks:  29
+Civil Engineering                             | Words:  1174 | Tables:  1 | Blocks:  74
+Mechanical Engineering                        | Words:  1214 | Tables:  0 | Blocks:  74
+Renaissance                                   | Words:  1255 | Tables:  0 | Blocks:  43
+Information Technology                        | Words:  1291 | Tables:  2 | Blocks:  81
+Sports Club                                   | Words:  1313 | Tables:  6 | Blocks:  45
+Electrical and Electronics Engineering        | Words:  1354 | Tables:  2 | Blocks:  87
+SAE India                                     | Words:  1425 | Tables:  0 | Blocks:  37
+College Awards                                | Words:  1429 | Tables:  0 | Blocks:  51
+Phoenix                                       | Words:  1447 | Tables:  0 | Blocks:  57
+Computer Science and Engineering              | Words:  1545 | Tables:  4 | Blocks:  84
+Horizon                                       | Words:  1907 | Tables:  0 | Blocks:  75
+Electronics and Communication Engineering     | Words:  2104 | Tables:  2 | Blocks: 113
+CSI                                           | Words:  2714 | Tables:  1 | Blocks:  74
+Conatus                                       | Words:  3869 | Tables: 11 | Blocks: 155
+Oorja                                         | Words:  4068 | Tables: 11 | Blocks: 107
+Guest Lectures/Webinars                       | Words:  4495 | Tables:  0 | Blocks:  77
+Faculty/Staff Development Programs (FDPs/SDPs | Words:  4926 | Tables:  1 | Blocks: 144
+Student Development Programs (SDPs)           | Words:  7472 | Tables:  0 | Blocks: 169

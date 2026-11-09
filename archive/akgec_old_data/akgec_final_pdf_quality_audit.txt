@@ -1,0 +1,56 @@
+PDF: data\AKGEC_COMPLETE_FINAL_2026_27.pdf
+Sections: 72
+Missing headings: []
+Fee records: 44
+Missing fee totals: 0
+Long blocks checked: 1178
+Potential mismatches: 47
+
+Potential mismatches:
+Centres Of Excellence | akgec, to promote industry oriented teaching learning, has setup center for integrated automation in
+Centres Of Excellence | a fab lab is an initiative of prof. neil gershenfeld from mit, usa which is typically equipped with 
+Applied Sciences & Humanities | 1. the department has adequate number of laboratories as per requirement (strength of students in th
+Electrical and Electronics Engineering | dr. lokesh varshney is a professor and the head of the department of electrical and electronics engi
+Information Technology | in the dynamic intersection of academia and entrepreneurship, dr. sharma's leadership fosters an env
+List of Holidays | ajay kumar garg engineering college list of holidays during the year 2026 s. name of festival date d
+Conatus | team conatus organized its annual event called “cod: conquest of dayne" on march 03-04, 2020. the ev
+Conatus | in order to maintain continuum, team conatus launched the 19th edition of conoscenza on 1st november
+Nirmaan | team nirmaan, varan2.o’23, from the civil engineering department of ajay kumar garg engineering coll
+Oorja | technoverse is a technical innovation competition organized to promote creativity, innovation, teamw
+Oorja | at first, the theoretical aspect was shared and then the practical demonstration was given to the st
+Oorja | it included three rounds, namely: ● scavenger hunt ● picture puzzle with crossword ● surprise round
+Phoenix | “the team phoenix technical society of the ece department celebrated its 19 th founder’s day on 20 t
+Footprints | the freshers' party, “नवाध्याय '24,” was organised at ajay kumar garg engineering college (akgec) on
+Footprints | viteam footprints and other cultural societies of ajay kumar garg engineering college orchestrated a
+Horizon | we aim at creating technocrats, entrepreneurs & above all innovative minds with impeccable grit, dis
+Horizon | the event, held on may 8, 2024, featured two phases: synopsis submission and technical paper present
+Renaissance | on june 20, 2024, team renaissance organized “एक युद्ध, नशे के विरुद्ध" at the csit seminar hall. th
+Renaissance | the national foundation for communal harmony (nfch) annually observes the communal harmony campaign 
+Renaissance | team renaissance with the support of the college, organised kiran – 2023 on 12th and13th september, 
+CSI | computer society of india (akgec) successfully conducted the inter college event “the initiative 201
+SAE India | supra :- saeindia, the indian chapter of the society of automotive engineers, has been organizing th
+Electronics Club | ● exposure to red hat linux environment was given to students. ● exposure of device simulation with 
+College Awards | it is a matter of pride for akgec to have received the award for best institution for innovation fro
+Placement Records | ajay kumar garg engineering college training and placement department akgec company wise placement s
+Placement Records | aviotron 14 b. tech. (ece) 9 3.8 aerospace 15 zigram tech b.tech (cse/it) 1 4 16 ed vedha b. tech.(a
+Placement Records | b. tech. (cs/cse/cse veersa 37 aiml/aiml/csit/it/cse 11 5.18 technologies ds) b. tech. (cs/cse/cse 3
+Placement Records | ats homekraft 65 b. tech. (csit/ece)/mba 5 3.6 (2) b. tech. (cse/cs/cse arrise solution 66 aiml/aiml
+Placement Records | ajay kumar garg engineering training and placement department akgec company wise placement summary-2
+Placement Records | scaler 237 prism rmc 738 codestore 539 craftech infra projects llp 640 geetanjali homestate 2841 del
+Placement Records | 81 botshreyasi 3 82 airveda 1 balaji switchgear pvt. ltd. 383 84 optimus information 1 maq software 
+Faculty/Staff Development Programs (FDPs/SDPs) | session conduction- ● natural acceptance and self-exploration were well-addressed and received. ● th
+Faculty/Staff Development Programs (FDPs/SDPs) | participants motivation- ● to be developed as nodal centers- all ● motivated to teach the subject. 1
+Faculty/Staff Development Programs (FDPs/SDPs) | session conduction- ● natural acceptance and self-exploration were well-addressed and received. ● th
+Faculty/Staff Development Programs (FDPs/SDPs) | participants motivation- ● to be developed as nodal centers- all ● motivated to teach the subject. 6
+Faculty/Staff Development Programs (FDPs/SDPs) | a four-day uhv activity-based workshop was organized by ve cell, akgec in coordination with isabs (i
+Student Development Programs (SDPs) | the first day of the workshop began with an introduction to the topic and an outline of key checkpoi
+Student Development Programs (SDPs) | 1. be aware – observe your imagination at this moment, i.e. the desire (feeling), thought, expectati
+Student Development Programs (SDPs) | distinguished guests present at the event were dr. gopal babu, mr. b.n. pandey, dr. jitendra chhabra
+Student Development Programs (SDPs) | participants unanimously expressed a desire for more frequent workshops and follow-up meetings under
+Student Development Programs (SDPs) | with the sharing of explorers, the workshop came to an end. the explorer’s feedback was very encoura
+Student Development Programs (SDPs) | a limited hours (within 10day duration) student workshop on the topic “conscious engineering” was pl
+Guest Lectures/Webinars | proceeding further, vijay pal baghel ji, in his address, shared insights and inspiration from his jo
+Guest Lectures/Webinars | the session had been very interactive and exploratory for all the attendees. dr. t sundara raj perum
+Guest Lectures/Webinars | dhairya saraswat, himanshu mishra, devansh bhatnagar, prakanshu sahu, shubham pandey and other stude
+Guest Lectures/Webinars | most impactful statement mentioned by the attendees was; पेड़ कम नहीं हो रहे है, साँसे कम हो रही है 
+Extension Activities | ve cell akgec conducted a 15-day workshop for female inmates of the dasna jail, ghaziabad. we're pro

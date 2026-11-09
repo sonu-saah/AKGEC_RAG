@@ -1,0 +1,236 @@
+AKGEC SOURCE COVERAGE AUDIT
+============================================================
+Total sections: 72
+Total direct text words: 67872
+Missing page URLs: 0
+Low-content sections: 7
+
+MISSING PAGE URLS:
+None
+
+LOW-CONTENT SECTIONS:
+Management
+College Canteen
+Fee Structure for Existing Students
+Events
+CAREER
+Our Recruiters
+Upcoming Events
+
+ALL SECTIONS:
+01. Vision And Mission
+    URL: https://www.akgec.ac.in/vision-and-mission
+    Words: 122 | Tables: 0 | Documents: 0
+02. Director
+    URL: https://www.akgec.ac.in/about/director_akgec
+    Words: 303 | Tables: 0 | Documents: 0
+03. Management
+    URL: https://www.akgec.ac.in/about/management
+    Words: 86 | Tables: 0 | Documents: 0
+04. Important Functionaries
+    URL: https://www.akgec.ac.in/about/important-functionaries
+    Words: 131 | Tables: 0 | Documents: 0
+05. NBA Accreditation
+    URL: https://www.akgec.ac.in/nba-accreditation
+    Words: 111 | Tables: 1 | Documents: 0
+06. Approvals by Statutory Bodies
+    URL: https://www.akgec.ac.in/about/approvals-by-statutory-bodies
+    Words: 102 | Tables: 0 | Documents: 0
+07. AICTE Approval Letters
+    URL: https://www.akgec.ac.in/wp-content/uploads/2026/04/AICTEApprovalYear-2026-27.pdf
+    Words: 0 | Tables: 6 | Documents: 0
+08. Grievance Committee
+    URL: https://www.akgec.ac.in/grievance-committee
+    Words: 311 | Tables: 3 | Documents: 0
+09. Library
+    URL: https://www.akgec.ac.in/central-library
+    Words: 275 | Tables: 1 | Documents: 0
+10. Hostel
+    URL: https://www.akgec.ac.in/about/infrastructure-visual-tour/hostel
+    Words: 238 | Tables: 0 | Documents: 0
+11. Centres Of Excellence
+    URL: https://www.akgec.ac.in/about/infrastructure-visual-tour/centres-of-excellence
+    Words: 1094 | Tables: 0 | Documents: 0
+12. College Canteen
+    URL: https://www.akgec.ac.in/about/infrastructure-visual-tour/college-canteen
+    Words: 71 | Tables: 0 | Documents: 0
+13. Applied Sciences & Humanities
+    URL: https://www.akgec.ac.in/departments/applied-sciences-humanities
+    Words: 556 | Tables: 2 | Documents: 0
+14. Civil Engineering
+    URL: https://www.akgec.ac.in/departments/civil-engineering
+    Words: 1174 | Tables: 1 | Documents: 0
+15. Computer Science and Engineering
+    URL: https://www.akgec.ac.in/departments/computer-science-and-engineering
+    Words: 1545 | Tables: 4 | Documents: 0
+16. Electronics and Communication Engineering
+    URL: https://www.akgec.ac.in/departments/electronics-and-communication-engineering
+    Words: 2104 | Tables: 2 | Documents: 0
+17. Electrical and Electronics Engineering
+    URL: https://www.akgec.ac.in/departments/electrical-and-electronics-engineering
+    Words: 1354 | Tables: 2 | Documents: 0
+18. Information Technology
+    URL: https://www.akgec.ac.in/departments/information-technology
+    Words: 1291 | Tables: 2 | Documents: 0
+19. Mechanical Engineering
+    URL: https://www.akgec.ac.in/departments/mechanical-engineering
+    Words: 1214 | Tables: 0 | Documents: 0
+20. Master of Computer Applications
+    URL: https://www.akgec.ac.in/departments/master-of-computer-applications
+    Words: 1051 | Tables: 0 | Documents: 0
+21. Academic Calendar
+    URL: https://www.akgec.ac.in/academics/academic-calendar
+    Words: 349 | Tables: 0 | Documents: 0
+22. List of Holidays
+    URL: https://www.akgec.ac.in/list-of-holidays
+    Words: 500 | Tables: 0 | Documents: 0
+23. Issuance of certificates for passout students
+    URL: https://www.akgec.ac.in/academics/issuance-of-certificates-for-passout-students
+    Words: 183 | Tables: 0 | Documents: 0
+24. Courses Offered
+    URL: https://www.akgec.ac.in/courses-offered
+    Words: 0 | Tables: 1 | Documents: 0
+25. Fee Structure for Existing Students
+    URL: https://www.akgec.ac.in/academic-fee
+    Words: 31 | Tables: 0 | Documents: 0
+26. Fee Structure for New Students
+    URL: https://www.akgec.ac.in/fee-structure-for-new-students2026-27
+    Words: 555 | Tables: 3 | Documents: 0
+27. Fee Refund Norms
+    URL: https://www.akgec.ac.in/fee-refund-norms
+    Words: 43 | Tables: 1 | Documents: 0
+28. Scholarship
+    URL: https://www.akgec.ac.in/scholarship
+    Words: 101 | Tables: 2 | Documents: 0
+29. Conatus
+    URL: https://www.akgec.ac.in/life-akgec/societies/departmental-societies/conatus
+    Words: 3869 | Tables: 11 | Documents: 0
+30. Nirmaan
+    URL: https://www.akgec.ac.in/life-akgec/societies/departmental-societies/nirman
+    Words: 876 | Tables: 0 | Documents: 0
+31. Oorja
+    URL: https://www.akgec.ac.in/life-akgec/societies/departmental-societies/oorja
+    Words: 4068 | Tables: 11 | Documents: 0
+32. Phoenix
+    URL: https://www.akgec.ac.in/life-akgec/societies/departmental-societies/phoenix
+    Words: 1447 | Tables: 0 | Documents: 0
+33. Samveg
+    URL: https://www.akgec.ac.in/life-akgec/societies/departmental-societies/samveg
+    Words: 823 | Tables: 0 | Documents: 0
+34. Euphony
+    URL: https://www.akgec.ac.in/life-akgec/societies/extra-curricular-societies/euphony
+    Words: 524 | Tables: 0 | Documents: 0
+35. Footprints
+    URL: https://www.akgec.ac.in/life-akgec/societies/extra-curricular-societies/footprints
+    Words: 1148 | Tables: 0 | Documents: 0
+36. Horizon
+    URL: https://www.akgec.ac.in/life-akgec/societies/extra-curricular-societies/horizon
+    Words: 1907 | Tables: 0 | Documents: 0
+37. Goonj
+    URL: https://www.akgec.ac.in/life-akgec/societies/extra-curricular-societies/goonj
+    Words: 1097 | Tables: 0 | Documents: 0
+38. Renaissance
+    URL: https://www.akgec.ac.in/life-akgec/societies/extra-curricular-societies/renaissance-2
+    Words: 1255 | Tables: 0 | Documents: 0
+39. Taal
+    URL: https://www.akgec.ac.in/life-akgec/societies/extra-curricular-societies/taal
+    Words: 129 | Tables: 1 | Documents: 0
+40. Verve
+    URL: https://www.akgec.ac.in/life-akgec/societies/extra-curricular-societies/verve
+    Words: 743 | Tables: 0 | Documents: 0
+41. Photography and Media Club
+    URL: https://www.akgec.ac.in/life-akgec/societies/extra-curricular-societies/photography-and-media-club
+    Words: 283 | Tables: 0 | Documents: 0
+42. Sports Club
+    URL: https://www.akgec.ac.in/sports-club
+    Words: 1313 | Tables: 6 | Documents: 0
+43. CSI
+    URL: https://www.akgec.ac.in/life-akgec/societies/student-chapters/csi
+    Words: 2714 | Tables: 1 | Documents: 0
+44. Indian Concrete Institute
+    URL: https://www.akgec.ac.in/indian-concrete-institute
+    Words: 432 | Tables: 0 | Documents: 0
+45. Robotics Club
+    URL: https://www.akgec.ac.in/life-akgec/societies/student-chapters/robotics-club
+    Words: 650 | Tables: 0 | Documents: 0
+46. IEEE
+    URL: https://www.akgec.ac.in/ieee-student-branch-chapter
+    Words: 160 | Tables: 5 | Documents: 0
+47. ISTE
+    URL: https://www.akgec.ac.in/life-akgec/societies/student-chapters/iste
+    Words: 489 | Tables: 0 | Documents: 0
+48. SAE India
+    URL: https://www.akgec.ac.in/life-akgec/societies/student-chapters/sae-india
+    Words: 1425 | Tables: 0 | Documents: 0
+49. Electronics Club
+    URL: https://www.akgec.ac.in/electronics-club
+    Words: 670 | Tables: 1 | Documents: 0
+50. Communication Club
+    URL: https://www.akgec.ac.in/communication-club
+    Words: 414 | Tables: 2 | Documents: 0
+51. Events
+    URL: https://www.akgec.ac.in/college-events
+    Words: 56 | Tables: 0 | Documents: 0
+52. Mediclaim
+    URL: https://www.akgec.ac.in/life-akgec/mediclaim
+    Words: 473 | Tables: 0 | Documents: 0
+53. College Awards
+    URL: https://www.akgec.ac.in/achievements/college-awards
+    Words: 1429 | Tables: 0 | Documents: 0
+54. Faculty Achievements
+    URL: https://www.akgec.ac.in/achievements/faculty-achievements
+    Words: 305 | Tables: 0 | Documents: 0
+55. T&P Department
+    URL: https://www.akgec.ac.in/placements/tp-department
+    Words: 402 | Tables: 0 | Documents: 0
+56. Placement Records
+    URL: https://www.akgec.ac.in/placements/placement-records
+    Words: 2461 | Tables: 12 | Documents: 0
+57. T&P Programmes
+    URL: https://www.akgec.ac.in/placements/tp-programmes
+    Words: 324 | Tables: 0 | Documents: 0
+58. About VE Cell
+    URL: https://www.akgec.ac.in/ve-cell
+    Words: 520 | Tables: 3 | Documents: 0
+59. Transformative Sharing
+    URL: https://www.akgec.ac.in/transformative-sharing
+    Words: 442 | Tables: 0 | Documents: 0
+60. Participation in Societal Development
+    URL: https://www.akgec.ac.in/outside-participation
+    Words: 766 | Tables: 0 | Documents: 0
+61. Faculty/Staff Development Programs (FDPs/SDPs)
+    URL: https://www.akgec.ac.in/uhvfdp
+    Words: 4926 | Tables: 1 | Documents: 0
+62. Student Development Programs (SDPs)
+    URL: https://www.akgec.ac.in/vecell-sdps
+    Words: 7472 | Tables: 0 | Documents: 0
+63. Student Induction Program
+    URL: https://www.akgec.ac.in/sip
+    Words: 453 | Tables: 0 | Documents: 0
+64. UHV Departmental Seminars
+    URL: https://www.akgec.ac.in/uhv-departmental-seminars
+    Words: 152 | Tables: 1 | Documents: 0
+65. Guest Lectures/Webinars
+    URL: https://www.akgec.ac.in/guest-lectures-webinars
+    Words: 4495 | Tables: 0 | Documents: 0
+66. Extension Activities
+    URL: https://www.akgec.ac.in/extension-activities
+    Words: 829 | Tables: 0 | Documents: 0
+67. Teachers Orientation Program
+    URL: https://www.akgec.ac.in/teachers-orientation-program
+    Words: 615 | Tables: 0 | Documents: 0
+68. CAREER
+    URL: https://www.akgec.ac.in/careers
+    Words: 34 | Tables: 0 | Documents: 0
+69. Reporting Process for Admission through UPTAC Counselling 2026-27
+    URL: https://www.akgec.ac.in/uptac/
+    Words: 239 | Tables: 1 | Documents: 6
+70. Our Recruiters
+    URL: https://www.akgec.ac.in/placements/our-recruiters
+    Words: 80 | Tables: 0 | Documents: 0
+71. Placement Highlights
+    URL: https://www.akgec.ac.in/placement-highlights
+    Words: 20 | Tables: 1 | Documents: 0
+72. Upcoming Events
+    URL: https://www.akgec.ac.in/vecell-upcoming-events
+    Words: 48 | Tables: 0 | Documents: 0

@@ -1,0 +1,320 @@
+[
+  {
+    "course": "B.Tech",
+    "year": "2nd Year",
+    "category": "Fee Waiver",
+    "branch_group": "CSE/CSE-AIML/CSE-DS/CS/ME",
+    "charges_inr": {
+      "registration_fee": 1500,
+      "development_fee": 10114,
+      "pdp_fee": 3500,
+      "text_book_charges": 2100,
+      "medical_charges": 1500
+    },
+    "total_fee_inr": 18714,
+    "academic_session": "2026-27",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-IInd-to-IVth-yaer-FW-2026-27_0001.pdf",
+    "verification_status": "manually_transcribed_arithmetic_checked",
+    "notes": "University examination and digital library fees are payable separately."
+  },
+  {
+    "course": "B.Tech",
+    "year": "2nd Year",
+    "category": "Fee Waiver",
+    "branch_group": "EN",
+    "charges_inr": {
+      "registration_fee": 1500,
+      "development_fee": 10114,
+      "pdp_fee": 3500,
+      "text_book_charges": 2000,
+      "medical_charges": 1500
+    },
+    "total_fee_inr": 18614,
+    "academic_session": "2026-27",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-IInd-to-IVth-yaer-FW-2026-27_0001.pdf",
+    "verification_status": "manually_transcribed_arithmetic_checked",
+    "notes": "University examination and digital library fees are payable separately."
+  },
+  {
+    "course": "B.Tech",
+    "year": "2nd Year",
+    "category": "Fee Waiver",
+    "branch_group": "CSE-H/AIML",
+    "charges_inr": {
+      "registration_fee": 1500,
+      "development_fee": 10114,
+      "pdp_fee": 3500,
+      "text_book_charges": 2300,
+      "medical_charges": 1500
+    },
+    "total_fee_inr": 18914,
+    "academic_session": "2026-27",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-IInd-to-IVth-yaer-FW-2026-27_0001.pdf",
+    "verification_status": "manually_transcribed_arithmetic_checked",
+    "notes": "University examination and digital library fees are payable separately."
+  },
+  {
+    "course": "B.Tech",
+    "year": "2nd Year",
+    "category": "Fee Waiver",
+    "branch_group": "ECE",
+    "charges_inr": {
+      "registration_fee": 1500,
+      "development_fee": 10114,
+      "pdp_fee": 3500,
+      "text_book_charges": 2500,
+      "medical_charges": 1500
+    },
+    "total_fee_inr": 19114,
+    "academic_session": "2026-27",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-IInd-to-IVth-yaer-FW-2026-27_0001.pdf",
+    "verification_status": "manually_transcribed_arithmetic_checked",
+    "notes": "University examination and digital library fees are payable separately."
+  },
+  {
+    "course": "B.Tech",
+    "year": "2nd Year",
+    "category": "Fee Waiver",
+    "branch_group": "CIVIL",
+    "charges_inr": {
+      "registration_fee": 1500,
+      "development_fee": 10114,
+      "pdp_fee": 3500,
+      "text_book_charges": 2700,
+      "medical_charges": 1500
+    },
+    "total_fee_inr": 19314,
+    "academic_session": "2026-27",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-IInd-to-IVth-yaer-FW-2026-27_0001.pdf",
+    "verification_status": "manually_transcribed_arithmetic_checked",
+    "notes": "University examination and digital library fees are payable separately."
+  },
+  {
+    "course": "B.Tech",
+    "year": "2nd Year",
+    "category": "Fee Waiver",
+    "branch_group": "IT/CSIT",
+    "charges_inr": {
+      "registration_fee": 1500,
+      "development_fee": 10114,
+      "pdp_fee": 3500,
+      "text_book_charges": 2600,
+      "medical_charges": 1500
+    },
+    "total_fee_inr": 19214,
+    "academic_session": "2026-27",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-IInd-to-IVth-yaer-FW-2026-27_0001.pdf",
+    "verification_status": "manually_transcribed_arithmetic_checked",
+    "notes": "University examination and digital library fees are payable separately."
+  },
+  {
+    "course": "B.Tech",
+    "year": "3rd Year",
+    "category": "Fee Waiver",
+    "branch_group": "CSE/CSE-AIML/CSE-H/CS/ME",
+    "charges_inr": {
+      "registration_fee": 1500,
+      "development_fee": 10114,
+      "text_book_charges": 1800,
+      "medical_charges": 1500
+    },
+    "total_fee_inr": 14914,
+    "academic_session": "2026-27",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-IInd-to-IVth-yaer-FW-2026-27_0001.pdf",
+    "verification_status": "manually_transcribed_arithmetic_checked",
+    "notes": "University examination and digital library fees are separate."
+  },
+  {
+    "course": "B.Tech",
+    "year": "3rd Year",
+    "category": "Fee Waiver",
+    "branch_group": "AIML/CSE-DS",
+    "charges_inr": {
+      "registration_fee": 1500,
+      "development_fee": 10114,
+      "text_book_charges": 1800,
+      "medical_charges": 1500
+    },
+    "total_fee_inr": 14914,
+    "academic_session": "2026-27",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-IInd-to-IVth-yaer-FW-2026-27_0001.pdf",
+    "verification_status": "manually_transcribed_arithmetic_checked",
+    "notes": "University examination and digital library fees are separate."
+  },
+  {
+    "course": "B.Tech",
+    "year": "3rd Year",
+    "category": "Fee Waiver",
+    "branch_group": "CIVIL",
+    "charges_inr": {
+      "registration_fee": 1500,
+      "development_fee": 10114,
+      "text_book_charges": 1700,
+      "medical_charges": 1500
+    },
+    "total_fee_inr": 14814,
+    "academic_session": "2026-27",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-IInd-to-IVth-yaer-FW-2026-27_0001.pdf",
+    "verification_status": "manually_transcribed_arithmetic_checked",
+    "notes": "University examination and digital library fees are separate."
+  },
+  {
+    "course": "B.Tech",
+    "year": "3rd Year",
+    "category": "Fee Waiver",
+    "branch_group": "IT/CSIT",
+    "charges_inr": {
+      "registration_fee": 1500,
+      "development_fee": 10114,
+      "text_book_charges": 2000,
+      "medical_charges": 1500
+    },
+    "total_fee_inr": 15114,
+    "academic_session": "2026-27",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-IInd-to-IVth-yaer-FW-2026-27_0001.pdf",
+    "verification_status": "manually_transcribed_arithmetic_checked",
+    "notes": "University examination and digital library fees are separate."
+  },
+  {
+    "course": "B.Tech",
+    "year": "3rd Year",
+    "category": "Fee Waiver",
+    "branch_group": "EN",
+    "charges_inr": {
+      "registration_fee": 1500,
+      "development_fee": 10114,
+      "text_book_charges": 2100,
+      "medical_charges": 1500
+    },
+    "total_fee_inr": 15214,
+    "academic_session": "2026-27",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-IInd-to-IVth-yaer-FW-2026-27_0001.pdf",
+    "verification_status": "manually_transcribed_arithmetic_checked",
+    "notes": "University examination and digital library fees are separate."
+  },
+  {
+    "course": "B.Tech",
+    "year": "3rd Year",
+    "category": "Fee Waiver",
+    "branch_group": "ECE",
+    "charges_inr": {
+      "registration_fee": 1500,
+      "development_fee": 10114,
+      "text_book_charges": 2700,
+      "medical_charges": 1500
+    },
+    "total_fee_inr": 15814,
+    "academic_session": "2026-27",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-IInd-to-IVth-yaer-FW-2026-27_0001.pdf",
+    "verification_status": "manually_transcribed_arithmetic_checked",
+    "notes": "University examination and digital library fees are separate."
+  },
+  {
+    "course": "B.Tech",
+    "year": "4th Year",
+    "category": "Fee Waiver",
+    "branch_group": "CSE/CSE-DS/CS-AIML/CS/AIML",
+    "charges_inr": {
+      "registration_fee": 1500,
+      "development_fee": 10114,
+      "text_book_charges": 700,
+      "medical_charges": 1500,
+      "convocation_charges": 1000
+    },
+    "total_fee_inr": 14814,
+    "academic_session": "2026-27",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-IInd-to-IVth-yaer-FW-2026-27_0001.pdf",
+    "verification_status": "ocr_arithmetic_checked_visual_pending",
+    "notes": "University examination and digital library fees are separate."
+  },
+  {
+    "course": "B.Tech",
+    "year": "4th Year",
+    "category": "Fee Waiver",
+    "branch_group": "CSE-HINDI",
+    "charges_inr": {
+      "registration_fee": 1500,
+      "development_fee": 10114,
+      "text_book_charges": 300,
+      "medical_charges": 1500,
+      "convocation_charges": 1000
+    },
+    "total_fee_inr": 14414,
+    "academic_session": "2026-27",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-IInd-to-IVth-yaer-FW-2026-27_0001.pdf",
+    "verification_status": "ocr_arithmetic_checked_visual_pending",
+    "notes": "University examination and digital library fees are separate."
+  },
+  {
+    "course": "B.Tech",
+    "year": "4th Year",
+    "category": "Fee Waiver",
+    "branch_group": "ECE",
+    "charges_inr": {
+      "registration_fee": 1500,
+      "development_fee": 10114,
+      "text_book_charges": 1400,
+      "medical_charges": 1500,
+      "convocation_charges": 1000
+    },
+    "total_fee_inr": 15514,
+    "academic_session": "2026-27",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-IInd-to-IVth-yaer-FW-2026-27_0001.pdf",
+    "verification_status": "ocr_arithmetic_checked_visual_pending",
+    "notes": "University examination and digital library fees are separate."
+  },
+  {
+    "course": "B.Tech",
+    "year": "4th Year",
+    "category": "Fee Waiver",
+    "branch_group": "EN",
+    "charges_inr": {
+      "registration_fee": 1500,
+      "development_fee": 10114,
+      "text_book_charges": 500,
+      "medical_charges": 1500,
+      "convocation_charges": 1000
+    },
+    "total_fee_inr": 14614,
+    "academic_session": "2026-27",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-IInd-to-IVth-yaer-FW-2026-27_0001.pdf",
+    "verification_status": "ocr_arithmetic_checked_visual_pending",
+    "notes": "University examination and digital library fees are separate."
+  },
+  {
+    "course": "B.Tech",
+    "year": "4th Year",
+    "category": "Fee Waiver",
+    "branch_group": "IT/CSIT",
+    "charges_inr": {
+      "registration_fee": 1500,
+      "development_fee": 10114,
+      "text_book_charges": 900,
+      "medical_charges": 1500,
+      "convocation_charges": 1000
+    },
+    "total_fee_inr": 15014,
+    "academic_session": "2026-27",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-IInd-to-IVth-yaer-FW-2026-27_0001.pdf",
+    "verification_status": "ocr_arithmetic_checked_visual_pending",
+    "notes": "University examination and digital library fees are separate."
+  },
+  {
+    "course": "B.Tech",
+    "year": "4th Year",
+    "category": "Fee Waiver",
+    "branch_group": "ME/CIVIL",
+    "charges_inr": {
+      "registration_fee": 1500,
+      "development_fee": 10114,
+      "text_book_charges": 1000,
+      "medical_charges": 1500,
+      "convocation_charges": 1000
+    },
+    "total_fee_inr": 15114,
+    "academic_session": "2026-27",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-IInd-to-IVth-yaer-FW-2026-27_0001.pdf",
+    "verification_status": "ocr_arithmetic_checked_visual_pending",
+    "notes": "University examination and digital library fees are separate."
+  }
+]

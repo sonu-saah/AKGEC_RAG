@@ -1,0 +1,32 @@
+{
+  "selected_urls": 72,
+  "extracted_pages": 68,
+  "errors": [
+    {
+      "title": "AICTE Approval Letters",
+      "url": "https://www.akgec.ac.in/aicte-approval-letters",
+      "error": "No content extracted"
+    },
+    {
+      "title": "Our Recruiters",
+      "url": "https://www.akgec.ac.in/placements/our-recruiters",
+      "error": "No content extracted"
+    },
+    {
+      "title": "Placement Highlights",
+      "url": "https://www.akgec.ac.in/placement-highlights",
+      "error": "No content extracted"
+    },
+    {
+      "title": "Upcoming Events",
+      "url": "https://www.akgec.ac.in/vecell-upcoming-events",
+      "error": "No content extracted"
+    }
+  ],
+  "missing_topics": [
+    "Admission Enquiry Form details",
+    "2026 syllabus",
+    "Academic fees contained in linked PDFs",
+    "Department subpage completeness"
+  ]
+}

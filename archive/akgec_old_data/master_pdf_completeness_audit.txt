@@ -1,0 +1,452 @@
+AKGEC MASTER JSON VS PDF AUDIT
+============================================================
+PDF pages: 260
+Master sections: 72
+Total checked fields: 6956
+Potentially unmatched fields: 395
+
+SECTIONS WITH POTENTIAL MISSING DATA
+------------------------------------------------------------
+AICTE Approval Letters: 53/176 unmatched
+Centres Of Excellence: 1/34 unmatched
+Applied Sciences & Humanities: 9/73 unmatched
+Civil Engineering: 7/108 unmatched
+Computer Science and Engineering: 61/241 unmatched
+Electronics and Communication Engineering: 24/206 unmatched
+Electrical and Electronics Engineering: 34/155 unmatched
+Information Technology: 20/155 unmatched
+Mechanical Engineering: 2/74 unmatched
+Academic Calendar: 2/4 unmatched
+List of Holidays: 1/2 unmatched
+Fee Refund Norms: 1/11 unmatched
+Conatus: 12/334 unmatched
+Nirmaan: 1/46 unmatched
+Oorja: 11/306 unmatched
+Footprints: 2/29 unmatched
+Horizon: 2/75 unmatched
+Goonj: 1/28 unmatched
+Renaissance: 3/43 unmatched
+Verve: 1/12 unmatched
+CSI: 2/288 unmatched
+SAE India: 1/37 unmatched
+Electronics Club: 2/50 unmatched
+Communication Club: 5/36 unmatched
+Placement Records: 95/1530 unmatched
+Participation in Societal Development: 1/23 unmatched
+Faculty/Staff Development Programs (FDPs/SDPs): 4/157 unmatched
+Student Development Programs (SDPs): 3/169 unmatched
+UHV Departmental Seminars: 17/48 unmatched
+Guest Lectures/Webinars: 3/77 unmatched
+Reporting Process for Admission through UPTAC Counselling 2026-27: 11/72 unmatched
+Placement Highlights: 3/37 unmatched
+
+FEE SECTION AUDIT
+------------------------------------------------------------
+Fee Structure for Existing Students: 38 structured records, 0 unmatched fields
+Fee Structure for New Students: 6 structured records, 0 unmatched fields
+Fee Refund Norms: 0 structured records, 1 unmatched fields
+
+ACADEMIC CALENDAR AUDIT
+------------------------------------------------------------
+Academic Calendar: 4 fields, 2 unmatched
+
+UNMATCHED VALUES (15+ CHARACTERS)
+------------------------------------------------------------
+AICTE Approval Letters | indian institute of management and engineering society
+AICTE Approval Letters | 27 km stone, delhi-hapur bypass road,adhyatmik nagar,ghaziabad, u.p, ghaziabad, ghaziabad, uttar pradesh, 201009
+AICTE Approval Letters | ajay kumar garg engineering college campus, 27 km stone, delhi- hapur byapss road adhyatmik nagar,ghaziabad, ghaziabad,uttar pradesh,201009
+AICTE Approval Letters | affiliating body (university /body)
+AICTE Approval Letters | intake approved for 2025-26
+AICTE Approval Letters | intake approved for 2026-27
+AICTE Approval Letters | nri approval status
+AICTE Approval Letters | international students approval status
+AICTE Approval Letters | engineeri ng and technolo gy
+AICTE Approval Letters | dr. a.p.j. abdul kalam technical university, uttar pradesh, lucknow
+AICTE Approval Letters | engineeri ng and technolo gy
+AICTE Approval Letters | dr. a.p.j. abdul kalam technical university, uttar pradesh, lucknow
+AICTE Approval Letters | affiliating body (university /body)
+AICTE Approval Letters | intake approved for 2025-26
+AICTE Approval Letters | intake approved for 2026-27
+AICTE Approval Letters | nri approval status
+AICTE Approval Letters | international students approval status
+AICTE Approval Letters | engineeri ng and technolo gy
+AICTE Approval Letters | dr. a.p.j. abdul kalam technical university, uttar pradesh, lucknow
+AICTE Approval Letters | engineeri ng and technolo gy
+AICTE Approval Letters | computer science and engineering (artificial intelligence and machine learning)
+AICTE Approval Letters | dr. a.p.j. abdul kalam technical university, uttar pradesh, lucknow
+AICTE Approval Letters | engineeri ng and technolo gy
+AICTE Approval Letters | dr. a.p.j. abdul kalam technical university, uttar pradesh, lucknow
+AICTE Approval Letters | engineeri ng and technolo gy
+AICTE Approval Letters | electronics and communicatio n engineering
+AICTE Approval Letters | dr. a.p.j. abdul kalam technical university, uttar pradesh, lucknow
+AICTE Approval Letters | engineeri ng and technolo gy
+AICTE Approval Letters | dr. a.p.j. abdul kalam technical university, uttar pradesh, lucknow
+AICTE Approval Letters | engineeri ng and technolo gy
+AICTE Approval Letters | dr. a.p.j. abdul kalam technical university, uttar pradesh, lucknow
+AICTE Approval Letters | engineeri ng and technolo gy
+AICTE Approval Letters | dr. a.p.j. abdul kalam technical university, uttar pradesh, lucknow
+AICTE Approval Letters | engineeri ng and technolo gy
+AICTE Approval Letters | electronics & communicatio n engg
+AICTE Approval Letters | dr. a.p.j. abdul kalam technical university, uttar pradesh, lucknow
+AICTE Approval Letters | engineeri ng and technolo gy
+AICTE Approval Letters | dr. a.p.j. abdul kalam technical university, uttar pradesh, lucknow
+AICTE Approval Letters | engineeri ng and technolo gy
+AICTE Approval Letters | dr. a.p.j. abdul kalam technical university, uttar pradesh, lucknow
+AICTE Approval Letters | affiliating body (university /body)
+AICTE Approval Letters | intake approved for 2025-26
+AICTE Approval Letters | intake approved for 2026-27
+AICTE Approval Letters | nri approval status
+AICTE Approval Letters | international students approval status
+AICTE Approval Letters | compute r applicati ons
+AICTE Approval Letters | masters in computer applications
+AICTE Approval Letters | dr. a.p.j. abdul kalam technical university, uttar pradesh, lucknow
+AICTE Approval Letters | affiliating body (univ/body)
+AICTE Approval Letters | dr. a.p.j. abdul kalam technical university, uttar pradesh, lucknow
+AICTE Approval Letters | computer science and engineering(artificial intelligence and machine learning)
+AICTE Approval Letters | dr. a.p.j. abdul kalam technical university, uttar pradesh, lucknow
+AICTE Approval Letters | dr. a.p.j. abdul kalam technical university, uttar pradesh, lucknow
+Centres Of Excellence | a fab lab is an initiative of prof. neil gershenfeld from mit, usa which is typically equipped with an array of flexible computer-controlled tools tha
+Applied Sciences & Humanities | name of the laboratory / lab venue
+Applied Sciences & Humanities | lab courses being conducted for b. tech. 1 st year (both odd and even semester)
+Applied Sciences & Humanities | no. of students per setup (batch size)
+Applied Sciences & Humanities | name of the important equipment/tool
+Applied Sciences & Humanities | engineering physics lab kas 151p
+Applied Sciences & Humanities | spectrometer, microscope , half shade polerimeter,spherometer, sodium lamp,electronic balance, mercury lamp,transformer,optical bench ,rheostat,electr
+Applied Sciences & Humanities | engineering chemistry lab kas 152
+Applied Sciences & Humanities | heating oven, distillation assembly, digital spectro-photometer, digital ph meter, water bath, physical balance, electrical balance, electronic balanc
+Applied Sciences & Humanities | b.com, certificate in computing (ignou), mcp, diploma in computer administration
+Civil Engineering | name of the laboratory / lab venue
+Civil Engineering | lab courses being conducted for b. tech. ce (both odd and even semester)
+Civil Engineering | no. of students per setup (batch size)
+Civil Engineering | name of the important equipment/tool
+Civil Engineering | prismatic compass auto level vernier and electronic theodolite electronic total station mirror stereoscopes
+Civil Engineering | tds meter ph meter bod kjeldhal chemicals
+Civil Engineering | 37 pc with 36 pc having core i5 processor with 8 gb ram all equipped with windows 10. 1 server is maintained for camera work.
+Computer Science and Engineering | laboratories are the most important part of engineering institutions. students need to learn engineering concepts practically. with fast growing compu
+Computer Science and Engineering | name of the laboratory / lab venue
+Computer Science and Engineering | lab courses being conducted for b. tech. cse (both odd and even semester)
+Computer Science and Engineering | no. of students per setup (batch size)
+Computer Science and Engineering | name of the important equipment/tool
+Computer Science and Engineering | cse lab 1 data structure lab and computer graphics lab
+Computer Science and Engineering | kcs-351 (data structures using c / java lab), artificial intelligence lab (rcs-752), computer graphics lab (rcs-653),
+Computer Science and Engineering | 28-32 students per groupin a batch of 01 student per computer for programming and simulation based work
+Computer Science and Engineering | computer systems with configurations as- 1. 35 desktop computers: core i5-intel cpu 3.00 ghz ram size: 2gb 500 gb hard disk drive 2. 01 desktop comput
+Computer Science and Engineering | cse lab 2 dbms lab and python lab
+Computer Science and Engineering | database management system lab (rcs-551), principle of programming languages lab (rcs-553), python language programming lab (kcs-453)
+Computer Science and Engineering | 28-32 students per group in a batch of 01 student per computer for programming and simulation based work
+Computer Science and Engineering | computer systems with configurations as- 1. 37 desktop computers: core i3-intel cpu 2.90 ghz ram size: 2gb 500 gb hard disk drive software tools & kit
+Computer Science and Engineering | cse lab 3 basic application development lab and c programming lab
+Computer Science and Engineering | programming for problem solving lab (kcs-151/kcs-251)
+Computer Science and Engineering | 28-32 students per group in a batch of 01 student per computer for programming and simulation based work
+Computer Science and Engineering | computer systems with configurations as- 1. 30 desktop computers: core i5-intel cpu 3.00 ghz ram size: 2gb 500 gb hard disk drive 2. 07 desktop comput
+Computer Science and Engineering | cse lab 4 algorithm lab and operating system lab
+Computer Science and Engineering | design & analysis of algorithm lab (rcs-552), web technology lab (rcs-554), operating system lab (kcs-451)
+Computer Science and Engineering | 28-32 students per group in a batch of 01 student per computer for programming and simulation based work
+Computer Science and Engineering | computer systems with configurations as- 1. 37 desktop computers: core i5-intel cpu 3.0 ghz ram size: 2gb 500 gb hard disk drive software tools & kits
+Computer Science and Engineering | cse lab 5 mini project lab and compiler design lab
+Computer Science and Engineering | mini project (kcs-354), compiler design lab (rcs-652)
+Computer Science and Engineering | 28-32 students per group in a batch of 01 student per computer for programming and simulation based work
+Computer Science and Engineering | computer systems with configurations as- 1. 37 desktop computers: core i3-intel cpu 3.10 ghz ram size: 2gb 500 gb hard disk drive software tools & kit
+Computer Science and Engineering | cse lab 6 discrete structures lab and computer networks lab
+Computer Science and Engineering | discrete structures & logic lab (kcs-353), computer networks lab (rcs-651)
+Computer Science and Engineering | 28-32 students per group in a batch of 01 student per computer for programming and simulation based work
+Computer Science and Engineering | computer systems with configurations as- 1. 25 desktop computers: core i3-intel cpu 3.10 ghz ram size: 2gb 500 gb hard disk drive 2. 12 desktop comput
+Computer Science and Engineering | project lab (rcs-754/rcs-852), distributed system lab (rcs-751), data ware housing & data mining lab (rcs-654)
+Computer Science and Engineering | 28-32 students per group in a batch of 01 student per computer for programming and simulation based work
+Computer Science and Engineering | computer systems with configurations as- 1. 08 desktop computers: core i5-intel cpu 3.0 ghz ram size: 2gb 500 gb hard disk drive 2. 11 desktop compute
+Computer Science and Engineering | r&d lab computer oraganization lab
+Computer Science and Engineering | computer organization lab (kcs-352) for r & d work being done by faculty members
+Computer Science and Engineering | 28-32 students per group in a batch of 01 student per computer for programming and simulation based work
+Computer Science and Engineering | computer systems with configurations as- 1. 36 desktop computers: core i3-intel cpu 3.10 ghz ram size: 2gb 500 gb hard disk drive software tools & kit
+Computer Science and Engineering | foundation of computer science lab (mtcs-151), advanced algorithms lab (mtcs-152), wireless & mobile networks lab (mtcs-251)
+Computer Science and Engineering | 18 students per group in a batch of 01 student per computer for programming and simulation based work
+Computer Science and Engineering | computer systems with configurations as- 1. 01 desktop computers: core i5-intel cpu 3.00 ghz ram size: 2gb 500 gb hard disk drive 2. 36 desktop comput
+Computer Science and Engineering | date of joining (doj) and total working experience (in years)
+Computer Science and Engineering | laboratory courses assigned / labs being handled/area of expertise
+Computer Science and Engineering | b.sc(hons) / diploma in computer application & c.c.n.a training
+Computer Science and Engineering | 7/2/2001 and 23 years
+Computer Science and Engineering | m.c.a ,diploma in electronics/ one year advance diploma in computer software,mcp
+Computer Science and Engineering | 1/4/2006 and 32 years
+Computer Science and Engineering | project lab, distributed system lab,data ware housing & data mining lab
+Computer Science and Engineering | m.sc(it)/ one year advance diploma in hardware and networking,c.c.n.a
+Computer Science and Engineering | 15/01/2009 and 13 years
+Computer Science and Engineering | data structures using c / java lab,artificial intelligence lab, computer graphics lab, database management system lab,principle of programming languag
+Computer Science and Engineering | 1/9/2010 and 20 years
+Computer Science and Engineering | b.sc(it), m.c.a/ m.c.s.e,c.c.n.a,one year advance diploma in hardware and networking
+Computer Science and Engineering | 7/2/2011 and 16 years
+Computer Science and Engineering | mini project lab, compiler design lab, discrete structures & logic lab, computer networks lab
+Computer Science and Engineering | m.b.a/ diploma in system administrator,ccc certification
+Computer Science and Engineering | 20/01/2016 and 13 years
+Computer Science and Engineering | programming for problem solving lab, design & analysis of algorithm lab, web technology lab, operating system lab
+Computer Science and Engineering | b.a/ advance diploma in hardware & networking
+Computer Science and Engineering | 02/08/2016 and 12 years
+Computer Science and Engineering | foundation of computer science lab, advanced algorithms lab, wireless & mobile networks lab
+Computer Science and Engineering | staff development programme (python programming language)
+Computer Science and Engineering | dr.pritima singh, mr. akhilesh kumar mr. vinayak parashar
+Electronics and Communication Engineering | name of the laboratory / lab venue
+Electronics and Communication Engineering | name of the important equipment/tool
+Electronics and Communication Engineering | lab-1 cad of electronics lab and vlsi r & d lab
+Electronics and Communication Engineering | computer systems with configurations as- (a) thirty two i5 systems with cpu 3.40 ghz, ram size: 8gb software tools & kits: (i) university vivado syste
+Electronics and Communication Engineering | lab-2 pcb design & basic electronics lab
+Electronics and Communication Engineering | (i) computer systems (08) with intel i5 and intel core2duo processors (ii) pcb prototype machine with tina software (iii) pcb design software-sprint (
+Electronics and Communication Engineering | lab-3 analog ic lab and signal system lab
+Electronics and Communication Engineering | (i) universal ic tester, dsos, cros, function generators, power supplies (multiple/triple /regulated), multimeters, analog & digital trainer boards, a
+Electronics and Communication Engineering | (i) 09 computers with i5 and core2duo processors, ups, hp printer, vissim / comm 8.0 suite software (installed in dsp lab), spectrum analyzer, dsos, c
+Electronics and Communication Engineering | lab-5 electronic devices (foed) lab
+Electronics and Communication Engineering | (i) computer with i5 processor, ups (ii) dsos, cros, trainer boards/kits, function generators, regulated/multiple/ triple/dual power supplies, multime
+Electronics and Communication Engineering | lab-6 microprocessors lab
+Electronics and Communication Engineering | (i) computer systems with i5 cpu 8gb ram, i3 and core 2 duo processor configuration (07), 8086 simulator & emulator ide, 8085 simulator ide (ii) micro
+Electronics and Communication Engineering | lab-7 electronic measurement & instrumentation lab and project lab
+Electronics and Communication Engineering | mr. awadh kumar mr. u. s. gahlaut mr. rajkumar mr. satya narayan
+Electronics and Communication Engineering | mr. om krishna gupta dr. ritish kumar
+Electronics and Communication Engineering | (i) computer systems with i5 and core2duo processors, dsos, cros, function generators, multimeters (ii) semi conductor diode voltmeter kits, transisto
+Electronics and Communication Engineering | lab-8 texas instruments (coe) lab and ece r &d lab
+Electronics and Communication Engineering | (i) dsos, power supplies, function generators, digital multimeters, texas instruments-aslk pro boards/kits (for analog system design), tina software s
+Electronics and Communication Engineering | lab-10 virtual lab and r & d lab
+Electronics and Communication Engineering | (i) desktop computer systems (9) with intel i7 (01), i5 (04) and core 2 duo (04) processors (ii) professional version of visual tcad & genius (2d/3d) 
+Electronics and Communication Engineering | diploma in electronics & communication engg.
+Electronics and Communication Engineering | certificate course in computer networking
+Electronics and Communication Engineering | certificate course in computer networking
+Electrical and Electronics Engineering | name of the laboratory / lab venue
+Electrical and Electronics Engineering | lab courses being conducted for b. tech. ece (both odd and even semester)
+Electrical and Electronics Engineering | no. of students per setup (batch size)
+Electrical and Electronics Engineering | name of the important equipment/tool
+Electrical and Electronics Engineering | lab-1 basic electrical engineering lab
+Electrical and Electronics Engineering | 28-32 students per group, in a batch of 03 students per set-up
+Electrical and Electronics Engineering | dso digital multimeter cro rectifier set function generator power supply slip ring induction motor transformer (2kva)
+Electrical and Electronics Engineering | control system lab nee 552
+Electrical and Electronics Engineering | 15-18 students per group, in a batch of 03 students per set-up
+Electrical and Electronics Engineering | ac servomotor kit synchro transmitter-receiver linear system simulator temperature controller(pid) dc position controller stepper motor dc speed contr
+Electrical and Electronics Engineering | lab-3 power electronics lab
+Electrical and Electronics Engineering | power electronics lab nee 552
+Electrical and Electronics Engineering | 15-18 students per group, in a batch of 03 students per set-up
+Electrical and Electronics Engineering | ujt kit, rc triggered circuit triac based ac voltage controller with universal motor phase controlled rectifier kit chopper kit power electronics trai
+Electrical and Electronics Engineering | lab-4 power system lab and project lab
+Electrical and Electronics Engineering | power system lab (nen 751) major project (nen 754/851) minor project (nen 653)
+Electrical and Electronics Engineering | 28-32 students per group, in a batch of 03 students per set-up
+Electrical and Electronics Engineering | dso motorized oil testing set instantaneous relay static directional relay directional relay idmt relay static idmt relay single phase transformer mic
+Electrical and Electronics Engineering | simulation lab – i (ree 353) simulation lab – ii (ree 451) simulation based minor project (nen 554) electrical and electronics cad lab (nen 652)
+Electrical and Electronics Engineering | 28-30 students per group, in a batch of 01 student per computer
+Electrical and Electronics Engineering | matlab simulink pc-30
+Electrical and Electronics Engineering | lab-6 micro-processor lab and network lab
+Electrical and Electronics Engineering | network analysis and synthesis (ree 405) microprocessor lab (nee 553) advanced microprocessor and microcontroller lab (mten 151) dsp lab (mten-251)
+Electrical and Electronics Engineering | 28-32 students per group, in a batch of 03 students per set-up
+Electrical and Electronics Engineering | cro dso function generator dc power supply r-l-c circuit for frequency response transient response of rlc circuit two port network kit μp 8086 ad lcd 
+Electrical and Electronics Engineering | lab 7 instrumentation lab and electrical measurement lab
+Electrical and Electronics Engineering | measurement lab (ree 352) electrical instrumentation lab (ree 454)
+Electrical and Electronics Engineering | 28-32 students per group, in a batch of 03 students per set-up
+Electrical and Electronics Engineering | wien bridge hay’s bridge schering bridge anderson & kelvin double bridge owen’s bridge maxwell’s bridge displacement measurement trainer lvdt strain m
+Electrical and Electronics Engineering | electrical workshop (ree 351) electrical machine lab (ree 452) electrical machine and control lab (ree 459)
+Electrical and Electronics Engineering | 28-32 students per group, in a batch of 03 students per set-up
+Electrical and Electronics Engineering | demonstration panel for parallel operation of 2 alternator set 3-phase auto transformer demonstration panel for v curve of synchronous motor demonstra
+Electrical and Electronics Engineering | akgec-bosch rexroth lab (r&d lab)
+Electrical and Electronics Engineering | pneumatic trainer hydraulic trainer plc cnc simulator servo drive sensor kit mechatronic kit
+Information Technology | currently, he is heading the information technology department and technical business incubator at ajay kumar garg engineering college, ghaziabad. sim
+Information Technology | name of the laboratory/ lab venue
+Information Technology | lab courses being conducted for b.tech it(both odd and even semester)
+Information Technology | no. of students per setup(batch size)
+Information Technology | daa, cns, ds, python, cn,os,tafl
+Information Technology | web technology lab, web designing, cns, compiler design
+Information Technology | (i) 33 pc lenovo core [email protected] ghz. processor, 10 gb ram,500 gb hdd, 18.5” lcd monitor, keyboard and optical mouse. (ii) 2 pc lenovo core [em
+Information Technology | c programming, data mining, coa lab
+Information Technology | (i) 30 pc lenovo core i3-4150@ 3.50 ghz. processor, 10 gb ram ,500 gb hdd,18.5” lcd monitor, keyboard and optical mouse (ii) 6 pc hp 202 g2 core [emai
+Information Technology | date of joining(doj) and total work experience
+Information Technology | laboratory courses assigned/ area of expertise
+Information Technology | mr. dharmendra kaushik
+Information Technology | advanced it lab-1, and basic it lab-4
+Information Technology | 18 february 2008, 15 years
+Information Technology | advanced it lab-2, and project lab – 5
+Information Technology | mr. prabhat narain shukla
+Information Technology | 3 october 2011, 12 years
+Information Technology | web technology lab – 3
+Information Technology | b.a., computer hardware & networking
+Information Technology | 10 october 2022, 12 years
+Mechanical Engineering | peo 5. the graduates of mechanical engineering programme will continue to learn and to adapt in a world of constantly evolving technology. the graduat
+Mechanical Engineering | dr. devendra singh is the professor and head of the department of mechanical engineering. he completed his b.tech. in mechanical engineering from moti
+Academic Calendar | ——e————— ee ajay kumar garg engineering college, ghaziabad 27" km stone, delhi-mecrut expressway, adhyatmik nagar, ghaziabad - 201015 20" july 2026 a 
+Academic Calendar | se ajay kumar garg engineering college, ghaziabad 27" km stone. delhi-meerut [’xpressway, adhyatmik nagar, ghaziabad - 201015 akgec/do/notice/2026-27/
+List of Holidays | ajay kumar garg engineering college list of holidays during the year 2026 s. name of festival date day no. 1 republic day 26th january 2026 monday 2 m
+Fee Refund Norms | request received after start of session and seat not being filled by the college till the last date of admissions
+Conatus | senior design consultant, iit delhi
+Conatus | product designing, industrial and interaction designing
+Conatus | manager, gemini solutions- gurugram
+Conatus | global outreach manager, xr – central gurugram
+Conatus | cloud engineer, google, gurugram
+Conatus | roadmap to success and opportunities – google cloud
+Conatus | the competition structure was designed to consist of two distinct rounds, each aimed at assessing different facets of the participants' skills and abi
+Conatus | post workshop participants were given a ui based project on web development to develop a basic website based on html+css+javascript for prize round. t
+Conatus | in order to maintain continuum, team conatus launched the 19th edition of conoscenza on 1st november 2018, the tech torrent that addresses the applied
+Conatus | team conatus published the 18th version of conoscenza in this semester. the magazine was based on the topic:’ spectrum- evolution of era’ and was publ
+Conatus | team conducted its mid-semester event “rise of ultron” on 16th and 18th march, 2016. the event was conducted at computer centre 1 and cse labs from 4:
+Conatus | team conatus celebrated its 8th foundation day on 10th of october 2013. the event was attended by prof. b.m. kalra, hod cse, prof. r.p. saw, hod it, p
+Nirmaan | all newly elected members of team nirmaan had the opportunity to interact with dr. rakesh srivastava, professor and hod of civil engineering departmen
+Oorja | session 4 — embedded systems the concluding technical session was led by the team of akshara, akshita, nikhil and gaurav, and focused on embedded syst
+Oorja | esp32 and real-life application: the session was full of interaction on how esp32 is different from other microcontrollers in the market as it comes u
+Oorja | oorja society organized an event named gleam on 21 april’23, which was a great success with a total of 53 teams participating in the event. the event 
+Oorja | in the theoretical session, the members of team oorja gave the students knowledge of robots, how they work, and how they can use them in various parts
+Oorja | it included three rounds, namely: ● scavenger hunt ● picture puzzle with crossword ● surprise round
+Oorja | in round 2, a puzzle of electrical components was given with a crossword. participants were asked to solve the puzzle by putting the correct pieces in
+Oorja | siddhant singh sneha gupta shubhamverma
+Oorja | jai prakash narayan pandey aishwaryapratap singh ashutoshpandey
+Oorja | identification of friend and foe pratyush singh ec/2nd year prakhar dixit ec/2nd year shashank shekhar it/2nd year priyanshu gupta ec/2nd year
+Oorja | incarnate the virtual into reality surbhika rastogi ec/3rd year saurabh singh ec/3rd year
+Oorja | food ordering app ashutosh kumar singh cs/2nd year avinash rai cs/2nd year ankit gupta cs/2nd year aman agarwal cs/2nd year
+Footprints | the freshers' party, “नवाध्याय '24,” was organised at ajay kumar garg engineering college (akgec) on october 18, 2024. the event, inspired by the ench
+Footprints | “कुछ अनगिनत क़िस्से है मेरी कलम में क़ैद, कुछ मंच है जो आज भी बंजारे रहे"
+Horizon | we aim at creating technocrats, entrepreneurs & above all innovative minds with impeccable grit, discretionary vision, and effective leadership. ● bri
+Horizon | the event, held on may 8, 2024, featured two phases: synopsis submission and technical paper presentation. students nationwide submitted synopses judg
+Goonj | continuing with the winning performance, team goonj also won first prize in film making competition (subject : daily routine of a college student). te
+Renaissance | on june 20, 2024, team renaissance organized “एक युद्ध, नशे के विरुद्ध" at the csit seminar hall. the event focused on raising awareness about the dan
+Renaissance | the national foundation for communal harmony (nfch) annually observes the communal harmony campaign week from november 19th to 25th.to support the cau
+Renaissance | team renaissance with the support of the college, organised kiran – 2023 on 12th and13th september, 2023, a two-day annual event which is ⁠dedicated t
+Verve | team verve marked yet another milestone as it secured the first position at motilal nehru national institute of technology (mnnit), allahabad. when th
+CSI | csi conducted a course on node js with mongo db from 12 sept’2019 in advance it labs. a total of 40 students got registered online and participated in
+CSI | an online event was conducted by team csi which aimed at removing the boredom of vacations. the event saw a large and enthusiastic participation with 
+SAE India | the effi-que was organized this year from 22nd november to 25th november 2022, at lovely professional university, jalandhar, punjab. our team consists
+Electronics Club | advance ic packaging
+Electronics Club | ● exposure to red hat linux environment was given to students. ● exposure of device simulation with variation of parameters were explained to students
+Communication Club | presentation on gender equality in sustainable development goals organized by ve cell.
+Communication Club | he represented team aqua alert in samsung solve for tomorrow.
+Communication Club | he represented digital lock stimulation and also gave presentation on suhana chulha inspired by mission mangal.
+Communication Club | he represented smart gas detection and fire detection alarm system and also gave presentation on sustainable development goals.
+Communication Club | paper presentation in departmental national conference: national conference of emerging trends in electronics and communication ,2019
+Placement Records | nyeras edutech and innovations pvt. ltd.
+Placement Records | virtuos digital ltd.
+Placement Records | sagar defence engineering pvt. ltd,
+Placement Records | wayspire edtech pvt. ltd.
+Placement Records | primathon technology ventures
+Placement Records | 30 info edge india b. tech. (cse/it) 3 10 31 kuka robotics b. tech. (ece/en/me) 4 4.5 cyfuture india pvt. 32 ltd b. tech. (cse/it)/mca 3 5 prism johns
+Placement Records | cyfuture india pvt. ltd
+Placement Records | prism johnson limited
+Placement Records | nucleus software exports
+Placement Records | hays business solutions pvt ltd
+Placement Records | blauplug innovations pvt ltd
+Placement Records | newgen software technologies ltd.
+Placement Records | high –technext engineering &telecom pvt. ltd
+Placement Records | benepik technology pvt. ltd.
+Placement Records | 64 jk cement b.tech. civil 1 4.25 65 my operator b. tech. (cse/it) 5 4.25 66 cfcs cloud solution b. tech. (cse/it) 4 3.75 67 lenskart b. tech. (ece/en
+Placement Records | windmöller & hölscher
+Placement Records | ghaziabad precision products pvt ltd
+Placement Records | rohde & schwarz india pvt. ltd
+Placement Records | exeliq tech solutions pvt. ltd.
+Placement Records | cords cable industries ltd
+Placement Records | averixis solutions pvt. ltd
+Placement Records | colt technology services
+Placement Records | codestore 99 technologies b. tech. (cse/it)/mca 7 4.72 100 novelvox b.tech (cse/it) / mca 1 4 101 impressico business b.tech (cse/it) / mca 3 4 electr
+Placement Records | codestore technologies
+Placement Records | electro control systems
+Placement Records | virtubox infotech pvt. ltd.
+Placement Records | sonyo management consultant
+Placement Records | meser cutting systems india pvt ltd
+Placement Records | mepro technology india co pvt ltd
+Placement Records | ttec india customer solutions pvt. ltd.
+Placement Records | ajay kumar garg engineering college training and placement department akgec company wise placement summary- 2024-25 (2025 passing out batch) total = 1
+Placement Records | b. tech. (cs/cse/cse aiml/aiml/csit/it/cse ds)/ m. tech. (cse)/ mca
+Placement Records | b. tech. (cs/cse/cse aiml/aiml/csit/it/cse ds)/ m. tech. (cse)/ mca
+Placement Records | b. tech. (cs/cse/cse aiml/aiml/csit/it/cse ds)
+Placement Records | b. tech (cse/cs/csit/it/cse aiml/aiml/cse ds/en/me)/m. tech. (cse/en/me)
+Placement Records | b. tech (cs/cse/cse aiml/aiml/csit/it/cse ds/me)/m. tech. (cse/it)/mca
+Placement Records | b. tech. (cs/cse/cse aiml/aiml/csit/it/cse ds/ece)
+Placement Records | b. tech. (all)/m. tech./ mca
+Placement Records | aviotron 14 b. tech. (ece) 9 3.8 aerospace 15 zigram tech b.tech (cse/it) 1 4 16 ed vedha b. tech.(all)/m. tech./mca 245 4.5-8 17 cyfuture b. tech. (c
+Placement Records | asbl private limited.
+Placement Records | b. tech. (cs/cse/cse aiml/aiml/csit/it/cse ds)
+Placement Records | b. tech. (cs/cse/cse aiml/aiml/csit/it/cse ds)
+Placement Records | aarohin technologies
+Placement Records | b. tech. (cs/cse/cse aiml/aiml/csit/it/cse ds/ece)/m.tech.(cse/ece)
+Placement Records | hashedin technologies
+Placement Records | b. tech. (cs/cse/cse aiml/aiml/csit/it/cse ds)/m.tech.(cse)/mca
+Placement Records | unthinkable solutions
+Placement Records | b. tech. (cs/cse/cse aiml/aiml/csit/it/cse ds)
+Placement Records | b. tech. (cs/cse/cse aiml/aiml/csit/it/cse ds)
+Placement Records | cohessive technologies
+Placement Records | high technext engineering -1
+Placement Records | rockwell automation
+Placement Records | b. tech. (cs/cse/cse veersa 37 aiml/aiml/csit/it/cse 11 5.18 technologies ds) b. tech. (cs/cse/cse 38 infosys - 2 aiml/aiml/csit/it/cse 128 3.6 ds)/m.
+Placement Records | b. tech. (cs/cse/cse aiml/aiml/csit/it/cse ds)
+Placement Records | b. tech. (cs/cse/cse aiml/aiml/csit/it/cse ds)/m.tech.(cse)/mca
+Placement Records | b.tech (cse ds/ aiml/ cse aiml/ ds/ it)
+Placement Records | b. tech. (cse ds/csit/ cse aiml/ aiml/ it)
+Placement Records | b. tech. (cse/cs/cse aiml/aiml/cse ds/it/csit /ece/en)
+Placement Records | b.tech (cse/it/ece/en/me/ce)
+Placement Records | b.tech (cse/it/ece/en)/m. tech./mca
+Placement Records | acro technologies
+Placement Records | b. tech. (cse aiml/aiml/csit/it/cse ds)
+Placement Records | b. tech. (cse/cs/it/en/me)
+Placement Records | visual technologies
+Placement Records | ats homekraft 65 b. tech. (csit/ece)/mba 5 3.6 (2) b. tech. (cse/cs/cse arrise solution 66 aiml/aiml/csit/it/cse 8 6 india ds) b. tech. (ece)/ m. tech
+Placement Records | ats homekraft (2)
+Placement Records | arrise solution india
+Placement Records | b. tech. (cse/cs/cse aiml/aiml/csit/it/cse ds)
+Placement Records | b. tech. (ece)/ m. tech. (ece)
+Placement Records | b. tech. (cse/cs/cse aiml/aiml/csit/it/cse ds)
+Placement Records | ganiwell commosale
+Placement Records | brands and branches
+Placement Records | sunwoda electronic india limited
+Placement Records | arrise solution india - 2
+Placement Records | intellipaat phase- 2
+Placement Records | comap india pvt. ltd.
+Placement Records | b. tech. (cse/cs/cse aiml/aiml/csit/it/cse ds)
+Placement Records | reynold india pvt.ltd.
+Placement Records | credex technology
+Placement Records | b.tech (cse/it)/m. tech.(cse)&mca
+Placement Records | ennoble ip consultancy
+Placement Records | intellipaat phase- 3
+Placement Records | b. tech- (cse/it/ece/en/me/ce)
+Placement Records | intrainz innovation pvt ltd.
+Placement Records | b.tech. (cse/it/ece/en/me/ce)
+Placement Records | b. tech- (cse/it/ece/en/me/ce)
+Placement Records | smarted innovations
+Placement Records | ajay kumar garg engineering training and placement department akgec company wise placement summary-2023-24 (2024 passing 1674 s.no. name of company fi
+Placement Records | utopian dreams private limited (districtd)
+Placement Records | csg systems international (india) pvt. ltd.
+Placement Records | nexgen industrial solutions pvt ltd
+Placement Records | 81 botshreyasi 3 82 airveda 1 balaji switchgear pvt. ltd. 383 84 optimus information 1 maq software 685 tcs 14286 lohia 487 mitsogo technology 388 eco
+Placement Records | ecosense sustainable solutions pvt. ltd.
+Placement Records | triton software india pvt. ltd.
+Placement Records | jyotech engineering & marketing consultants
+Participation in Societal Development | resource person: dr. kumar sambhav, upid noida co-facilitator: dr. gopal babu, akgec, ghaziabad venue: head office, aicte, new delhi nelson mandela ma
+Faculty/Staff Development Programs (FDPs/SDPs) | session conduction- ● natural acceptance and self-exploration were well-addressed and received. ● the feelings part was elaborated well and appreciate
+Faculty/Staff Development Programs (FDPs/SDPs) | participants motivation- ● to be developed as nodal centers- all ● motivated to teach the subject. 10-15 participants ● eager to join weekly meetings 
+Faculty/Staff Development Programs (FDPs/SDPs) | session conduction- ● natural acceptance and self-exploration were well-addressed and received. ● the feelings part was elaborated well and appreciate
+Faculty/Staff Development Programs (FDPs/SDPs) | participants motivation- ● to be developed as nodal centers- all ● motivated to teach the subject. 6-7 participants ● eager to join weekly meetings & 
+Student Development Programs (SDPs) | ve cell, akgec conducted 10 hours of student offline workshop on “understanding science of relationships through self-exploration” from 13-17 january 
+Student Development Programs (SDPs) | the session continued with the expansion of innate potential to understand harmony at the level of individual, family, society and nature/existence. t
+Student Development Programs (SDPs) | dr. r.p. singh distributed prizes to the winners of the quiz, including harsh sharma, khushi srivastava, and raghvendra pratap from different years an
+UHV Departmental Seminars | total no. of uhv seminar held
+UHV Departmental Seminars | dr. shashank sahu mr. anuj kumar dwivedi mr. akhilesh verma mr. b.n. pandey
+UHV Departmental Seminars | ● relationship: trust ● role of education ● team development for the participation in larger order, ● understanding proposal on self, ● proposal of bo
+UHV Departmental Seminars | dr. seema garg dr. neelesh gupta mr. jitendra chhabra mr. gagandeep singh mr. abhishek tiwari ms. neha garg
+UHV Departmental Seminars | ● role of education in holistic development ● harmony in human being ● definiteness of human conduct ● values & participation of human being ● harmony
+UHV Departmental Seminars | mr. ritesh sharma mr. mahendra dwivedi mr. parveen dhull dr. j.g. yadav
+UHV Departmental Seminars | ● right understanding ● existence as co-existence ● feelings in relationship: trust ● basic human aspiration & its fulfilment ● understanding human be
+UHV Departmental Seminars | dr. anu chaudhary dr. anupama sharma mr. sandeep raj ms. akanksha shukla mr. pancham singh
+UHV Departmental Seminars | ● harmony in family ● team development ● coexistence of self & body ● role of education ● respect
+UHV Departmental Seminars | ms. akriti gupta mr. anshul panchbhaiya mr. ashutosh yadav dr. kamal mittal dr. promod bhatiya dr. suman gothwal
+UHV Departmental Seminars | ● justice in relationship ● harmony in self ● harmony in society ● values in human relationship ● understanding knowledge ● harmony in nature
+UHV Departmental Seminars | ms. arpna saxena dr. b.k. sharma dr. saroj bala
+UHV Departmental Seminars | ● human value & value education ● exploration of self enhancing the working environment ● harmony in self
+UHV Departmental Seminars | mr. animesh rai mr. ashish vishwakarma
+UHV Departmental Seminars | ● maintaining the harmony at all the 4 level ● expansion of harmony from self to entire existence
+UHV Departmental Seminars | prof. s.l. kapoor dr. parul verma dr. vimlesh mishra dr. nitya sharma
+UHV Departmental Seminars | ● role of education ● leadership ● team development ● harmony in body ● in search of happiness ● harmony in self
+Guest Lectures/Webinars | after that, dr. gopal babu sir, co-ordinator ve cell, delivered a heartfelt speech highlighting vijay pal baghel ji's contributions to environmental c
+Guest Lectures/Webinars | ‘feel the power that comes from focusing on what excites you.”–oprah winfrey. this explains the cause of the webinar organised by nature club, ve cell
+Guest Lectures/Webinars | most impactful statement mentioned by the attendees was; पेड़ कम नहीं हो रहे है, साँसे कम हो रही है ।
+Reporting Process for Admission through UPTAC Counselling 2026-27 | undertaking (fee related) – to be filled by all candidates
+Reporting Process for Admission through UPTAC Counselling 2026-27 | undertaking (attendance) – to be filled by all candidates
+Reporting Process for Admission through UPTAC Counselling 2026-27 | undertaking (tuition fee waiver) to be filled by candidates allotted seats under the tfw category through uptac counselling.
+Reporting Process for Admission through UPTAC Counselling 2026-27 | for b.tech ii yr. (lateral entry) & mca i year admission only
+Reporting Process for Admission through UPTAC Counselling 2026-27 | caste and category certificate (if applicable) & obc certificate (should be issued on or after 01/04/2026
+Reporting Process for Admission through UPTAC Counselling 2026-27 | medical certificate to be submitted by all candidates
+Reporting Process for Admission through UPTAC Counselling 2026-27 | migration & tc both are to be submitted by all candidates.
+Reporting Process for Admission through UPTAC Counselling 2026-27 | affidavit for the gap period after qualifying exam (if applicable)
+Reporting Process for Admission through UPTAC Counselling 2026-27 | anti ragging undertaking to be filled online – (self & parents)
+Reporting Process for Admission through UPTAC Counselling 2026-27 | aadhar copy of parents to be submitted by all students as (address proof)
+Reporting Process for Admission through UPTAC Counselling 2026-27 | income certificate (tfw) / ews certificate (if applicable, should be issued on or after 01/04/2026)
+Placement Highlights | companies visited
+Placement Highlights | highest package (lpa)
+Placement Highlights | average salary (lpa)
+
+SHORT UNMATCHED VALUES
+------------------------------------------------------------

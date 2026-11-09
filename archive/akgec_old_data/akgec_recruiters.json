@@ -1,0 +1,317 @@
+{
+  "title": "Our Recruiters",
+  "source_url": "https://www.akgec.ac.in/placements/our-recruiters",
+  "status": "pending_name_review",
+  "recruiters": [
+    {
+      "name": "Amazon",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/AmozonIcon.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "Google",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/GoogleIcon.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "Microsoft",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/MicrosoftIcon.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "Walmart",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/WalmartIcon.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "Accenture",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/AccentureIcon.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "Cognizant",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/CognizantIcon.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "Capgemini",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/CapgeminiIcon.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "Infosys",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2019/08/infosys.jpg",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "Wipro",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2020/05/WIPRO.jpg",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "TCS",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2019/08/tcs.jpg",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "Jio",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/JioIcon.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "HCL",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2019/08/hcl.jpg",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "IBM",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2019/08/ibm.jpg",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "Tech Mahindra",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2019/08/tech.jpg",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "PwC",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/PWCIcon.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "American Express",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/AmericanExpressIcon.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "Amdocs",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/amdocsIcon.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "ION",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/IONIcon.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "DLTLabs",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/DLTLabsIcon.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "Lohia",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/LohiaIcon.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "OLAElectric",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/OLAElectric.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "JKCement",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/JKCement.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "Newgen",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/Newgen.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "Byjus",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/Byjus.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "Mindtree",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/Midtree.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "Adobe",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/Adobe.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "GlobalLogic",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/GlobalLogic.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "SMSGroup",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/SMSGroup.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "uTorrent",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/uTorrent.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "UKG",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/UKG.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "Samsung",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/Samsung.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "Hitachi",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/Hitachi.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "Motherson",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/Motherson.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "Unominda",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/Unominda.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "DXC",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/DXC.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "KPMG",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/KPMG.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "Ericsson",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/Ericcson.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "Grofers",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/Grofers.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "Sopra",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/Sopra.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "Jakson",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/Jakson.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "airtel",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/airtel.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "Lowes",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/Lowes.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "Cloudera",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/Cloudera.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "Birlasoft",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/Birlasoft.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "Uflex",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/Uflex.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "Gainsight",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/Gainsight.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "MAQ Software",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/Maqsoftware.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "Morgan",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/Morgan.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "C2FO",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/C2FO.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "HSBC",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/HSBC.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "Nucleus",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/Nucleus.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "Impetus",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/Impetus.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "torrentgas",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/torrentgas.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "Mphasis",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/Mphasis.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "Coforge",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/coforge.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "chetu-logo",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2023/06/chetu-logo.jpg",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "vivo",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/vivo.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "Optum",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/Optum.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "Interra",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/Interra.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "Indian Navy",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/IndianNavy.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "Indian Air Force",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/AirForce.png",
+      "verification": "inferred_from_official_logo_filename"
+    },
+    {
+      "name": "Indian Army",
+      "logo_url": "https://www.akgec.ac.in/wp-content/uploads/2022/12/IndianArmy.png",
+      "verification": "inferred_from_official_logo_filename"
+    }
+  ]
+}

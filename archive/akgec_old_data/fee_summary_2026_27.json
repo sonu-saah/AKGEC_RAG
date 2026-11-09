@@ -1,0 +1,82 @@
+[
+  {
+    "course": "B.Tech",
+    "year": "1st Year",
+    "category": "Regular",
+    "total_fee_inr": 142156,
+    "academic_session": "2026-27",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/07/BTech1Yr.pdf",
+    "verification_status": "ocr_arithmetic_checked_visual_pending",
+    "notes": "University examination and digital library fees are payable separately."
+  },
+  {
+    "course": "B.Tech",
+    "year": "1st Year",
+    "category": "Fee Waiver",
+    "total_fee_inr": 41014,
+    "academic_session": "2026-27",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/07/B.Tech1YrFW.pdf",
+    "verification_status": "ocr_arithmetic_checked_visual_pending",
+    "notes": "University examination and digital library fees are payable separately."
+  },
+  {
+    "course": "MCA",
+    "year": "1st Year",
+    "category": "Regular",
+    "total_fee_inr": 135956,
+    "academic_session": "2026-27",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/07/MCA1Yr.pdf",
+    "verification_status": "ocr_arithmetic_checked_visual_pending",
+    "notes": "University examination and digital library fees are payable separately."
+  },
+  {
+    "course": "MCA",
+    "year": "1st Year",
+    "category": "Fee Waiver",
+    "total_fee_inr": 34814,
+    "academic_session": "2026-27",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/07/MCA1YrFW.pdf",
+    "verification_status": "ocr_arithmetic_checked_visual_pending",
+    "notes": "University examination and digital library fees are payable separately."
+  },
+  {
+    "course": "MCA",
+    "year": "2nd Year",
+    "category": "Regular",
+    "total_fee_inr": 116056,
+    "academic_session": "2026-27",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/MCA-II-YEAR-2026-27_0001.pdf",
+    "verification_status": "ocr_arithmetic_checked_visual_pending",
+    "notes": "University examination and digital library fees are payable separately."
+  },
+  {
+    "course": "MCA",
+    "year": "2nd Year",
+    "category": "Fee Waiver",
+    "total_fee_inr": 14914,
+    "academic_session": "2026-27",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/MCA-II-YEAR-FW-2026-27_0001.pdf",
+    "verification_status": "ocr_arithmetic_checked_visual_pending",
+    "notes": "University examination and digital library fees are payable separately."
+  },
+  {
+    "course": "Hostel",
+    "year": "New Students",
+    "category": "Double Seater",
+    "total_fee_inr": 150000,
+    "academic_session": "2026-27",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/07/HostelFee1Yr.pdf",
+    "verification_status": "ocr_arithmetic_checked_visual_pending",
+    "notes": "Includes refundable security deposit of INR 10000."
+  },
+  {
+    "course": "Hostel",
+    "year": "New Students",
+    "category": "Triple Seater",
+    "total_fee_inr": 140000,
+    "academic_session": "2026-27",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/07/HostelFee1Yr.pdf",
+    "verification_status": "ocr_arithmetic_checked_visual_pending",
+    "notes": "Includes refundable security deposit of INR 10000."
+  }
+]

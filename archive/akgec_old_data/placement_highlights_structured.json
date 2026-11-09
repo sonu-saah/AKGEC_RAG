@@ -1,0 +1,46 @@
+[
+  {
+    "year": 2025,
+    "companies": 322,
+    "students": 1152,
+    "offers": 1410,
+    "exclusive_offers": 983,
+    "highest_lpa": 30,
+    "average_lpa": 5.96,
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2025/12/PlacementHL2025.jpg",
+    "status": "ocr_extracted_pending_visual_verification"
+  },
+  {
+    "year": 2024,
+    "companies": 235,
+    "students": 1110,
+    "offers": 1727,
+    "exclusive_offers": 1080,
+    "highest_lpa": 42.75,
+    "average_lpa": 5.68,
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2025/12/PlacementHL2024.jpg",
+    "status": "ocr_extracted_pending_visual_verification"
+  },
+  {
+    "year": 2023,
+    "companies": 220,
+    "students": 1205,
+    "offers": 1406,
+    "exclusive_offers": 833,
+    "highest_lpa": 33.8,
+    "average_lpa": 5.22,
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2025/12/PlacementHL2023.jpg",
+    "status": "ocr_extracted_pending_visual_verification"
+  },
+  {
+    "year": 2022,
+    "companies": 225,
+    "students": 973,
+    "offers": 2008,
+    "exclusive_offers": 767,
+    "highest_lpa": 113,
+    "average_lpa": 5.13,
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2025/12/PlacementHL2022.jpg",
+    "status": "ocr_extracted_pending_visual_verification"
+  }
+]

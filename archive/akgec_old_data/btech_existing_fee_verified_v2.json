@@ -1,0 +1,212 @@
+[
+  {
+    "course": "B.Tech",
+    "year": "2nd Year",
+    "category": "Regular",
+    "branch_group": "CSE/CSE-AIML/CSE-DS/CS/ME",
+    "charges_inr": {
+      "registration_fee": 1500,
+      "tuition_and_development_fee": 111256,
+      "pdp_fee": 3500,
+      "text_book_charges": 2100,
+      "medical_charges": 1500
+    },
+    "total_fee_inr": 119856,
+    "academic_session": "2026-27",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-IInd-to-IV-th-Year-with-lateral-Entry-2026-27_0001.pdf",
+    "verification_status": "manually_transcribed_arithmetic_checked",
+    "notes": "University examination and digital library fees are separate."
+  },
+  {
+    "course": "B.Tech",
+    "year": "2nd Year",
+    "category": "Regular",
+    "branch_group": "EN",
+    "charges_inr": {
+      "registration_fee": 1500,
+      "tuition_and_development_fee": 111256,
+      "pdp_fee": 3500,
+      "text_book_charges": 2000,
+      "medical_charges": 1500
+    },
+    "total_fee_inr": 119756,
+    "academic_session": "2026-27",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-IInd-to-IV-th-Year-with-lateral-Entry-2026-27_0001.pdf",
+    "verification_status": "manually_transcribed_arithmetic_checked",
+    "notes": "University examination and digital library fees are separate."
+  },
+  {
+    "course": "B.Tech",
+    "year": "2nd Year",
+    "category": "Regular",
+    "branch_group": "CSE-H/AIML",
+    "charges_inr": {
+      "registration_fee": 1500,
+      "tuition_and_development_fee": 111256,
+      "pdp_fee": 3500,
+      "text_book_charges": 2300,
+      "medical_charges": 1500
+    },
+    "total_fee_inr": 120056,
+    "academic_session": "2026-27",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-IInd-to-IV-th-Year-with-lateral-Entry-2026-27_0001.pdf",
+    "verification_status": "manually_transcribed_arithmetic_checked",
+    "notes": "University examination and digital library fees are separate."
+  },
+  {
+    "course": "B.Tech",
+    "year": "2nd Year",
+    "category": "Regular",
+    "branch_group": "ECE",
+    "charges_inr": {
+      "registration_fee": 1500,
+      "tuition_and_development_fee": 111256,
+      "pdp_fee": 3500,
+      "text_book_charges": 2500,
+      "medical_charges": 1500
+    },
+    "total_fee_inr": 120256,
+    "academic_session": "2026-27",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-IInd-to-IV-th-Year-with-lateral-Entry-2026-27_0001.pdf",
+    "verification_status": "manually_transcribed_arithmetic_checked",
+    "notes": "University examination and digital library fees are separate."
+  },
+  {
+    "course": "B.Tech",
+    "year": "2nd Year",
+    "category": "Regular",
+    "branch_group": "CIVIL",
+    "charges_inr": {
+      "registration_fee": 1500,
+      "tuition_and_development_fee": 111256,
+      "pdp_fee": 3500,
+      "text_book_charges": 2700,
+      "medical_charges": 1500
+    },
+    "total_fee_inr": 120456,
+    "academic_session": "2026-27",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-IInd-to-IV-th-Year-with-lateral-Entry-2026-27_0001.pdf",
+    "verification_status": "manually_transcribed_arithmetic_checked",
+    "notes": "University examination and digital library fees are separate."
+  },
+  {
+    "course": "B.Tech",
+    "year": "2nd Year",
+    "category": "Regular",
+    "branch_group": "IT/CSIT",
+    "charges_inr": {
+      "registration_fee": 1500,
+      "tuition_and_development_fee": 111256,
+      "pdp_fee": 3500,
+      "text_book_charges": 2600,
+      "medical_charges": 1500
+    },
+    "total_fee_inr": 120356,
+    "academic_session": "2026-27",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-IInd-to-IV-th-Year-with-lateral-Entry-2026-27_0001.pdf",
+    "verification_status": "manually_transcribed_arithmetic_checked",
+    "notes": "University examination and digital library fees are separate."
+  },
+  {
+    "course": "B.Tech",
+    "year": "3rd Year",
+    "category": "Regular",
+    "branch_group": "CSE/CSE-AIML/CSE-H/CS/ME",
+    "charges_inr": {
+      "registration_fee": 1500,
+      "tuition_and_development_fee": 111256,
+      "text_book_charges": 1800,
+      "medical_charges": 1500
+    },
+    "total_fee_inr": 116056,
+    "academic_session": "2026-27",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-IInd-to-IV-th-Year-with-lateral-Entry-2026-27_0001.pdf",
+    "verification_status": "manually_transcribed_arithmetic_checked",
+    "notes": "Lateral-entry applicability pending confirmation. University examination and digital library fees are separate."
+  },
+  {
+    "course": "B.Tech",
+    "year": "3rd Year",
+    "category": "Regular",
+    "branch_group": "AIML/CSE-DS",
+    "charges_inr": {
+      "registration_fee": 1500,
+      "tuition_and_development_fee": 111256,
+      "text_book_charges": 1800,
+      "medical_charges": 1500
+    },
+    "total_fee_inr": 116056,
+    "academic_session": "2026-27",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-IInd-to-IV-th-Year-with-lateral-Entry-2026-27_0001.pdf",
+    "verification_status": "manually_transcribed_arithmetic_checked",
+    "notes": "Lateral-entry applicability pending confirmation. University examination and digital library fees are separate."
+  },
+  {
+    "course": "B.Tech",
+    "year": "3rd Year",
+    "category": "Regular",
+    "branch_group": "CIVIL",
+    "charges_inr": {
+      "registration_fee": 1500,
+      "tuition_and_development_fee": 111256,
+      "text_book_charges": 1700,
+      "medical_charges": 1500
+    },
+    "total_fee_inr": 115956,
+    "academic_session": "2026-27",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-IInd-to-IV-th-Year-with-lateral-Entry-2026-27_0001.pdf",
+    "verification_status": "manually_transcribed_arithmetic_checked",
+    "notes": "Lateral-entry applicability pending confirmation. University examination and digital library fees are separate."
+  },
+  {
+    "course": "B.Tech",
+    "year": "3rd Year",
+    "category": "Regular",
+    "branch_group": "IT/CSIT",
+    "charges_inr": {
+      "registration_fee": 1500,
+      "tuition_and_development_fee": 111256,
+      "text_book_charges": 2000,
+      "medical_charges": 1500
+    },
+    "total_fee_inr": 116256,
+    "academic_session": "2026-27",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-IInd-to-IV-th-Year-with-lateral-Entry-2026-27_0001.pdf",
+    "verification_status": "manually_transcribed_arithmetic_checked",
+    "notes": "Lateral-entry applicability pending confirmation. University examination and digital library fees are separate."
+  },
+  {
+    "course": "B.Tech",
+    "year": "3rd Year",
+    "category": "Regular",
+    "branch_group": "EN",
+    "charges_inr": {
+      "registration_fee": 1500,
+      "tuition_and_development_fee": 111256,
+      "text_book_charges": 2100,
+      "medical_charges": 1500
+    },
+    "total_fee_inr": 116356,
+    "academic_session": "2026-27",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-IInd-to-IV-th-Year-with-lateral-Entry-2026-27_0001.pdf",
+    "verification_status": "manually_transcribed_arithmetic_checked",
+    "notes": "Lateral-entry applicability pending confirmation. University examination and digital library fees are separate."
+  },
+  {
+    "course": "B.Tech",
+    "year": "3rd Year",
+    "category": "Regular",
+    "branch_group": "ECE",
+    "charges_inr": {
+      "registration_fee": 1500,
+      "tuition_and_development_fee": 111256,
+      "text_book_charges": 2700,
+      "medical_charges": 1500
+    },
+    "total_fee_inr": 116956,
+    "academic_session": "2026-27",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-IInd-to-IV-th-Year-with-lateral-Entry-2026-27_0001.pdf",
+    "verification_status": "manually_transcribed_arithmetic_checked",
+    "notes": "Lateral-entry applicability pending confirmation. University examination and digital library fees are separate."
+  }
+]

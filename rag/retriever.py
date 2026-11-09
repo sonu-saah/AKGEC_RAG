@@ -150,6 +150,52 @@ def make_result(text, metadata, score):
     }
 
 
+
+def query_intent(query):
+    """Identify queries that need institute-wide vision or actual recruiters."""
+    q = normalize_query(query)
+    vision = "vision" in tokenize(q) and not any(
+        term in q for term in ("department", "information technology", "computer science", "mechanical", "electrical", "civil", "applied sciences")
+    )
+    recruiters = any(term in q for term in (
+        "recruit", "companies visit", "companies hire", "hiring companies",
+        "placement companies", "recruiting companies", "recruiters"
+    ))
+    return vision, recruiters
+
+
+def intent_adjustment(query, result):
+    """Small, explainable relevance adjustment; never invent missing content."""
+    vision, recruiters = query_intent(query)
+    text = result.get("text", "").lower()
+    source = str(result.get("source", "")).lower()
+    score = 0.0
+
+    if vision:
+        if "vision-and-mission" in source or "vision & mission" in source:
+            score += 7.0
+        if "vision of the institute" in text or "vision of the college" in text:
+            score += 6.0
+        if "department of" in text or "departmental vision" in text:
+            score -= 5.0
+        if any(x in source for x in ("/societies/", "/horizon/", "/departments/")):
+            score -= 5.0
+
+    if recruiters:
+        if any(x in source for x in ("/placements/", "recruiter", "placement")):
+            score += 4.0
+        if any(x in text for x in (
+            "recruiters", "recruiting companies", "companies visited",
+            "campus recruitment", "campus placement", "companies recruited"
+        )):
+            score += 6.0
+        if "industrial training" in text and not any(x in text for x in (
+            "campus recruitment", "recruiters", "companies visited"
+        )):
+            score -= 8.0
+    return score
+
+
 def apply_keyword_boost(query, result):
     """Adjust scores using AKGEC-specific placement, fee and intake terms."""
     text = result["text"].lower()
@@ -196,7 +242,7 @@ def apply_keyword_boost(query, result):
         if "sanctioned intake" in text or "courses offered" in text:
             score += 3.0
 
-    return score
+    return score + intent_adjustment(query, result)
 
 
 def search(query, top_k=5):
@@ -331,7 +377,7 @@ def rerank(query, results):
             ):
                 score += 3.0
 
-        result["rerank_score"] = score
+        result["rerank_score"] = score + intent_adjustment(query, result)
 
     results.sort(
         key=lambda item: item.get("rerank_score", -1000.0),

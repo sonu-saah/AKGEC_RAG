@@ -1,7 +1,7 @@
 import json
 import re
 from pathlib import Path
-from xml.sax.saxutils import escape
+from xml.sax.saxutils import escape  # HTML/XML characters ko safe text mein convert karna.
 
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import getSampleStyleSheet

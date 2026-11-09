@@ -1,5 +1,4 @@
-# Discover relevant AKGEC navigation URLs
-
+﻿
 import json
 from pathlib import Path
 from urllib.parse import urljoin, urlparse, urldefrag
@@ -7,145 +6,98 @@ from urllib.parse import urljoin, urlparse, urldefrag
 import requests
 from bs4 import BeautifulSoup
 
-
+# Website configuration
 BASE_URL = "https://www.akgec.ac.in/"
-OUTPUT_FILE = Path("data/fresh/navigation_urls.json")
+OUTPUT_FILE = Path("data/navigation_urls.json")
 
-HEADERS = {
-    "User-Agent": "AKGEC-RAG-Research-Bot/1.0"
-}
-
-SECTIONS = {
-    "ABOUT",
-    "DEPARTMENTS",
-    "ACADEMICS",
-    "ADMISSIONS",
-    "R&D",
-    "CENTRES OF EXCELLENCE",
-    "COLLEGE PUBLICATIONS",
-    "LIFE@AKGEC",
-    "ACHIEVEMENTS",
-    "PLACEMENTS",
-    "VE CELL",
-    "IQAC",
-    "CAREER",
-}
+# Exclude non-content links
+SKIP_PATHS = (
+    "/cdn-cgi/",
+    "/wp-admin/",
+    "/wp-login",
+)
 
 SKIP_EXTENSIONS = (
     ".pdf", ".jpg", ".jpeg", ".png",
-    ".webp", ".gif", ".zip", ".doc", ".docx",
-    ".xls", ".xlsx", ".mp4"
+    ".webp", ".gif", ".zip", ".mp4"
 )
 
-ALLOWED_DOMAINS = {
-    "www.akgec.ac.in",
-    "akgec.ac.in"
-}
 
-
-# Normalize website URLs
-def normalize_url(href):
-    absolute_url = urljoin(BASE_URL, href)
-    absolute_url, _ = urldefrag(absolute_url)
-
-    parsed = urlparse(absolute_url)
-
-    if parsed.scheme != "https":
-        return None
-
-    if parsed.netloc.lower() not in ALLOWED_DOMAINS:
-        return None
-
-    if parsed.path.lower().endswith(SKIP_EXTENSIONS):
-        return None
-
-    if parsed.query:
-        return None
-
-    path = parsed.path.rstrip("/") or "/"
-
-    return f"https://www.akgec.ac.in{path}"
-
-
-# Discover navigation pages
 def main():
-    response = requests.get(
-        BASE_URL,
-        headers=HEADERS,
-        timeout=20
-    )
+    response = requests.get(BASE_URL, timeout=20)# website se html lena
     response.raise_for_status()
 
     soup = BeautifulSoup(response.text, "html.parser")
 
-    links = soup.select("header a[href], nav a[href]")
-
-    current_section = None
-    discovered = []
+    selected = []
+    skipped = []
     seen = set()
 
-    for link in links:
+    # Discover navigation links
+    for link in soup.select("header a[href], nav a[href]"):
         title = link.get_text(" ", strip=True)
-        href = link.get("href", "").strip()
+        raw_url = link.get("href", "").strip()
 
-        if not title or not href:
+        url = urljoin(BASE_URL, raw_url)
+        url, _ = urldefrag(url)
+
+        parsed = urlparse(url)  #URL analyze karna
+        path = parsed.path.lower()
+
+        if not title or not raw_url:
             continue
 
-        upper_title = title.upper()
-
-        if upper_title in SECTIONS:
-            current_section = upper_title
-
-        # IQAC and CAREER are standalone sections
-        if upper_title in {"IQAC", "CAREER"}:
-            section = upper_title
-        else:
-            section = current_section
-
-        if section is None:
+        if parsed.netloc.lower() not in (
+            "www.akgec.ac.in",
+            "akgec.ac.in"
+        ):
             continue
 
-        url = normalize_url(href)
-
-        if not url:
+        if (
+            raw_url.startswith("#")
+            or parsed.query
+            or path.endswith(SKIP_EXTENSIONS)
+            or any(path.startswith(p) for p in SKIP_PATHS)
+        ):
+            skipped.append(title)
             continue
 
-        if url in seen:
+        normalized_path = parsed.path.rstrip("/") or "/"
+        normalized_url = (
+            "https://www.akgec.ac.in" + normalized_path
+        )
+
+        if normalized_url in seen:
             continue
 
-        seen.add(url)
+        seen.add(normalized_url)
 
-        discovered.append({
-            "section": section,
+        selected.append({
             "title": title,
-            "url": url
+            "url": normalized_url,
+            "status": "pending_review"
         })
 
+    # Save discovered HTML URLs
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as file:
         json.dump(
-            {
-                "total_urls": len(discovered),
-                "pages": discovered
-            },
+            selected,
             file,
-            ensure_ascii=False,
-            indent=2
+            indent=2,
+            ensure_ascii=False
         )
 
-    print("Total unique webpage URLs:", len(discovered))
+    print("\n===== NAVIGATION REPORT =====")
+    print("Selected HTML URLs:", len(selected))
+    print("Skipped links:", len(skipped))
+    print("Saved to:", OUTPUT_FILE)
 
-    counts = {}
+    print("\n===== SELECTED PAGES =====")
 
-    for item in discovered:
-        section = item["section"]
-        counts[section] = counts.get(section, 0) + 1
-
-    for section, count in counts.items():
-        print(f"{section}: {count}")
-
-    print("Saved:", OUTPUT_FILE)
+    for index, item in enumerate(selected, start=1):
+        print(f"{index}. {item['title']}")
 
 
 if __name__ == "__main__":

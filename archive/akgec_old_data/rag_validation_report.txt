@@ -1,0 +1,7 @@
+Documents: 2508
+Empty: 0
+Short: 731
+Invalid sources: 0
+Duplicate IDs: 0
+
+Issues:

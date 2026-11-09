@@ -6,7 +6,7 @@ import {
   GraduationCap, Plus, Send, Menu, X, LoaderCircle,
   ExternalLink, MessageSquare, Moon, Sun, Copy, Check,
   RefreshCw, Mic, MicOff, Volume2, VolumeX, Trash2,
-  Pencil, Sparkles
+  Pencil, Sparkles, Home, BookOpen, Link2, ShieldCheck, ArrowRight, FileText
 } from 'lucide-react'
 
 const API_URL = 'http://127.0.0.1:8000/chat'
@@ -20,10 +20,11 @@ const createChat = () => ({
 })
 
 const suggestions = [
-  'Which B.Tech branches are offered at AKGEC?',
-  'When do first-year B.Tech classes start?',
-  'What is the first-year B.Tech fee?',
-  'How many placement offers were made in 2026?'
+  'What is the vision of AKGEC?',
+  'Courses offered at AKGEC',
+  'Admission process',
+  'Fee structure (B.Tech)',
+  'Placement details'
 ]
 
 function App() {
@@ -335,7 +336,7 @@ const speakAnswer = (content, index) => {
         />
       )}
 
-      <aside className={`fixed inset-y-0 left-0 z-40 flex w-72 flex-col
+      <aside className={`akgec-sidebar fixed inset-y-0 left-0 z-40 flex w-72 flex-col
         border-r transition-transform duration-300 lg:static lg:translate-x-0
         ${sidebarOpen ? 'translate-x-0' : '-translate-x-full'}
         ${dark
@@ -344,12 +345,12 @@ const speakAnswer = (content, index) => {
 
         <div className="flex h-18 items-center justify-between px-5">
           <div className="flex items-center gap-3">
-            <div className="flex h-10 w-10 items-center justify-center rounded-2xl bg-indigo-600 text-white shadow-lg shadow-indigo-500/20">
-              <GraduationCap size={23} />
+            <div className="akgec-brand-avatar flex h-10 w-10 items-center justify-center rounded-2xl bg-indigo-600 text-white shadow-lg shadow-indigo-500/20">
+              <img src="/akgec-logo-reference.png" alt="AKGEC emblem" className="akgec-logo" />
             </div>
             <div>
-              <div className="text-base font-bold tracking-tight">AKGEC AI</div>
-              <div className="text-[11px] text-zinc-500">College Assistant</div>
+              <div className="text-base font-bold tracking-tight">AKGEC</div>
+              <div className="text-[11px] text-blue-200">AI College Assistant</div>
             </div>
           </div>
           <button
@@ -365,15 +366,24 @@ const speakAnswer = (content, index) => {
           <button
             onClick={newChat}
             disabled={loading}
-            className="flex w-full items-center justify-center gap-2 rounded-xl bg-indigo-600 px-4 py-3 text-sm font-semibold text-white shadow-md shadow-indigo-500/20 transition hover:bg-indigo-500 disabled:opacity-50"
+            className="akgec-new-chat flex w-full items-center justify-center gap-2 rounded-xl bg-indigo-600 px-4 py-3 text-sm font-semibold text-white shadow-md shadow-indigo-500/20 transition hover:bg-indigo-500 disabled:opacity-50"
           >
-            <Plus size={18} /> New chat
+            <Plus size={18} /> New Chat <ArrowRight size={18} />
           </button>
         </div>
 
-        <div className="mt-7 flex-1 overflow-y-auto px-3">
+        <nav className="akgec-nav" aria-label="College navigation">
+          <button onClick={newChat}><Home size={18}/> Home</button>
+          <button onClick={() => document.querySelector('.akgec-history')?.scrollIntoView({behavior:'smooth'})}><MessageSquare size={18}/> Chat History</button>
+          <a href="https://www.akgec.ac.in/about/" target="_blank" rel="noreferrer"><BookOpen size={18}/> About AKGEC</a>
+          <a href="https://www.akgec.ac.in/" target="_blank" rel="noreferrer"><Link2 size={18}/> Official Website</a>
+        </nav>
+        <div className="akgec-quick"><div className="akgec-quick-title">Quick Questions</div>
+          {suggestions.map(q => <button key={q} onClick={() => {setInput(q);setSidebarOpen(false)}}><ArrowRight size={16}/>{q}</button>)}
+        </div>
+        <div className="akgec-history mt-7 flex-1 overflow-y-auto px-3">
           <div className="mb-3 px-3 text-[11px] font-semibold uppercase tracking-[0.15em] text-zinc-500">
-            Recent conversations
+            Chat History
           </div>
 
           {chats.length === 0 && (
@@ -426,16 +436,17 @@ const speakAnswer = (content, index) => {
               <Sparkles size={18} />
             </div>
             <div>
-              <p className="text-xs font-semibold">Hybrid RAG + Gemini</p>
+              <p className="text-xs font-semibold">Powered by AKGEC</p>
               <p className="mt-0.5 text-[11px] text-zinc-500">
-                Powered by AKGEC sources
+                Verified Information  |  Official Sources
               </p>
             </div>
           </div>
         </div>
       </aside>
 
-      <main className="flex min-w-0 flex-1 flex-col">
+      <main className="akgec-main flex min-w-0 flex-1 flex-col">
+        <div className="akgec-topbar"><img src="/akgec-logo-reference.png" alt="AKGEC emblem"/><div className="akgec-college"><strong>AKGEC</strong><span>Ajay Kumar Garg Engineering College</span></div><div className="akgec-motto">Excellence in Technical Education<br/>Since 1998</div><div className="akgec-tagline">Learn&nbsp; | &nbsp;Build&nbsp; | &nbsp;Grow</div></div>
         <header className={`flex h-17 shrink-0 items-center justify-between
           border-b px-4 sm:px-7 ${
             dark ? 'border-zinc-800' : 'border-zinc-100'
@@ -453,7 +464,7 @@ const speakAnswer = (content, index) => {
                 AKGEC AI Assistant
               </h2>
               <p className="hidden text-[11px] text-zinc-500 sm:block">
-                Your intelligent campus companion
+                Ask questions about AKGEC using verified college information
               </p>
             </div>
           </div>
@@ -463,7 +474,7 @@ const speakAnswer = (content, index) => {
               dark ? 'bg-emerald-500/10 text-emerald-400' : 'bg-emerald-50 text-emerald-700'
             }`}>
               <span className="h-2 w-2 rounded-full bg-emerald-500" />
-              College Information
+              Verified Sources
             </span>
             <button
               onClick={() => setTheme(dark ? 'light' : 'dark')}
@@ -476,14 +487,14 @@ const speakAnswer = (content, index) => {
           </div>
         </header>
 
-        <section className="min-h-0 flex-1 overflow-y-auto">
+        <section className="akgec-conversation min-h-0 flex-1 overflow-y-auto">
           {messages.length === 0 ? (
-            <div className="mx-auto flex h-full max-w-3xl flex-col items-center justify-center px-5 py-10 text-center">
+            <div className="akgec-welcome mx-auto flex h-full max-w-3xl flex-col items-center justify-center px-5 py-10 text-center">
               <div className="mb-7 flex h-18 w-18 items-center justify-center rounded-[26px] bg-linear-to-br from-indigo-500 to-violet-600 text-white shadow-xl shadow-indigo-500/20">
-                <GraduationCap size={34} />
+                <img src="/akgec-logo-reference.png" alt="AKGEC emblem" className="akgec-logo" />
               </div>
               <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
-                How can I help you today?
+                Welcome to AKGEC AI Assistant
               </h1>
               <p className="mt-4 max-w-xl text-sm leading-7 text-zinc-500 sm:text-base">
                 Explore AKGEC courses, admissions, fees, academic calendars,
@@ -507,21 +518,21 @@ const speakAnswer = (content, index) => {
               </div>
             </div>
           ) : (
-            <div className="mx-auto max-w-3xl space-y-8 px-4 py-8 sm:px-7">
+            <div className="akgec-message-list mx-auto max-w-3xl space-y-8 px-4 py-8 sm:px-7">
               {messages.map((message, index) => (
                 <div
                   key={index}
-                  className={`flex gap-3 ${
+                  className={`akgec-message flex gap-3 ${
                     message.role === 'user' ? 'justify-end' : 'justify-start'
                   }`}
                 >
                   {message.role === 'assistant' && (
-                    <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-indigo-600 text-white">
-                      <GraduationCap size={19} />
+                    <div className="akgec-assistant-avatar flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-indigo-600 text-white">
+                      <img src="/akgec-logo-reference.png" alt="AKGEC emblem" className="akgec-logo" />
                     </div>
                   )}
 
-                  <div className={`min-w-0 ${
+                  <div className={`akgec-message-content min-w-0 ${
                     message.role === 'user' ? 'max-w-[85%]' : 'flex-1'
                   }`}>
                     <div className={
@@ -545,7 +556,7 @@ const speakAnswer = (content, index) => {
                     </div>
 
                     {message.sources?.length > 0 && (
-                      <div className={`mt-4 rounded-xl border p-3 ${
+                      <div className={`akgec-source-card mt-4 rounded-xl border p-3 ${
                         dark ? 'border-zinc-800 bg-zinc-900' : 'border-zinc-200 bg-zinc-50'
                       }`}>
                         <p className="mb-2 text-xs font-semibold">
@@ -610,7 +621,7 @@ const speakAnswer = (content, index) => {
               {loading && (
                 <div className="flex items-center gap-3 text-sm text-zinc-500">
                   <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-indigo-600 text-white">
-                    <GraduationCap size={19} />
+                    <img src="/akgec-logo-reference.png" alt="AKGEC emblem" className="akgec-logo" />
                   </div>
                   <LoaderCircle size={17} className="animate-spin" />
                   Searching official AKGEC information...
@@ -621,7 +632,7 @@ const speakAnswer = (content, index) => {
           )}
         </section>
 
-        <div className="shrink-0 px-4 pb-4 pt-2 sm:px-7">
+        <div className="akgec-composer-area shrink-0 px-4 pb-4 pt-2 sm:px-7">
           <div className="mx-auto max-w-3xl">
             {error && (
               <p className="mb-2 text-xs text-red-500">{error}</p>
@@ -632,7 +643,7 @@ const speakAnswer = (content, index) => {
                 event.preventDefault()
                 askQuestion(input.trim())
               }}
-              className={`rounded-2xl border p-3 shadow-lg ${
+              className={`akgec-composer rounded-2xl border p-3 shadow-lg ${
                 dark
                   ? 'border-zinc-700 bg-zinc-900 shadow-black/20'
                   : 'border-zinc-200 bg-white shadow-zinc-200/50'

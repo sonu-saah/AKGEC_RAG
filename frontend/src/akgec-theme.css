@@ -1,0 +1,45 @@
+
+/* AKGEC institutional theme: visual changes only, existing React logic retained. */
+:root { --ak-navy:#001d42; --ak-deep:#00142f; --ak-blue:#063b86; --ak-yellow:#ffcf22; }
+.akgec-sidebar { background:linear-gradient(170deg,#062c60 0%,#001b3f 65%,#00152f 100%) !important; color:#fff !important; border-color:#21466e !important; width:300px !important; }
+.akgec-sidebar .text-zinc-500 {color:#b8cce5!important}
+.akgec-sidebar .akgec-brand-avatar {background:transparent!important;box-shadow:none!important;width:48px;height:48px}
+.akgec-logo {width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 2px 2px #0002)}
+.akgec-sidebar .akgec-new-chat {background:var(--ak-yellow)!important;color:#061c39!important;font-weight:800;justify-content:space-between;box-shadow:0 5px 14px #0003}
+.akgec-sidebar .akgec-new-chat:hover {background:#ffe05c!important}
+.akgec-sidebar .akgec-history {margin-top:10px!important;max-height:23vh;min-height:70px;flex:0 1 auto!important}
+.akgec-sidebar .akgec-history .group {color:#f5f8ff}
+.akgec-sidebar .akgec-history .group:hover {background:#164579!important}
+.akgec-nav {display:flex;flex-direction:column;gap:5px;padding:20px 18px 12px}
+.akgec-nav a,.akgec-nav button {display:flex;align-items:center;gap:14px;color:#f4f8ff;padding:11px 9px;text-align:left;text-decoration:none;border:0;background:transparent;border-radius:9px;font-size:14px}
+.akgec-nav a:hover,.akgec-nav button:hover {background:#164579}
+.akgec-quick {padding:12px 20px 8px;border-top:1px solid #50759d}
+.akgec-quick-title {font-weight:700;font-size:14px;margin:5px 0 13px}
+.akgec-quick button {display:flex;align-items:center;gap:10px;width:100%;padding:11px 10px;margin:7px 0;border-radius:9px;background:#103c77;color:#fff;text-align:left;font-size:12px;line-height:1.4}
+.akgec-quick button:hover {background:#225797}
+.akgec-main {background:#f4f8ff;color:#061d42}
+.akgec-topbar {display:flex;align-items:center;gap:16px;min-height:91px;padding:8px 27px;background:linear-gradient(110deg,#001b3e,#092e61 60%,#001936);color:white;border-bottom:5px solid var(--ak-yellow)}
+.akgec-topbar img {width:62px;height:62px;object-fit:contain}
+.akgec-college {display:flex;flex-direction:column;line-height:1.2}
+.akgec-college strong {font-size:30px;letter-spacing:.03em}
+.akgec-college span {font-size:13px}
+.akgec-motto {border-left:1px solid #8faac8;padding-left:22px;margin-left:16px;font-style:italic;font-size:13px;line-height:1.8}
+.akgec-tagline {margin-left:auto;font-weight:600;font-size:15px;white-space:nowrap}
+.akgec-chat-header {background:#fff!important;border-color:#dbe5f1!important;min-height:76px}
+.akgec-chat-header h2 {font-size:20px;font-weight:800;color:#081f47}
+.akgec-chat-header p {color:#345278!important}
+.akgec-conversation {background:linear-gradient(180deg,#f8fbffec,#edf5ffbb),url('/campus-reference.png') center bottom / 100% auto no-repeat;}
+.akgec-message-list {max-width:950px!important}
+.akgec-message {margin-bottom:16px}
+.akgec-assistant-avatar {background:transparent!important;width:43px!important;height:43px!important}
+.akgec-message:has(.akgec-assistant-avatar) .akgec-message-content {max-width:720px;background:#fff;border:1px solid #e5edf9;border-radius:15px;padding:15px 20px;box-shadow:0 6px 25px #173d6a12}
+.akgec-message:not(:has(.akgec-assistant-avatar)) .akgec-message-content > div:first-child {background:#073c8c!important;color:#fff!important;border-radius:15px 15px 3px 15px!important;padding:12px 18px!important}
+.akgec-source-card {background:#f4f9ff!important;border-color:#dce8f6!important}
+.akgec-source-card a {background:#e2f0ff!important;color:#00469e!important}
+.akgec-welcome-avatar {background:transparent!important;box-shadow:none!important}
+.akgec-welcome h1 {color:#062653}
+.akgec-composer-area {background:linear-gradient(180deg,transparent,#f1f6fd 25%)}
+.akgec-composer {background:#fff!important;border:1px solid #d7e5f6!important;border-radius:23px!important;box-shadow:0 8px 28px #143f7820!important}
+.akgec-composer button[type='submit'] {background:#063b86!important;border-radius:50%!important}
+@media(max-width:1000px){.akgec-motto,.akgec-tagline{display:none}.akgec-sidebar{width:280px!important}}
+@media(max-width:600px){.akgec-topbar{min-height:68px;padding:8px 15px}.akgec-topbar img{width:43px;height:43px}.akgec-college strong{font-size:21px}.akgec-college span{font-size:10px}.akgec-chat-header{min-height:60px}.akgec-chat-header h2{font-size:15px}.akgec-message:has(.akgec-assistant-avatar) .akgec-message-content{padding:12px}}

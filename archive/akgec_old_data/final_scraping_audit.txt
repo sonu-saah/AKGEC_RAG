@@ -1,0 +1,100 @@
+AKGEC FINAL SCRAPING QUALITY AUDIT
+=======================================================
+Sections: 72
+Blocks: 2452
+Block text words: 67872
+Missing page URLs: 0
+Duplicate blocks (within sections): 16
+Pending block verification: 49
+Structured fee records: 44
+Fee records pending visual review: 14
+Management members: 18
+
+SECTIONS REQUIRING ATTENTION
+-------------------------------------------------------
+Management: Low text content (86 words)
+AICTE Approval Letters: Low text content (0 words)
+College Canteen: Low text content (71 words)
+Courses Offered: Low text content (0 words)
+Fee Structure for Existing Students: Low text content (31 words)
+Fee Refund Norms: Low text content (43 words)
+Events: Low text content (56 words)
+CAREER: Low text content (34 words)
+Our Recruiters: Low text content (80 words)
+Placement Highlights: Low text content (20 words)
+Upcoming Events: Low text content (48 words)
+
+SECTION DETAILS
+-------------------------------------------------------
+Vision And Mission | blocks=6 | words=122 | pending=0
+Director | blocks=8 | words=303 | pending=0
+Management | blocks=28 | words=86 | pending=0
+Important Functionaries | blocks=36 | words=131 | pending=0
+NBA Accreditation | blocks=6 | words=111 | pending=0
+Approvals by Statutory Bodies | blocks=4 | words=102 | pending=0
+AICTE Approval Letters | blocks=6 | words=0 | pending=0
+Grievance Committee | blocks=20 | words=311 | pending=17
+Library | blocks=13 | words=275 | pending=0
+Hostel | blocks=16 | words=238 | pending=0
+Centres Of Excellence | blocks=34 | words=1094 | pending=0
+College Canteen | blocks=1 | words=71 | pending=0
+Applied Sciences & Humanities | blocks=39 | words=556 | pending=0
+Civil Engineering | blocks=74 | words=1174 | pending=0
+Computer Science and Engineering | blocks=84 | words=1545 | pending=0
+Electronics and Communication Engineering | blocks=113 | words=2104 | pending=0
+Electrical and Electronics Engineering | blocks=87 | words=1354 | pending=0
+Information Technology | blocks=81 | words=1291 | pending=0
+Mechanical Engineering | blocks=74 | words=1214 | pending=0
+Master of Computer Applications | blocks=67 | words=1051 | pending=0
+Academic Calendar | blocks=4 | words=349 | pending=1
+List of Holidays | blocks=2 | words=500 | pending=1
+Issuance of certificates for passout students | blocks=14 | words=183 | pending=0
+Courses Offered | blocks=1 | words=0 | pending=0
+Fee Structure for Existing Students | blocks=8 | words=31 | pending=0
+Fee Structure for New Students | blocks=21 | words=555 | pending=0
+Fee Refund Norms | blocks=3 | words=43 | pending=0
+Scholarship | blocks=4 | words=101 | pending=0
+Conatus | blocks=155 | words=3869 | pending=0
+Nirmaan | blocks=46 | words=876 | pending=0
+Oorja | blocks=107 | words=4068 | pending=0
+Phoenix | blocks=57 | words=1447 | pending=0
+Samveg | blocks=17 | words=823 | pending=0
+Euphony | blocks=14 | words=524 | pending=0
+Footprints | blocks=29 | words=1148 | pending=0
+Horizon | blocks=75 | words=1907 | pending=0
+Goonj | blocks=28 | words=1097 | pending=0
+Renaissance | blocks=43 | words=1255 | pending=0
+Taal | blocks=10 | words=129 | pending=0
+Verve | blocks=12 | words=743 | pending=0
+Photography and Media Club | blocks=5 | words=283 | pending=0
+Sports Club | blocks=45 | words=1313 | pending=0
+CSI | blocks=74 | words=2714 | pending=0
+Indian Concrete Institute | blocks=13 | words=432 | pending=0
+Robotics Club | blocks=30 | words=650 | pending=0
+IEEE | blocks=12 | words=160 | pending=0
+ISTE | blocks=25 | words=489 | pending=0
+SAE India | blocks=37 | words=1425 | pending=0
+Electronics Club | blocks=9 | words=670 | pending=0
+Communication Club | blocks=8 | words=414 | pending=0
+Events | blocks=19 | words=56 | pending=0
+Mediclaim | blocks=29 | words=473 | pending=0
+College Awards | blocks=51 | words=1429 | pending=0
+Faculty Achievements | blocks=7 | words=305 | pending=0
+T&P Department | blocks=10 | words=402 | pending=0
+Placement Records | blocks=39 | words=2461 | pending=24
+T&P Programmes | blocks=9 | words=324 | pending=0
+About VE Cell | blocks=23 | words=520 | pending=0
+Transformative Sharing | blocks=7 | words=442 | pending=0
+Participation in Societal Development | blocks=23 | words=766 | pending=0
+Faculty/Staff Development Programs (FDPs/SDPs) | blocks=144 | words=4926 | pending=0
+Student Development Programs (SDPs) | blocks=169 | words=7472 | pending=0
+Student Induction Program | blocks=12 | words=453 | pending=0
+UHV Departmental Seminars | blocks=4 | words=152 | pending=0
+Guest Lectures/Webinars | blocks=77 | words=4495 | pending=0
+Extension Activities | blocks=14 | words=829 | pending=0
+Teachers Orientation Program | blocks=6 | words=615 | pending=0
+CAREER | blocks=6 | words=34 | pending=0
+Reporting Process for Admission through UPTAC Counselling 2026-27 | blocks=24 | words=239 | pending=6
+Our Recruiters | blocks=63 | words=80 | pending=0
+Placement Highlights | blocks=3 | words=20 | pending=0
+Upcoming Events | blocks=8 | words=48 | pending=0
