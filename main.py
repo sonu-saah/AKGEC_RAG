@@ -1,7 +1,4 @@
 
-#cd C:\Projects\AKGEC_RAG
-#.\venv\Scripts\Activate.ps1
-#python -m streamlit run app.py --server.fileWatcherType none
 
 from rag.retriever import search, combine_results, rerank
 from llm.gemini import generate_answer
