@@ -7,7 +7,7 @@ def normalize(text):
     return re.sub(r"\s+", " ", str(text).lower()).strip()
 
 
-# Extract numeric values in a consistent format.
+# Extract numeric values in a consistent format...
 def numbers(text):
     values = re.findall(r"(?<!\w)\d[\d,]*(?:\.\d+)?(?!\w)", str(text))
     return {str(float(v.replace(",", ""))).rstrip("0").rstrip(".")
